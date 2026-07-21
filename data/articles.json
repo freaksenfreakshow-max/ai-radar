@@ -1,6 +1,6 @@
 {
-  "opdateret": "2026-07-21T20:41:43.072540+00:00",
-  "antal": 137,
+  "opdateret": "2026-07-21T20:52:19.038485+00:00",
+  "antal": 136,
   "artikler": [
     {
       "titel": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
@@ -53,7 +53,6 @@
       "dato": "2026-07-21T15:22:28-04:00",
       "kilde": "The Verge AI",
       "kategori": "Hverdags-AI",
-      "kat_ai": true,
       "rubrik": "Populær skriveplatform indfører ny afslører af robot-tekster",
       "resume_da": "Substack lancerer et nyt værktøj, der afslører, om artikler og kommentarer er skrevet af kunstig intelligens.",
       "brief": "Det skal fremover være nemmere for læsere at gennemskue, hvem der egentlig står bag indholdet på internettet. Skriveplatformen Substack har netop præsenteret en funktion, der kan scanne tekster for at vurdere, i hvor høj grad de er skabt af kunstig intelligens. Værktøjet virker både på hele blogindlæg og kortere kommentarer, og det fungerer ved, at man blot klikker på en menu ved den pågældende tekst.\n\nBaggrunden for tiltaget er et ønske om større gennemsigtighed for de mange brugere. Ifølge folkene bak platformen handler det ikke om at forbyde brugen af smarte computerprogrammer, men om at undgå, at læserne spilder deres tid på indhold, der mangler ægte menneskelige tanker. Samtidig får skribenterne mulighed for at være åbne om deres egen arbejdsproces.\n\nFor almindelige læsere betyder det, at tilliden til det sagte indhold kan bevares, og man undgår at blive snydt af maskinskrevne artikler. Selvom teknologien ikke kan måle, hvor meget kærlighed et menneske har lagt i sit arbejde, er målet at skabe et mere ærligt miljø for alle.",
@@ -63,12 +62,13 @@
         "Målet er at beskytte tilliden mellem skribent og læser.",
         "Forfattere kan åbent fortælle om deres brug af AI."
       ],
-      "billede": "data/img/479948011bc90158.jpg"
+      "billede": "data/img/479948011bc90158.jpg",
+      "kat_ai": true
     },
     {
       "titel": "AI makes programming differently difficult",
       "link": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
-      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 117 # Comments: 89",
+      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 121 # Comments: 94",
       "dato": "2026-07-21T18:30:21+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Samfund & etik",
@@ -142,12 +142,22 @@
         "Den store og ventede topmodel lader fortsat vente på sig."
       ],
       "billede": "data/img/c096964be54d2919.jpg",
-      "kat_ai": true
+      "kat_ai": true,
+      "andre": [
+        {
+          "kilde": "Ars Technica AI",
+          "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/"
+        },
+        {
+          "kilde": "Google DeepMind",
+          "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/"
+        }
+      ]
     },
     {
       "titel": "Meta's AI models are powering the first wave of Genesis Mission projects",
       "link": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
-      "resume": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 68 # Comments: 47",
+      "resume": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 70 # Comments: 49",
       "dato": "2026-07-21T17:03:18+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Penge & marked",
@@ -174,31 +184,6 @@
       "resume_da": "Et nyt tiltag vil lære mindre firmaer at bruge smarte robotter. Målet er at gøre hverdagen lettere og spare tid.",
       "billede": "data/img/9783627bd88cddeb.jpg",
       "kat_ai": true
-    },
-    {
-      "titel": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
-      "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
-      "resume": "There are new 3.6 and 3.5 models today, but Google is already training Gemini 4.",
-      "dato": "2026-07-21T16:58:25+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Lanceringer",
-      "rubrik": "Google sender helt nye og hurtigere kunstige intelligenser på gaden",
-      "resume_da": "Teknologigiganten Google opgraderer sine populære AI-modeller med fokus på lavere priser, hurtigere svar og øget sikkerhed. Samtidig er næste store generation allerede undervejs.",
-      "brief": "Google har netop præsenteret en række friske opdateringer til deres kunstige intelligens, hvor særligt udgaven kaldet 3.6 Flash stjæler opmærksomheden. Den nye udgave er blevet finpudset efter kritik af tidligere versioner og kan nu løse opgaver som programmering langt bedre og mere præcist. Samtidig er den blevet billigere i drift, fordi den bruger færre ressourcer end før.\n\nSelskabet har også lanceret en lynhurtig udgave ved navn Flash Lite, som skal gøre søgemaskiner og automatiserede arbejdsprocesser endnu kvikkere. En anden spændende nyhed er en særlig sikkerheds-AI, der er trænet til at opdage sårbarheder i it-systemer. Den bliver dog holdt i stramme tømmer og udleveres kun til særligt udvalgte partnere og myndigheder for at forhindre misbrug.\n\nFor almindelige brugere betyder det, at de værktøjer, vi møder på nettet, gradvist bliver smartere og mere responsive, uden at det vælter budgettet for dem, der udvikler løsningerne. Og Google stopper ikke her; selskabet afslører, at de allerede er gået i gang med at træne den næste store generation af systemer.",
-      "pointer": [
-        "Google lancerer den opdaterede og billigere model Gemini 3.6 Flash.",
-        "En ny lynudgave skal gøre søgninger og automatiske systemer markant hurtigere.",
-        "Sikkerheds-AI holdes hemmelig for offentligheden for at undgå misbrug.",
-        "Arbejdet med fremtidens Gemini 4-generation er allerede sat i gang."
-      ],
-      "billede": "data/img/856fa25c6c2097c8.jpg",
-      "kat_ai": true,
-      "andre": [
-        {
-          "kilde": "Google DeepMind",
-          "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/"
-        }
-      ]
     },
     {
       "titel": "US threatens sanctions against Chinese AI models over IP theft",
@@ -725,7 +710,7 @@
     {
       "titel": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
       "link": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 339 # Comments: 232",
+      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 341 # Comments: 234",
       "dato": "2026-07-21T03:56:03+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Penge & marked",
@@ -857,7 +842,7 @@
     {
       "titel": "How we measured AI writing across arXiv, and where the measurement breaks",
       "link": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "resume": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 238 # Comments: 162",
+      "resume": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 238 # Comments: 163",
       "dato": "2026-07-20T16:36:36+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Samfund & etik",
@@ -901,7 +886,7 @@
     {
       "titel": "Mythologizing AI makes it more likely that we’ll fail to operate it well (2023)",
       "link": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
-      "resume": "Article URL: https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai Comments URL: https://news.ycombinator.com/item?id=48980238 Points: 78 # Comments: 147",
+      "resume": "Article URL: https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai Comments URL: https://news.ycombinator.com/item?id=48980238 Points: 79 # Comments: 147",
       "dato": "2026-07-20T15:28:32+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Forskning",
@@ -923,7 +908,7 @@
     {
       "titel": "China’s open-weights AI strategy is winning",
       "link": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "resume": "Article URL: https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/ Comments URL: https://news.ycombinator.com/item?id=48979269 Points: 1205 # Comments: 912",
+      "resume": "Article URL: https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/ Comments URL: https://news.ycombinator.com/item?id=48979269 Points: 1206 # Comments: 913",
       "dato": "2026-07-20T14:21:47+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Penge & marked",
