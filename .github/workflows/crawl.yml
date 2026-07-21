@@ -1,0 +1,51 @@
+# =====================================================================
+# Automatisk crawl af AI-nyheder
+# ---------------------------------------------------------------------
+# Denne workflow koerer paa GitHubs servere (gratis) og:
+#   1. Koerer crawler.py hver 6. time
+#   2. Committer den nye data/articles.json til main
+#   3. GitHub Pages serverer derefter automatisk den nye version
+#
+# I behoever IKKE goere noget for at den koerer - den passer sig selv.
+# I kan ogsaa starte den manuelt: fanen "Actions" -> "Crawl AI-nyheder"
+# -> "Run workflow".
+# =====================================================================
+
+name: Crawl AI-nyheder
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # hver 6. time (UTC)
+  workflow_dispatch:         # goer det muligt at koere den manuelt
+  push:
+    branches: [main]         # koer ogsaa ved push, saa siden altid har friske data
+
+permissions:
+  contents: write            # workflow'en skal have lov at committe data-filen
+
+concurrency:
+  group: crawl
+  cancel-in-progress: true
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hent koden
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Koer crawleren
+        run: python3 crawler.py
+
+      - name: Commit de nye artikler
+        run: |
+          git config user.name "ai-news-bot"
+          git config user.email "actions@github.com"
+          git add data/articles.json
+          git diff --staged --quiet || git commit -m "Automatisk opdatering af nyheder"
+          git push
