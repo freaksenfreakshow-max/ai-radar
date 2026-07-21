@@ -601,6 +601,68 @@ def omskriv_nye(artikler: list[dict], cache: dict) -> None:
         print(f"   … {min(i + BATCH_STR, len(mangler))}/{len(mangler)}")
 
 
+# ----- Benchmarks fra Artificial Analysis --------------------------------------
+
+AA_KEY = os.environ.get("AA_API_KEY", "").strip()
+BENCH_FIL = ROOT / "data" / "benchmarks.json"
+
+
+def find_tal(obj, *noegleord):
+    """Leder rekursivt efter det første tal, hvis nøgle indeholder alle ordene.
+    Gør os robuste over for små ændringer i API'ets feltnavne."""
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if isinstance(v, (int, float)) and all(o in k.lower() for o in noegleord):
+                return v
+        for v in obj.values():
+            r = find_tal(v, *noegleord)
+            if r is not None:
+                return r
+    return None
+
+
+def hent_benchmarks() -> None:
+    """Henter aktuelle model-benchmarks (intelligens, fart, pris) fra
+    Artificial Analysis' gratis API og gemmer dem til Benchmarks-fanen."""
+    if not AA_KEY:
+        print("📊 AA_API_KEY ikke sat - springer benchmarks over")
+        return
+    try:
+        raa = json.loads(hent_url(
+            "https://artificialanalysis.ai/api/v2/language/models/free",
+            headers={"x-api-key": AA_KEY}))
+        modeller_raa = raa.get("data", raa if isinstance(raa, list) else [])
+        modeller = []
+        for m in modeller_raa:
+            navn = m.get("name") or m.get("model_name") or m.get("slug") or ""
+            skaber = m.get("model_creator") or m.get("creator") or {}
+            udbyder = skaber.get("name") if isinstance(skaber, dict) else str(skaber)
+            indeks = find_tal(m, "intelligence")
+            if not navn or indeks is None:
+                continue
+            modeller.append({
+                "navn": navn,
+                "udbyder": udbyder or "",
+                "indeks": round(indeks, 1),
+                "hastighed": find_tal(m, "output", "second"),
+                "pris_ind": find_tal(m, "price", "input") or find_tal(m, "input", "token"),
+                "pris_ud": find_tal(m, "price", "output") or find_tal(m, "output", "token"),
+            })
+        modeller.sort(key=lambda x: x["indeks"], reverse=True)
+        modeller = modeller[:50]
+        if modeller:
+            BENCH_FIL.write_text(json.dumps({
+                "opdateret": datetime.now(timezone.utc).isoformat(),
+                "kilde": "Artificial Analysis",
+                "modeller": modeller,
+            }, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"📊 Hentede benchmarks for {len(modeller)} modeller")
+        else:
+            print("📊 ⚠️ Benchmark-svar uden brugbare modeller - beholder gamle tal")
+    except Exception as fejl:
+        print(f"📊 ⚠️ Benchmarks fejlede: {type(fejl).__name__} - beholder gamle tal")
+
+
 # ----- Hovedprogram ----------------------------------------------------------
 
 def main() -> None:
@@ -657,6 +719,7 @@ def main() -> None:
     unikke = saml_dublet_historier(unikke)
     dybe_briefs(unikke)
     lav_billeder(unikke)
+    hent_benchmarks()
 
     # "kunstig intelligens" -> "AI" i alle tekster (også gamle, cachede)
     def kort_ai(t: str) -> str:

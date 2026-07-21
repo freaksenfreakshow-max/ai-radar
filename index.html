@@ -249,10 +249,6 @@ a { color: inherit; }
   font-size: 15.5px; line-height: 1.28; letter-spacing: -.01em;
 }
 .raekke .tid { margin-top: auto; padding-top: 4px; }
-.raekke.bred { grid-column: span 2; }
-.raekke.bred h3 { font-size: 19px; }
-.raekke.bred .raekke-billede { aspect-ratio: 21 / 9; }
-@media (max-width: 640px) { .raekke.bred { grid-column: span 1; } }
 /* Svæve-popup med det ultrakorte resumé - flyder OVER alt, intet rykker sig */
 #tip {
   position: fixed; z-index: 300; max-width: 380px;
@@ -350,6 +346,34 @@ a { color: inherit; }
   .laeser-krop { padding: 22px 20px 26px; }
 }
 
+.bench-kort {
+  background: var(--bg-kort); border: 1px solid var(--linje);
+  border-radius: var(--radius); box-shadow: var(--skygge);
+  overflow: hidden; animation: ind .4s ease both;
+}
+.bench-tabel { width: 100%; border-collapse: collapse; font-size: 14px; }
+.bench-tabel th {
+  text-align: left; font-size: 11px; font-weight: 800; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--blaek-svag);
+  padding: 14px 18px; border-bottom: 2px solid var(--linje);
+  cursor: pointer; user-select: none; white-space: nowrap;
+  position: sticky; top: 0; background: var(--bg-kort);
+}
+.bench-tabel th:hover { color: var(--accent); }
+.bench-tabel th .pil { color: var(--accent); margin-left: 4px; }
+.bench-tabel td { padding: 11px 18px; border-bottom: 1px solid var(--linje); }
+.bench-tabel tr:last-child td { border-bottom: 0; }
+.bench-tabel tbody tr:hover { background: var(--accent-svag); }
+.bench-navn { font-weight: 700; }
+.bench-udbyder { color: var(--blaek-svag); font-size: 12.5px; }
+.bench-indeks { font-weight: 800; font-size: 15px; }
+.bench-top { color: var(--accent); }
+.bench-kredit {
+  padding: 14px 18px; font-size: 12px; color: var(--blaek-svag);
+  border-top: 1px solid var(--linje);
+}
+.bench-kredit a { color: var(--accent); }
+
 .tom { text-align: center; padding: 70px 20px; color: var(--blaek-svag); font-size: 15px; }
 .note {
   background: var(--accent-svag); border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
@@ -384,6 +408,7 @@ footer a { color: var(--accent); }
     <div class="visning-skift" id="visningSkift" title="Skift visning">
       <button data-visning="kompakt" class="aktiv">☰ Overblik</button>
       <button data-visning="magasin">▦ Magasin</button>
+      <button data-visning="benchmarks">▤ Benchmarks</button>
     </div>
   </div>
 </div>
@@ -416,6 +441,8 @@ let aktivKategori = "Alle";
 let sogeTekst = "";
 let visning = "kompakt";     // "kompakt" = tæt overblik · "magasin" = store kort
 let sortering = "vigtigst";  // "vigtigst" = AI-prioritet · "nyeste" = ren kronologi
+let benchData = null;
+let benchSort = { felt: "indeks", retning: -1 };
 
 const indhold = document.getElementById("indhold");
 const filtreEl = document.getElementById("filtre");
@@ -674,7 +701,7 @@ function artOverlay(a) {
 
 function raekkeHtml(a, id) {
   return `
-  <a class="raekke ${a.andre && a.andre.length ? "bred" : ""}" href="${esc(a.link)}" data-link="${esc(a.link)}" style="animation-delay:${Math.min(id * 12, 350)}ms">
+  <a class="raekke" href="${esc(a.link)}" data-link="${esc(a.link)}" style="animation-delay:${Math.min(id * 12, 350)}ms">
     <div class="raekke-billede">${visuel(a, id)}${artOverlay(a)}</div>
     <div class="raekke-tekst">
       <h3>${a.rubrik ? esc(a.rubrik) : esc(a.titel)}</h3>
@@ -682,7 +709,62 @@ function raekkeHtml(a, id) {
   </a>`;
 }
 
+function fmt(v, dec = 0, enhed = "") {
+  return (v === null || v === undefined) ? "–" : v.toFixed(dec) + enhed;
+}
+
+function tegnBench() {
+  document.querySelector(".filtre").style.display = "none";
+  document.getElementById("sortSkift").style.display = "none";
+  if (!benchData) {
+    indhold.innerHTML = `<div class="tom">Benchmark-tallene er på vej 📊<br><br>
+      De hentes automatisk fra Artificial Analysis, når <code>AA_API_KEY</code>-secret'en er sat i GitHub
+      og næste opdatering har kørt.</div>`;
+    return;
+  }
+  const q = sogeTekst.toLowerCase();
+  let rk = benchData.modeller.filter(m => !q || (m.navn + " " + m.udbyder).toLowerCase().includes(q));
+  const f = benchSort.felt, r = benchSort.retning;
+  rk.sort((a, b) => ((a[f] ?? -Infinity) - (b[f] ?? -Infinity)) * r ||
+                    String(a.navn).localeCompare(String(b.navn)));
+  const pil = felt => felt === f ? `<span class="pil">${r < 0 ? "▼" : "▲"}</span>` : "";
+  indhold.innerHTML = `
+  <div class="bench-kort">
+    <table class="bench-tabel">
+      <thead><tr>
+        <th data-felt="navn">Model</th>
+        <th data-felt="indeks">Intelligens ${pil("indeks")}</th>
+        <th data-felt="hastighed">Hastighed ${pil("hastighed")}</th>
+        <th data-felt="pris_ind">Pris ind /M ${pil("pris_ind")}</th>
+        <th data-felt="pris_ud">Pris ud /M ${pil("pris_ud")}</th>
+      </tr></thead>
+      <tbody>${rk.map((m, i) => `
+        <tr>
+          <td><span class="bench-navn ${i < 3 && f === "indeks" && r < 0 ? "bench-top" : ""}">${i < 3 && f === "indeks" && r < 0 ? ["🥇 ", "🥈 ", "🥉 "][i] : ""}${esc(m.navn)}</span><br><span class="bench-udbyder">${esc(m.udbyder)}</span></td>
+          <td class="bench-indeks">${fmt(m.indeks, 1)}</td>
+          <td>${fmt(m.hastighed, 0, " tokens/s")}</td>
+          <td>${fmt(m.pris_ind, 2, " $")}</td>
+          <td>${fmt(m.pris_ud, 2, " $")}</td>
+        </tr>`).join("")}
+      </tbody>
+    </table>
+    <div class="bench-kredit">Data: <a href="https://artificialanalysis.ai" target="_blank" rel="noopener"><img src="assets/aa_logo.svg" alt="Artificial Analysis" style="height:15px;vertical-align:-3px"></a>
+      · Opdateret ${new Date(benchData.opdateret).toLocaleString("da-DK", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" })}
+      · Intelligens = samlet indeks på tværs af sværeste tests · Pris pr. mio. tokens</div>
+  </div>`;
+  document.querySelectorAll(".bench-tabel th").forEach(th =>
+    th.addEventListener("click", () => {
+      const felt = th.dataset.felt;
+      benchSort.retning = benchSort.felt === felt ? -benchSort.retning : (felt === "navn" ? 1 : -1);
+      benchSort.felt = felt;
+      tegnBench();
+    }));
+}
+
 function tegn() {
+  if (visning === "benchmarks") { tegnBench(); return; }
+  document.querySelector(".filtre").style.display = "";
+  document.getElementById("sortSkift").style.display = "";
   const liste = filtrerede();
   if (!liste.length) { indhold.innerHTML = `<div class="tom">Ingen historier matcher 🤷</div>`; return; }
 
@@ -808,6 +890,11 @@ indhold.addEventListener("mouseout", e => {
 indhold.addEventListener("click", () => tip.classList.remove("synlig"), true);
 
 /* ---------- Start ---------- */
+
+fetch("data/benchmarks.json")
+  .then(r => r.ok ? r.json() : null)
+  .then(d => { benchData = d; if (visning === "benchmarks") tegn(); })
+  .catch(() => {});
 
 fetch("data/articles.json")
   .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
