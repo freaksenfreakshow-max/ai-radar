@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Radar · De seneste AI-nyheder</title>
+<meta name="description" content="Automatisk indsamlede AI-nyheder fra de bedste kilder – opdateret flere gange dagligt.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='38' fill='%234f46e5'/><circle cx='50' cy='50' r='16' fill='white'/></svg>">
+<style>
+  /* ==========================================================
+     AI RADAR – design
+     Farver og afstande styres af variablerne herunder.
+     Vil du ændre udseendet, så start her.
+     ========================================================== */
+  :root {
+    --bg: #f6f7f9;
+    --bg-card: #ffffff;
+    --tekst: #16181d;
+    --tekst-svag: #5c6470;
+    --linje: #e4e7ec;
+    --accent: #4f46e5;
+    --accent-svag: #eef0fe;
+    --radius: 14px;
+    --skygge: 0 1px 2px rgba(16,24,40,.05), 0 4px 16px rgba(16,24,40,.06);
+    --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  [data-tema="moerk"] {
+    --bg: #0e1015;
+    --bg-card: #171a21;
+    --tekst: #e8eaee;
+    --tekst-svag: #8b93a1;
+    --linje: #262b35;
+    --accent: #818cf8;
+    --accent-svag: #23263a;
+    --skygge: 0 1px 2px rgba(0,0,0,.4), 0 6px 20px rgba(0,0,0,.35);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--tekst);
+    line-height: 1.55;
+    transition: background .25s, color .25s;
+  }
+
+  /* ---------- Header ---------- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--linje);
+  }
+  .header-inner {
+    max-width: 1200px; margin: 0 auto; padding: 14px 24px;
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  }
+  .logo {
+    display: flex; align-items: center; gap: 10px;
+    font-weight: 800; font-size: 20px; letter-spacing: -.02em;
+    white-space: nowrap;
+  }
+  .logo .prik {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-svag);
+    animation: puls 2.5s infinite;
+  }
+  @keyframes puls {
+    0%,100% { box-shadow: 0 0 0 4px var(--accent-svag); }
+    50%     { box-shadow: 0 0 0 7px var(--accent-svag); }
+  }
+  .sog {
+    flex: 1; min-width: 180px; max-width: 420px;
+    position: relative;
+  }
+  .sog input {
+    width: 100%; padding: 9px 14px 9px 38px;
+    border: 1px solid var(--linje); border-radius: 999px;
+    background: var(--bg-card); color: var(--tekst);
+    font-size: 14px; font-family: inherit; outline: none;
+    transition: border .2s, box-shadow .2s;
+  }
+  .sog input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-svag); }
+  .sog svg {
+    position: absolute; left: 13px; top: 50%; transform: translateY(-50%);
+    width: 15px; height: 15px; stroke: var(--tekst-svag);
+  }
+  .tema-knap {
+    margin-left: auto;
+    border: 1px solid var(--linje); background: var(--bg-card);
+    color: var(--tekst); border-radius: 999px;
+    width: 38px; height: 38px; cursor: pointer; font-size: 16px;
+    display: grid; place-items: center;
+    transition: transform .2s;
+  }
+  .tema-knap:hover { transform: rotate(15deg) scale(1.08); }
+
+  /* ---------- Filtre ---------- */
+  .filtre {
+    max-width: 1200px; margin: 0 auto; padding: 16px 24px 4px;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  }
+  .pill {
+    border: 1px solid var(--linje); background: var(--bg-card);
+    color: var(--tekst-svag); font-size: 13px; font-weight: 600;
+    padding: 6px 14px; border-radius: 999px; cursor: pointer;
+    font-family: inherit; transition: all .18s;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--accent); }
+  .pill.aktiv {
+    background: var(--accent); border-color: var(--accent); color: #fff;
+  }
+  .status-linje {
+    max-width: 1200px; margin: 0 auto; padding: 10px 24px 0;
+    font-size: 13px; color: var(--tekst-svag);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px;
+  }
+
+  /* ---------- Kort-grid ---------- */
+  main {
+    max-width: 1200px; margin: 0 auto;
+    padding: 18px 24px 60px;
+    display: grid; gap: 18px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .kort {
+    background: var(--bg-card);
+    border: 1px solid var(--linje);
+    border-radius: var(--radius);
+    padding: 20px;
+    display: flex; flex-direction: column; gap: 10px;
+    box-shadow: var(--skygge);
+    transition: transform .18s, box-shadow .18s;
+    animation: ind .35s ease both;
+  }
+  @keyframes ind {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: none; }
+  }
+  .kort:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(16,24,40,.12); }
+  .kort-top {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 12px; color: var(--tekst-svag); font-weight: 600;
+  }
+  .kilde-badge {
+    background: var(--accent-svag); color: var(--accent);
+    padding: 3px 10px; border-radius: 999px; font-weight: 700;
+  }
+  .kort h2 { font-size: 16.5px; line-height: 1.35; letter-spacing: -.01em; }
+  .kort h2 a { color: var(--tekst); text-decoration: none; }
+  .kort h2 a:hover { color: var(--accent); }
+  .kort p { font-size: 13.5px; color: var(--tekst-svag); flex: 1; }
+  .kort-bund {
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 12px; color: var(--tekst-svag);
+    border-top: 1px solid var(--linje); padding-top: 10px;
+  }
+  .kategori-tag { font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: 10.5px; }
+  .laes-mere {
+    color: var(--accent); text-decoration: none; font-weight: 700;
+    display: inline-flex; align-items: center; gap: 4px;
+  }
+  .laes-mere:hover { gap: 7px; }
+  .laes-mere::after { content: "→"; transition: inherit; }
+
+  .tom, .fejl {
+    grid-column: 1 / -1; text-align: center;
+    padding: 60px 20px; color: var(--tekst-svag); font-size: 15px;
+  }
+
+  footer {
+    border-top: 1px solid var(--linje);
+    padding: 24px; text-align: center;
+    font-size: 13px; color: var(--tekst-svag);
+  }
+  footer a { color: var(--accent); }
+
+  @media (max-width: 640px) {
+    .header-inner { padding: 12px 16px; }
+    main, .filtre, .status-linje { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo"><span class="prik"></span> AI Radar</div>
+    <div class="sog">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round">
+        <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line>
+      </svg>
+      <input id="sogefelt" type="search" placeholder="Søg i overskrifter og resuméer …">
+    </div>
+    <button class="tema-knap" id="temaKnap" title="Skift mellem lyst og mørkt tema">🌙</button>
+  </div>
+</header>
+
+<div class="filtre" id="filtre"></div>
+<div class="status-linje">
+  <span id="antalTekst"></span>
+  <span id="opdateretTekst"></span>
+</div>
+
+<main id="grid">
+  <div class="tom">Henter nyheder …</div>
+</main>
+
+<footer>
+  Bygget med ❤️ · Nyheder indsamles automatisk fra åbne RSS-feeds ·
+  <a href="https://github.com" id="repoLink">Se koden på GitHub</a>
+</footer>
+
+<script>
+/* ==============================================================
+   AI RADAR – logik
+   1. Hent data/articles.json (som crawleren har lavet)
+   2. Tegn kort for hver artikel
+   3. Søgning + kategorifilter oven på
+   ============================================================== */
+
+let artikler = [];
+let aktivKategori = "Alle";
+let sogeTekst = "";
+
+const grid = document.getElementById("grid");
+const filtreEl = document.getElementById("filtre");
+
+/* ---------- Hjælpere ---------- */
+
+// "for 3 timer siden" i stedet for rå datoer
+function relativTid(isoDato) {
+  if (!isoDato) return "";
+  const diffMs = Date.now() - new Date(isoDato).getTime();
+  const min = Math.round(diffMs / 60000);
+  if (min < 1)  return "lige nu";
+  if (min < 60) return `for ${min} min. siden`;
+  const timer = Math.round(min / 60);
+  if (timer < 24) return `for ${timer} ${timer === 1 ? "time" : "timer"} siden`;
+  const dage = Math.round(timer / 24);
+  if (dage < 7) return `for ${dage} ${dage === 1 ? "dag" : "dage"} siden`;
+  return new Date(isoDato).toLocaleDateString("da-DK", { day: "numeric", month: "short" });
+}
+
+function escapeHtml(s) {
+  const div = document.createElement("div");
+  div.textContent = s ?? "";
+  return div.innerHTML;
+}
+
+/* ---------- Rendering ---------- */
+
+function tegnFiltre() {
+  const kategorier = ["Alle", ...new Set(artikler.map(a => a.kategori))];
+  filtreEl.innerHTML = kategorier.map(k =>
+    `<button class="pill ${k === aktivKategori ? "aktiv" : ""}" data-kategori="${escapeHtml(k)}">${escapeHtml(k)}</button>`
+  ).join("");
+}
+
+function filtrerede() {
+  const q = sogeTekst.toLowerCase();
+  return artikler.filter(a => {
+    const matcherKategori = aktivKategori === "Alle" || a.kategori === aktivKategori;
+    const matcherSog = !q || (a.titel + " " + a.resume + " " + a.kilde).toLowerCase().includes(q);
+    return matcherKategori && matcherSog;
+  });
+}
+
+function tegnKort() {
+  const liste = filtrerede();
+  document.getElementById("antalTekst").textContent =
+    `${liste.length} ${liste.length === 1 ? "artikel" : "artikler"}` +
+    (aktivKategori !== "Alle" ? ` i “${aktivKategori}”` : "");
+
+  if (liste.length === 0) {
+    grid.innerHTML = `<div class="tom">Ingen artikler matcher din søgning 🤷</div>`;
+    return;
+  }
+  grid.innerHTML = liste.map((a, i) => `
+    <article class="kort" style="animation-delay:${Math.min(i * 25, 400)}ms">
+      <div class="kort-top">
+        <span class="kilde-badge">${escapeHtml(a.kilde)}</span>
+        <span>${relativTid(a.dato)}</span>
+      </div>
+      <h2><a href="${escapeHtml(a.link)}" target="_blank" rel="noopener">${escapeHtml(a.titel)}</a></h2>
+      <p>${escapeHtml(a.resume)}</p>
+      <div class="kort-bund">
+        <span class="kategori-tag">${escapeHtml(a.kategori)}</span>
+        <a class="laes-mere" href="${escapeHtml(a.link)}" target="_blank" rel="noopener">Læs</a>
+      </div>
+    </article>
+  `).join("");
+}
+
+/* ---------- Events ---------- */
+
+filtreEl.addEventListener("click", e => {
+  const knap = e.target.closest(".pill");
+  if (!knap) return;
+  aktivKategori = knap.dataset.kategori;
+  tegnFiltre();
+  tegnKort();
+});
+
+document.getElementById("sogefelt").addEventListener("input", e => {
+  sogeTekst = e.target.value;
+  tegnKort();
+});
+
+// Lys/mørk-tema (husker IKKE valget mellem besøg - bevidst simpelt)
+const temaKnap = document.getElementById("temaKnap");
+if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  document.documentElement.dataset.tema = "moerk";
+  temaKnap.textContent = "☀️";
+}
+temaKnap.addEventListener("click", () => {
+  const erMoerk = document.documentElement.dataset.tema === "moerk";
+  document.documentElement.dataset.tema = erMoerk ? "" : "moerk";
+  temaKnap.textContent = erMoerk ? "🌙" : "☀️";
+});
+
+/* ---------- Start ---------- */
+
+fetch("data/articles.json")
+  .then(r => {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  })
+  .then(data => {
+    artikler = data.artikler;
+    const opdateret = new Date(data.opdateret);
+    document.getElementById("opdateretTekst").textContent =
+      "Sidst opdateret: " + opdateret.toLocaleString("da-DK", {
+        day: "numeric", month: "long", hour: "2-digit", minute: "2-digit"
+      });
+    tegnFiltre();
+    tegnKort();
+  })
+  .catch(fejl => {
+    grid.innerHTML = `<div class="fejl">
+      Kunne ikke hente <code>data/articles.json</code> (${escapeHtml(fejl.message)}).<br><br>
+      Har du kørt crawleren? Prøv: <code>python3 crawler.py</code><br>
+      Og husk at åbne siden via en lokal server: <code>python3 -m http.server</code>
+      (ikke ved at dobbeltklikke på filen).
+    </div>`;
+  });
+</script>
+</body>
+</html>

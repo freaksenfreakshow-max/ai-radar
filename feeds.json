@@ -1,0 +1,14 @@
+{
+  "kommentar": "Tilføj eller fjern kilder her - crawleren læser denne fil. 'kategori' bruges til filtrering på siden.",
+  "feeds": [
+    { "navn": "TechCrunch AI",        "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "kategori": "Nyheder" },
+    { "navn": "The Verge AI",         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "kategori": "Nyheder" },
+    { "navn": "VentureBeat AI",       "url": "https://venturebeat.com/category/ai/feed/", "kategori": "Business" },
+    { "navn": "Ars Technica AI",      "url": "https://arstechnica.com/ai/feed/", "kategori": "Nyheder" },
+    { "navn": "MIT Tech Review AI",   "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "kategori": "Dybde" },
+    { "navn": "OpenAI Blog",          "url": "https://openai.com/news/rss.xml", "kategori": "Labs" },
+    { "navn": "Google DeepMind",      "url": "https://deepmind.google/blog/rss.xml", "kategori": "Labs" },
+    { "navn": "arXiv cs.AI",          "url": "https://rss.arxiv.org/rss/cs.AI", "kategori": "Forskning" },
+    { "navn": "Hacker News: AI",      "url": "https://hnrss.org/newest?q=AI&points=50", "kategori": "Community" }
+  ]
+}
