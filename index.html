@@ -27,16 +27,6 @@
   --font-ui: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-display: "Fraunces", Georgia, serif;
 }
-[data-tema="moerk"] {
-  --bg: #12110f;
-  --bg-kort: #1c1a17;
-  --blaek: #f0ede6;
-  --blaek-svag: #9a948a;
-  --linje: #2c2925;
-  --accent: #8d80ff;
-  --accent-svag: #262344;
-  --skygge: 0 2px 4px rgba(0,0,0,.4), 0 16px 40px rgba(0,0,0,.45);
-}
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -94,12 +84,6 @@ a { color: inherit; }
   width: 15px; height: 15px; stroke: var(--blaek-svag); fill: none;
   stroke-width: 2.2; stroke-linecap: round;
 }
-.tema-knap {
-  border: 1px solid var(--linje); background: var(--bg-kort); color: var(--blaek);
-  border-radius: 999px; width: 38px; height: 38px; cursor: pointer; font-size: 15px;
-  display: grid; place-items: center; transition: transform .2s;
-}
-.tema-knap:hover { transform: rotate(14deg) scale(1.07); }
 .visning-skift {
   display: flex; border: 1px solid var(--linje); border-radius: 999px;
   background: var(--bg-kort); overflow: hidden;
@@ -111,7 +95,6 @@ a { color: inherit; }
   transition: all .18s;
 }
 .visning-skift button.aktiv { background: var(--blaek); color: var(--bg); }
-[data-tema="moerk"] .visning-skift button.aktiv { background: var(--accent); color: #fff; }
 
 /* ---------- Filtre (bor i topbaren) ---------- */
 .filtre { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
@@ -123,7 +106,6 @@ a { color: inherit; }
 }
 .pill:hover { border-color: var(--accent); color: var(--accent); }
 .pill.aktiv { background: var(--blaek); border-color: var(--blaek); color: var(--bg); }
-[data-tema="moerk"] .pill.aktiv { background: var(--accent); border-color: var(--accent); color: #fff; }
 
 /* ---------- Hero ---------- */
 .wrap { margin: 0 auto; padding: 20px 28px 70px; }
@@ -206,7 +188,6 @@ a { color: inherit; }
   background: var(--blaek); color: var(--bg);
   border-radius: 5px; padding: 2px 7px; margin-left: 6px; white-space: nowrap;
 }
-[data-tema="moerk"] .flere-chip { background: var(--accent); color: #fff; }
 .en-chip {
   font-size: 9.5px; font-weight: 800; letter-spacing: .08em;
   background: var(--accent-svag); color: var(--accent);
@@ -329,7 +310,6 @@ a { color: inherit; }
   transition: transform .15s;
 }
 .kilde-knap:hover { transform: translateY(-2px); }
-[data-tema="moerk"] .kilde-knap { background: var(--accent); color: #fff; }
 .laeser-note { font-size: 12.5px; color: var(--blaek-svag); font-style: italic; margin-top: 14px; }
 @media (max-width: 900px) {
   .laeser { grid-template-columns: 1fr; width: calc(100vw - 24px); }
@@ -368,7 +348,6 @@ footer a { color: var(--accent); }
       <button data-visning="kompakt" class="aktiv">☰ Overblik</button>
       <button data-visning="magasin">▦ Magasin</button>
     </div>
-    <button class="tema-knap" id="temaKnap" title="Lyst/mørkt tema">🌙</button>
   </div>
 </div>
 
@@ -408,13 +387,14 @@ const filtreEl = document.getElementById("filtre");
    samme billede (hash af titlen styrer form og farver), så siden er rolig. */
 
 const PALETTER = {
-  "Nyheder":    [["#5b4bf0","#9f8bff","#ffd166"], ["#4338ca","#7c6cff","#ff8fa3"]],
-  "Business":   [["#f59e0b","#ff7847","#5b4bf0"], ["#ea580c","#fbbf24","#312e81"]],
-  "Dybde":      [["#e0475b","#ff9d7e","#5b4bf0"], ["#be123c","#fb7185","#fde68a"]],
-  "Labs":       [["#8b5cf6","#ec4899","#38bdf8"], ["#7c3aed","#f472b6","#fbbf24"]],
-  "Forskning":  [["#0d9488","#34d399","#a3e635"], ["#0f766e","#5eead4","#5b4bf0"]],
-  "Community":  [["#0ea5e9","#67e8f9","#f0abfc"], ["#0284c7","#38bdf8","#fde047"]],
-  "Andet":      [["#64748b","#94a3b8","#5b4bf0"], ["#475569","#cbd5e1","#ffd166"]],
+  "Lanceringer":     [["#5b4bf0","#9f8bff","#ffd166"], ["#4338ca","#7c6cff","#ff8fa3"]],
+  "Benchmarks":      [["#0ea5e9","#67e8f9","#5b4bf0"], ["#0284c7","#38bdf8","#fde047"]],
+  "Hverdags-AI":     [["#84cc16","#34d399","#0ea5e9"], ["#65a30d","#a3e635","#5b4bf0"]],
+  "Penge & marked":  [["#f59e0b","#ff7847","#5b4bf0"], ["#ea580c","#fbbf24","#312e81"]],
+  "Politik & jura":  [["#e0475b","#ff9d7e","#5b4bf0"], ["#be123c","#fb7185","#fde68a"]],
+  "Samfund & etik":  [["#8b5cf6","#ec4899","#38bdf8"], ["#7c3aed","#f472b6","#fbbf24"]],
+  "Forskning":       [["#0d9488","#34d399","#a3e635"], ["#0f766e","#5eead4","#5b4bf0"]],
+  "Andet":           [["#64748b","#94a3b8","#5b4bf0"], ["#475569","#cbd5e1","#ffd166"]],
 };
 
 function hash(s) {
@@ -515,8 +495,16 @@ function brodtekst(a) {
 
 /* ---------- Rendering ---------- */
 
+const KATEGORI_ORDEN = ["Lanceringer", "Benchmarks", "Hverdags-AI", "Penge & marked",
+                        "Politik & jura", "Samfund & etik", "Forskning"];
+
 function tegnFiltre() {
-  const kategorier = ["Alle", ...new Set(artikler.map(a => a.kategori))];
+  const fundne = [...new Set(artikler.map(a => a.kategori))];
+  fundne.sort((a, b) => {
+    const ia = KATEGORI_ORDEN.indexOf(a), ib = KATEGORI_ORDEN.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+  const kategorier = ["Alle", ...fundne];
   filtreEl.innerHTML = kategorier.map(k =>
     `<button class="pill ${k === aktivKategori ? "aktiv" : ""}" data-kategori="${esc(k)}">${esc(k)}</button>`).join("");
 }
@@ -673,16 +661,6 @@ document.getElementById("visningSkift").addEventListener("click", e => {
   document.querySelectorAll("#visningSkift button").forEach(b =>
     b.classList.toggle("aktiv", b === knap));
   tegn();
-});
-
-const temaKnap = document.getElementById("temaKnap");
-if (matchMedia("(prefers-color-scheme: dark)").matches) {
-  document.documentElement.dataset.tema = "moerk"; temaKnap.textContent = "☀️";
-}
-temaKnap.addEventListener("click", () => {
-  const moerk = document.documentElement.dataset.tema === "moerk";
-  document.documentElement.dataset.tema = moerk ? "" : "moerk";
-  temaKnap.textContent = moerk ? "🌙" : "☀️";
 });
 
 document.getElementById("datoIdag").textContent =

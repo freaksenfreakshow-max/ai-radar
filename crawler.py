@@ -330,6 +330,51 @@ def dybe_briefs(artikler: list[dict]) -> None:
         print(f"   … {i}/{len(med_tekst)}")
 
 
+# ----- Indholdskategorier (AI vælger kategori ud fra indholdet) ----------------
+
+KATEGORIER = ["Lanceringer", "Benchmarks", "Hverdags-AI", "Penge & marked",
+              "Politik & jura", "Samfund & etik", "Forskning"]
+
+SYSTEM_KATEGORI = f"""Du kategoriserer AI-nyheder. Vælg for hver artikel PRÆCIS ÉN
+kategori fra denne liste (skriv navnet nøjagtigt som her):
+
+- Lanceringer: nye modeller, produkter og funktioner der udgives
+- Benchmarks: tests, sammenligninger og målinger af modellers ydeevne
+- Hverdags-AI: værktøjer og funktioner almindelige mennesker selv kan bruge
+- Penge & marked: investeringer, opkøb, økonomi, aktier, forretning
+- Politik & jura: lovgivning, retssager, ophavsret, sanktioner, regulering
+- Samfund & etik: jobs, deepfakes, sikkerhed, strømforbrug, AI's påvirkning af samfundet
+- Forskning: videnskabelige artikler, metoder og gennembrud
+
+Svar KUN med et JSON-array af kategorinavne i samme rækkefølge som input:
+["Lanceringer", "Forskning", ...]"""
+
+
+def klassificer(artikler: list[dict]) -> None:
+    """Giver hver artikel en indholdskategori via AI (én gang pr. artikel)."""
+    mangler = [a for a in artikler if not a.get("kat_ai")]
+    if not mangler:
+        return
+    if not API_KEY:
+        print("🏷️  Ingen AI-nøgle - beholder kilde-kategorierne")
+        return
+    print(f"🏷️  Kategoriserer {len(mangler)} artikler efter indhold …")
+    for i in range(0, len(mangler), 30):
+        batch = mangler[i:i + 30]
+        liste = [{"nr": j + 1, "titel": a["titel"], "tekst": a["resume"][:200]}
+                 for j, a in enumerate(batch)]
+        try:
+            svar = parse_json_svar(kald_ai(SYSTEM_KATEGORI,
+                                           json.dumps(liste, ensure_ascii=False), 1500))
+            if isinstance(svar, list) and len(svar) == len(batch):
+                for a, k in zip(batch, svar):
+                    if str(k).strip() in KATEGORIER:
+                        a["kategori"] = str(k).strip()
+                        a["kat_ai"] = True
+        except Exception as fejl:
+            print(f"  ⚠️  Kategorisering fejlede: {type(fejl).__name__}")
+
+
 # ----- Dublet-historier (samme nyhed fra flere medier) -------------------------
 
 SYSTEM_DUBLET = """Du får en nummereret liste af nyhedsoverskrifter fra forskellige medier.
@@ -350,8 +395,8 @@ def saml_dublet_historier(artikler: list[dict]) -> list[dict]:
     gemmer de øvrige som ekstra kilder på historien ("andre")."""
     if not API_KEY:
         return artikler
-    # forskning (arXiv) dublerer aldrig nyhedsmedierne - spring den over
-    kandidater = [a for a in artikler if a["kategori"] != "Forskning"][:90]
+    # forskningsartikler (arXiv) dublerer aldrig nyhedsmedierne - spring dem over
+    kandidater = [a for a in artikler if a["kilde"] != "arXiv cs.AI"][:90]
     if len(kandidater) < 2:
         return artikler
     liste = "\n".join(f"{i+1}. [{a['kilde']}] {a['titel']}" for i, a in enumerate(kandidater))
@@ -483,6 +528,9 @@ def omskriv_nye(artikler: list[dict], cache: dict) -> None:
                 a["pointer"] = gammel.get("pointer", [])
             if gammel.get("billede"):
                 a["billede"] = gammel["billede"]
+            if gammel.get("kat_ai") and gammel.get("kategori"):
+                a["kategori"] = gammel["kategori"]
+                a["kat_ai"] = True
 
     # 2) håndlavede omskrivninger fra seeds_da.json (matcher på titel-prefix)
     seed_fil = ROOT / "seeds_da.json"
@@ -566,12 +614,15 @@ def main() -> None:
                                         "resume_da": a.get("resume_da", ""),
                                         "brief": a.get("brief", ""),
                                         "pointer": a.get("pointer", []),
-                                        "billede": a.get("billede", "")}
+                                        "billede": a.get("billede", ""),
+                                        "kategori": a.get("kategori", ""),
+                                        "kat_ai": a.get("kat_ai", False)}
         except (json.JSONDecodeError, KeyError):
             pass
 
     print()
     omskriv_nye(unikke, cache)
+    klassificer(unikke)
     unikke = saml_dublet_historier(unikke)
     dybe_briefs(unikke)
     lav_billeder(unikke)
