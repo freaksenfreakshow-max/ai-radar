@@ -38,8 +38,13 @@ TIMEOUT_SEK = 20
 # --- AI-omskrivning ---
 API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 AI_MODEL = "claude-haiku-4-5"    # hurtig og billig
-BATCH_STR = 10                   # artikler pr. API-kald
+BATCH_STR = 10                   # artikler pr. API-kald (korte resuméer)
 MAX_OMSKRIV_PR_KOERSEL = 200     # loft over API-forbrug pr. kørsel
+
+# --- Dybe briefs (hele artiklen hentes og genfortælles) ---
+DYBDE_ANTAL = 30                 # de N nyeste artikler får komplet brief
+MIN_TEKST = 400                  # mindste brugbare artikeltekst (tegn)
+MAX_TEKST = 7000                 # så meget af artiklen sender vi til Claude
 
 USER_AGENT = "Mozilla/5.0 (compatible; AIRadarCrawler/2.0; +https://github.com)"
 NS = {"atom": "http://www.w3.org/2005/Atom"}
@@ -133,6 +138,37 @@ def crawl_feed(feed: dict) -> tuple[dict, list[dict], str | None]:
     return feed, rensede, None
 
 
+# ----- Artikeltekst-udtræk ----------------------------------------------------
+
+def udtraek_tekst(html_raa: str) -> str:
+    """Trækker brødteksten ud af en artikelside: alle <p>-afsnit af rimelig
+    længde (frasorterer menuer, cookiebokse osv.). Simpelt men effektivt."""
+    # væk med script/style/noscript
+    html_raa = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ",
+                      html_raa, flags=re.S | re.I)
+    # hold os til <article>-blokken hvis den findes
+    m = re.search(r"<article[^>]*>(.*?)</article>", html_raa, flags=re.S | re.I)
+    if m:
+        html_raa = m.group(1)
+    afsnit = re.findall(r"<p[^>]*>(.*?)</p>", html_raa, flags=re.S | re.I)
+    tekst_afsnit = []
+    for p in afsnit:
+        t = html.unescape(re.sub(r"<[^>]+>", " ", p))
+        t = re.sub(r"\s+", " ", t).strip()
+        if len(t) > 60:                      # korte stumper er sjældent brødtekst
+            tekst_afsnit.append(t)
+    return "\n\n".join(tekst_afsnit)[:MAX_TEKST]
+
+
+def hent_artikeltekst(a: dict) -> tuple[dict, str]:
+    """Henter artiklens egen side og returnerer (artikel, brødtekst)."""
+    try:
+        raa = hent_url(a["link"]).decode("utf-8", errors="replace")
+        return a, udtraek_tekst(raa)
+    except Exception:                        # paywall, botblokering, timeout …
+        return a, ""
+
+
 # ----- AI-omskrivning til letlæst dansk --------------------------------------
 
 SYSTEM_PROMPT = """Du omskriver tech-nyheder til danskere HELT uden teknisk baggrund.
@@ -175,6 +211,78 @@ def kald_claude(artikler: list[dict]) -> list[dict] | None:
     return None
 
 
+SYSTEM_BRIEF = """Du er journalist på et dansk nyhedssite for almindelige mennesker
+uden teknisk baggrund. Ud fra artikelteksten skriver du et SELVSTÆNDIGT dansk
+brief i dine helt egne ord - genfortæl, oversæt ALDRIG sætninger direkte, og
+citér ikke fra kilden.
+
+Svar KUN med ét JSON-objekt:
+{
+ "rubrik":  fængende dansk overskrift, max 8 ord, ingen jargon,
+ "resume":  1-2 korte sætninger (max 30 ord) til oversigten,
+ "brief":   150-200 ord letlæst hverdagsdansk i 2-3 afsnit adskilt af \\n\\n.
+            Forklar hvad der er sket, hvorfor det er interessant, og hvad det
+            kan betyde for almindelige mennesker,
+ "pointer": liste med 3-4 korte hovedpointer (hver max 12 ord)
+}"""
+
+
+def kald_claude_brief(a: dict, tekst: str) -> dict | None:
+    """Laver et komplet dansk brief ud fra artiklens fulde tekst."""
+    body = json.dumps({
+        "model": AI_MODEL,
+        "max_tokens": 1500,
+        "system": SYSTEM_BRIEF,
+        "messages": [{"role": "user", "content":
+                      f"KILDE: {a['kilde']}\nTITEL: {a['titel']}\n\nARTIKELTEKST:\n{tekst}"}],
+    }).encode()
+    try:
+        svar = hent_url("https://api.anthropic.com/v1/messages", data=body, headers={
+            "x-api-key": API_KEY,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        })
+        raa = json.loads(svar)["content"][0]["text"].strip()
+        raa = re.sub(r"^```(json)?\s*|\s*```$", "", raa)
+        r = json.loads(raa)
+        if r.get("rubrik") and r.get("brief"):
+            return r
+    except Exception as fejl:
+        print(f"  ⚠️  Brief-kald fejlede ({a['kilde']}): {type(fejl).__name__}")
+    return None
+
+
+def dybe_briefs(artikler: list[dict]) -> None:
+    """Giver de DYBDE_ANTAL nyeste artikler et komplet dansk brief:
+    henter artikelsiden, udtrækker brødteksten og lader Claude genfortælle."""
+    kandidater = [a for a in artikler[:DYBDE_ANTAL] if not a.get("brief")]
+    if not kandidater:
+        print("📰 Alle topartikler har allerede et brief (cache)")
+        return
+    if not API_KEY:
+        print("📰 ANTHROPIC_API_KEY ikke sat - springer dybe briefs over")
+        return
+
+    print(f"📰 Henter og genfortæller {len(kandidater)} artikler i fuld længde …")
+    med_tekst = []
+    with ThreadPoolExecutor(max_workers=6) as pool:      # hent siderne parallelt
+        for job in as_completed([pool.submit(hent_artikeltekst, a) for a in kandidater]):
+            a, tekst = job.result()
+            if len(tekst) >= MIN_TEKST:
+                med_tekst.append((a, tekst))
+            else:
+                print(f"   ⚠️  {a['kilde']}: kunne ikke hente brødtekst - beholder kort resumé")
+
+    for i, (a, tekst) in enumerate(med_tekst, 1):
+        r = kald_claude_brief(a, tekst)
+        if r:
+            a["rubrik"] = str(r["rubrik"]).strip()
+            a["resume_da"] = str(r.get("resume", "")).strip() or a.get("resume_da", "")
+            a["brief"] = str(r["brief"]).strip()
+            a["pointer"] = [str(p).strip() for p in r.get("pointer", [])][:4]
+        print(f"   … {i}/{len(med_tekst)}")
+
+
 def omskriv_nye(artikler: list[dict], cache: dict) -> None:
     """Sætter rubrik/resume_da på artiklerne - fra cache, seed-fil eller Claude."""
     for a in artikler:                       # 1) genbrug alt vi allerede har betalt for
@@ -182,6 +290,9 @@ def omskriv_nye(artikler: list[dict], cache: dict) -> None:
         if gammel:
             a["rubrik"] = gammel.get("rubrik", "")
             a["resume_da"] = gammel.get("resume_da", "")
+            if gammel.get("brief"):
+                a["brief"] = gammel["brief"]
+                a["pointer"] = gammel.get("pointer", [])
 
     # 2) håndlavede omskrivninger fra seeds_da.json (matcher på titel-prefix)
     seed_fil = ROOT / "seeds_da.json"
@@ -262,12 +373,15 @@ def main() -> None:
             for a in json.loads(OUTPUT_FIL.read_text(encoding="utf-8"))["artikler"]:
                 if a.get("rubrik"):
                     cache[a["link"]] = {"rubrik": a["rubrik"],
-                                        "resume_da": a.get("resume_da", "")}
+                                        "resume_da": a.get("resume_da", ""),
+                                        "brief": a.get("brief", ""),
+                                        "pointer": a.get("pointer", [])}
         except (json.JSONDecodeError, KeyError):
             pass
 
     print()
     omskriv_nye(unikke, cache)
+    dybe_briefs(unikke)
 
     for a in unikke:
         a["dato"] = a["dato"].isoformat() if a["dato"] else None

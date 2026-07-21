@@ -267,6 +267,65 @@ a { color: inherit; }
 .raekke:hover .resume-skjult { max-height: 90px; opacity: 1; }
 .raekke .tid { font-size: 10.5px; color: var(--blaek-svag); font-weight: 500; }
 
+/* ---------- LÆSEVISNING (artikel-modal) ---------- */
+.laeser-bag {
+  position: fixed; inset: 0; z-index: 200;
+  background: color-mix(in srgb, var(--blaek) 45%, transparent);
+  backdrop-filter: blur(6px);
+  display: none; align-items: flex-start; justify-content: center;
+  overflow-y: auto; padding: 4vh 16px 6vh;
+}
+.laeser-bag.aaben { display: flex; }
+.laeser {
+  background: var(--bg-kort); border: 1px solid var(--linje);
+  border-radius: 22px; max-width: 680px; width: 100%;
+  box-shadow: 0 30px 80px rgba(0,0,0,.35); overflow: hidden;
+  animation: laeserInd .3s cubic-bezier(.2,.9,.3,1) both;
+}
+@keyframes laeserInd { from { opacity: 0; transform: translateY(26px) scale(.98); } to { opacity: 1; transform: none; } }
+.laeser-art { height: 210px; position: relative; }
+.laeser-art svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.laeser-luk {
+  position: absolute; top: 14px; right: 14px; z-index: 2;
+  width: 36px; height: 36px; border-radius: 50%; border: 0; cursor: pointer;
+  background: rgba(0,0,0,.35); color: #fff; font-size: 17px;
+  display: grid; place-items: center; backdrop-filter: blur(4px);
+  transition: transform .15s, background .15s;
+}
+.laeser-luk:hover { transform: rotate(90deg); background: rgba(0,0,0,.55); }
+.laeser-krop { padding: 30px 38px 36px; }
+.laeser-krop h1 {
+  font-family: var(--font-display); font-weight: 900;
+  font-size: clamp(24px, 4vw, 32px); line-height: 1.12; letter-spacing: -.02em;
+  margin: 10px 0 14px;
+}
+.laeser-brief { font-size: 16px; line-height: 1.75; color: var(--blaek); }
+.laeser-brief p { margin-bottom: 14px; }
+.laeser-pointer { margin: 20px 0 4px; padding: 18px 22px;
+  background: var(--accent-svag); border-radius: 14px; }
+.laeser-pointer h4 {
+  font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 10px;
+}
+.laeser-pointer ul { list-style: none; }
+.laeser-pointer li {
+  font-size: 14px; padding-left: 22px; position: relative; margin-bottom: 7px; line-height: 1.5;
+}
+.laeser-pointer li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+.laeser-bund {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--linje); flex-wrap: wrap;
+}
+.kilde-knap {
+  background: var(--blaek); color: var(--bg); text-decoration: none;
+  font-size: 13px; font-weight: 700; padding: 10px 18px; border-radius: 999px;
+  transition: transform .15s;
+}
+.kilde-knap:hover { transform: translateY(-2px); }
+[data-tema="moerk"] .kilde-knap { background: var(--accent); color: #fff; }
+.laeser-note { font-size: 12.5px; color: var(--blaek-svag); font-style: italic; margin-top: 14px; }
+@media (max-width: 560px) { .laeser-krop { padding: 22px 20px 26px; } .laeser-art { height: 150px; } }
+
 .tom { text-align: center; padding: 70px 20px; color: var(--blaek-svag); font-size: 15px; }
 .note {
   background: var(--accent-svag); border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
@@ -307,6 +366,10 @@ footer a { color: var(--accent); }
 <main class="wrap">
   <div id="indhold"><div class="tom">Henter nyheder …</div></div>
 </main>
+
+<div class="laeser-bag" id="laeserBag" role="dialog" aria-modal="true">
+  <article class="laeser" id="laeserBoks"></article>
+</div>
 
 <footer>
   Nyheder samles automatisk og omskrives til letlæst dansk med AI ·
@@ -445,12 +508,65 @@ function filtrerede() {
   const q = sogeTekst.toLowerCase();
   return artikler.filter(a =>
     (aktivKategori === "Alle" || a.kategori === aktivKategori) &&
-    (!q || (a.titel + " " + (a.rubrik || "") + " " + (a.resume_da || a.resume) + " " + a.kilde).toLowerCase().includes(q)));
+    (!q || (a.titel + " " + (a.rubrik || "") + " " + (a.resume_da || a.resume) + " " +
+            (a.brief || "") + " " + a.kilde).toLowerCase().includes(q)));
 }
+
+/* ---------- Læsevisning ---------- */
+
+const laeserBag = document.getElementById("laeserBag");
+const laeserBoks = document.getElementById("laeserBoks");
+
+function aabnLaeser(a) {
+  const briefHtml = a.brief
+    ? a.brief.split(/\n\n+/).map(afsnit => `<p>${esc(afsnit)}</p>`).join("")
+    : `<p>${brodtekst(a)}</p>
+       <p class="laeser-note">Det komplette brief er på vej — det skrives automatisk,
+       når AI-omskrivningen har behandlet artiklen. Indtil da kan du læse originalen herunder.</p>`;
+
+  const pointerHtml = (a.pointer && a.pointer.length)
+    ? `<div class="laeser-pointer"><h4>Hovedpointer</h4>
+       <ul>${a.pointer.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>` : "";
+
+  laeserBoks.innerHTML = `
+    <div class="laeser-art">${kunst(a, 8888)}
+      <button class="laeser-luk" id="laeserLuk" aria-label="Luk">✕</button>
+    </div>
+    <div class="laeser-krop">
+      <div class="kicker">${esc(a.kategori)} <span class="adskil">· ${esc(a.kilde)} · ${relativTid(a.dato)}</span></div>
+      <h1>${a.rubrik ? esc(a.rubrik) : esc(a.titel)}</h1>
+      <div class="laeser-brief">${briefHtml}</div>
+      ${pointerHtml}
+      <div class="laeser-bund">
+        <span class="laeser-note" style="margin:0">Genfortalt i egne ord · Kilde: ${esc(a.kilde)}</span>
+        <a class="kilde-knap" href="${esc(a.link)}" target="_blank" rel="noopener">Læs originalen →</a>
+      </div>
+    </div>`;
+  laeserBag.classList.add("aaben");
+  laeserBag.scrollTop = 0;
+  document.body.style.overflow = "hidden";
+  document.getElementById("laeserLuk").addEventListener("click", lukLaeser);
+}
+
+function lukLaeser() {
+  laeserBag.classList.remove("aaben");
+  document.body.style.overflow = "";
+}
+laeserBag.addEventListener("click", e => { if (e.target === laeserBag) lukLaeser(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") lukLaeser(); });
+
+// Klik på en historie åbner læseren i stedet for at sende os væk
+indhold.addEventListener("click", e => {
+  const kort = e.target.closest(".kort, .raekke, .hero, .mini-hero");
+  if (!kort) return;
+  e.preventDefault();
+  const a = artikler.find(x => x.link === kort.dataset.link);
+  if (a) aabnLaeser(a);
+});
 
 function kortHtml(a, id, stor = false) {
   return `
-  <a class="kort ${stor ? "stor" : ""}" href="${esc(a.link)}" target="_blank" rel="noopener" style="animation-delay:${Math.min(id * 30, 500)}ms">
+  <a class="kort ${stor ? "stor" : ""}" href="${esc(a.link)}" data-link="${esc(a.link)}" style="animation-delay:${Math.min(id * 30, 500)}ms">
     <div class="kort-art">${kunst(a, id)}</div>
     <div class="kort-krop">
       <div class="kicker">${esc(a.kategori)} <span class="adskil">· ${esc(a.kilde)}</span></div>
@@ -463,7 +579,7 @@ function kortHtml(a, id, stor = false) {
 
 function raekkeHtml(a, id) {
   return `
-  <a class="raekke" href="${esc(a.link)}" target="_blank" rel="noopener" style="animation-delay:${Math.min(id * 12, 350)}ms">
+  <a class="raekke" href="${esc(a.link)}" data-link="${esc(a.link)}" style="animation-delay:${Math.min(id * 12, 350)}ms">
     <div class="frimaerke">${kunst(a, id)}</div>
     <div class="raekke-tekst">
       <div class="kicker">${esc(a.kategori)} <span class="adskil">· ${esc(a.kilde)}</span>${a.rubrik ? "" : '<span class="en-chip">EN</span>'}</div>
@@ -493,7 +609,7 @@ function tegn() {
   if (visning === "kompakt") {
     // ---- OVERBLIK: slank hero + tæt tavle (resumé foldes ud ved hover) ----
     const miniHero = `
-    <a class="mini-hero" href="${esc(heroArtikel.link)}" target="_blank" rel="noopener">
+    <a class="mini-hero" href="${esc(heroArtikel.link)}" data-link="${esc(heroArtikel.link)}">
       <div class="mini-hero-art">${kunst(heroArtikel, 9999)}</div>
       <div class="mini-hero-tekst">
         <div class="kicker">Dagens historie <span class="adskil">· ${esc(heroArtikel.kategori)} · ${esc(heroArtikel.kilde)} · ${relativTid(heroArtikel.dato)}</span></div>
@@ -508,7 +624,7 @@ function tegn() {
 
   // ---- MAGASIN: stor hero + mosaik-kort ----
   const hero = `
-  <a class="hero" href="${esc(heroArtikel.link)}" target="_blank" rel="noopener">
+  <a class="hero" href="${esc(heroArtikel.link)}" data-link="${esc(heroArtikel.link)}">
     <div class="hero-art">${kunst(heroArtikel, 9999)}</div>
     <div class="hero-tekst">
       <div class="kicker">Dagens historie <span class="adskil">· ${esc(heroArtikel.kategori)} · ${esc(heroArtikel.kilde)}</span></div>
