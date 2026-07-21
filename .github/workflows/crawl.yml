@@ -1,14 +1,14 @@
 # =====================================================================
 # Automatisk crawl af AI-nyheder
 # ---------------------------------------------------------------------
-# Denne workflow koerer paa GitHubs servere (gratis) og:
-#   1. Koerer crawler.py hver 6. time (crawl + AI-omskrivning til dansk)
-#   2. Committer den nye data/articles.json til main
-#   3. GitHub Pages serverer derefter automatisk den nye version
+# Koerer paa GitHubs servere (gratis):
+#   1. crawler.py hver 6. time: crawl + AI-omskrivning + dybe briefs
+#   2. Committer data/articles.json til main
+#   3. GitHub Pages serverer automatisk den nye version
 #
-# AI-omskrivningen kraever en repository secret ved navn ANTHROPIC_API_KEY
-# (Settings -> Secrets and variables -> Actions). Uden den vises artiklerne
-# paa engelsk - alt andet virker stadig.
+# AI-omskrivning kraever EN af disse repository secrets:
+#   ANTHROPIC_API_KEY (Claude)  eller  GEMINI_API_KEY (Gemini, har gratis-niveau)
+# Er begge sat, vinder Claude - skift med repository variable AI_UDBYDER=gemini
 # =====================================================================
 
 name: Crawl AI-nyheder
@@ -39,9 +39,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Koer crawleren (AI-omskrivning hvis noeglen findes)
+      - name: Koer crawleren (AI-omskrivning hvis en noegle findes)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_UDBYDER: ${{ vars.AI_UDBYDER }}
         run: python3 crawler.py
 
       - name: Commit de nye artikler
