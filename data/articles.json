@@ -1,6 +1,6 @@
 {
-  "opdateret": "2026-07-21T19:58:36.364328+00:00",
-  "antal": 142,
+  "opdateret": "2026-07-21T20:09:58.424140+00:00",
+  "antal": 136,
   "artikler": [
     {
       "titel": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
@@ -18,7 +18,13 @@
         "Programmet er åbent, så it-folk kan ændre og tilpasse det frit.",
         "Værktøjet er stadig i en tidlig fase, men kan prøves nu."
       ],
-      "billede": "data/img/d77aa8a5fe080ce7.jpg"
+      "billede": "data/img/d77aa8a5fe080ce7.jpg",
+      "andre": [
+        {
+          "kilde": "Hacker News: AI",
+          "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git"
+        }
+      ]
     },
     {
       "titel": "AI and the rise of the universal entertainment app",
@@ -59,7 +65,7 @@
     {
       "titel": "AI makes programming differently difficult",
       "link": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
-      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 90 # Comments: 55",
+      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 106 # Comments: 64",
       "dato": "2026-07-21T18:30:21+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -101,18 +107,17 @@
         "Dommeren skar markant i advokaternes oprindelige millionhøje salærer",
         "Sagen sætter en vigtig grænse for AI-branchens brug af tekster"
       ],
-      "billede": "data/img/e014711cfc53c145.jpg"
-    },
-    {
-      "titel": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
-      "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "resume": "https://x.com/jack/status/2079605800998146171 , https://xcancel.com/jack/status/2079605800998146171 https://buzz.xyz/ Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 85 # Comments: 88",
-      "dato": "2026-07-21T17:14:06+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community",
-      "rubrik": "Twitter-grundlægger lancerer nyt digitalt arbejdsrum",
-      "resume_da": "Kendt tech-profil er klar med et nyt fællesværktøj. Det samler chat og smarte hjælperobotter ét sted.",
-      "billede": "data/img/ee8670fb6715ddd3.jpg"
+      "billede": "data/img/e014711cfc53c145.jpg",
+      "andre": [
+        {
+          "kilde": "The Verge AI",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved"
+        },
+        {
+          "kilde": "TechCrunch AI",
+          "link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
+        }
+      ]
     },
     {
       "titel": "Google releases three new Gemini models — but no 3.5 Pro",
@@ -130,12 +135,22 @@
         "En særlig sikkerhedsmodel er øremærket myndigheder og få partnere.",
         "Den store og ventede topmodel lader fortsat vente på sig."
       ],
-      "billede": "data/img/c096964be54d2919.jpg"
+      "billede": "data/img/c096964be54d2919.jpg",
+      "andre": [
+        {
+          "kilde": "Ars Technica AI",
+          "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/"
+        },
+        {
+          "kilde": "Google DeepMind",
+          "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/"
+        }
+      ]
     },
     {
       "titel": "Meta's AI models are powering the first wave of Genesis Mission projects",
       "link": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
-      "resume": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 63 # Comments: 45",
+      "resume": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 66 # Comments: 47",
       "dato": "2026-07-21T17:03:18+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -162,42 +177,6 @@
       "billede": "data/img/9783627bd88cddeb.jpg"
     },
     {
-      "titel": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
-      "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
-      "resume": "There are new 3.6 and 3.5 models today, but Google is already training Gemini 4.",
-      "dato": "2026-07-21T16:58:25+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder",
-      "rubrik": "Google sender helt nye og hurtigere kunstige intelligenser på gaden",
-      "resume_da": "Teknologigiganten Google opgraderer sine intelligente modeller med skarpere evner til programmering og lavere priser, og selskabet arbejder allerede på den næste store generation.",
-      "brief": "Internettet udvikler sig konstant, og nu er Google klar med friske opdateringer til selskabets populære intelligente systemer. Den hidtidige udgave af den populære Flash-model bliver allerede udskiftet med en ny version, som klarer opgaver som kodning og digitalt detektivarbejde markant hurtigere. Samtidig har udviklerne skruet ned for den mængde computerkraft, der skal til, hvilket gør systemet væsentligt billigere at drifte.\n\nUdover den hurtige model lancerer teknologigiganten en særlig letvægtsudgave, der kan svare i lynhurtigt tempo, hvilket blandt andet skal gøre Googles søgemaskine endnu kvikkere. Google har også udviklet en specialiseret udgave, der er skræddersyet til it-sikkerhed, men denne variant holdes i første omgang tæt til kroppen af sikkerhedsmæssige årsager og udleveres kun til godkendte samarbejdspartnere.\n\nFor almindelige brugere betyder det, at de værktøjer, man møder i hverdagen, bliver mere præcise og reagerer hurtigere. Samtidig afslører selskabet, at man allerede er gået i gang med at forberede den kommende store generation af kunstig intelligens, som skal løfte teknologien til et helt nyt niveau.",
-      "pointer": [
-        "Google erstatter den tidligere Flash-model med en stærkere udgave",
-        "Ny letvægtsmodel giver lynhurtige svar i søgemaskinen",
-        "Sikkerhedsmodel holdes tilbage og udleveres kun til udvalgte partnere",
-        "Arbejdet med næste generation kaldet Gemini 4 er allerede igangsat"
-      ],
-      "billede": "data/img/856fa25c6c2097c8.jpg"
-    },
-    {
-      "titel": "Anthropic’s $1.5 billion book piracy settlement approved by judge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
-      "resume": "A federal judge has signed off on Anthropic's $1.5 billion class action settlement with authors who accused the company of training its AI models on copyrighted books, as reported earlier by Reuters. In an order on Monday, Judge Araceli Martínez-Olguín writes that the settlement will provide \"meaningful relief,\" offering authors around $3,000 for each book […]",
-      "dato": "2026-07-21T12:53:37-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder",
-      "rubrik": "Kæmpe milliardforlig: Forfattere vinder over kunstig intelligens",
-      "resume_da": "En dommer har godkendt et historisk milliardforlig. Forfattere får erstatning, fordi en tech-gigant brugte deres bøger uden tilladelse.",
-      "brief": "En amerikansk dommer har netop sat punktum i en opsigtsvækkende sag mellem en række skribenter og firmaet bag den kendte chat-robot Claude, Anthropic. Sagen startede, da forfattere opdagede, at tech-firmaet havde støvsuget internettet for millioner af ophavsretsbeskyttede værker for at gøre deres digitale systemer klogere. \n\nMed det nye forlig, der løber op i astronomiske 1,5 milliarder dollars, modtager de ramte skrivere omkring 21.000 kroner pr. bog, som firmaet ulovligt har kopieret. Det svarer til en af de største udbetalinger for brud på ophavsretten nogensinde, og over ni ud af ti berørte forlag og forfattere har allerede sikret sig deres del af kagen.\n\nSagen baner vejen for, hvordan tech-branchen fremover må behandle kunstneres ejendom. Selvom forliget lukker det store massesøgsmål, er der stadig enkelte skribenter, der mener, at beløbet er for lille, og de fortsætter kampen i retten. For almindelige mennesker viser sagen, at der er ved at blive sat juridiske grænser for, hvad tech-giganterne må bruge af andres åndsarbejde til at fodre deres smarte computere med.",
-      "pointer": [
-        "Domstol har godkendt historisk milliardforlig til forfattere",
-        "Firmaet brugte millioner af bøger til at træne AI",
-        "Berørte forfattere modtager cirka 3.000 dollars per bog",
-        "Flere andre sager om ophavsret venter stadig forud"
-      ],
-      "billede": "data/img/9e86e0fbb2cfe2af.jpg"
-    },
-    {
       "titel": "US threatens sanctions against Chinese AI models over IP theft",
       "link": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
       "resume": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
@@ -214,24 +193,6 @@
         "Eksperter strides om metoder og ægte tyveri"
       ],
       "billede": "data/img/be406df3fd99cbad.jpg"
-    },
-    {
-      "titel": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "resume": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "dato": "2026-07-21T15:16:30+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs",
-      "rubrik": "Google lancerer nye og billigere kunstig intelligenser",
-      "resume_da": "Google har præsenteret en række nye kunstig intelligenser, der er hurtigere, klogere og billigere at bruge for virksomheder og udviklere.",
-      "brief": "Teknologigiganten Google har netop afsløret tre nye udgaver af deres populære Gemini-modeller. De nye systemer er skabt til at gøre det nemmere og billigere at udvikle selvstændige computerprogrammer, de såkaldte AI-agenter, som kan udføre komplekse opgaver helt på egen hånd.\n\nBlandt nyhederne er modellen 3.6 Flash, som er blevet bedre til at programmere og forstå tekst, samtidig med at den bruger færre kræfter og koster mindre end sin forgænger. Derudover er der sendt en ultraskarp og lynhurtig udgave ved navn 3.5 Flash-Lite på gaden, som er ideel til at håndtere store mængder data på rekordtid.\n\nEndelig har Google udviklet en særlig sikkerhedsmodel, 3.5 Flash Cyber, der kan opdage og lukke huller i computersystemer. Denne specielle version vil i første omgang udelukkende blive stillet til rådighed for myndigheder og nære samarbejdspartnere for at modvirke digitale trusler.",
-      "pointer": [
-        "Google introducerer tre nye modeller i Gemini-familien.",
-        "De nye versioner er billigere og mere effektive i drift.",
-        "En særlig sikkerhedsmodel skal hjælpe med at finde it-fejl.",
-        "Udviklingen mod endnu større modeller kaldet Gemini 4 er i gang."
-      ],
-      "billede": "data/img/6ba6c25e923af94f.jpg"
     },
     {
       "titel": "Google launches a cheaper alternative to large AI security models like Mythos",
@@ -340,6 +301,17 @@
         "Teknologien kan i fremtiden bruges til andre tunge byggeopgaver."
       ],
       "billede": "data/img/5b7c7b34706f3c38.jpg"
+    },
+    {
+      "titel": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "resume": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "dato": "2026-07-21T07:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs",
+      "rubrik": "Kunstig intelligens-firmaer styrker sikkerheden efter angreb",
+      "resume_da": "To store tech-firmaer har delt vigtig viden om et hackerangreb. Det skal gøre vores digitale hverdag mere sikker.",
+      "billede": "data/img/07a59789a1f95f86.jpg"
     },
     {
       "titel": "Rater State Bias in RLHF Preference Data: An Audit Framework",
@@ -535,7 +507,8 @@
         "Systemet opfordres til at tænke mere bredt",
         "Mindsker risikoen for at computeren kører fast",
         "Kan give os smartere og mere fleksible teknologier"
-      ]
+      ],
+      "billede": "data/img/611b1185d4c04a25.jpg"
     },
     {
       "titel": "JUMP: Single-Pass Membership Inference on Fine-Tuned Diffusion Language Models",
@@ -552,7 +525,8 @@
         "Processen foregår langt hurtigere end tidligere",
         "Kan styrke beskyttelsen af privatliv og ophavsret",
         "Gør det sværere for tech-giganter at skjule kilder"
-      ]
+      ],
+      "billede": "data/img/92ed20fe507f9ad1.jpg"
     },
     {
       "titel": "ColGraphRAG: Late-Interaction Evidence Retrieval for Multimodal GraphRAG",
@@ -561,8 +535,15 @@
       "dato": "2026-07-21T00:00:00-04:00",
       "kilde": "arXiv cs.AI",
       "kategori": "Forskning",
-      "rubrik": "AI finder svar i tekst, tabeller og billeder",
-      "resume_da": "Ny metode hjælper AI med at udvælge de rigtige beviser, når svaret gemmer sig på tværs af dokumenter, skemaer og fotos."
+      "rubrik": "Ny kunstig intelligens forstår både tekst og billeder bedre",
+      "resume_da": "Forskere har udviklet en ny metode, der gør kunstig intelligens langt bedre til at finde og kombinere information fra både tekst og billeder.",
+      "brief": "Moderne digitale systemer har ofte svært ved at koble informationer sammen på tværs af forskellige formater som tekst og billeder. En ny forskningsartikel præsenterer en avanceret teknik, der løser dette problem ved at lade teknologien gennemsøge komplekse datanetværk mere effektivt. \n\nMetoden gør det muligt for kunstig intelligens at finde præcise sammenhænge i store mængder forskelligartet materiale. Det betyder, at systemerne kan trække på både billeder og skriftlige kilder på samme tid, hvilket giver langt mere præcise svar. \n\nFor almindelige brugere kan teknologien i fremtiden føre til smartere søgemaskiner og bedre digitale assistenter, der rent faktisk forstår helheden, når vi søger efter information, der blander grafik og tekst.",
+      "pointer": [
+        "Ny teknik forener tekst og billeder i kunstig intelligens",
+        "Systemet gennemsøger komplekse datanetværk langt mere præcist",
+        "Giver smartere søgemaskiner og bedre digitale assistenter"
+      ],
+      "billede": "data/img/bcf148fd728e91cc.jpg"
     },
     {
       "titel": "Shapley Context Pruning: A Cooperative Game Perspective for Context Reranking and Pruning",
@@ -687,7 +668,7 @@
     {
       "titel": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
       "link": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 334 # Comments: 227",
+      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 336 # Comments: 228",
       "dato": "2026-07-21T03:56:03+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -695,14 +676,14 @@
       "resume_da": "Fem amerikanske techgiganter har gæld for over 10.000 milliarder kroner uden om regnskaberne – meget af det til AI-satsninger. Eksperter er bekymrede."
     },
     {
-      "titel": "Anthropic’s landmark $1.5B copyright settlement is approved",
-      "link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
-      "resume": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
-      "dato": "2026-07-21T00:12:24+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder",
-      "rubrik": "AI-firma betaler milliardforlig om ophavsret",
-      "resume_da": "Anthropic har fået godkendt et forlig på knap 10 milliarder kroner til forfattere, hvis bøger blev brugt til AI-træning. Striden om ophavsret fortsætter."
+      "titel": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "resume": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+      "dato": "2026-07-21T00:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs",
+      "rubrik": "Kendte navne ind i ledelsen hos AI-gigant",
+      "resume_da": "To erfarne erhvervsfolk er hentet ind for at styre udviklingen af fremtidens kunstige intelligens i en mere sikker retning."
     },
     {
       "titel": "Americans hate AI so much that politicians are losing their jobs over it",
@@ -807,7 +788,7 @@
     {
       "titel": "How we measured AI writing across arXiv, and where the measurement breaks",
       "link": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "resume": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 237 # Comments: 163",
+      "resume": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 237 # Comments: 162",
       "dato": "2026-07-20T16:36:36+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -847,7 +828,7 @@
     {
       "titel": "Mythologizing AI makes it more likely that we’ll fail to operate it well (2023)",
       "link": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
-      "resume": "Article URL: https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai Comments URL: https://news.ycombinator.com/item?id=48980238 Points: 78 # Comments: 146",
+      "resume": "Article URL: https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai Comments URL: https://news.ycombinator.com/item?id=48980238 Points: 78 # Comments: 147",
       "dato": "2026-07-20T15:28:32+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -867,7 +848,7 @@
     {
       "titel": "China’s open-weights AI strategy is winning",
       "link": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "resume": "Article URL: https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/ Comments URL: https://news.ycombinator.com/item?id=48979269 Points: 1201 # Comments: 911",
+      "resume": "Article URL: https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/ Comments URL: https://news.ycombinator.com/item?id=48979269 Points: 1202 # Comments: 911",
       "dato": "2026-07-20T14:21:47+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -1007,7 +988,7 @@
     {
       "titel": "AI Mania Is Eviscerating Global Decision-Making",
       "link": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-      "resume": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 445 # Comments: 286",
+      "resume": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 446 # Comments: 286",
       "dato": "2026-07-19T01:29:19+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -1282,7 +1263,13 @@
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde",
       "rubrik": "OpenAI bygger super-hacker for at gøre systemer sikrere",
-      "resume_da": "Et nyt computerprogram er skabt til at angribe og finde svagheder, så fremtidens systemer bliver sikrere mod svindel."
+      "resume_da": "Et nyt computerprogram er skabt til at angribe og finde svagheder, så fremtidens systemer bliver sikrere mod svindel.",
+      "andre": [
+        {
+          "kilde": "OpenAI Blog",
+          "link": "https://openai.com/index/unlocking-self-improvement-gpt-red"
+        }
+      ]
     },
     {
       "titel": "OpenAI's first branded hardware is... a light-up keyboard?",
@@ -1303,16 +1290,6 @@
       "kategori": "Labs",
       "rubrik": "USA vil have fælles regler for kunstig intelligens",
       "resume_da": "Amerikanske politikere vil bruge lokale love til at skabe faste, sikre rammer for fremtidens teknologier."
-    },
-    {
-      "titel": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "resume": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "dato": "2026-07-15T10:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs",
-      "rubrik": "Ny computer-hacker træner sig selv til at blive bedre",
-      "resume_da": "Et nyt system øver sig i at bryde ind i programmer for at lære computere at forsvare sig selv."
     },
     {
       "titel": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
@@ -1475,16 +1452,6 @@
       "resume_da": "Microsofts kontorprogrammer er blevet klogere, så du hurtigere kan få ordnet dine opgaver i Word og Excel."
     },
     {
-      "titel": "ChatGPT is now a partner for your most ambitious work",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "resume": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "dato": "2026-07-09T10:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs",
-      "rubrik": "Ny digital assistent klarer de store opgaver",
-      "resume_da": "En ny digital hjælper kan arbejde selvstændigt med dine filer i timevis og gøre dine projekter færdige for dig."
-    },
-    {
       "titel": "GPT-5.6: Frontier intelligence that scales with your ambition",
       "link": "https://openai.com/index/gpt-5-6",
       "resume": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
@@ -1503,6 +1470,16 @@
       "kategori": "Labs",
       "rubrik": "Dusør for at finde fejl i biologi-systemer",
       "resume_da": "Udviklerne udlove dusør til dem, der kan finde svagheder og sikkerhedsrisici i deres biologiske systemer."
+    },
+    {
+      "titel": "ChatGPT is now a partner for your most ambitious work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "resume": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "dato": "2026-07-09T10:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs",
+      "rubrik": "Ny digital assistent klarer de store opgaver",
+      "resume_da": "En ny digital hjælper kan arbejde selvstændigt med dine filer i timevis og gøre dine projekter færdige for dig."
     },
     {
       "titel": "Our approach to government and national security partnerships",
@@ -1555,16 +1532,6 @@
       "resume_da": "Chefer har svært ved at vurdere, hvilke computerprogrammer der kan betale sig at købe på sigt."
     },
     {
-      "titel": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "link": "https://openai.com/index/australian-payments-plus",
-      "resume": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "dato": "2026-07-07T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs",
-      "rubrik": "Australske betalinger klares hurtigere med kunstig intelligens",
-      "resume_da": "Et stort betalingsfirma sparer tid på svære opgaver, mens mennesker stadig bestemmer."
-    },
-    {
       "titel": "MUFG aims to become AI-native with OpenAI",
       "link": "https://openai.com/index/mufg",
       "resume": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
@@ -1573,6 +1540,16 @@
       "kategori": "Labs",
       "rubrik": "Stor bank vil bruge computerhjerne til det hele",
       "resume_da": "En stor finanskoncern tager ny teknologi til sig for at lave smartere banktjenester."
+    },
+    {
+      "titel": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "link": "https://openai.com/index/australian-payments-plus",
+      "resume": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "dato": "2026-07-07T00:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs",
+      "rubrik": "Australske betalinger klares hurtigere med kunstig intelligens",
+      "resume_da": "Et stort betalingsfirma sparer tid på svære opgaver, mens mennesker stadig bestemmer."
     },
     {
       "titel": "Your family’s $300 stake in OpenAI",
@@ -1623,26 +1600,6 @@
       "kategori": "Labs",
       "rubrik": "Flere og flere bruger den populære chatbot",
       "resume_da": "Mennesker over hele kloden tager den kloge computer til sig i hverdagen og på tværs af sprog."
-    },
-    {
-      "titel": "Core dump epidemiology: fixing an 18-year-old bug",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "resume": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "dato": "2026-06-30T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs",
-      "rubrik": "18 år gammel computerfejl endelig fundet",
-      "resume_da": "Udviklere har brugt moderne teknik til at løse et meget gammelt og drilagtigt systemproblem."
-    },
-    {
-      "titel": "Introducing GeneBench-Pro",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "resume": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "dato": "2026-06-30T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs",
-      "rubrik": "Ny kunstig intelligens forstår biologi og dna",
-      "resume_da": "Forskere har lavet en digital test, der viser, at computersystemer nu er blevet gode til at forstå livets og genernes opbygning."
     },
     {
       "titel": "Introducing computer use in Gemini 3.5 Flash",
