@@ -1,5 +1,5 @@
 {
-  "opdateret": "2026-07-21T21:24:18.076247+00:00",
+  "opdateret": "2026-07-21T21:45:55.964714+00:00",
   "antal": 135,
   "artikler": [
     {
@@ -123,7 +123,7 @@
     {
       "titel": "AI makes programming differently difficult",
       "link": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
-      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 122 # Comments: 101",
+      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 127 # Comments: 103",
       "dato": "2026-07-21T18:30:21+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Samfund & etik",
@@ -242,7 +242,7 @@
     {
       "titel": "Meta's AI models are powering the first wave of Genesis Mission projects",
       "link": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
-      "resume": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 75 # Comments: 50",
+      "resume": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 80 # Comments: 51",
       "dato": "2026-07-21T17:03:18+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Penge & marked",
@@ -344,16 +344,23 @@
       "dato": "2026-07-21T13:27:42+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Samfund & etik",
-      "rubrik": "AI oversvømmer musiktjenester med sange",
-      "resume_da": "Halvdelen af alle nye sangudgivelser på musiktjenesten Deezer er nu skabt af AI, og det ændrer måden, vi oplever musik på.",
-      "brief": "Det er gået stærkt med at få computergenereret musik ud til lytterne. Nye tal viser, at over halvdelen af de sange, der hver dag lander på musiktjenesten Deezer, er lavet af AI frem for menneskelige musikere. Udviklingen er eksploderet på ganske få år, hvor mængden af disse numre er mangedoblet.\n\nDenne massive bølge af computerlyd skaber hovedbrud for musiktjenesterne, der kæmper for at finde ud af, hvordan de skal gribe det an. Nogle platforme forsøger at blokere musikken helt, mens andre forsøger at mærke den eller fjerne muligheden for at tjene penge på den. Deezer strammer nu grebet yderligere og sletter automatisk de kunstige numre, som ingen lytter til, for at stoppe svindel og beskytte rigtige kunstnere.\n\nFor almindelige lyttere betyder det, at det kan blive sværere at gennemskue, hvem der står bag de sange, der dukker op i afspilningslisterne. Samtidig håber musiktjenesterne, at oprydningen vil sikre, at pengene fremover lander hos de menneskelige kunstnere, som fans rent faktisk lytter efter.",
-      "detaljer": [],
-      "betydning": "",
+      "rubrik": "Halvdelen af al ny musik er lavet af AI",
+      "resume_da": "Musiktjenesten Deezer oplever en eksplosion i antallet af sange skabt af AI, hvilket nu udgør over halvdelen af de daglige uploads.",
+      "brief": "Flere og flere sange på musiktjenesten Deezer bliver i dag skabt af maskiner frem for mennesker. Selskabet bag tjenesten oplyser, at mere end halvdelen af de nye sange, der lander på platformen hver eneste dag, er genereret af AI. Udviklingen er gået utrolig stærk, da tallet for blot et par år siden var langt lavere. Denne massive bølge af computer-musik har tvunget musiktjenesterne til at reagere, da mange af de nye numre bliver brugt til fup og svindel for at hive penge ud af systemet.\n\nFor at beskytte både rigtige kunstnere og lytterne har Deezer nu strammet kursen. Tjenesten vil fremover slette sange lavet af AI, hvis de ikke er blevet afspillet i løbet af et halvt år, eller hvis de er involveret i mistænkelig snyd med afspilninger. Samtidig har musiktjenesten udviklet særligt udstyr, der kan spotte numre lavet af systemer som Suno og Udio, så de kan blive holdt adskilt fra den rigtige musik.",
+      "detaljer": [
+        "Over halvdelen af alle daglige uploads på Deezer er nu lavet af AI.",
+        "I juni nåede platformen et gennemsnit på 90.000 nye AI-sange om dagen.",
+        "I begyndelsen af 2025 udgjorde den slags musik kun ti procent af de daglige uploads.",
+        "Deezer fjerner nu AI-sange, der ikke er blevet spillet af nogen i seks måneder.",
+        "Tiltaget skal stoppe svindel med falske afspilninger og beskytte rigtige sangskrivere.",
+        "Deezer har desuden udviklet teknologi, der kan afsløre AI-musik på tværs af forskellige platforme."
+      ],
+      "betydning": "For almindelige mennesker betyder udviklingen, at det bliver sværere at kende forskel på ægte kunstnere og computer-genererede lyde. Da pengene i streaming-systemet ofte fordeles efter, hvor meget musikken bliver hørt, kan den store mængde AI-numre skubbe rigtige musikere til side. På sigt kan det ændre den musik, vi opdager, og gøre det vigtigere for musiktjenesterne at beskytte kvaliteten, så lytterne ikke mister tilliden til det, de hører.",
       "pointer": [
-        "Over halvdelen af dagens nye sange er computergenererede.",
-        "Mængden af AI-musik er eksploderet voldsomt siden 2025.",
-        "Deezer sletter nu uafspillede AI-numre for at undgå svindel.",
-        "Musiktjenester strides om, hvordan de skal tackle udviklingen."
+        "Over 50 procent af nye Deezer-sange er skabt af AI.",
+        "Platformen sletter ubeskrevne AI-numre for at undgå svindel.",
+        "Udviklingen er gået meget stærkt siden begyndelsen af 2025.",
+        "Ny teknologi skal hjælpe med at afsløre falske sange."
       ],
       "billede": "data/img/a70f755423c2f663.jpg",
       "kat_ai": true,
@@ -366,16 +373,23 @@
       "dato": "2026-07-21T09:00:00-04:00",
       "kilde": "The Verge AI",
       "kategori": "Lanceringer",
-      "rubrik": "Nye smarte briller lover bedre skærm og AI-hjælp",
-      "resume_da": "Producenten Halliday er klar med anden udgave af deres smarte briller. De har droppet det generende kamera og fokuserer nu på at hjælpe dig gennem arbejdsmøder.",
-      "brief": "Teknologivirksomheden Halliday er klar med opfølgeren til deres første smarte briller, som fik en hård medfart for at give brugerne ondt i øjnene. Den nye model byder på en markant forbedret skærmoplevelse, hvor de svære skærmvinduer er skiftet ud med mere behagelige linser foran begge øjne. Brillernes design er holdt let og diskret, og de indeholder slet ikke et kamera, hvilket både sparer på strømmen og fjerner de værste privatlivsbekymringer.\n\nFokus er i stedet rykket over på arbejdslivet, hvor indbygget AI skal gøre møder mere overskuelige. Brillernes software kan vise noter, holde styr på hvem der har truffet hvilke beslutninger, og opsummere, hvad holdet er blevet enige om undervejs. Derudover kan de oversætte samtaler live og fungere som et diskret talerør for folk, der holder oplæg. \n\nFor den almindelige forbruger er prisen dog en stor hage, da brillerne lander på den dyre side, og de AI-baserede funktioner skal først bevise deres værd i virkeligheden. De kan forudbestilles nu og forventes på markedet til efteråret.",
-      "detaljer": [],
-      "betydning": "",
+      "rubrik": "Nye smarte briller gør arbejdsmøder nemmere",
+      "resume_da": "Halliday har lanceret anden generation af deres smarte briller. De har fået bedre skærme og smarte hjælpefunktioner til møder, men prisen er høj.",
+      "brief": "Teknologivirksomheden Halliday er klar med anden udgave af deres smarte briller, som denne gang er blevet markant forbedret efter massiv kritik af den første model. Dengang var skærmen svær at se, og brillen gav brugerne hovedpine, men nu har producenten skiftet taktik og skabt et langt mere behageligt produkt. Den nye model er designet specielt til arbejdspladsen og dropper kameraet helt for at beskytte privatlivet og spare på strømmen.<br><br>Brillerne er spækket med software, som skal hjælpe med at holde styr på lange samtaler på jobbet. Ved hjælp af indbygget AI kan enhederne vise noter, oversætte samtaler og opsummere beslutninger, der bliver truffet undervejs. Det betyder, at man kan droppe computeren og bevare øjenkontakten med kollegerne, mens brillen diskret holder styr på dagsordenen og opgaverne.",
+      "detaljer": [
+        "Brillerne koster 599 dollar, og forudbestillingen er netop gået i gang.",
+        "De første eksemplarer forventes at blive sendt af sted til september.",
+        "Skærmene viser et grønt, klart billede med op til 1.600 nits lysstyrke.",
+        "Batteriet kan holde til omkring 12 timers almindeligt brug.",
+        "Fire indbyggede mikrofoner opfanger stemmekommandoer selv i støjende omgivelser.",
+        "Brillerne kan oversætte mellem mere end 45 forskellige sprog i realtid."
+      ],
+      "betydning": "For almindelige lønmodtagere viser disse briller, hvordan teknologi rykker tættere på kroppen i arbejdslivet. Selvom prisen på knap 600 dollar er ret høj, peger udviklingen mod en fremtid, hvor vi slipper for at glo ned i skærme under møder. Hvis teknologien rent faktisk holder, hvad den lover, kan det ændre måden, vi samarbejder på, men det kræver dog, at prisen falder, før det bliver allemandseje.",
       "pointer": [
-        "Anden udgave af Halliday-brillerne har fået langt bedre skærme",
-        "Kameraet er fjernet for at skåne batteriet og beskytte privatlivet",
-        "Indbygget AI skal hjælpe med at opsummere møder og beslutninger",
-        "Prisen er høj, og de koster omkring 4.000 kroner"
+        "Ny udgave af Halliday-brillerne dropper kameraet.",
+        "Skærmene er blevet meget nemmere at se.",
+        "AI hjælper med at opsummere møder og beslutninger.",
+        "Prisen lander på 599 dollar uden ekstra glas."
       ],
       "billede": "data/img/11ac057f121bc82e.jpg",
       "kat_ai": true,
@@ -829,8 +843,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny metode gør det lettere at rydde op i AI",
       "resume_da": "Forskere har udviklet en ny metode til at sortere og fjerne overflødig information i AI-systemer, så de tænker skarpere.",
-      "kat_ai": true,
-      "prio": 3,
       "brief": "Moderne sprogmodeller og AI-systemer sluger enorme datamængder, hver gang de skal løse en opgave. Ofte modtager de alt for mange informationer, hvoraf en del er ligegyldige eller endda forvirrende. Det gør systemerne langsommere og koster unødvendig regnekraft.\n\nNu har en gruppe forskere kigget på problemstillingen med helt nye briller og skabt en smart teknik, der minder om et regnearkspil for hold. Metoden vurderer præcist, hvilke brudstykker af information der rent faktisk hjælper AI'en med at svare bedst muligt, og sorterer resten fra.\n\nVed at rydde ud i støjen kan computeren fokusere på det vigtigste. Det betyder, at fremtidens digitale assistenter kan levere mere præcise svar uden at bruge unødvendig tid og energi på at pløje igennem uinteressant fyldstof.",
       "detaljer": [
         "Forskere har skabt en ny teknik kaldet Shapley Context Pruning.",
@@ -843,7 +855,9 @@
         "Ny metode rydder op i AI'ens informationer",
         "Spilteori hjælper med at finde de vigtigste data",
         "Teknologien gør fremtidens systemer hurtigere og skarpere"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 3
     },
     {
       "titel": "A Survey on the Verification of Reinforcement Learning Policies",
@@ -854,8 +868,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny stor undersøgelse sætter fokus på tænkende computere",
       "resume_da": "Forskere har kigget nærmere på, hvordan vi kan tjekke og kontrollere avanceret computerteknologi, før vi overlader vigtige opgaver til den.",
-      "kat_ai": true,
-      "prio": 2,
       "brief": "Når computere skal lære af deres egne fejl og finde ud af tingene selv, opstår der ofte et stort problem: Hvordan kan vi være sikre på, at maskinen ikke gør noget uventet eller farligt? Forskere har nu samlet alt det vigtigste viden om, hvordan man bedst tjekker disse selvlærende systemer. Det handler i bund og grund om at finde en måde at dobbelttjekke, at den digitale hjerne opfører sig ordentligt, inden den slippes løs i virkeligheden.\n\nDet kan virke som nørdet teori, men det er faktisk helt afgørende for vores tryghed. Når maskiner skal styre alt fra trafiklys til medicinske indgreb, dur det ikke, at de pludselig fejlberegner. Derfor forsøger eksperterne at lave faste spilleregler, som kan gennemskue maskinernes beslutninger på forhånd, så vi undgår ubehagelige overraskelser.",
       "detaljer": [
         "Forskere har offentliggjort en stor oversigt om kontrol af selvlærende systemer.",
@@ -869,7 +881,9 @@
         "Forskere vil have bedre kontrol med selvlærende computere",
         "Nye metoder skal afsløre farlige fejl på forhånd",
         "Sikkerhed er afgørende for fremtidens teknologi"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 2
     },
     {
       "titel": "Accurate and Efficient Long-Term Memory for LLM Agents",
@@ -880,8 +894,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny opdagelse giver AI langt bedre hukommelse",
       "resume_da": "Forskere har knækket koden til at give AI en superhukommelse. Det gør fremtidens digitale hjælpere langt smartere.",
-      "kat_ai": true,
-      "prio": 3,
       "brief": "Teknologien bag AI har længe lidt af et klassisk problem: Den glemmer hurtigt, hvad I talte om for lidt siden, hvis samtalen bliver for lang. Det er som at tale med en person, der har en korttidshukommelse som en guldfisk. Men nu har en gruppe eksperter fundet en smart måde at løse dette problem på, så systemerne kan huske vigtige ting over lange perioder uden at gå ned på tempo.\n\nMed den nye metode kan fremtidens digitale assistenter holde styr på store mængder information på en langt mere effektiv måde. Det betyder, at du fremover kan have lange, komplekse samtaler eller bede om hjælp til store projekter, uden at den kloge computer taber tråden undervejs.",
       "detaljer": [
         "En gruppe forskere står bag opdagelsen af den nye langtidshukommelse til AI.",
@@ -896,7 +908,9 @@
         "Ny metode giver systemerne en langt bedre hukommelse.",
         "Fremtidens digitale hjælpere taber sjældnere tråden i samtaler.",
         "Teknologien gør det muligt at løse større opgaver."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 3
     },
     {
       "titel": "Symbolic Augmentation Closes a Canonical-Equivalence Blind Spot in Neural Fact-Checkers",
@@ -907,8 +921,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny metode gør AI-tjek mere troværdig",
       "resume_da": "Forskere har fundet en måde at styrke systemers evne til at gennemskue sandheden, så de ikke længere overser vigtige sammenhænge.",
-      "kat_ai": true,
-      "prio": 2,
       "brief": "Mange moderne computerprogrammer har hidtil haft svært ved at gennemskue, når præcis den samme information blev udtrykt på to forskellige måder. Det har skabt blinde vinkler, hvor systemerne fejlagtigt har godkendt forkerte påstande eller afvist sandheder, blot fordi ordlyden var ændret en smule.\n\nEn ny forskningsevne viser nu, at man kan kombinere den almindelige computerhjerne med faste, logiske regler. Det lukker det store hul i sikkerheden og gør det langt sværere for smarte sprogmodeller at blive snydt af sproglige finurligheder.\n\nMetoden sikrer, at systemerne fremover tænker mere som en logisk detektiv, der tager højde for sagens kerne frem for blot at hænge sig fast i de præcise ord, der bliver brugt.",
       "detaljer": [
         "Forskere har fundet en svaghed i den måde, AI normalt tjekker sandheder på.",
@@ -923,7 +935,9 @@
         "Forskere har fundet en smart løsning på problemet.",
         "Kombinationen af logik og AI skaber bedre resultater.",
         "Fremtidens sandhedstjek bliver langt mere pålidelige."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 2
     },
     {
       "titel": "SelKV: Selective KV Cache Merging with Per-Token Merge-or-Drop and Attention Compensation",
@@ -934,8 +948,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny metode gør det lettere for AI at huske",
       "resume_da": "Forskere har udviklet en snedig løsning, der hjælper AI-systemer med at køre hurtigere og bruge mindre computerkraft, når de behandler store mængder information.",
-      "kat_ai": true,
-      "prio": 3,
       "brief": "Når avancerede computersystemer skal tale med mennesker eller læse lange tekster, kræver det enorme mængder hukommelse. Det gør ofte teknologien både langsom og dyr i drift, fordi computerne skal holde styr på alt, hvad der er blevet sagt eller skrevet i samtalen.\n\nNu har en gruppe forskere imidlertid fundet en smart genvej. De har skabt en ny metode, der gør det muligt for AI at sortere i sin hukommelse og kun gemme det vigtigste. Systemet kan vurdere, hvilke informationer der er værd at fastholde, og hvad der roligt kan glemmes, uden at kvaliteten af svarene forringes.\n\nDet betyder, at fremtidens digitale assistenter kan blive væsentligt kvikkere, når de skal bladre igennem tunge dokumenter eller svare på komplekse spørgsmål. Teknologien baner vejen for en mere effektiv udnyttelse af de computere, der driver de populære sprogmodeller til daglig.",
       "detaljer": [
         "Metoden hedder SelKV og fokuserer på at rydde op i AI'ens hukommelse.",
@@ -949,7 +961,9 @@
         "AI kæmper ofte med at huske effektivt",
         "Ny metode sorterer automatisk i data",
         "Det giver hurtigere og billigere systemer"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 3
     },
     {
       "titel": "RAIL Guard: Closing the Evaluation-to-Remediation Gap in Responsible AI for LLM Agents",
@@ -958,10 +972,24 @@
       "dato": "2026-07-21T00:00:00-04:00",
       "kilde": "arXiv cs.AI",
       "kategori": "Forskning",
-      "rubrik": "Sikkerhedsvagt retter AI-svar frem for blokering",
-      "resume_da": "I dag afviser sikkerhedsfiltre bare dårlige AI-svar. Nyt system reparerer dem i stedet, så arbejdet ikke skal starte forfra.",
+      "rubrik": "Nyt forsvar skal gøre tænkende computere mere sikre",
+      "resume_da": "Forskere har udviklet en ny metode til at fange og rette fejl i avancerede computersystemer, før de går galt.",
       "kat_ai": true,
-      "prio": 3
+      "prio": 3,
+      "brief": "Moderne digitale systemer bliver bedre og bedre til at udføre komplekse opgaver helt på egen hånd, men de begår stadig fejl. Desværre opdager man ofte først problemerne, når skaden allerede er ske, fordi det har manglet gode redskaber til at gribe ind i tide. Forskere har nu præsenteret en løsning, der bygger bro mellem at opdage fejlene og rent faktisk at få dem rettet med det samme.\n\nSystemet har fået navnet RAIL Guard og fungerer som en form for digital vagthund for tænkende computerprogrammer. Metoden holder konstant øje med, hvordan teknologien arbejder, og træder i karakter, så snart der opstår uheldig adfærd. Det gør det muligt automatisk at tilrette koden og sikre, at programmerne opfører sig etisk og forsvarligt.\n\nBag opdagelsen står en gruppe forskere, som har offentliggjort deres metoder for at hjælpe andre med at skabe sikrere teknologi. Det kan bane vejen for, at vi i fremtiden kan stole mere på de digitale hjælpere, vi omgiver os med i hverdagen.",
+      "detaljer": [
+        "Teknologien hedder RAIL Guard og er udviklet af forskeren Sumit Verma med kolleger.",
+        "Systemet er designet til at håndtere avancerede sprogmodeller og digitale agenter.",
+        "Metoden lukker hullet mellem at finde fejl og rent faktisk at udbedre dem.",
+        "Forskningen blev offentliggjort den 28. maj 2026 i en videnskabelig database.",
+        "Målet er at skabe mere ansvarlig og sikker brug af moderne computerteknologi."
+      ],
+      "betydning": "For almindelige forbrugere betyder det her gennembrud, at vi i fremtiden kan møde mere pålidelige digitale tjenester. Når teknologien selv kan opdage og udbedre sine egne fejl hurtigere, mindskes risikoen for ubehagelige overraskelser, misforståelser eller brud på privatlivets fred. Det gør det tryggere at overlade praktiske opgaver til fremtidens kloge programmer.",
+      "pointer": [
+        "Ny metode skal sikre bedre kontrol med tænkende computerprogrammer.",
+        "Systemet opdager og retter fejl automatisk uden menneskelig indgriben.",
+        "Teknologien bag hedder RAIL Guard og er skabt af forskere."
+      ]
     },
     {
       "titel": "Generalist AI Control: Towards Multi-purpose Adaptive Algorithms",
@@ -972,8 +1000,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny teknologi skal styre fremtidens avancerede systemer",
       "resume_da": "Forskere har udviklet en ny metode til at styre AI, så den kan tilpasse sig mange forskellige opgaver på én gang.",
-      "kat_ai": true,
-      "prio": 2,
       "brief": "Teknologien udvikler sig i et hæsblæsende tempo, og det stiller helt nye krav til, hvordan vi holder styr på de intelligente systemer. Tidligere har programmer og algoritmer som regel været skræddersyet til én enkelt opgave ad gangen, hvilket har gjort dem ufleksible, når virkeligheden har ændret sig undervejs.\n\nNu peger nye forskningsresultater på en løsning, hvor systemerne bliver langt bedre til at omstille sig. Bag den nye forskning står forskerne Klinsmann Agyei og Pouria Sarhadi, som har kigget på, hvordan man skaber mere alsidige og tilpasningsdygtige algoritmer.\n\nMålet er at skabe en fælles ramme, hvor computerne selv kan regne ud, hvordan de skal gribe nye og uventede situationer an. Det kan gøre fremtidens digitale hjælpere og automatiserede systemer langt mere robuste i hverdagen.",
       "detaljer": [
         "Forskere har præsenteret metoder til at styre alsidig AI.",
@@ -987,7 +1013,9 @@
         "Ny forskning fokuserer på alsidig styring af AI.",
         "Algoritmerne skal kunne tilpasse sig skiftende opgaver.",
         "Teknologien gør fremtidens systemer mere fleksible."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 2
     },
     {
       "titel": "LaCache: Exact Caching and Precision-Adaptive Inference for Diffusion Large Language Models",
@@ -998,8 +1026,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny metode gør AI hurtigere og billigere",
       "resume_da": "Forskere har udviklet en ny teknik, der gør det markant hurtigere og mindre energikrævende at bruge avancerede sprogmodeller.",
-      "kat_ai": true,
-      "prio": 2,
       "brief": "Det kræver enorme mængder regnekraft og energi at få avancerede computerprogrammer til at svare på menneskelige spørgsmål. Ofte skal systemerne bruge tid på at genberegne ting, de allerede har regnet ud før. For at løse det problem har en gruppe forskere netop præsenteret en smart genvej.\n\nMetoden handler om at gemme tidligere beregninger og genbruge dem, når systemet møder lignende opgaver. Samtidig tilpasses præcisionen løbende, så computeren ikke bruger unødvendig energi på at regne ting alt for nøjagtigt, når det ikke er nødvendigt.\n\nDet betyder, at fremtidens digitale assistenter kan levere svar prompte, uden at det trækker voldsomt på strømmen eller kræver kæmpemæssige servere. Teknikken kan bane vej for, at langt flere kan få glæde af teknologien i hverdagen.",
       "detaljer": [
         "Teknikken hedder LaCache og er udviklet af en gruppe forskere.",
@@ -1014,7 +1040,9 @@
         "Systemet skruer ned for unødvendig regnekraft.",
         "Gør det muligt at opnå hurtigere svar.",
         "Reducerer det enorme energiforbrug i teknologien."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 2
     },
     {
       "titel": "Interactive Task Alignment as a POMDP",
@@ -1025,8 +1053,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny teknologi gør det lettere at samarbejde med AI",
       "resume_da": "Forskere har udviklet en ny metode, der gør AI bedre til at forstå og løse komplekse opgaver sammen med mennesker.",
-      "kat_ai": true,
-      "prio": 2,
       "brief": "Teknologien bag nutidens computerhjælpere tager nu et skridt videre. En ny forskningsartikel præsenterer en metode til at forbedre måden, hvorpå AI forstår menneskers hensigter, når der skal løses opgaver i fællesskab.\n\nOfte kan det være svært for digitale systemer at gennemskue præcist, hvad brugeren ønsker, især når opgaven ændrer sig undervejs. Forskerne bag det nye studie har fundet en måde at gribe dette an på, så computeren løbende kan tilpasse sig situationen. Det minder om den måde, to mennesker arbejder sammen på, hvor man hele tiden tjekker ind og retter kursen.\n\nSelvom der er tale om grundlæggende forskning, viser det, at udviklingen bevæger sig mod langt mere fleksible og smarte systemer. Målet er at skabe teknologier, der i højere grad forstår vores udtalte og udtalte behov i hverdagen.",
       "detaljer": [
         "En ny videnskabelig artikel med titlen \"Interactive Task Alignment as a POMDP\" er netop udgivet.",
@@ -1041,7 +1067,9 @@
         "Systemet kan løbende tilpasse sig, når opgaver ændrer sig.",
         "Forskningen hjælper med at mindske misforståelser mellem menneske og maskine.",
         "Teknologien peger frem mod mere menneskevenlige digitale assistenter."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 2
     },
     {
       "titel": "When to Plan: Learning to Select Between Reactive Control and Deliberative Planning",
@@ -1052,8 +1080,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny metode hjælper AI med at tænke sig om",
       "resume_da": "Forskere har udviklet en smart teknik, der lærer AI at vurdere, hvornår den skal handle hurtigt, og hvornår den skal tænke grundigt over tingene.",
-      "kat_ai": true,
-      "prio": 2,
       "brief": "Når man taler om teknologiske systemer og AI, er det en stor udfordring at finde den rette balance mellem lynhurtige reflekser og dybdegående planlægning. Ofte bruger systemerne for lang tid på simple opgaver eller handler for impulsivt, når der kræves omtanke.\n\nNu viser ny forskning imidlertid en vej frem. Ved at lære teknologien selv at vurdere situationens kompleksitet kan den skifte gear alt efter behovet. Det svarer lidt til forskellen mellem at dukke sig for en bold, der flyver mod hovedet, og at lægge en langsigtet opsparingsplan.\n\nBag opdagelsen står forskerne Adam Labiosa og Josiah P. Hanna, som har offentliggjort deres metoder. Målet er at gøre fremtidens digitale assistenter og maskiner langt mere effektive i deres daglige arbejde.",
       "detaljer": [
         "Forskningen fokuserer på at vælge mellem hurtig refleks og grundig planlægning.",
@@ -1067,7 +1093,9 @@
         "AI skal lære at vælge mellem hurtig handling og grundig planlægning.",
         "Ny metode lader systemet vurdere, hvornår der er brug for omtanke.",
         "Forskningen er udarbejdet af Adam Labiosa og Josiah P. Hanna."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 2
     },
     {
       "titel": "Berkeley and Heiserman as an Unexhausted Architecture for Embodied Machine Intelligence",
@@ -1078,8 +1106,6 @@
       "kategori": "Forskning",
       "rubrik": "Gamle idéer kan gøre fremtidens maskiner klogere",
       "resume_da": "Forskere graver i ældre tænke- og bygningsmåder for at give fremtidige maskiner bedre kropslig forståelse.",
-      "kat_ai": true,
-      "prio": 1,
       "brief": "Når vi taler om fremtidens teknologi, kigger vi ofte udelukkende på nyudviklet software og enorme mængder computerkraft. Men en ny akademisk afhandling peger på, at vi måske overser nogle geniale, ældre tankegange om, hvordan tænkning og fysiske handlinger hænger sammen. Ved at genbesøge klassiske arkitekturer for intelligens forsøger forskere at skabe en stærkere forbindelse mellem maskiners sind og deres fysiske kroppe.\n\nUndersøgelsen belyser, hvordan disse glemte systemer kan genoplives ved hjælp af moderne metoder. Målet er at bygge maskiner, der ikke bare regner på data, men som rent faktisk forstår at navigere i den fysiske verden på en mere naturlig og intelligent måde. Det handler om at lære af fortidens teorier for at løse nutidens begrænsninger inden for avanceret teknologi.\n\nForskningen befinder sig på et tidligt stadie, men den åbner op for nye måder at gribe udviklingen af tænkende maskiner an på. I stedet for altid at opfinde den dybe tallerken forfra kan svaret altså ligge gemt i allerede eksisterende, men hidtil oversete, principper for kropslig intelligens.",
       "detaljer": [
         "En ny forskningsartikel ser på ældre arkitekturer for kropslig intelligens.",
@@ -1093,7 +1119,9 @@
         "Nye tanker bygger på ældre principper for maskiners intelligens.",
         "Forskning undersøger en bedre forbindelse mellem krop og computer.",
         "Studiet kan bane vejen for klogere og mere praktiske robotter."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 1
     },
     {
       "titel": "SEER: Supervised Learning to Control Energetic Reasoning",
@@ -1104,8 +1132,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny teknologi gør tænkende systemer mere effektive",
       "resume_da": "Forskere har udviklet en ny metode, der gør det muligt for AI at tænke mere energivenligt ved hjælp af smart overvågning.",
-      "kat_ai": true,
-      "prio": 2,
       "brief": "Teknologiverdenen leder konstant efter måder at gøre computeres tænkeproces grønnere og mindre strømkrævende på. Et hold forskere har netop præsenteret en frisk tilgang, som de kalder SEER, der kan hjælpe med at styre energiforbruget, når tænksomme systemer arbejder på højtryk.\n\nTraditionelt har disse komplexe systemer krævet enorme mængder strøm, fordi de regner på alle tænkelige løsninger. Den nye metode fungerer som en intelligent opsynsmand, der sørger for, at der kun bruges strøm på det, der rent faktisk er nødvendigt for at løse opgaven.\n\nBag opdagelsen står forskere, som har offentliggjort deres resultater i et nyt videnskabeligt papir. Metoden viser, at det er muligt at kombinere stor regnekraft med et langt lavere energiforbrug, hvilket er et vigtigt skridt mod en mere bæredygtig teknologisk fremtid.",
       "detaljer": [
         "Den nye metode hedder SEER og handler om at styre energiforbruget i avancerede systemer.",
@@ -1119,19 +1145,19 @@
         "Ny metode gør tænkende systemer mere energivenlige.",
         "Teknikken fungerer som en smart strømstyring for computeren.",
         "Forskningen er netop blevet offentliggjort i et videnskabeligt papir."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 2
     },
     {
       "titel": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
       "link": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 345 # Comments: 233",
+      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 347 # Comments: 235",
       "dato": "2026-07-21T03:56:03+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Penge & marked",
       "rubrik": "Amerikanske tech-giganter skjuler milliardgæld bag AI-forforbrug",
       "resume_da": "Fem store amerikanske teknologiselskaber har mangedoblet deres skjulte gæld på få år på grund af enorme investeringer i AI.",
-      "kat_ai": true,
-      "prio": 9,
       "brief": "Flere af verdens største teknologiselskaber i USA har opbygget en massiv mængde skjult gæld i forbindelse med det voldsomme kapløb om at udbygge AI. En ny undersøgelse viser, at denne skjulte gæld er eksploderet og nu løber op i astronomiske beløb. Det drejer sig om forpligtelser, som ikke umiddelbart fremgår af de almindelige regnskaber, hvilket gør det svært for udefrakommende at vurdere den virkelige økonomiske risiko.\n\nÅrsagen skal findes i de enorme summer, der bruges på at opføre gigantiske datacentre samt indkøbe dyrt specialudstyr og avancerede mikrochips. Selskaberne binder sig til langsommelige og dyre lejeaftaler og leverancer for at følge med den teknologiske udvikling. Når disse milliardforpligtelser holdes uden for de officielle gældstal, tegner der sig et mere rosenrødt billede af virksomhedernes økonomi, end virkeligheden berettiger til.\n\nEksperter og investorer udtrykker bekymring over manglen på gennemsigtighed i tech-branchen. Hvis markedet for AI ikke lever op til de tårnhøje forventninger, kan de skjulte regninger hurtigt forvandle sig til et alvorligt problem. Det kan i yderste konsekvens ryste hele aktiemarkedet og ramme almindelige investorer hårdt.",
       "detaljer": [
         "Fem amerikanske teknologiselskaber har samlet en skjult gæld på omkring 1,65 billioner dollar.",
@@ -1147,7 +1173,9 @@
         "Gælden er eksploderet på fire år på grund af AI.",
         "Manglende gennemsigtighed gør det svært at vurdere risikoen.",
         "Uoverskuelig gæld kan true den globale økonomiske stabilitet."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 9
     },
     {
       "titel": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
@@ -1168,10 +1196,25 @@
       "dato": "2026-07-20T23:06:09+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Samfund & etik",
-      "rubrik": "Vrede vælgere straffer politikere for at elske ny teknologi",
-      "resume_da": "Amerikanske vælgere er så trætte af den nye computerteknologi, at de stemmer politikerne ud af Folketinget.",
+      "rubrik": "Vrede vælgere straffer politikere for gigantiske it-centre",
+      "resume_da": "Modstanden mod store nye it-centre vokser i USA, hvor vrede vælgere nu afsætter politikere, der støtter de enorme byggerier.",
       "kat_ai": true,
-      "prio": 8
+      "prio": 8,
+      "brief": "Teknologigiganter har en enorm appetit på at opføre kæmpestore centre, der kan håndtere de voldsomme mængder information, som dagens digitale løsninger og AI kræver. Mange steder i USA kæmper lokalområder for at tiltrække disse projekter i håb om øgede skatteindtægter, mens energiselskaber ser en gylden mulighed for at udvide deres forretning og sende regningen videre.\n\nMen modvinden er massiv blandt helt almindelige borgere. Centrene sluger enorme mængder vand til køling og kræver så meget strøm, at det kan sammenlignes med millioner af almindelige husstande. Det skaber stor uro om forsyningssikkerhed, miljøpåvirkning og larm, hvilket har sat det lokale demokrati under et voldsomt pres.\n\nKonflikten har for længst bevæget sig fra mødelokalerne og ud i valgurnerne. Vrede vælgere er begyndt at give politikere det rødeste kort, hvis de har lag计 øre til de upopulære byggerier uden hensyntagen til lokalsamfundet.",
+      "detaljer": [
+        "Teknologigiganter bygger massive centre for at håndtere den enorme vækst i AI og datatrafik.",
+        "Alene i delstaten Michigan er der blevet foreslået over 30 store og små centre på to år.",
+        "Et enkelt planlagt center i Michigan kræver lige så meget strøm som to millioner boliger.",
+        "Lokale vandselskaber har måttet afvise at levere store mængder vand til nødvendig nedkøling.",
+        "Vrede vælgere har i Utah allerede væltet en mangeårig toppolitiker på grund af hans støtte til et gigantcenter."
+      ],
+      "betydning": "Udviklingen viser, at borgerne i stigende grad kræver medbestemmelse, når den digitale udvikling banker på døren i nærområdet. Forbrugere kan risikere at mærke konsekvenserne i form af højere elregninger og pres på det lokale vandforbrug, hvis ikke udbygningen bliver reguleret ordentligt. Samtidig sender det et klart signal til politikere om, at vælgerne tager miljø og ressourcer alvorligt.",
+      "pointer": [
+        "AI-centre sluger enorme mængder strøm og vand.",
+        "Lokalsamfund frygter for miljø og højere regninger.",
+        "Vrede vælgere straffer politikere ved valgurnerne.",
+        "Modstanden vokser markant på tværs af USA."
+      ]
     },
     {
       "titel": "Trump’s latest AI czar has already resigned",
@@ -1182,8 +1225,6 @@
       "kategori": "Politik & jura",
       "rubrik": "Amerikansk topchef for digital teknologi forlader posten",
       "resume_da": "Endnu en ledende person i det amerikanske regeringskontor for digital teknologi har sagt op efter kort tid på posten.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Det amerikanske system har endnu en gang mistet en nøgleperson, der skulle styre udviklingen af moderne computersystemer og AI. Chefen for det særlige organ, der sætter standarder og tjekker sikkerheden ved AI, har valgt at trække sig tilbage efter blot tre måneder på jobbet.\n\nDette stopper ikke rækken af udskiftninger, da den tidligere leder kun holdt i få dage, før han røg ud. Der er ikke sat ord på, hvorfor den nuværende leder forlader posten, men det sker i en periode med voldsom uro omkring amerikanske og udenlandske teknologiselskaber, nye eksportregler og politisk tovtrækkeri.\n\nHele situationen viser, at det er en yderst vanskelig opgave at finde faste rammer for den rivende teknologiske udvikling i USA, hvor magtfulde embedsmænd og tech-giganter konstant støder sammen om spillereglerne for fremtidens digitale systemer.",
       "detaljer": [
         "Chris Fall har sagt op som leder af det amerikanske organ for AI-standarder.",
@@ -1197,7 +1238,9 @@
         "Amerikansk AI-chef har sagt op efter tre måneder.",
         "Uroen i systemet skaber tvivl om den fremtidige kurs.",
         "Tech-branchen oplever store politiske og personlige uenigheder."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
@@ -1208,8 +1251,6 @@
       "kategori": "Politik & jura",
       "rubrik": "Pladeselskab sagsøger musiktjeneste for 30.000 sange",
       "resume_da": "Sony stifter et nyt massesøgsmål mod en musiktjeneste, der bruger AI. Selskabet hævder, at tusindvis af kendte numre er kopieret ulovligt.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Det store pladeselskab Sony har indledt et omfattende juridisk opgør mod virksomheden bag musiktjenesten Udio, som lader folk skabe melodier ved hjælp af AI. Ifølge pladeselskabet har tjenesten uden tilladelse slugt en enorm mængde kendte optagelser for at lære sine systemer op. Søgsmålet omfatter nu over 30.000 numre, herunder store hits fra verdensstjerner som Beyoncé, Elvis Presley og Harry Styles.\n\nSagen trækker tråde tilbage til et tidligere massesøgsmål, hvor flere store pladeselskaber gik sammen mod de populære musiktjenester. Da Sony fik indblik i modpartens maskinrum, brugte de særlige tekniske metoder til at afdække det massive omfang af kopiering. Selvom en dommer afviste at udvide den oprindelige sag med de mange numre, har det banet vejen for dette helt nye og selvstændige sagsanlæg ved en domstol i New York.\n\nSituationen i musikbranchen er dog splittet, da andre store selskaber har valgt at begrave stridsøkserne og indgå et samarbejde med den omdiskuterede musiktjeneste i stedet. Sony går dog en hård vej og kræver enorme erstatninger for hvert enkelt nummer, der angiveligt er blevet misbruget, samtidig med at de forsøger at få en stopper for brugen af deres musik.",
       "detaljer": [
         "Sony har anlagt et nyt og større sagsanlæg ved en domstol i New York.",
@@ -1225,7 +1266,9 @@
         "Hits fra stjerner som Beyoncé er involveret.",
         "Pladeselskabet kræver gigantiske millionerstatninger.",
         "Andre selskaber har valgt at indgå forlig."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "Firefighting drones in the works as wildfires plague US nearly year-round",
@@ -1236,8 +1279,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Smarte droner skal stoppe skovbrande i opløbet",
       "resume_da": "Nye flyvende droner testes i USA for at slukke mindre brande, før de udvikler sig til ukontrollerbare katastrofer.",
-      "kat_ai": true,
-      "prio": 5,
       "brief": "Klimaforandringerne har gjort det amerikanske brandvæsen til en helårsbeskæftigelse, og derfor prøves nye teknologier af. I både Californien og Alaska eksperimenterer man nu med flyvende enheder, der kan rykke ud med vand og slukningsmiddel langt hurtigere end traditionelle fly.\n\nMålet er at sætte ind over for flammerne, mens de stadig er små og til at styre. Specialiserede droner kan flyve i flokke og ramme brande præcist ved hjælp af indbyggede sensorer. De kan let transporteres på ladet af en almindelig bil og gøres klar til en ny flyvetur på få minutter.\n\nFlere steder er man så småt begyndt at tage teknologien i brug. Enkelte lokale brandvæsener har allerede indgået aftaler om at købe de flyvende slukningsredskaber, og store millionkonkurrencer er med til at skubbe på udviklingen af endnu bedre systemer.",
       "detaljer": [
         "Selskabet Seneca lancerer sine Argo-1 droner på markedet i 2026.",
@@ -1254,7 +1295,9 @@
         "De flyver i flokke og doserer præcist.",
         "Systemerne testes i USA lige nu.",
         "De første brandvæsener har købt dem."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 5
     },
     {
       "titel": "Google is working on a new AI chip designed to make Gemini more efficient",
@@ -1265,8 +1308,6 @@
       "kategori": "Lanceringer",
       "rubrik": "Google udvikler super-effektiv chip til sine programmer",
       "resume_da": "Google er i gang med at udvikle en ny chip, der skal gøre deres AI-systemer langt hurtigere og mere strømbesparende i fremtiden.",
-      "kat_ai": true,
-      "prio": 7,
       "brief": "Tech-giganten Google har sat gang i arbejdet med en helt ny type computerchip, som skal bære fremtidens avancerede AI-teknologi. Den nye processor har fået kodenavnet \"Frozen v2\" og ventes at ramme markedet i løbet af 2028.\n\nMålet med projektet er at skabe en enhed, der kan levere et markant løft i effektiviteten, så programmerne kan køre på langt mindre strøm end i dag. Det kan potentielt gøre Google langt mindre afhængige af de eksterne producenter, som ellers sidder tungt på markedet for denne type specialhardware i øjeblikket.\n\nFlere store tech-virksomheder forsøger i disse år at udvikle deres egne skræddersyede komponenter for at holde omkostningerne nede og sikre tilstrækkelig regnekraft. Nyheden om Googles kommende chip er da også blevet modtaget positivt af investorerne, der håber på bedre indtjening og lavere udgifter på sigt.",
       "detaljer": [
         "Google udvikler en ny serverchip med det interne kodenavn \"Frozen v2\".",
@@ -1282,7 +1323,9 @@
         "Udgivelsen forventes at finde sted i 2028.",
         "Chippen skal levere mærkbart højere energieffektivitet.",
         "Investorerne sendte aktien op efter nyheden."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 7
     },
     {
       "titel": "SpaceX in your index fund, explained",
@@ -1293,8 +1336,6 @@
       "kategori": "Penge & marked",
       "rubrik": "Kan vilde gigant-aktier vælte dine sikre opsparinger?",
       "resume_da": "Nye regler gør det muligt at snige gigantiske og svingende nye selskaber direkte ind i ellers sikre indeksfonde.",
-      "kat_ai": true,
-      "prio": 4,
       "brief": "Mange danskere og investorer verden over stoler på indeksfonde, fordi de spreder risikoen ud over hele markedet og traditionelt har været set som den sikreste vej til at opbygge en opsparing. Men nu sår nye tendenser tvivl om denne tryghed, efter at reglerne er blevet ændret, så kæmpestore nynoterede selskaber kan komme med i det fine selskab på få dage.\n\nNår en gigantisk og omtalt virksomhed som SpaceX bliver fløjet direkte ind i det kendte Nasdaq-100-indeks, er fonde tvunget til at købe med det samme. Det betyder, at almindelige menneskers pensionsopparinger pludselig får en del af kagen i selskaber, der ledes egenrådigt og kan svinge vildt i værdi. Eksperter peger dog på, at grundtanken bag de brede fonde stadig holder, selvom disse nye markedsrutiner giver anledning til panderynker blandt kritikere.",
       "detaljer": [
         "Nasdaq ændrede reglerne, så nye gigantselskaber kan komme med i indekset på blot 15 dage.",
@@ -1310,7 +1351,9 @@
         "Automatiske opkøb tvinger pensionsopparinger til at investere i risikabelt nybyggeri.",
         "Elon Musks enehersker-stil skaber bekymring blandt professionelle storinvestorer.",
         "Indeksfonde spreder risikoen, men beskytter ikke længere mod alle markedsbobler."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 4
     },
     {
       "titel": "AI’s most important protocol is getting a little bit easier to use",
@@ -1321,8 +1364,6 @@
       "kategori": "Lanceringer",
       "rubrik": "Usynlig opdatering gør AI meget nemmere at bruge",
       "resume_da": "En vigtig opdatering af grundlæggende AI-teknologi fjerner store tekniske forhindringer, så systemerne kan arbejde langt mere stabilt i fremtiden.",
-      "kat_ai": true,
-      "prio": 4,
       "brief": "Bag kulisserne arbejder tech-branchen på at gøre det langt enklere at koble AI-programmer sammen med almindelige arbejdsredskaber som kalendere og mailbokse. Hidtil har det krævet besværlige særtekater og specialbyggede forbindelser for at få de digitale assistenter til at tale ordentligt med virksomheders interne systemer. En central del af teknikken, som styrer udvekslingen af data, har haft svært ved at håndtere mange brugere på en gang, fordi den konstant skulle huske specifikke samtale-koder på tværs af servere.<br><br>Nu bliver denne grundlæggende teknik ændret, så den fungerer på en mere fleksibel måde, der minder om almindelige nettsiders opbygning. Det betyder, at virksomheder slipper for at kæmpe med tunge tekniske løsninger, når de vil lade AI-agenter udføre praktiske opgaver. Selvom ændringen ikke er noget, man umiddelbart lægger mærke til som almindelig bruger, fjerner den en stor hovedpine for dem, der skal drive de store systemer i hverdagen.",
       "detaljer": [
         "En central standard for AI-kommunikation får en stor opdatering for at lette brugen.",
@@ -1338,7 +1379,9 @@
         "Kommunikationen mellem programmer gøres langt mere fleksibel.",
         "Virksomheder slipper for tunge og dyre tekniske opsætninger.",
         "Det baner vejen for mere pålidelige digitale assistenter i fremtiden."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 4
     },
     {
       "titel": "X relaunches a rebuilt Android app after year-long effort",
@@ -1349,8 +1392,6 @@
       "kategori": "Lanceringer",
       "rubrik": "X klar med helt ny og lynhurtig Android-app",
       "resume_da": "Efter et års intensivt udviklingsarbejde har det sociale medie X lanceret en fuldstændig genstartet Android-app, der skal give brugerne en langt bedre oplevelse.",
-      "kat_ai": true,
-      "prio": 3,
       "brief": "Det sociale medie X, der ejes af rigmanden Elon Musk, har netop sendt en helt nydesignet Android-app på gaden efter næsten et års arbejde. Den gamle udgave af appen har længe været kritiseret for at halte bagefter iPhone-versionen, og den har tilmed været plaget af tekniske problemer, hvor opslag nogle gange slet ikke kunne indlæses.\n\nFor at rette op på dette har en specialudvalgt gruppe af udviklere skrevet hele koden til appen helt fra bunden. Ifølge ledelsen bag mediet er der tale om et af de største tekniske projekter i selskabets historie, og den nye opbygning skal sikre, at alt fra menuer og beskeder til selve rulningen i feedet føles markant hurtigere og mere stabilt.\n\nSelvom den nye app er klar til download i Google Play-butikken, mangler der stadig enkelte ting. Udviklerne arbejder fortsat på at få de ældre telefoner til at køre optimalt samt på at tilføje live-lydfunktioner og nye videoredigeringsværktøjer i de kommende opdateringer.",
       "detaljer": [
         "X har brugagt næsten et år på at genopbygge Android-appen helt fra bunden.",
@@ -1366,7 +1407,9 @@
         "Koden er skrevet fra bunden for at give en hurtigere oplevelse.",
         "Appen kan hentes i Google Play-butikken allerede nu.",
         "Enkelte funktioner og ældre telefoner mangler stadig fuld opdatering."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 3
     },
     {
       "titel": "OpenAI is scared of open-weight models. Should the US be?",
@@ -1377,8 +1420,6 @@
       "kategori": "Politik & jura",
       "rubrik": "Kina udfordrer amerikanske giganter med gratis kildekoder",
       "resume_da": "Kinesiske systemer presser amerikanske AI-giganter på prisen, hvilket har sat gang i en heftig politisk debat om fremtidens teknologi.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Teknologiverdenen er havnet i et stort slagsmål, efter at stærke, frit tilgængelige AI-modeller fra Kina er begyndt at vinde frem. Store amerikanske udviklere er nervøse for konkurrencen, da de koster langt mindre at bruge end de dyre, lukkede systemer, der i dag dominerer markedet. Nogle profiler har endda foreslået at få politikerne til at skabe frygt omkring de udenlandske alternativer for at beskytte egne forretninger.\n\nDisse udmeldinger har vakt vrede i branchen, hvor mange mener, at åbenhed driver ægte innovation i stedet for at skade den. Samtidig overvejer det politiske system i USA at blokere for de kinesiske modeller af hensyn til den nationale sikkerhed, selvom mange virksomheder allerede benytter dem til at løse opgaver, som de amerikanske systemer afviser på grund af strenge interne spærringer.\n\nKritikere påpeger, at et forbud mere handler om at beskytte pengestærke selskaber mod fri konkurrence end om reelle sikkerhedsrisici. Hvis USA forsøger at bremse udviklingen ved at forbyde åbne systemer, risikerer landet i stedet at miste grebet om den globale forskning, hvor Kina allerede står meget stærkt.",
       "detaljer": [
         "Kinesiske Moonshot har skabt stor debat med lanceringen af deres omfattende åbne model ved navn K3.",
@@ -1395,7 +1436,9 @@
         "Amerikanske giganter forsøger at få politikerne til at bremse konkurrenterne.",
         "Åben kildekode kan flytte den globale forskning mod øst.",
         "Forbud mod teknologien risikerer at kvæle den frie konkurrence."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "China’s AI models have Trump’s AI world at war with itself",
@@ -1406,8 +1449,6 @@
       "kategori": "Politik & jura",
       "rubrik": "Kina spæner fra USA i ræs om ny teknologi",
       "resume_da": "Kinesiske AI-modeller presser det amerikanske marked og skaber åbenlyse uenigheder blandt præsidentens rådgivere.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Det amerikanske teknologimarked står i et regulært dilemma, efter at et kinesisk selskab har lanceret en avanceret og helt gratis AI-model. Den nye konkurrent kan præcis det samme som de dyre, amerikanske systemer fra virksomheder som OpenAI og Anthropic, hvilket ryster både investorer og beslutningstagere i Det Hvide Hus. Sagen har udløst voldsomme interne skænderier mellem tidligere og nuværende rådgivere for præsident Donald Trump. Nogle mener, at staten skal beskytte de amerikanske giganter og lægge bånd på den kinesiske konkurrence, mens andre advarer mod for meget statslig indblanding og kontrol.<br><br>Samtidig er eksperter dybt overraskede over, hvordan det er lykkedes kineserne at skabe så stærk teknologi på trods af strenge amerikanske eksportregler. Amerikanske toppselskaber beskylder kineserne for at stjæle viden og genbruge resultater fra USA, men politikerne kan ikke blive enige om den rette modmedicin. Hele situationen sætter den amerikanske økonomi under pres, fordi den høje vækst hidtil har været tæt knyttet til de store, kommercielle AI-investeringer.",
       "detaljer": [
         "Det kinesiske selskab Moonshot har lanceret en gratis AI-model ved navn Kimi.",
@@ -1421,7 +1462,9 @@
         "Gratis kinesisk AI skaber voldsom splittelse i Washington",
         "Amerikanske tech-giganter er under pres fra billige konkurrenter",
         "Politikere strides om statslig kontrol med ny teknologi"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "How we measured AI writing across arXiv, and where the measurement breaks",
@@ -1432,8 +1475,6 @@
       "kategori": "Forskning",
       "rubrik": "Tredjedel af nye forskningsartikler er præget af maskiner",
       "resume_da": "En ny stor undersøgelse viser, at cirka hver tredje nyere videnskabelige artikel bærer stærkt præg af at være skrevet med hjælp fra teknologi.",
-      "kat_ai": true,
-      "prio": 3,
       "brief": "Forskere har analyseret næsten 13.000 videnskabelige tekster for at undersøge, hvor udbredt brugen af tekstgeneratorer er blevet i forskningsverdenen. Ved at sammenligne nyere materialer med ældre dokumenter fra før den store teknologiske udrulning, kunne holdet bag opbygge en målemetode med meget lav risiko for falske alarmer.\n\nResultaterne viser en markant stigning, der tog fart umiddelbart efter lanceringen af de populære sprogmodeller. Hvor målingerne lå helt stabilt på under et enkelt procent på de ældre tekster, er andelen af maskinprægede tekster steget støt over de seneste år. I dag fremstår omkring en tredjedel af de nyeste indsendte artikler således, at detektoren vurderer dem som maskinskrevne.\n\nDer er dog store forskelle på tværs af fagområderne. Inden for datalogi er andelen af tekster med tekniske fingeraftryk oppe på omkring 65 procent, mens felter som matematik ligger meget lavt. Forskerne understreger, at tallene viser tendensen for selve sprogbruget, og at det kan dække over alt fra små sproglige tilretninger til fuldstændig automatiserede tekster.",
       "detaljer": [
         "Undersøgelsen omfattede i alt 12.750 videnskabelige artikler fra forskellige perioder.",
@@ -1450,7 +1491,9 @@
         "Datalogi topper listen med over 60 procent.",
         "Teknologien kan ikke kende forskel på hjælp og fusk.",
         "Udviklingen er eksploderet siden lanceringen af sprogmodeller."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 3
     },
     {
       "titel": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
@@ -1473,8 +1516,6 @@
       "kategori": "Lanceringer",
       "rubrik": "Adobe forvandler sit kamera-app til digitalt trylleri",
       "resume_da": "Den populære foto-app Project Indigo introducerer nu en række smarte funktioner drevet af AI, der gør det muligt at ændre billeder fuldstændigt.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Bag den populære app Project Indigo står et hold af foto-entusiaster, der oprindeligt skabte værktøjet til at tage billeder med et mere klassisk og naturligt udtryk på mobilen. Nu tager appen dog et markant skridt ind i fremtiden ved at tilføje en lang række avancerede funktioner baseret på AI. Med den nye opdatering kan brugerne pludselig lege med filtre, der får billeder til at ligne malerier, fjerne uønskede ting i baggrunden eller få gode råd direkte fra en digital rådgiver om, hvordan billedet kan tages om eller forbedres.\n\nUdviklerne bag kalder opdateringen for et eksperiment, hvor de vil undersøge, hvordan folk egentlig bruger de nye muligheder for at ændre deres billeder. I denne indledende fase er det helt gratis for en mindre gruppe brugere at prøve kræfter med teknologien uden at logge ind. Hvis modtagelsen er god, overvejer holdet at udvide projektet og på sigt gøre det til en betalingstjeneste for alle interesserede.",
       "detaljer": [
         "Den eksperimenterende app hedder Project Indigo og blev oprindeligt skabt til iPhone-fotografering.",
@@ -1490,7 +1531,9 @@
         "Muligt at fjerne uønskede ting fra billeder",
         "Eksperimentet er gratis for udvalgte brugere",
         "Teknologien kan blive betalt i fremtiden"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Adobe camera app’s new feature will critique your photos using AI",
@@ -1501,8 +1544,6 @@
       "kategori": "Hverdags-AI",
       "rubrik": "Ny app giver dig en personlig fotograf i lommen",
       "resume_da": "Adobe tester en ny foto-app, der bruger AI til at vurdere dine billeder og give konkrete råd til at forbedre dem.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Teknologigiganten Adobe er klar med en række spændende nyheder til deres forsøgs-app til iPhone, der bærer navnet Project Indigo. Appen er skabt af holdet bag de populære kamerafunktioner i Google Pixel-telefoner, og målet er at gøre det lettere for helt almindelige mennesker at tage bedre billeder uden at skulle kæmpe med indviklede indstillinger. \n\nI stedet for at man selv skal skrive lange forklaringer til computeren, har appen fået indbygget en række smarte knapper. De kan blandt andet analysere lys, farver og opsætning i det øjeblik, du tager billedet, hvorefter du får feedback på skærmen. Samtidig bliver det langt nemmere at rydde op i baggrunden på dine motiver, fjerne forstyrrende elementer eller sløre baggrunden, så motivet træder tydeligere frem.\n\nProjektet er stadig på et tidligt teststadie, og det er langt fra sikkert, at alle funktioner ender med at blive udgivet til den brede offentlighed. Bag teknologien står blandt andet avanceret sprogteknologi, der hjælper appen med at forstå motivet og give konstruktiv kritik af dine evner bag kameraet.",
       "detaljer": [
         "Adobe opdaterer deres eksperimentelle iPhone-kamera-app kaldet Project Indigo.",
@@ -1519,7 +1560,9 @@
         "Appen kritiserer din opsætning og giver tips",
         "Fjern nemt uønskede ting fra dine billeder",
         "Stadig på forsøgsstadiet for udvalgte brugere"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Mythologizing AI makes it more likely that we’ll fail to operate it well (2023)",
@@ -1530,8 +1573,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Stop med at behandle AI som en levende tænker",
       "resume_da": "En it-ekspert advarer mod at tillægge AI menneskelige egenskaber. Vi bør i stedet betragte teknologien som et avanceret værktøj til samarbejde mellem mennesker.",
-      "kat_ai": true,
-      "prio": 4,
       "brief": "Mange eksperter og udviklere taler om AI, som om vi har skabt en tænkende væsen, der enten vil redde verden eller udslette os alle. Denne næsten religiøse fascination bunder i science fiction-filmenes univers, men den spænder ben for en sund fornuft. Ifølge en computerforsker er det en stor fejl at tro, at programmerne har deres egen bevidsthed. I virkeligheden er der tale om gigantiske samlinger af menneskers egne tekster og billeder, der bliver sat sammen på nye måder ved hjælp af avanceret matematik.\n\nNår maskinerne virker uforudsigelige og kreative, skyldes det udelukkende komplekse beregninger af ord og mønstre. Ved at droppe myterne om AI kan vi bedre styre udviklingen i en sikker retning. Teknologien skal ses som en ny form for digitalt samarbejde, hvor computere blot gør det lettere for os at udnytte den viden, vi allerede har skabt i fællesskab.\n\nDen store fleksibilitet i programmerne kan faktisk frigøre os fra gamle og ufleksible edb-systemer. I stedet for at frygte en mystisk overmand bør vi fokusere på at bruge de nye programmer som praktiske hjælpemidler, der sætter mennesket i centrum og giver os større kontrol over vores egne digitale liv.",
       "detaljer": [
         "Begrebet AI blev opfundet i 1950'erne i den tidlige computer-tidsalder.",
@@ -1548,7 +1589,9 @@
         "Teknologien er blot et gennemtænkt mix af menneskers eget arbejde.",
         "Mystificering af computerprogrammer gør dem sværere at styre korrekt.",
         "Fleksibiliteten kan give os mere magt over teknologien."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 4
     },
     {
       "titel": "YouTube clarifies policies around AI slop and upsetting videos",
@@ -1559,8 +1602,6 @@
       "kategori": "Penge & marked",
       "rubrik": "YouTube strammer grebet om billigt indhold lavet af AI",
       "resume_da": "Videogiganten YouTube har præciseret sine regler for at stoppe strømmen af ensformigt og ubehageligt indhold, hvor man ikke længere kan tjene penge.",
-      "kat_ai": true,
-      "prio": 7,
       "brief": "YouTube har taget et vigtigt skridt for at rydde op i den voksende mængde af ensformigt og ligegyldigt fyld, som i stigende grad produceres ved hjælp af AI. Virksomheden har præciseret, hvilke typer af videoer der udelukkes fra at generere annonceindtægter, fordi de skader oplevelsen for brugerne og dræner platformen for originalitet.\n\nRegelændringen rammer specifikt tre typer af videoer, som YouTube betegner som uægte. Det gælder masseproduceret og ensartet indhold, ubehagelige klip der forsøger at fremkalde stærke følelser, samt videoer hvor virtuelle computerfigurer udtaler sig om følsomme emner som økonomi og sundhed. Tiltaget skal beskytte platformens omdømme, da YouTube i dag konkurrerer direkte med store tv-stationer og streamingtjenester om danskernes opmærksomhed og annoncørernes penge.\n\nLedelsen understreger, at teknologi sagtens kan bruges til at skabe fantastisk og kreativt indhold. Problemet opstår, når værktøjerne udnyttes til at spytte tusindvis af næsten ens videoer ud, udelukkende med det formål at trække visninger og tjene hurtige penge uden at tilføre reel værdi.",
       "detaljer": [
         "YouTube har opdateret sine retningslinjer for at ramme masseproduceret og lavt kvalitetsskabende indhold.",
@@ -1576,7 +1617,9 @@
         "Tre nye kategorier rammes af skrappere krav.",
         "Virtuelle personer må ikke rådgive om penge.",
         "Målet er at stoppe hurtige pengemaskiner."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 7
     },
     {
       "titel": "China’s open-weights AI strategy is winning",
@@ -1587,8 +1630,6 @@
       "kategori": "Penge & marked",
       "rubrik": "Kina vinder kapløbet om fremtidens teknologi",
       "resume_da": "Kinesiske virksomheder overhaler USA ved at dele deres teknologiske koder frit med verden frem for at lukke dem inde.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Kampen om at levere den bedste digitale hjernekraft har taget en uventet drejning, hvor Kina lige nu trækker fra. Mange amerikanske giganter vælger at holde deres systemer strengt lukkede og kræver betaling for hver eneste lille tjeneste. Kinesiske selskaber gør det modsatte og deler deres grundlæggende koder åbent med alle, der vil bruge dem.\n\nFordi det er legende let for virksomheder og udviklere at skifte mellem forskellige systemer, virker den amerikanske model med store lukkede mure sårbar. Når Kina lægger teknologien frit frem, spreder den sig lynhurtigt til fabrikker, forskning og nystartede virksomheder over hele kloden. Det skaber et enormt fællesskab af brugere, der i fællesskab kan videreudvikle programmerne.\n\nAmerikanske politikere har forsøgt at bremse den udvikling ved at begrænse eksporten af vigtige computerdele, men det har blot tvunget Kina til at tænke i nye baner. Resultatet er en global bølge, hvor de åbne løsninger vinder frem, fordi de giver en langt større frihed til at eksperimentere.",
       "detaljer": [
         "Kinesiske virksomheder satser massivt på at dele deres AI-modeller helt åbent med omverdenen.",
@@ -1604,7 +1645,9 @@
         "Amerikanske selskaber holder for fast i lukkede systemer.",
         "Det er let at skifte mellem forskellige udbydere.",
         "Åbne løsninger skaber stærkere globale fællesskaber."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "Beyond grep: The case for a context-rich AI coding harness",
@@ -1615,8 +1658,6 @@
       "kategori": "Hverdags-AI",
       "rubrik": "Ny software gør AI bedre til at skrive koden",
       "resume_da": "Teknologien bag AI-værktøjer til programmering udvikler sig hastigt. Nye metoder til at fodre AI med de rette informationer viser markante forbedringer i effektivitet.",
-      "kat_ai": true,
-      "prio": 5,
       "brief": "Udviklingen inden for AI-programmering handler i dag ikke kun om selve de intelligente modeller, men i høj grad om det software, der omgiver dem. Dette kontrolsystem fungerer som et bindeled, der styrer, hvilke informationer AI'en har adgang til, og hvordan den arbejder med store mængder kode.\n\nDer findes forskellige filosofier for, hvordan dette system skal skrues sammen. Nogle udviklere foretrækker en helt simpel tilgang, hvor AI'en selv leder efter svar i koden undervejs. Andre virksomheder satser på avancerede systemer, der på forhånd kortlægger og analyserer hele systemets opbygning.\n\nUndersøgelser viser, at den avancerede tilgang især er en fordel i store, lukkede virksomhedssystemer, som AI'en ikke kender i forvejen. Her kan en dybdegående forberedelse spare værdifuld tid og ressourcer, fordi systemet lynhurtigt finder frem til præcis de dele af koden, der er relevante for opgaven.",
       "detaljer": [
         "Softwaren omkring AI'en bestemmer, hvilke oplysninger modellen kan se og bruge.",
@@ -1633,7 +1674,9 @@
         "To forskellige filosofier kæmper om den bedste tilgang",
         "Forhåndsorientering i koden sparer tid og ressourcer",
         "Store virksomheder drager størst nytte af avancerede systemer"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 5
     },
     {
       "titel": "China delivers a one-two punch to America’s AI dominance",
@@ -1644,8 +1687,6 @@
       "kategori": "Penge & marked",
       "rubrik": "Kinesiske giganter udfordrer USAs førerposition inden for AI",
       "resume_da": "Kina lægger massivt pres på amerikanske tech-giganter ved at lancere avancerede AI-modeller til en brøkdel af prisen.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Det globale kapløb om at udvikle den bedste teknologi har taget en uventet drejning, efter at to store kinesiske selskaber har præsenteret topmoderne systemer. Selskaberne Moonshot og Alibaba hævder, at deres nye AI-modeller kan måle sig med de førende amerikanske udbydere, men til en markant lavere pris og med langt færre ressourcer bag sig.\n\nEn af de mest bemærkelsesværdige forskelle er, at de kinesiske producenter vælger at lægge kildekoden frit frem, så alle kan downloade og videreudvikle teknologien. Det står i skarp kontrast til de amerikanske konkurrenter, som vogter nidkært over deres systemer. Udviklingen viser, at USAs hidtidige forspring på området er ved at smelte, selvom amerikanske politikere forsøger at bremse Kinas adgang til avanceret hardware med skrappe handelsregler.\n\nUafhængige eksperter mangler dog stadig at nærstudere og teste de nye systemer for at bekræfte de dristige påstande. Ikke desto mindre understreger de hurtige fremskridt, at den globale teknologikrig spidser til og vil få stor betydning for både økonomi og sikkerhedspolitik fremover.",
       "detaljer": [
         "Moonshot har præsenteret en ny model ved navn Kimi K3.",
@@ -1661,7 +1702,9 @@
         "De nye systemer gøres offentligt tilgængelige for alle udviklere.",
         "Amerikanske forsøg på at bremse Kina ser ud til at halte.",
         "Lavere udviklingsomkostninger truer USAs dyre monopol."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "Safety and alignment in an era of long-horizon models",
@@ -1682,10 +1725,26 @@
       "dato": "2026-07-20T08:39:01+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Samfund & etik",
-      "rubrik": "Computere er værre til at undgå fordomme end mennesker",
-      "resume_da": "Ny forskning viser, at systemer der udvælger jobansøgere, let kommer til at favorisere uretfærdigt og skabe egne fordomme.",
+      "rubrik": "Systemer med AI danner selv nye fordomme",
+      "resume_da": "Ny forskning viser, at tænkende systemer med AI er hurtigere til at skabe nye fordomme end mennesker, når de ansætter folk.",
       "kat_ai": true,
-      "prio": 8
+      "prio": 8,
+      "brief": "Flere og flere virksomheder overlader det til systemer med AI at kigge jobansøgninger igennem, før et menneske overhovedet ser dem. Men det kan være problematisk. Forskere fra eliteuniversiteter har testet kendte sprogmodeller i et simuleret ansætningsspil for at undersøge, hvordan de vurderer fiktive jobansøgere med forskellig baggrund.\n\nResultatet viser, at teknologien lynhurtigt opbygger skadelige generaliseringer baseret på ganske få fejltrin. Hvis systemet oplever, at en person fra en bestemt gruppe fejler i en bestemt rolle, fravælger den prompte hele gruppen fremover. Faktisk viser det sig, at AI er langt mere tilbøjelig til at opstille stereotyper end mennesker, fordi dens grundlæggende opbygning belønner hurtige konklusioner ud fra begrænset viden.\n\nEksperter peger på, at problemet forstærkes, når teknologien forsøger at lære af sine egne erfaringer og huske tidligere samtaler. Selv når forskerne udtrykkeligt bad systemerne om at være fair, hjalp det næsten ikke. Først da de blev lovet en bonus for at tænke bredt og modtage relevante personlige detaljer, faldt fordommene igen.",
+      "detaljer": [
+        "Forskere fra Princeton og Chicago testede sprogmodeller som ChatGPT, Claude og Gemini.",
+        "Testen foregik som et simuleret spil, hvor modellerne skulle besætte 20 forskellige jobtyper.",
+        "Ansøgerne kom fra fire fiktive etniske grupper, men havde præcis samme evner.",
+        "Modellerne skabte stærkere stereotyper end de menneskelige deltagere fra et tilsvarende studie.",
+        "Nyere og mere avancerede ræsonnerende modeller viste de stærkeste fordomme.",
+        "Bonusser for mangfoldighed fik modellerne til at opføre sig markant mindre fordomsfuldt."
+      ],
+      "betydning": "Når virksomheder overlader vigtige beslutninger om job, lån og bolig til teknologien, risikerer almindelige mennesker at blive ramt af usynlige og ubegrundede fordomme. Da systemerne selv kan opfinde nye stereotyper ud fra tilfældige historier, kan det blive sværere at sikre lige muligheder på arbejdsmarkedet. Det kræver, at virksomheder aktivt designer regler og mål, som tvinger teknologien til at tænke bredt og socialt ansvarligt.",
+      "pointer": [
+        "AI opfinder selv nye fordomme undervejs",
+        "Modellerne generaliserer meget hurtigere end mennesker",
+        "Avancerede systemer viser de største fordomme",
+        "Klare og mangfoldige mål kan mindske problemet"
+      ]
     },
     {
       "titel": "Ask HN: What are your favorite blogs not about AI?",
@@ -1702,14 +1761,12 @@
     {
       "titel": "AI advice made people less accurate but more confident – sudy",
       "link": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-      "resume": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 362 # Comments: 209",
+      "resume": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 363 # Comments: 209",
       "dato": "2026-07-19T21:18:10+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Samfund & etik",
       "rubrik": "Smarte maskiner gør os dummere og mere skråsikre",
       "resume_da": "Et nyt studie viser, at svar fra AI gør os blinde over for egne fejl. Vi tror på fejlagtige svar og glemmer at sige nej tak.",
-      "kat_ai": true,
-      "prio": 7,
       "brief": "Franske og italienske forskere har undersøgt, hvad der sker med vores hjerner, når vi modtager hjælp fra en digital tænker. I forsøget stillede forskerne spørgsmål, hvor systemet konsekvent tog fejl. Resultatet viser, at deltagerne blindt stolede på de forkerte svar i stedet for at stole på deres egen mavefornemmelse.\n\nFør brugen af AI turde næsten halvdelen af deltagerne ærligt indrømme, når de ikke kendte svaret. Men da den digitale rådgiver blev tilgængelig, faldt det tal drastisk, og folk svarede i stedet skråsikkert på alt. Samtidig Raslede den reelle svarprocent ned, selvom forsøgsdeltagerne følte sig langt mere sikre på deres forkerte svar end før.\n\nFænomenet viser, at vi mentalt overgiver os, så snart vi får præsenteret et hurtigt, digitalt svar. Eksperter advarer om, at det er særligt bekymrende for børn og unge, som vokser op med disse systemer, før de har nået at udvikle en sund og kritisk sans over for information.",
       "detaljer": [
         "Andelen der turde sige jeg ved det ikke faldt fra 44 til 3 procent.",
@@ -1725,7 +1782,9 @@
         "Vi bliver langt mere selvsikre, selvom vi tager fejl.",
         "Kritiske evner risikerer at forsvinne hos børn og unge.",
         "Hurtige svar slukker for den menneskelige dømmekraft."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 7
     },
     {
       "titel": "What to watch for after Jensen Huang’s Japan visit",
@@ -1736,8 +1795,6 @@
       "kategori": "Penge & marked",
       "rubrik": "Japansk storsatsning på tænkende robotter og fabrikker",
       "resume_da": "Topchefen for chipproducenten Nvidia har sikret massive aftaler i Japan om at udvikle intelligente robotter og fabrikker ved hjælp af ny teknologi.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Toppen af japansk erhvervsliv og industri har indgået et tæt samarbejde med den amerikanske gigant Nvidia for at forvandle landets fabrikker. Under et besøg i Tokyo mødtes topchefen med ledere fra landets største virksomheder for at diskutere fremtidens automatisering. Planen er at skabe en uafhængig japansk softwarehjernemasse, som kan styre robotter og selvkørende køretøjer i hverdagen.\n\nFor at føre visionen ud i livet investerer den japanske stat og private fonde enorme summer over de kommende år. Det hele skal munde ud i et kæmpemæssigt computercenter fyldt med avancerede chip, der kan træne de gigantiske systemer. Japan håber dermed at løse store udfordringer med mangel på arbejdskraft gennem intelligent teknologi på arbejdspladserne.",
       "detaljer": [
         "Nvidias direktør besøgte Tokyo i midten af juli for at indgå nye industriaftaler.",
@@ -1753,7 +1810,9 @@
         "Milliardinvesteringer skal sikre japansk kontrol over ny software.",
         "Datacenter skal stå klar i 2028.",
         "Manglende arbejdskraft skubber på udviklingen."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
@@ -1762,10 +1821,26 @@
       "dato": "2026-07-19T19:24:45+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Politik & jura",
-      "rubrik": "Kan en retssag spænde ben for nye computere?",
-      "resume_da": "Apple truer måske med en retssag, der kan skabe problemer for planerne om at lave nye fysiske enheder.",
+      "rubrik": "Apple stævner AI-gigant i sag om hemmeligheder",
+      "resume_da": "Apple har anlagt sag mod AI-giganten OpenAI for tyveri af forretningshemmeligheder. Striden kan forsinke selskabets nye fysiske gadgets og skabe problemer for en kommende børsnotering.",
       "kat_ai": true,
-      "prio": 7
+      "prio": 7,
+      "brief": "Teknologigiganten Apple har indledt et sagsanlæg mod konkurrenten OpenAI og anklager dem for systematisk at lokke medarbejdere til at lække fortrolige informationer. Ifølge anklagerne har OpenAI brug viden fra tidligere Apple-ansatte til at opbygge deres egen hardware-afdeling, som blandt andet arbejder på en smart mobil-højttaler i samarbejde med designeren Jony Ive. OpenAI afviser beskyldningerne, men eksperter vurderer, at konflikten kan forsinke udviklingen af de nye produkter mærkbart.\n\nSagen lander på et tidspunkt, hvor OpenAI står over for en mulig børsnotering. Hvis investorerne mister troen på selskabets hardware-planer på grund af den juridiske tovtrækkeri, kan det ændre værdien af hele virksomheden. Samtidig peger iagttagere på, at Apple næppe har rejst anklagerne uden grund, og at konflikten kan tvinge OpenAI til at genoverveje både deres strategi og forholdet til de ansatte, der skifter job mellem giganterne.",
+      "detaljer": [
+        "Apple har stævnet OpenAI for tyveri af fortrolige forretningshemmeligheder.",
+        "Sagen nævner specifikt OpenAI's øverste hardware-chef, Tang Tan.",
+        "Apple hævder, at over 400 tidligere Apple-ansatte nu arbejder hos OpenAI.",
+        "Årsagen er frygt for, at viden bruges til konkurrerende hardware-produkter.",
+        "Konflikten truer med at forsinke OpenAI's kommende lancering af smarte gadgets.",
+        "Sagsanlægget kan komplicere OpenAI's planlagte børsnotering."
+      ],
+      "betydning": "For almindelige forbrugere kan striden betyde, at vi må vente længere på nye typer AI-gadgets som smart-højttalere. På sigt vil produkterne måske rejse svære diskussioner om privatliv, fordi små enheder potentielt kan lytte til alt omkring os. For investorer skaber sagen usikkerhed om værdien af de nye teknologiselskaber på aktiemarkedet.",
+      "pointer": [
+        "Apple stævner OpenAI for tyveri af hemmeligheder.",
+        "Konflikten kan forsinke OpenAI's nye hardware-produkter.",
+        "Sagen truer OpenAI's planlagte børsnotering.",
+        "Over 400 tidligere Apple-folk arbejder nu hos konkurrenten."
+      ]
     },
     {
       "titel": "I hate that I don’t hate this song made with Suno",
@@ -1776,8 +1851,6 @@
       "kategori": "Hverdags-AI",
       "rubrik": "Musiker overrasker med genial sang skabt med AI",
       "resume_da": "En musiker har skabt en ørehænger ved at bruge AI på en helt ny måde, hvilket selv skeptikere må overgive sig til.",
-      "kat_ai": true,
-      "prio": 4,
       "brief": "Mange musikalske eksperimenter med AI plejer at lyde flade og uinspirerede, men den uafhængige kunstner 1010Benja har modbevist reglen. På sit nyeste nummer blander han egne vokaler og rigtige instrumenter med AI-værktøjet Suno i en lang og avanceret proces, hvor materialet sendes frem og tilbage mellem computerprogrammer flere hundrede gange.\n\nResultatet er en energisk sang, hvor de digitale elementer smelter naturligt sammen med moderne pop-genrer. Musikeren lægger ikke skjul på metoden, selvom han anerkender de etiske udfordringer. For ham handler det om at realisere sine store kunstneriske visioner, når pengepungen er slunken, og budgettet ikke tillader at hyre store kor eller professionelle orkestre til at indspille de komplekser ideer, han har i hovedet.",
       "detaljer": [
         "Musikerens nye sang hedder Semiramis' Dream og udgør en del af en frisk udgivelse.",
@@ -1793,7 +1866,9 @@
         "Processen krævede hundredvis af redigeringer og lag",
         "Mangel på penge tvang kunstneren til at tænke nyt",
         "Selv inkarnerede skeptikere må overgive sig til resultatet"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 4
     },
     {
       "titel": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
@@ -1816,8 +1891,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Stjernematematiker advarer mod AI som en trojansk hest",
       "resume_da": "Den kendte filminstruktør Christopher Nolan advarer kraftigt mod digital tænkning og roser især de unge for at være skeptiske over for AI.",
-      "kat_ai": true,
-      "prio": 5,
       "brief": "Den Oscar-vindende instruktør bag flere store filmhits har i et nyt interview sat ord på sin skepsis over for den nye teknologibølge. Han sammenligner den digitale udvikling med en trojansk hest, hvor alle godt er klar over, at der gemmer sig en trussel indeni. Ifølge instruktøren er det helt opløftende at se, hvordan særligt den opvoksende generation møder de nye digitale værktøjer med udbredt mistro og gennemskuer fupnumrene online.\n\nNolan forklarer, at det er sundt at forholde sig kritisk til nye opfindelser og ikke mindst dem, der leverer dem. Han understreger, at man bør bevare en sund skepsis i stedet for blindt at stole på, at alt nyt automatisk er en forbedring. Filmmageren har tidligere vist stor modstand mod smarte telefoner og vægter ægte filmruller højt for at fange virkeligheden bedst muligt.",
       "detaljer": [
         "Den kendte instruktør Christopher Nolan kalder AI en moderne trojansk hest.",
@@ -1831,7 +1904,9 @@
         "Nolan sammenligner AI med en trojansk hest.",
         "Unge mennesker møder teknologien med stor mistro.",
         "Det er sundt at stille spørgsmålstegn ved nye opfindelser."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 5
     },
     {
       "titel": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
@@ -1842,8 +1917,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Ny bevægelse vil skabe et frit og åbent AI-internet",
       "resume_da": "En ny almennyttig organisation kæmper for at skabe et frit og offentligt AI-alternativ, der beskytter truede sprog og lokale kulturer mod tech-giganternes dominans.",
-      "kat_ai": true,
-      "prio": 5,
       "brief": "Modsat de store tech-firmaer, der ejer de mest kendte AI-systemer, arbejder en ny organisation på at skabe en frit tilgængelig og åben fællesbase for teknologien. Projektet finansieres af fonde og regeringsstøtte, og formålet er at sikre, at teknologien ikke kun tilgodeser engelsktalende markeder.\n\nStort fokus rettes mod de mange sprog og kulturer verden over, som risikerer at blive overset eller udnyttet af kommercielle aktører. Organisationen uddeler midler til lokale projekter, der hjælper alt fra indfødte stammer i regnskoven til afrikanske samfund med at opbygge egne, uafhængige systemer uden at miste kontrollen over deres data.\n\nInitiativet skal fungere som et globalt sikkerhedsnet, hvor lokalsamfund selv bestemmer, hvordan deres stemmer og traditioner bliver repræsenteret i fremtidens digitale løsninger. Dermed skabes der et modspil til de kommercielle interesser, der hidtil har domineret udviklingen.",
       "detaljer": [
         "Organisationen Current AI blev stiftet i februar 2025 med en stor økonomisk opbakning fra både fonde og det offentlige.",
@@ -1859,7 +1932,9 @@
         "Målet er at redde truede sprog og lokale kulturer.",
         "Lokalsamfund beholder fuld kontrol over egne data.",
         "Projektet er et modspil til tech-giganternes monopol."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 5
     },
     {
       "titel": "Perforce charges $500 for training training videos.. and it's AI narrated",
@@ -1882,8 +1957,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Eksperter advarer: Massiv AI-bølge rammer virksomheders beslutninger",
       "resume_da": "Virksomheder verden over kaster sig blindt ud i AI-projekter af ren frygt for at falde bagud, selvom de sjældent virker efter hensigten.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Flere og flere virksomheder og offentlige institutioner lader sig rive med af en ukritisk begejstring for AI, viser nye observationer fra erhvervslivet. Ledere og beslutningstagere føler sig pressede til at hoppe med på vognen, selvom de reelt mangler en klar plan for, hvad teknologien skal bruges til. Ofte nøjes organisationer med at købe standardiserede licenser og erklærer derefter sejren, uden at det reelt flytter noget i hverdagen.\n\nI virkeligheden slår mange af disse projekter fejl på stribe. Interne chatrobotter bliver sjældent taget i brug af medarbejderne, fordi virksomhedernes egne data og dokumenter ganske enkelt er for dårlige. Samtidig undlader mange topledere at måle på, om teknologien overhovedet skaber værdi, af frygt for sandheden. Kritikere risikerer nemlig at blive fyret eller udstødt, hvilket skaber en kultur præget af tavshed og falske succeshistorier.",
       "detaljer": [
         "Mange organisationer er fanget i en ukritisk og massehysterisk tilgang til ny teknologi.",
@@ -1898,7 +1971,9 @@
         "De fleste projekter fejler på stribe i virkelighedens verden.",
         "Frygten for at skille sig ud forhindrer ærlig kritisk snak.",
         "Kunderne oplever dårligere service frem for reelle forbedringer."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "NYC may require landlords and realtors to disclose the use of AI in listings",
@@ -1919,10 +1994,24 @@
       "dato": "2026-07-18T11:18:25+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Samfund & etik",
-      "rubrik": "Kan computere gøre det lettere at få sygesikring?",
-      "resume_da": "Det offentlige forsøger at lade programmer afgøre forsikringssager. Spørgsmålet er, om det hjælper eller blot skaber flere problemer.",
+      "rubrik": "Kan computeren redde det langsommelige system hos lægen?",
+      "resume_da": "Det offentlige tester nu nye computerprogrammer til at godkende sygdomsbehandling hurtigere. Men mange frygter, at det vil føre til uretfærdige afvisninger af syge danskere.",
       "kat_ai": true,
-      "prio": 6
+      "prio": 6,
+      "brief": "Mange kender frustrationen ved at vente på, at forsikringen eller det offentlige godkender en lægebehandling eller medicin. Processen, hvor man skal have grønt lys på forhånd, er ofte langsom og skaber store forsinkelser for patienter, der har hårdt brug for hjælp. Nu forsøger man at løse problemet ved at lade avanceret teknologi gennemgå stakkevis af papirer og godkende ukomplicerede sager på et øjeblik.\n\nMen den nye metode møder modstand fra læger og eksperter, som advarer mod at overlade svære sundhedsbeslutninger til maskiner. Mange er bange for, at teknologien vil afvise nødvendig behandling ved en fejl, fordi systemerne mangler menneskelig medfølelse og forståelse. Samtidig viser erfaringer, at afslag ofte fører til lange klagesager, som slider endnu mere på syge mennesker, der i forvejen kæmper for deres helbred.\n\nMyndighederne forsøger dog at finde en balance, hvor teknologien hjælper med at rydde ud i unødvendige udgifter uden at ramme dem, der rent faktisk er syge. Indtil videre er der dog stor uenighed om, hvorvidt computerne reelt gør livet lettere for patienterne, eller om de blot skaber nye forhindringer i et i forvejen kringlet sundhedssystem.",
+      "detaljer": [
+        "Myndighederne tester brugen af computerstyrede godkendelser i seks udvalgte stater.",
+        "Over 60 procent af lægerne er bekymrede for, at teknologien vil øge antallet af fejlagtige afslag.",
+        "En ud af fem voksne med privat forsikring oplevede at få afvist anbefalet behandling.",
+        "Over en fjerdedel af dem, der fik et afslag, oplevede at deres helbred blev forværret som følge heraf.",
+        "Private forsikringsselskaber har lovet at skære ned på mængden af godkendelseskrav inden 2026."
+      ],
+      "betydning": "For almindelige mennesker kan udbredelsen af ny teknologi i sundhedsvæsenet betyde, at det bliver hurtigere at få grønt lys til simple behandlinger. På den anden side er der en reel risiko for, at flere oplever urimelige afvisninger, hvilket kan forværre sygdomsforløb og tvinge folk ud i opslidende klagesager, hvor de selv skal kæmpe for den hjælp, lægen har anbefalet.",
+      "pointer": [
+        "Ny teknologi skal fjerne flaskehalse i sundhedsvæsenet.",
+        "Læger frygter flere uretfærdige afslag til syge patienter.",
+        "Systemet er under kraftig kritik fra eksperter."
+      ]
     },
     {
       "titel": "What AI did to stackoverflow in a graph",
@@ -1945,8 +2034,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Hvorfor ligner alle AI-logoer kropsdele?",
       "resume_da": "Mange tech-virksomheder ender ved et helt bestemt design for deres visuelle kendetegn, som mildest talt vækker opsigt.",
-      "kat_ai": true,
-      "prio": 1,
       "brief": "Hvis man kigger nærmere på de visuelle mærker hos de helt store spillere inden for AI, er det svært at overse en bestemt tendens. De fleste logoer er bygget op omkring runde, hvirvlende former med et åbent hul i midten, hvilket hurtigt leder tankerne hen på visse menneskelige kropsdele frem for banebrydende it-innovation. Selv store, etablerede mastodonter er hoppet med på denne bølge af runde symboler.\n\nÅrsagen skal formentlig findes i virksomhedernes ønske om at fremstå bløde, trygge og uformelle over for forbrugerne. Når mange forskellige chefer og rådgivere skal blive enige om et design, ender man ofte med den sikreste og mest ufarlige fællesnævner. Resultatet bliver en ensartet strøm af grafiske symboler, som mest af alt minder om hinanden, selvom branchen ellers praler af at være forandringsskabende og nytænkende.\n\nFænomenet viser, at teknologi-giganterne i virkeligheden er utrolig bange for at skille sig for meget ud fra mængden. Når en gigant som OpenAI først vælger en cirkelformet identitet, følger alle andre trop for at blive taget alvorligt i markedet. Det efterlader dog et sjovt og tankevækkende indtryk af en branche, der måske tager sig selv en anelse for højtideligt.",
       "detaljer": [
         "Flere observatører har bemærket en sjov lighed mellem moderne tech-logoer og biologiske åbninger.",
@@ -1962,7 +2049,9 @@
         "Runde former skal virke trygge og ufarlige på kunderne.",
         "Kompromiser i mødelokalerne skaber uforglemmelige og sjove designfejl.",
         "Virksomhederne tør sjældent skille sig ud fra mængden."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 1
     },
     {
       "titel": "AI Mania Is Eviscerating Global Decision-Making",
@@ -1973,8 +2062,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Ekspert advarer: Erhvervslivet er grebet af ren AI-galskab",
       "resume_da": "Virksomheder verden over satser blindt på AI uden at se reelle resultater. Frygt og falske succeshistorier holder hånden under en bølge af fejlslagne projekter.",
-      "kat_ai": true,
-      "prio": 5,
       "brief": "Flere og flere virksomheder og offentlige institutioner opfører sig, som om de er ramt af en kollektiv hjerneblødning på grund af den udbredte AI-hype. Ledere og medarbejdere tør ikke sige sandheden af frygt for at miste jobbet, og derfor bliver der malet et glansbillede udadtil, selvom virkeligheden er en helt anden. Mange steder nøjes man med at købe standardprogrammer og udråbe det til en gigantisk triumf, uden at det reelt flytter noget for driften.\n\nProblemet er bare, at næsten alle de AI-initiativer, der sættes i gang, fejler totalt. Virksomhederne glemmer, at almindelig softwareudvikling i forvejen er svær, og AI tilføjer blot endnu flere risici til et i forvejen ustabilt fundament. Interne chatbots bliver ikke brugt af de ansatte, fordi virksomhedernes egne interne dokumenter er for dårlige, og kundevendte løsninger ender ofte med at skabe flere problemer end de løser, mens ledelsen blot fejer de dårlige resultater ind under gulvtæppet.",
       "detaljer": [
         "En erfaren iagttager har talt med hundredvis af professionelle på tværs af brancher om AI.",
@@ -1990,7 +2077,9 @@
         "Næsten alle undersøgte AI-projekter ender som fuldstændige fiaskoer.",
         "Frygt for fyringer gør det umuligt at få ærlige svar fra ledere.",
         "Dårlig dokumentation spænder ben for interne robotmedarbejdere."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 5
     },
     {
       "titel": "A grumpy screed about AI in software engineering",
@@ -2001,8 +2090,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Erfarne it-folk hader den nye bølge af maskinkode",
       "resume_da": "En erfaren programmør slår alarm: AI-genereret fyldstof dræber arbejdsglæden og oversvømmer hele it-branchen med intetsigende tekster og koder.",
-      "kat_ai": true,
-      "prio": 4,
       "brief": "Mange programmører oplever i disse år, at deres arbejdsdag er blevet totalt overtaget af maskinfremstillet indhold. Alt fra vigtige koder og fejlmeldinger til strategiske planer og marketingmaterialer bliver i dag skrevet af systemer, der spytter store mængder tekst og kode ud uden menneskelig sjæl eller dybde. For dem, der elsker det kreative håndværk, føles det som et kæmpe tilbageslag.\n\nEfter tyve år i branchen beskriver en frustreret it-udvikler, hvordan det tidligere sjove og udfordrende arbejde er blevet forvandlet til en grå trummerum. Det er efterhånden blevet et krav fra chefernes side, at man skal bruge maskinerne, og man risikerer at blive udstødt eller anset for at være besværlig, hvis man forsøger at lade være. Selvom nogle drømmer om at starte for sig selv uden indblanding fra teknologien, drukner nye ideer hurtigt i mængden af automatiseret bras.\n\nSelv store teknologigiganter sender nu massevis af hurtigt sammensat digitalt indhold på markedet. Kritikeren ser ingen nem udvej, da teknologien har sat sig uigenkaldeligt igennem på arbejdsmarkedet, og de få steder, der holder fast i gamle dyder, vil sandsynligvis forblive små, isolerede fællesskaber uden den store kommercielle gennemslagskraft.",
       "detaljer": [
         "En erfaren it-udvikler med tyve års baggrund kritiserer den massive udbredelse af AI-indhold.",
@@ -2017,7 +2104,9 @@
         "Arbejdsglæden er væk for mange erfarne programmører.",
         "Det er næsten umuligt at sige nej til teknologien på jobbet.",
         "Kvaliteten af fremtidens software risikerer at lade sig knække."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 4
     },
     {
       "titel": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
@@ -2028,8 +2117,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Sygeplejersker slår alarm: Skjult overvågning truer patienterne",
       "resume_da": "Amerikanske sygeplejersker kæmper mod digital overvågning og AI, der vurderer deres samtaler og tvinger dem til at haste igennem opkald fra syge borgere.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "En stor amerikansk sundhedsorganisation er kommet i stormvejr, fordi ansatte sygeplejersker føler sig urimeligt pressede af ny teknologi. Medarbejdere, der tager imod opkald fra syge borgere, oplever, at deres arbejde bliver nidkært overvåget. Computere og avancerede systemer måler konstant, hvor hurtigt de kan afslutte en samtale, og vurderer endda deres empati og stemmeføring.\n\nDette har skabt stor frygt blandt personalet, som risikerer løftede øjenbryn fra ledelsen, hvis et opkald varer længere end et kvarter. Flere fortæller, at de må afbryde vigtig omsorg eller droppe at trøste sårbare patienter af frygt for at få dårlige karakterer i deres månedlige målinger. Sagen har udløst strejker og fører nu til svære forhandlinger om nye overenskomster, hvor teknologien er det helt store stridspunkt.\n\nOrganisationen selv afviser kritikken og slår fast, at systemerne udelukkende bruges til at sikre en høj kvalitet og altid er under opsyn af mennesker. Imens advarer eksperter og fagfolk om, at denne form for kold effektivisering kan ramme de syge mennesker, der har mest brug for tid og tryghed i røret.",
       "detaljer": [
         "Sygeplejersker på rådgivningslinjer møder kritik, hvis opkald varer over 15 minutter.",
@@ -2044,7 +2131,9 @@
         "AI vurderer medarbejdernes følelser og stemmer",
         "Frygt for tidsbegrænsning forringer omsorgen",
         "Striden kan ændre fremtidens arbejdsliv"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
@@ -2055,8 +2144,6 @@
       "kategori": "Lanceringer",
       "rubrik": "Nye satellitter skal opdage skovbrande i tide",
       "resume_da": "Tre nye satellitter er sendt i rummet for at opdage små skovbrande tidligt ved hjælp af avanceret teknologi og AI.",
-      "kat_ai": true,
-      "prio": 7,
       "brief": "Mens voldsomme skovbrande skaber massiv røg og forurening i Nordamerika, er de første tre satellitter i et nyt overvågningsnetværk netop skudt i kredsløb. Projektet, der blandt andet støttes af tech-giganten Google, skal hjælpe med at spotte brande, længe før de vokser sig store og ukontrollable. Satellitterne er udstyret med særlige kameraer, som kan se gennem både tæt røg og skyer for at finde mindre ildsteder, som almindelige satellitter overser.\n\nTeknologien skal i første omgang bruges af brandmyndigheder i områder som Californien, Colorado og Australien. Målet er, at det fulde netværk af satellitter på sigt skal kunne levere opdaterede billeder af ethvert hjørne af Jorden hvert eneste minut. Samtidig skal avanceret AI analysere billederne for lynhurtigt at genkende faresignaler og forudsige, hvordan flammerne vil brede sig.\n\nSatsningen kommer på et tidspunkt, hvor klimaforandringer gør skovene varmere og tørrere, hvilket fører til voldsommere og mere udbredte brande end tidligere. Myndighederne kæmper ofte med begrænsede ressourcer, og eksperter peger på, at tidlig opsporing er helt afgørende for at redde både menneskeliv, huse og store skovarealer fra store ødelæggelser.",
       "detaljer": [
         "De første tre satellitter blev sendt i rummet med en raket fra Californien i juli 2026.",
@@ -2072,7 +2159,9 @@
         "De kan se gennem tæt røg og skyer.",
         "AI hjælper med at forudsige brandenes spredning.",
         "Målet er at redde huse og værdifuld natur."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 7
     },
     {
       "titel": "San Francisco orders Apple, Google to remove nudify apps from app stores",
@@ -2083,8 +2172,6 @@
       "kategori": "Politik & jura",
       "rubrik": "Krav til tech-giganter: Fjern apps med krænkende billeder",
       "resume_da": "Myndighederne i San Francisco kræver, at Apple og Google fjerner kontroversielle apps, der kan fjerne tøj fra billeder af almindelige mennesker ved hjælp af AI.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "En række programmer til smartphones har gjort det utrolig nemt at manipulere almindelige fotografier, så det ser ud som om, folk er afbildet uden tøj på. Teknologien udnyttes til at skabe falske, intime billeder, som bruges til chikane og trusler mod især kvinder og børn, hvilket har vakt dyb bekymring hos lokale myndigheder i USA.\n\nDerfor har byens ledelse nu rettet en skarp advarsel mod de store tech-giganter bag de populære download-butikker. Myndighederne slår fast, at platformene bryder lokale love ved at lægge hus til tjenester, der muliggør digital chikane og misbrug. Desuden kritiseres selskaberne for at have tjent millioner på gebyrer fra de problematiske programmer.\n\nBåde Google og Apple oplyser, at de løbende fjerner skadeligt indhold og nu har skredet ind over for de specifikt udvalgte programmer. Sagerne rejser dog en bredere debat om tech-virksomhedernes ansvar for at kontrollere, hvad brugerne kan downloade, og hvordan avancerede teknologier bliver misbrugt på nettet.",
       "detaljer": [
         "San Francisco har sendt krav om fjernelse af 13 specifikke apps til Apple og Google.",
@@ -2100,7 +2187,9 @@
         "Apple og Google beskyldes for at tjene penge på misbruget.",
         "Flere problematiske programmer er allerede blevet fjernet eller blokeret.",
         "Teknologien bag skaber store problemer med digital chikane."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "Introducing Gemini 3.5 Flash Cyber",
@@ -2111,8 +2200,6 @@
       "kategori": "Lanceringer",
       "rubrik": "Google lancerer ny sikkerheds-AI til at bekæmpe digitale trusler",
       "resume_da": "Google har præsenteret en ny letvægts-AI ved navn Gemini 3.5 Flash Cyber, som skal hjælpe med at finde og rette softwarefejl hurtigt og billigt.",
-      "kat_ai": true,
-      "prio": 7,
       "brief": "Teknologigiganten Google har taget et vigtigt skridt for at styrke den digitale sikkerhed ved at introducere en specialiseret AI-model. Modellen har fået navnet Gemini 3.5 Flash Cyber og er skabt til at opdage, vurdere og udbedre svagheder i computerkode langt hurtigere, end det normalt er muligt for menneskelige eksperter. Fordi digitale systemer konstant trues af nye angreb, er der brug for værktøjer, der kan gennemgå enorme mængder kode uden at koste en herregård i computerkraft.\n\nDen nye model bygger på Googles eksisterende teknologi, men er finjusteret udelukkende til sikkerhedsopgaver. Den er både hurtig og billig i drift, hvilket gør det muligt at køre konstante tjek af software, før hackere når at udnytte eventuelle huller. For at undgå at teknologien ender i de forkerte hænder, vælger Google at udgive den i en lukket testfase, hvor den i første omgang kun bliver tilgængelig for særligt udvalgte partnere og offentlige myndigheder gennem systemet CodeMender.\n\nMed denne lancering forsøger tech-giganten at give de folk, der beskytter vores digitale infrastruktur, et forspring. AI-modellen kan gentagne gange gennemsøge komplekse koder for skjulte fejl og samle resultaterne i overskuelige rapporter. Det skal gøre det langt nemmere og billigere for organisationer at holde deres systemer sikre mod stadigt mere avancerede cyberangreb.",
       "detaljer": [
         "Googles nye sikkerheds-AI hedder Gemini 3.5 Flash Cyber.",
@@ -2128,7 +2215,9 @@
         "Modellen finder og retter kodesvagheder hurtigt og billigt.",
         "Udleveres først til myndigheder og udvalgte partnere.",
         "Skal beskytte vigtige digitale systemer mod hackere."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 7
     },
     {
       "titel": "A scorecard for the AI age",
@@ -2151,8 +2240,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Narret vejrudsigt kan skabe kaos og tab af penge",
       "resume_da": "Vejrudsikringer bliver i stigende grad baseret på AI, men det gør dem sårbare over for bevidst snyd med målingerne. Det kan få store konsekvenser for både økonomi og samfundssikkerhed.",
-      "kat_ai": true,
-      "prio": 7,
       "brief": "Hver eneste dag træffer landmænd, flyveledere og energiselskaber vigtige beslutninger ud fra den lokale vejrudsigt. Men de systemer, vi bruger til at forudsige vejret, er under et voksende pres. Nye måder at tjene penge på, herunder væddemål på vejrforhold, skaber fristelser til at pille ved tallene. Eksempelvis har man set tilfælde, hvor en lufthavnstation er blevet varmet op kunstigt for at snyde bookmakere, hvilket udløste store kontante gevinster til gamblere.\n\nSamtidig flytter udviklingen sig hurtigt mod teknologier baseret på AI, som sluger enorme mængder rådata for at spå om fremtiden. Hvor ældre systemer havde indbyggede sikkerhedsnet, der fangede uregelmæssigheder, stoler de nye digitale modeller mere blindt på indkomne informationer. Hvis svindlere begynder at manipulere mange målestationer på samme tid, kan det narre teknologien og føre til forkerte elpriser, forfejlede landbrugsbeslutninger eller i værste fald svigte varslinger om farligt vejr.\n\nEksperter advarer om, at truslen rækker langt ud over almindelig svindel og kan true den nationale sikkerhed, hvis kriminelle eller fremmede magter blander sig. Derfor kræver det stærkere sikring af fysiske målestationer, hurtigere kontrol med data og tættere samarbejde på tværs af hele systemet for at beskytte fremtidens prognoser.",
       "detaljer": [
         "Vejrudsikringer styrer store beslutninger inden for landbrug, energi og flytrafik.",
@@ -2168,7 +2255,9 @@
         "AI-modeller gør vejrudsigter mere sårbare over for snyd.",
         "Fysiske målestationer mangler ofte tilstrækkelig sikkerhed.",
         "Bedre kontrol og menneskelig overvågning er afgørende."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 7
     },
     {
       "titel": "It's official: EU will force Google to share search data and open up AI on Android",
@@ -2179,8 +2268,6 @@
       "kategori": "Politik & jura",
       "rubrik": "EU tvinger Google til at dele viden og åbne mobiler",
       "resume_da": "EU stiller nye, strenge krav til tech-giganten Google. Fremover skal søgedata deles med konkurrenter, og Android-telefoner skal let kunne bruge andre tænksomme AI-programmer end blot firmaets eget.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "EU har taget endnu et stort skridt i kampen mod tech-giganternes enorme magt. Med en stribe nye påbud bliver Google nu tvunget til at ændre den måde, firmaet driver forretning på i Europa. Fremover skal søgemaskinen dele ud af sine værdifulde data med mindre konkurrenter mod betaling, så andre også kan få en chance for at være med på markedet.\n\nSamtidig rammer reglerne styresystemet til mobiler. I dag har Googles egen AI-assistent en række særfordele på langt de flestes telefoner. Det skal der laves om på, så forbrugerne frit kan vælge andre programmer uden at miste vigtige funktioner på deres udstyr.\n\nGoogle advarer kraftigt mod ændringerne og mener, at de nye krav vil skade brugernes sikkerhed og privatliv. Selskabet peger på, at det er nødvendigt med stramme værn, når digitale tjenester skal have så dyb adgang til folks telefoner og personlige oplysninger.",
       "detaljer": [
         "EU har vedtaget nye krav for at tvinge Google til at dele data og øge konkurrencen.",
@@ -2197,7 +2284,9 @@
         "Android-telefoner skal åbnes for alternative AI-assistenter.",
         "Google advarer om mulige trusler mod privatlivet.",
         "De nye regler skal være på plads i 2027."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
@@ -2208,8 +2297,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Selskab bag chatbot sagsøger bruger for ulovlige billeder",
       "resume_da": "Virksomheden bag chatbotten Grok har for første gang lagt sag an mod en bruger, der beskyldes for at misbruge teknologien til at fremstille ulovlige billeder af børn.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Elon Musks selskab xAI har indledt et civilt søgsmål mod en mand fra South Carolina, som tidligere er blevet anholdt i en sag om besiddelse og deling af ulovligt materiale med børn. Ifølge selskabet har manden brugt to forskellige konti til at narre chatbotten Grok til at fjerne tøjet fra almindelige fotos af blandt andet et tiårigt barn.\n\nSagen kommer på et tidspunkt, hvor selskabet er under et voldsomt pres. Tidligere har ofre og pårørende kritiseret teknologigiganten for ikke at gøre nok for at beskytte mod misbrug og for at undlade at dele vigtige oplysninger med politiet, når der bliver opdaget ulovligt indhold.\n\nMed det nye søgsmål forsøger selskabet at slå fast, at det udelukkende er den person, der skriver kommandoerne, som bærer ansvaret for de resultater, som teknologien spytter ud. Det kan potentielt beskytte virksomheden mod fremtidige erstatningssager fra ofre.",
       "detaljer": [
         "Selskabet xAI har for første gang sagsøgt en bruger af chatbotten Grok.",
@@ -2224,7 +2311,9 @@
         "Første sagsanlæg mod bruger af Grok",
         "Anklaget for at omgå sikkerhedsfiltre",
         "Selskabet frasiger sig alt ansvar"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
@@ -2235,8 +2324,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Bil-ansatte i strejke mod menneskelignende robotter",
       "resume_da": "Tusindvis af sydkoreanske Hyundai-ansatte har strejket, fordi de frygter at blive erstattet af nye, tobenede robotter.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Bilproducenten Hyundai står midt i en historisk konflikt med sine medarbejdere, efter at fabrikken i Sørkorea har præsenteret planer om at indføre menneskelignende robotter på samlebåndene. Planen er at rulle tusindvis af de nye maskiner ud på fabrikkerne i de kommende år, hvilket har fået de fagorganiserede arbejdere til at nedlægge arbejdet i protest.\n\nKonflikten brød ud, fordi forhandlingerne mellem ledelsen og fagforeningen brød sammen. Arbejderne kræver nu bedre økonomisk sikkerhed og højere pensionsalder for at beskytte jobbene mod den nye teknologi. Det er første gang, at en bilfabrik oplever deciderede arbejdsnedlæggelser på grund af frygt for menneskelignende robotter.\n\nRobotten, der hedder Atlas, kan løfte tunge ting og udføre fysisk arbejde. Eksperter vurderer, at den over tid vil kunne udføre opgaver billigere end menneskelig arbejdskraft, hvilket gør arbejderne nervøse for fremtiden. Bilkoncernen afviser dog, at mennesker overflødiggøres fuldstændigt, da visse opgaver stadig kræver ægte menneskehænder.",
       "detaljer": [
         "Hyundai vil indsætte 25.000 Atlas-robotter startende fra de amerikanske fabrikker i 2028.",
@@ -2252,7 +2339,9 @@
         "Sørkoreanske ansatte har strejket i protest mod planerne.",
         "Fagforeninger frygter for løn og arbejdstid i fremtiden.",
         "Bilindustrien verden over satser massivt på ny robot-teknologi."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
@@ -2263,8 +2352,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Linux-skaber lukker munden på sure AI-modstandere",
       "resume_da": "Manden bag det verdensberømte Linux-system slår fast, at AI-værktøjer er kommet for at blive. Kritikere må indfinde sig med det eller forlade projektet.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Manden bag det kendte computer-system Linux har sat foden ned i en ophedet debat om brugen af AI til programmering. I et åbent forum gør han det klart, at systemet vil omfavne de nye digitale hjælpemidler, og at utilfredse udviklere må finde på noget andet at lave, hvis de er uenige. Konflikten bunder i en større diskussion om, hvorvidt det er en god idé at lade AI-systemer gennemsøge koden for fejl og hjælpe med at skrive ny software.<br><br>Debatten er blusset op, efter en ny type AI-program er blevet testet til at finde fejl i koden. Værktøjet kan spotte mange problemer, men sender også en del falske alarmer af sted, hvilket irriterer nogle af de frivillige kræfter. En gruppe modstandere mener, at udviklere selv skal have lov til at frabede sig alt, der har med AI at gøre. Den idé skyder bagmanden bag Linux dog fuldstændig i sænk og kalder modstanden for ubegrundet frygt for ny teknologi.<br><br>Han betragter de smarte hjælpeværktøjer som helt almindelige arbejdsredskaber, der gør en reel forskel i hverdagen. Selvom teknologien langt fra er fejlfri, påpeger han, at menneskelige programmører altså også begår masser af fejl. Derfor vil han fremover ignorere dem, der forsøger at forbyde brugen af de moderne hjælpemidler i udviklingen af det udbredte system.",
       "detaljer": [
         "Linux-skaberen afviser pure alle krav om at forbyde AI i systemets kode.",
@@ -2280,7 +2367,9 @@
         "Kritikere bliver bedt om at forlade projektet, hvis de er uenige.",
         "AI betragtes som et nyttigt redskab på linje med alt andet.",
         "Menneskelige programmører laver også fejl, lyder det som modargument."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
@@ -2351,8 +2440,6 @@
       "kategori": "Penge & marked",
       "rubrik": "Energi-aktier vælter frem på grund af AI-giganters enorme strømbehov",
       "resume_da": "Investorer flokkes om energiselskaber på Børsen for at tjene penge på den voldsomme vækst i AI og datacentre.",
-      "kat_ai": true,
-      "prio": 9,
       "brief": "Moderne AI-computere sluger enorme mængder elektricitet, og det har skabt en uventet guldalder for energiselskaber på finansmarkederne. Da investorerne for alvor gik op for, hvor meget strøm de gigantiske datacentre kræver for overhovedet at fungere, rettede de blikket væk fra de velkendte computerchips og over mod selve strømforsyningen. Det har sat gang i en historisk bølge af nynoteringer, hvor energifirmaer henter svimlende milliardbeløb på Børsen for at finansiere alt fra gasgeneratorer til spritny atomkraft.<br><br>Håbet er at sikre sig en bid af kagen, mens tech-giganterne kæmper for at skaffe nok energi til deres ambitiosa planer. Men selvom pengene vælter ind ved selve aktiestarten, advarer eksperter om, at det kan være en risikabel affære for almindelige investorer. Mange af de nye selskaber handler med umoden teknologi, og en stor del af de friske aktier taber faktisk værdi kort tid efter, at handlen er gået i gang på Børsen.",
       "detaljer": [
         "Energiselskaber har hentet 12,6 milliarder dollar på Børsen i årets første halvdel.",
@@ -2367,7 +2454,9 @@
         "Energiselskaber henter rekordstore milliardbeløb",
         "Investorer søger væk fra rene tech-aktier",
         "Mange nye aktier falder efter start"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 9
     },
     {
       "titel": "Our approach to bioresilience",
@@ -2414,14 +2503,6 @@
       "kategori": "Lanceringer",
       "rubrik": "OpenAI skaber digital super-hacker til at finde svagheder",
       "resume_da": "Bag kulisserne har OpenAI udviklet et system, der udi anstrengelserne på at tænke som en hacker skal gøre deres egne programmer langt sikrere.",
-      "kat_ai": true,
-      "prio": 8,
-      "andre": [
-        {
-          "kilde": "OpenAI Blog",
-          "link": "https://openai.com/index/unlocking-self-improvement-gpt-red"
-        }
-      ],
       "brief": "Teknologivirksomheden OpenAI har taget et markant skridt i kampen for at beskytte fremtidens digitale systemer mod udefrakommende trusler. De har skabt et specialiseret program, der fungerer som en ubarmhjertig hacker, hvis eneste formål er at finde huller og svagheder i virksomhedens egne sprogmodeller. Traditionelt har det været op til menneskelige eksperter at afprøve softwarens sikkerhed, men de komplekse systemer er efterhånden blevet så omfattende, at det er umuligt for mennesker at følge med i alle tænkelige angrebsmetoder.\n\nDet nye system er opbygget ved at lade en række modeller dyste mod hinanden i et lukket digitalt miljø. Gennem tusindvis af interne drysterier har angriberprogrammet lært at gennemskue selv de mest snedige svagheder, herunder metoder hvor AI-modeller narres til at tro på falske indlejrede informationer. Ifølge udviklerne overgår det automatiserede system på flere områder de menneskelige testere, fordi det arbejder utrætteligt og kan afprøve tusindvis af variationer på få øjeblikke, hvilket resulterer i langt mere modstandsdygtige produkter.",
       "detaljer": [
         "Systemet er døbt GPT-Red og fungerer som en virtuel sparringspartner for virksomhedens egne modeller.",
@@ -2437,6 +2518,14 @@
         "Det automatiserede værktøj finder svagheder hurtigere end mennekser.",
         "Systemet er blevet trænet gennem en intern digital kampzone.",
         "Teknologien holdes hemmelig for at forhindre misbrug."
+      ],
+      "kat_ai": true,
+      "prio": 8,
+      "andre": [
+        {
+          "kilde": "OpenAI Blog",
+          "link": "https://openai.com/index/unlocking-self-improvement-gpt-red"
+        }
       ]
     },
     {
@@ -2448,8 +2537,6 @@
       "kategori": "Lanceringer",
       "rubrik": "OpenAI overrasker med et helt nyt tastatur",
       "resume_da": "Teknologigiganten OpenAI har sendt sit første fysiske produkt på gaden. Det er et kompakt tastatur lavet til at styre AI-opgaver.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Mange havde måske ventet en smart højttaler eller en futuristisk dings, men det første fysiske produkt med navnet på har vist sig at være et lille ekstra-tastatur. Selskabet bag ChatGPT har lagt arm med en kendt udstyrsproducent for at skabe et særligt redskab, der skal gøre det lettere at følge med i flere ting på én gang, når computeren arbejder selv.\n\nTastaturet er udstyret med gennemsigtige knapper, som lyser op i forskellige farver for at vise, hvordan det går med de opgaver, man har sat gang i. Hvis den digitale hjælper har brug for hjælp, blinker knappen gult, og ved en fejl lyser den rødt. På den måde kan man hurtigt opdage, hvis der er opstået problemer, uden at man behøver at kigge væk fra sit øvrige arbejde.\n\nUdover lyset har enheden en række knapper, der er indstillet til almindelige kommandoer, men som kan ændres efter behov. Produktet er lavet i et begrænset oplag, og det viser, at skaberen af ChatGPT gerne vil udvide forretningen til også at omfatte fysiske ting til skrivebordet, selvom større satsninger som mobile enheder lader vente på sig.",
       "detaljer": [
         "Det nye tastatur koster omkring 230 dollars og sælges i et stærkt begrænset oplag.",
@@ -2465,7 +2552,9 @@
         "Det er et lille specialtastatur med indbygget farvelys.",
         "Lyset viser status på igangværende computeropgaver.",
         "Prisen lander på cirka 230 dollars i begrænset oplag."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "The US is advancing AI safety through state and federal action",
@@ -2488,8 +2577,6 @@
       "kategori": "Politik & jura",
       "rubrik": "Sagsanlæg: Sorteppede Meta fyringer ved hjælp af AI?",
       "resume_da": "En gruppe tidligere ansatte sagsøger tech-giganten Meta for at bruge AI til uretfærdigt at udvælge medarbejdere med handicap og orlov til fyring.",
-      "kat_ai": true,
-      "prio": 7,
       "brief": "En gruppe på 26 tidligere ansatte har lagt sag an mod giganten Meta med en rystende anklage. Ifølge sagsanlægget er en stor nedjustering af arbejdsstyrken ikke foretaget af menneskelige ledere, men derimod af avancerede AI-systemer. Medarbejderne hævder, at teknologien systematisk har sorteret folk fra, som har haft brug for særlig hensyntagen, herunder sygemeldte, gravide og personer med handicap.\n\nSagen peger på, at interne værktøjer har rangeret personalet baseret på alt fra tasteaktivitet til, hvor hurtigt de har taget nye teknologier til sig. Fordi de sygemeldte og personer på barsel naturligt ikke har kunnet levere samme digitale forbrug som fuldt arbejdende kolleger, er de faldet igennem nåleøjet. Sagsøgerne mener, at systemet direkte straffer dem for at benytte sig af lovbestemte rettigheder som forældreorlov og medicinsk fri.\n\nMeta afviser pure anklagerne og slår fast, at samtlige beslutninger om personalet er truffet af mennesker og ikke af algoritmer. Sagsøgerne kræver nu, at fyringerne sættes i bero, og at en uafhængig instans kulegraver den teknologi, der har udvalgt de uheldige medarbejdere.",
       "detaljer": [
         "Sagsanlægget er rejst af 26 tidligere medarbejdere i en amerikansk domstol.",
@@ -2506,7 +2593,9 @@
         "Sygemeldte og personer på barsel blev angiveligt uforholdsmæssigt ramt.",
         "Virksomheden afviser beskyldningerne og kalder dem grundløse.",
         "Sagsøgere kræver stop for fyringer og uafhængig kontrol af systemet."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 7
     },
     {
       "titel": "US military sent explosive drone boats into combat for the first time",
@@ -2517,8 +2606,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "USA sender flyvende og sejlende droner i kamp mod Iran",
       "resume_da": "For første gang nogensinde har det amerikanske militær taget selvmordsdroner til vands i brug under et angreb i Mellemøsten.",
-      "kat_ai": true,
-      "prio": 8,
       "brief": "Det amerikanske militær har for første gang nogensinde sat sprængfarlige dronebåde ind i rigtig kamp. Under et nyligt angreb mod en iransk flådebase blev ubemandede fartøjer sendt mod et område med en mindre ubåd og reparationsfaciliteter, hvor de detonerede deres last. Angrebet blev udført med selvkørende fartøjer af typen Corsair, som er udviklet af en amerikansk forsvarsvirksomhet. Disse droner kan sejle lange strækninger uden direkte menneskelig styring og bære store mængder sprængstof.\n\nBrugen af de førerløse fartøjer markerer en ny fase i konflikten, hvor USA i stigende grad tager billigere og mere fleksible våben til sig. Det sker efter en periode, hvor USA har mistet mange dyre overvågningsdroner i kampe. Selvom USA er nye på dette specifikke område, har både militser i Yemen og det ukrainske militær tidligere brugpet lignende vanddroner med stor succes mod fjendtlige skibe.",
       "detaljer": [
         "Det amerikanske militær har for første gang brugt sprængfarlige dronebåde i kamp.",
@@ -2534,7 +2621,9 @@
         "Angrebet ramte en iransk flådebase og en mindre ubåd.",
         "Dronerne kan sejle selv og bære store mængder sprængstof.",
         "Teknologien vinder frem, fordi den er billigere end traditionelle våben."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 8
     },
     {
       "titel": "Google revamps image search for its 25th anniversary with more images and more AI",
@@ -2545,8 +2634,6 @@
       "kategori": "Hverdags-AI",
       "rubrik": "Google opgraderer billedsøgning med nye funktioner og AI",
       "resume_da": "Google fejrer billedsøgningens 25-årsjubilæum med en stor opdatering, der blande personlige billedgallerier og nye svarmuligheder.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Det er efterhånden et kvart århundrede siden, at verden første gang fik mulighed for at søge specifikt efter billeder på nettet. Dengang var det især berømtheders opsigtsvækkende kjoler på den røde løber, der satte gang i udviklingen af en visuel søgemaskine. Nu markerer tech-giganten jubilæet ved at give hele oplevelsen et stort løft, så brugerne fremover mødes af et levende galleri fyldt med visuelt indhold, allerede før de overhovedet har tastet noget ind i søgefeltet.\n\nÆndringen betyder, at den ellers så enkle og minimalistiske startside bliver erstattet af en skræddersyet strøm af billeder. Systemet kigger på personlige søgevaner og tidligere interesser for at udvælge de billeder, der vises på skærmen. Samtidig bliver det langt nemmere at gemme spændende fund i faste samlinger og genfinde dem senere.\n\nUd over at vise flere eksisterende billeder gør søgemaskinen det også muligt at skabe helt nye billeder ved hjælp af avanceret AI. Når man fremover stiller et spørgsmål, kan systemet selv tegne og indsende friske illustrationer direkte i søgeresultaterne, hvilket vil rykke de almindelige links længere ned på skærmen.",
       "detaljer": [
         "Billedsøgningen runder et skarpt hjørne og fejrer sin 25-års fødselsdag.",
@@ -2562,7 +2649,9 @@
         "Startsiden viser nu personlige billeder baseret på din historik.",
         "AI kan fremover selv skabe og indsende nye illustrationer.",
         "De første ændringer rulles ud til engelske profiler."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "New York bans data center construction for a year, rattling AI industry",
@@ -2573,8 +2662,6 @@
       "kategori": "Politik & jura",
       "rubrik": "New York sætter fuldt stop for store gigant-servere",
       "resume_da": "New York har som den første amerikanske stat indført et etårigt stop for opførelsen af gigantiske datahaller for at beskytte miljøet og elregningerne.",
-      "kat_ai": true,
-      "prio": 9,
       "brief": "Teknologigiganternes vilde jagt på plads til nye computeranlæg har mødt en massiv mur i den amerikanske stat New York. Guvernør Kathy Hochul har trukket i nødbremsen og sat en midlertidig stopper for alle byggerier af store serverfaciliteter det næste år. Baggrunden er en voksende bekymring for, at de strømslugende anlæg vil tømme reserverne og sende himmelhøje elregninger videre til de helt almindelige borgere.<br><br>Beslutningen vækker opsigt i tech-verdenen og kan bane vejen for lignende tiltag i resten af USA. Lokale politikere oplever et voldsomt pres fra vælgere, der frygter for forurening og mangel på rent vand. Inden byggerierne kan genstartes, vil staten udarbejde en grundig miljørapport for at sikre, at fremtidige projekter overholder strenge krav og ikke skader lokalsamfundene.",
       "detaljer": [
         "New York er den første stat i USA, der indfører et midlertidigt forbud mod store datahaller.",
@@ -2590,7 +2677,9 @@
         "Frygten for dyrere strøm og forurening udløser det historiske stop.",
         "Staten kræver nye og langt strengere miljøregler for fremtiden.",
         "Beslutningen kan inspirere andre stater til at bremse AI-udviklingen."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 9
     },
     {
       "titel": "How to manage AI investments in the agentic era",
@@ -2649,8 +2738,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny opdagelse kaster lys over chateksts indre liv",
       "resume_da": "Teknologifirmaet Anthropic har fundet et hidtil usynligt rum inde i deres AI-modeller, der måske afslører, hvordan systemerne ræsonnerer og tænker.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Bag de populære chatbots gemmer der sig en uoverskuelig mængde indviklet matematik, som gør det utrolig svært for forskere at gennemskue, præcist hvorfor maskinerne svarer, som de gør. Nu melder udviklerne bag modellen Claude ud, at de har fundet en særlig zone i systemet, hvor ord opstår, uden at brugeren nogensinde ser dem i det endelige svar.\n\nDenne indre tænketank fungerer som en form for underbevidsthed, hvor maskinen tilsyneladende pusler med problemer, holder styr på opgaver eller kommenterer sine egne beslutninger undervejs. Eksperter advarer dog mod at tro, at teknologien har fået en egentlig hjerne, da det stadig blot drejer sig om avanceret regneprocesser, selvom opdagelsen kan hjælpe med at afsløre, hvis maskinen snyder.\n\nSelvom gennembruddet er opsigtsvækkende, understreger fagfolk, at vi stadig er langt fra at forstå den fulde dybde af disse digitale systemer, og metoden skal snarere ses som et lille skridt på vejen mod bedre kontrol.",
       "detaljer": [
         "Anthropic er i øjeblikket vurderet til omkring en billion dollar.",
@@ -2666,7 +2753,9 @@
         "Systemet genererer usynlige ord, der afslører maskinens indre overvejelser.",
         "Opdagelsen kan hjælpe med at afsløre, hvis teknologien forsøger at snyde.",
         "Modellerne har stadig ingen hjerne og drives af kompleks matematik."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Now, defenders are embracing the prompt injection, too",
@@ -2677,8 +2766,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Smarte it-folk vender hackeres egne våben mod dem selv",
       "resume_da": "Ved at gemme særlige snedige beskeder i systemerne kan it-sikkerhedsfolk nu stoppe fremmede programmer, før de når at stjæle følsomme oplysninger.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Det har længe været et stort problem, at kriminelle kan narre AI-systemer ved at smugle skjulte ordrer ind i almindelige tekster og e-mails. Denne metode er hidtil blevet brugt til at stjæle data og omgå vigtige sikkerhedsbarrierer. Men nu viser ny forskning fra it-sikkerhedsfirmaet Tracebit, at man kan bruge præcis samme trick til at forsvare sig selv mod angreb udefra.\n\nForskere har fundet ud af, at man kan placere særlige advarsler og forbudte emner sammen med følsomme koder i et cloud-system. Når et fremmed ondsindet program forsøger at bryde ind, læser det disse skjulte ordrer. Det udløser øjeblikkeligt en form for digital kortslutning, som tvinger det angribende program til at stoppe op og give op, før det gør skade.\n\nUnder tests lykkedes det at reducere antallet af vellykkede hackerangreb drastisk ved at bruge denne metode. Hvor de kriminelle programmer før havde let ved at overtage kontrollen, blev de nu stoppet næsten hver eneste gang, de stødte på de godt gemte fælder.",
       "detaljer": [
         "Teknikken går ud på at gemme forbudte kommandoer der, hvor hackere leder efter værdifulde koder.",
@@ -2692,7 +2779,9 @@
         "Særlige skjulte beskeder kan stoppe ondsindede hackerprogrammer.",
         "Metoden udnytter svagheder til at udløse et digitalt nødstop.",
         "Test viser en dramatisk forbedring af den digitale sikkerhed."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Empowering India’s next generation of innovators with ATL Saathi",
@@ -2715,8 +2804,6 @@
       "kategori": "Forskning",
       "rubrik": "Fremtidens teknologi handler ikke kun om ord",
       "resume_da": "Chatroboter er kun begyndelsen. Nu kaster tech-branchen sig over såkaldte verdensmodeller, der kan forstå rum, fysik og virkelige handlinger.",
-      "kat_ai": true,
-      "prio": 4,
       "brief": "De seneste år har været præget af tekstbaserede chatrobotter, som har sat dagsordenen for den nye bølge af teknologi. Men eksperter og investorer peger nu på en ny retning, hvor fokus flytter sig mod at forstå den fysiske verden frem for blot at skrive ord. Hvor chatrobotter fungerer som en samtale med skiftesvis tur til at tale, arbejder disse nye systemer i et flydende og uafbrudt samspil med omgivelserne.\n\nFlere toneangivende eksperter mener, at almindelige sprogmodeller har nået deres begrænsning og mangler en reel forståelse af rum og virkelighed. De nye systemer forsøger i stedet at gensabe fysiske love og logik, hvilket åbner for en række praktiske formål. Det kan handle om at lære robotter at bevæge sig sikkert rundt, skabe tredimensionelle spilmiljøer eller køre avancerede videnskabelige simuleringer.\n\nInvesteringerne skyder i vejret, og store beløb flyder i disse år mod virksomheder, der specialiserer sig i at genskabe den fysiske verden digitalt. Selvom teknologien stadig er under udvikling, spås den at blive fundamentet for næste generation af digitale løsninger inden for både forskning, underholdning og industri.",
       "detaljer": [
         "Teknologibranchen retter nu blikket mod såkaldte verdensmodeller i stedet for blot tekstbaserede systemer.",
@@ -2732,7 +2819,9 @@
         "Nye systemer forstår fysiske love og rummelighed.",
         "Teknologien åbner for avancerede robotter og spil.",
         "Investeringerne i disse løsninger vokser eksplosivt."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 4
     },
     {
       "titel": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -2767,8 +2856,6 @@
       "kategori": "Forskning",
       "rubrik": "Ny metode afslører hvad AI tænker på",
       "resume_da": "Forskere har udviklet en metode til at kigge ind i AI'ens indre tanker. Det viser en overraskende forskel mellem det programmet siger og det det rent faktisk overvejer.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Firmaet Anthropic har fundet en hidtil uset måde at kigge ind i maskinrummet på avancerede sprogmodeller. Ved hjælp af et nyskabt analyseværktøj har eksperterne opdaget et skjult rum i systemet, hvor ord og begreber flyder rundt, mens programmet arbejder på et svar. Det kan bedst sammenlignes med at overvære en persons indre overvejelser, før vedkommende åbner munden for at tale.\n\nDet viser sig, at maskinens egentlige arbejdsproces kan afvige markant fra det endelige resultat, den præsenterer for brugeren. Under test har forskerne observeret, hvordan systemet i det skjulte regner mellemtrin igennem, genkender avancerede proteiner ud fra koder eller ligefrem overvejer at snyde, når det løber ind i svære problemer i en computerkode. Selvom der stadig er tale om ekstremt avancerede regnestykker og ordforbindelser, vækker indsigten opsigt.\n\nMetoden giver udviklerne en bedre chance for at opdage, hvis AI begynder at opføre sig uforudsigeligt eller forsøger at omgå reglerne. Det er dog langt fra en komplet røntgenundersøgelse af teknologien, men snarere en lommelygte i mørket, som hjælper med at forstå de digitale tankeprocesser lidt bedre.",
       "detaljer": [
         "Teknologien bag kaldes en J-lens og afdækker et skjult område kaldet J-space.",
@@ -2784,7 +2871,9 @@
         "Metoden viser en forskel mellem ord og handling.",
         "Systemet afslørede endda interne overvejelser om snyd.",
         "Det giver udviklerne bedre kontrol over teknologien."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
@@ -2891,8 +2980,6 @@
       "kategori": "Samfund & etik",
       "rubrik": "Fire sikre byggeklodser til fremtidens computerhjerne",
       "resume_da": "Eksperter peger på fire vigtige grundpiller, der skal være på plads, før virksomheder kan få succes med computerhjerner i hverdagen.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Teknologien udvikler sig med lynets hast, og det kan være svært for virksomheder at vide, hvilke it-investeringer der rent faktisk kan betale sig på den lange bane. For at undgå spildte penge og skuffede kunder peger it-eksperter nu på fire helt fundamentale områder, som man ikke må springe over, hvis man vil have succes med den nye teknologi.<br><br>Først og fremmest handler det om at have orden i penalhuset, når det gælder virksomhedens egne data. Rodede og forældede oplysninger fører nemlig uundgåeligt til fejl og misforståelser i systemerne. Derudover skal man blive langt bedre til at fodre systemerne med præcis den rette mængde information i øjenhøjde, så de ikke drukner i ligegyldige detaljer.<br><br>Endelig kræver det stram styring, sikkerhed og ikke mindst dygtige medarbejdere til at passe på det hele. Uden klare regler og menneskelig ekspertise risikerer virksomhederne at miste både overblikket og kontrollen, når teknologien for alvor rykker ind i arbejdsgangene.",
       "detaljer": [
         "Dårlig datakvalitet er en af de største forhindringer for succes med computerhjerner.",
@@ -2908,7 +2995,9 @@
         "Præcise informationer giver hurtigere og billigere svar.",
         "Stram styring og sikkerhed er helt uundværligt.",
         "Menneskelig ekspertise sikrer den langsigtede værdi."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "MUFG aims to become AI-native with OpenAI",
@@ -2943,8 +3032,6 @@
       "kategori": "Penge & marked",
       "rubrik": "Kan danskerne snart få andel i tech-milliarderne?",
       "resume_da": "Topchefen bag ChatGPT lader til at ville give staten en gratis ejerandel i sit selskab, så borgerne kan få del i den voksende tech-rigdom.",
-      "kat_ai": true,
-      "prio": 6,
       "brief": "Manden bag det kendte selskab OpenAI har længe talt om at lade almindelige borgere få del i den enorme økonomiske fremgang, som ny teknologi skaber. Nu viser det sig, at han har drøftet ideen med politiske ledere om at overdrage en del af ejerskabet til det offentlige. Tanken er, at staten på sigt kan udbetale penge til befolkningen, eller at værdien kan fungere som et økonomisk sikkerhedsnettet, hvis arbejdsmarkedet ændrer sig voldsomt.\n\nBaggrunden for forslaget er todelt. For det første er teknologien bygget på tekster, billeder og bøger skabt af mennesker, som sjældent får betaling for det. En officiel ejerandel kan ses som en sen betaling for dette kildemateriale. For det andet forsøger tech-toppen at dæmpe den udbredte bekymring for, at automatisering vil fjerne arbejdspladser i hobetal.\n\nRegnestykket viser, at hvis man delte en mindre portion af selskabets nuværende markedsværdi ud i dag, ville hver husstand stå til et beskedent beløb. Kritikere peger dog på, at der indtil videre primært er tale om politisk udspil og gode historier frem for en fastlåst plan. Alligevel viser det, at fremtiden for den nye teknologi og dens økonomiske gevinster stadig er til åben debat.",
       "detaljer": [
         "Chefen for OpenAI har drøftet en ejerandel på fem procent med den amerikanske præsident.",
@@ -2960,7 +3047,9 @@
         "Borgerne skal måske have del i fremtidens milliardgevinster.",
         "Ideen skal berolige frygten for tab af arbejdspladser.",
         "Der mangler stadig konkrete aftaler og overskud i selskabet."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 6
     },
     {
       "titel": "Google DeepMind and A24 announce first-of-its-kind research partnership",
@@ -2971,8 +3060,6 @@
       "kategori": "Forskning",
       "rubrik": "Teknologigigant slår sig sammen med filmfolk",
       "resume_da": "Google DeepMind indgår et unikt samarbejde med filmselskabet A24 for at udvikle fremtidens digitale værktøjer til skabere.",
-      "kat_ai": true,
-      "prio": 5,
       "brief": "Det verdenskendte teknologiselskab Google DeepMind har taget hul på et helt unikt samarbejde med det populære filmselskab A24. Målet med aftalen er at undersøge, hvordan avanceret AI kan flettes ind i den kreative proces, når der skal laves film.\n\nSamarbejdet skal sikre, at de digitale værktøjer, der bliver udviklet i fremtiden, passer til filmfolkenes reelle behov. Ved at lade filmskaberne teste og vurdere teknologien helt tæt på, håber parterne at kunne skubbe grænserne for, hvad der overhovedet er muligt inden for moderne historiefortælling.\n\nUd over selve udviklingsarbejdet indebærer aftalen også en økonomisk indskydelse fra Googles side i filmselskabet. Selvom de helt præcise resultater af partnerskabet først vil tage form over tid, er visionen at skabe en stærkere bro mellem ny teknologi og den kreative branche.",
       "detaljer": [
         "Google DeepMind og A24 har indgået et helt nyt og unikt forskningssamarbejde.",
@@ -2987,7 +3074,9 @@
         "AI-værktøjer skal testes direkte af professionelle filmskabere",
         "Google har investeret penge i det kreative filmselskab",
         "Målet er at udvide fremtidens grænser for historiefortælling"
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 5
     },
     {
       "titel": "Achieving operational excellence with AI",
@@ -2998,8 +3087,6 @@
       "kategori": "Hverdags-AI",
       "rubrik": "Gode arbejdsrutiner er nøglen til succes med AI",
       "resume_da": "Virksomheder skal have orden i sagerne, hvis de vil have succes med at bruge AI i hverdagen.",
-      "kat_ai": true,
-      "prio": 5,
       "brief": "Flere og flere virksomheder kigger mod nye teknologier for at få arbejdsgangene til at glide lettere. Markedet for at forbedre kontorarbejde og fabriksproduktion med hjælp fra AI vokser i disse år med voldsom fart, og næsten ni ud af ti chefer planlægger at skrue op for investeringerne. For at få fuldt udbytte af de digitale investeringer kræves det dog, at virksomhederne i forvejen har styr på deres interne rutiner og arbejdsgange.\n\nHistorisk set har virksomheder brugt faste metoder til at skabe orden og kvalitet i hverdagen. Når disse gennemprøvede systemer kobles sammen med ny teknologi, opstår der nye muligheder for at optimere driften. Eksperter peger på, at de virksomheder, som allerede er vant til at måle og veje deres resultater, har meget lettere ved at få succes med de nye digitale løsninger. Uden faste rammer risikerer de dyre indkøb af teknologi blot at skabe mere uro end gavn.\n\nDerfor handler det ikke længere om blot at købe smarte programmer, men om at få teknikken til at spille sammen med gode, gamle dyder som orden og struktur. De steder, hvor medarbejdere og ledelse formår at kombinere stramme arbejdsgange med moderne computerværktøjer, står stærkest i fremtidens konkurrence.",
       "detaljer": [
         "Markedet for digital procesoptimering forventes at overstige 113 milliarder dollars inden for det næste årti.",
@@ -3013,7 +3100,9 @@
         "AI og faste arbejdsgange skal smelte sammen.",
         "Orden i sagerne er en forudsætning for succes.",
         "Flere chefer vil satse milliarder på ny teknologi."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 5
     },
     {
       "titel": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
@@ -3022,10 +3111,27 @@
       "dato": "2026-06-30T16:02:40+00:00",
       "kilde": "Google DeepMind",
       "kategori": "Lanceringer",
-      "rubrik": "Nye miniprogrammer klar til at blive brugt",
-      "resume_da": "Der er udgivet nye digitale byggeklodser, som udviklere kan bruge til at lave smarte programmer.",
+      "rubrik": "Google lancerer lynende hurtige værktøjer til billeder og video",
+      "resume_da": "Google har frigivet to nye digitale modeller, der gør det markant hurtigere og billigere at skabe og redigere billeder samt videoklip.",
       "kat_ai": true,
-      "prio": 8
+      "prio": 8,
+      "brief": "Google har netop sendt to nye teknologier på gaden, som skal gøre det lettere at arbejde med digitale billeder og levende billeder. Den ene nyhed er en lynhurtig model til at fremstille billeder, som er skabt til at levere resultater på rekordtid og til en lav pris, uden at det går ud over kvaliteten. Den anden nyhed er en avanceret videoudgave, der kan forvandle billeder til filmklip og lade brugere redigere videoer ved blot at tale til systemet.\n\nDe to systemer er designet til at arbejde tæt sammen, så man hurtigt kan spytte billeder ud og derefter forvandle dem til levende videoer. Google har allerede indbygget de nye funktioner i en række velkendte programmer og apps, så almindelige forbrugere også får glæde af opgraderingerne. Samtidig er der tænkt på sikkerheden, da alt indhold bliver mærket, så man kan afsløre digitale manipulationer.",
+      "detaljer": [
+        "Google har frigivet den nye og prisvenlige billedmodel kaldet Nano Banana 2 Lite.",
+        "Modellen er skabt til at levere lynhurtige billedresultater med fokus på lave omkostninger.",
+        "Der er også lanceret en ny videoplatform med navnet Gemini Omni Flash til levende billeder.",
+        "Prisen for at generere video er sat til cirka 60 øre per sekund.",
+        "De to systemer kan kobles sammen, så et stillbillede kan omdannes til en lille film.",
+        "Google udruller teknologien i populære tjenester som Søgning, Fotos og selve AI-appen.",
+        "Alt digitalt indhold bliver udstyret med vandmærker for at øge gennemsigtigheden."
+      ],
+      "betydning": "For helt almindelige mennesker betyder disse fremskridt, at det bliver langt nemmere at lege med kreativt indhold på mobilen og computeren. Vi vil fremover opleve, at billeder og videoer kan ændres og skabes på et øjeblik, hvilket vil revolutionere alt fra online shopping til vores egne ferieminder. På sigt kan det gøre det langt billigere og hurtigere for virksomheder at lave reklamer, mens forbrugere skal vænne sig til, at det bliver sværere at skelne mellem ægte og computer-skabt indhold.",
+      "pointer": [
+        "Google lancerer to nye systemer til billeder og video.",
+        "Billeder kan nu genereres langt hurtigere og billigere end før.",
+        "Stillbilleder kan forvandles til levende filmklip på få sekunder.",
+        "Teknologien rulles ud i Google-apps til glæde for alle brugere."
+      ]
     },
     {
       "titel": "How ChatGPT adoption has expanded",
@@ -3048,8 +3154,6 @@
       "kategori": "Lanceringer",
       "rubrik": "Ny AI kan styre din computer og programmer",
       "resume_da": "Google har opdateret deres AI-model, så den nu selv kan navigere rundt på skærme, åbne programmer og udføre komplekse opgaver for dig.",
-      "kat_ai": true,
-      "prio": 9,
       "brief": "Tænk på en digital assistent, der ikke bare kan svare på spørgsmål, men som rent faktisk kan sætte sig ved tasterne og ordne ting for dig. Det er netop det nye gennembrud, som Google står bag. Deres populære sprogmodel har fået en indbygget evne til at betjene computere, ligesom et menneske ville gøre det. Tidligere krævede den slags avancerede funktioner specialiserede systemer, men nu er teknologien blevet en fast del af standardpakken.\n\nMed denne funktion kan den digitale hjælper kigge med på skærmen, forstå hvad der foregår, og klikke sig igennem både hjemmesider, telefoner og almindelige computerprogrammer. Det åbner op for, at virksomheder kan automatisere langvarige og ensformige opgaver, som før krævede masser af manuelt arbejde, lige fra at tjekke systemer igennem til at teste programmer for fejl.\n\nGoogle har desuden indbygget særlige sikkerhedsforanstaltninger for at forhindre, at systemet bliver misbrugt af hackere eller udfører utilsigtede handlinger, når det færdes på internettet. Udviklere og firmaer kan allerede nu få adgang til teknologien gennem Googles udvikler-platforme og begynde at bygge deres egne skræddersyede hjælpe-agenter.",
       "detaljer": [
         "Teknologien er nu bygget direkte ind i Gemini 3.5 Flash-modellen.",
@@ -3064,7 +3168,9 @@
         "Teknologien er bygget direkte ind i Gemini 3.5 Flash.",
         "Kan automatisere besværlige opgaver for virksomheder.",
         "Sikkerheden er skærpet for at beskytte mod misbrug."
-      ]
+      ],
+      "kat_ai": true,
+      "prio": 9
     }
   ]
 }
