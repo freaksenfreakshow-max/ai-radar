@@ -319,7 +319,9 @@ def kald_ai_batch(artikler: list[dict]) -> list[dict] | None:
 SYSTEM_BRIEF = """Du er journalist på et dansk nyhedssite for almindelige mennesker
 uden teknisk baggrund. Ud fra artikelteksten skriver du en SELVSTÆNDIG dansk
 genfortælling i dine helt egne ord - oversæt ALDRIG sætninger direkte, og citér
-ikke fra kilden. Skriv ALTID "AI" - aldrig "kunstig intelligens".
+ikke fra kilden. Kald teknologien "AI" - skriv ALDRIG "kunstig intelligens"
+og opfind ALDRIG omskrivninger som "computerhjerner" eller "tænksom software".
+Modelnavne (Gemini, GPT, Claude osv.) skrives præcis som i kilden.
 
 Fremhæv de 1-2 vigtigste tal eller navne i hver sektion med **dobbelt-stjerner**.
 Skriv levende og varieret - ALDRIG tre ens grå afsnit i træk.
@@ -402,12 +404,16 @@ def dybe_briefs(artikler: list[dict]) -> None:
                                "tekst": str(x.get("tekst", "")).strip()}
                               for x in r.get("sektioner", []) if x.get("tekst")][:4]
             a["brief"] = str(r.get("brief", "")).strip()
-            kilde_af = {b["url"]: b.get("kilde", a["kilde"]) for b in billeder}
-            a["figurer"] = [{"url": str(f.get("url", "")).strip(),
-                             "tekst": str(f.get("tekst", "")).strip(),
-                             "kilde": kilde_af.get(f.get("url"), a["kilde"])}
-                            for f in r.get("figurer", [])
-                            if f.get("url") in kilde_af][:3]
+            def _noegle(u): return str(u or "").split("?")[0].strip()
+            kilde_af = {_noegle(b["url"]): (b["url"], b.get("kilde", a["kilde"])) for b in billeder}
+            a["figurer"] = []
+            for f in r.get("figurer", []):
+                match = kilde_af.get(_noegle(f.get("url")))
+                if match:
+                    a["figurer"].append({"url": match[0],
+                                         "tekst": str(f.get("tekst", "")).strip(),
+                                         "kilde": match[1]})
+            a["figurer"] = a["figurer"][:3]
             a["noegletal"] = [{"tal": str(n.get("tal", "")).strip(),
                                "label": str(n.get("label", "")).strip()}
                               for n in r.get("noegletal", []) if n.get("tal")][:5]

@@ -640,18 +640,18 @@ function aabnLaeser(a) {
          <figcaption>${esc(f.tekst)} · Kilde: ${esc(f.kilde || a.kilde)}</figcaption></figure>`).join("");
     if (a.detaljer && a.detaljer.length)
       briefHtml += `<div class="laeser-sektion">Detaljerne</div>
-        <ul class="laeser-detaljer">${a.detaljer.map(d => `<li>${esc(d)}</li>`).join("")}</ul>`;
+        <ul class="laeser-detaljer">${a.detaljer.map(d => `<li>${fed(d)}</li>`).join("")}</ul>`;
     if (a.betydning)
       briefHtml += `<div class="laeser-sektion">Hvad betyder det for dig?</div>
-        <div class="laeser-betydning">${esc(a.betydning)}</div>`;
+        <div class="laeser-betydning">${fed(a.betydning)}</div>`;
   } else if (a.brief) {
     briefHtml = a.brief.split(/\n\n+/).map(afsnit => `<p>${esc(afsnit)}</p>`).join("");
     if (a.detaljer && a.detaljer.length)
       briefHtml += `<div class="laeser-sektion">Detaljerne</div>
-        <ul class="laeser-detaljer">${a.detaljer.map(d => `<li>${esc(d)}</li>`).join("")}</ul>`;
+        <ul class="laeser-detaljer">${a.detaljer.map(d => `<li>${fed(d)}</li>`).join("")}</ul>`;
     if (a.betydning)
       briefHtml += `<div class="laeser-sektion">Hvad betyder det for dig?</div>
-        <div class="laeser-betydning">${esc(a.betydning)}</div>`;
+        <div class="laeser-betydning">${fed(a.betydning)}</div>`;
   } else {
     briefHtml = `<p>${brodtekst(a)}</p>
        <p class="laeser-note">Det komplette brief er på vej — det skrives automatisk,
@@ -660,7 +660,7 @@ function aabnLaeser(a) {
 
   const pointerHtml = (a.pointer && a.pointer.length)
     ? `<div class="laeser-pointer"><h4>Hovedpointer</h4>
-       <ul>${a.pointer.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>` : "";
+       <ul>${a.pointer.map(p => `<li>${fed(p)}</li>`).join("")}</ul></div>` : "";
 
   laeserBoks.innerHTML = `
     <button class="laeser-luk" id="laeserLuk" aria-label="Luk">✕</button>
