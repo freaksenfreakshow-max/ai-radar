@@ -1,7 +1,43 @@
 {
-  "opdateret": "2026-07-21T19:33:33.929723+00:00",
+  "opdateret": "2026-07-21T19:58:36.364328+00:00",
   "antal": 142,
   "artikler": [
+    {
+      "titel": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+      "link": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+      "resume": "Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.",
+      "dato": "2026-07-21T19:43:41+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder",
+      "rubrik": "Kendt tech-profil lancerer ny konkurrent til Slack",
+      "resume_da": "Twitter-medstifteren Jack Dorsey er klar med Buzz. Det er en ny chatbesked-app, hvor både mennesker og kunstig intelligens arbejder sammen.",
+      "brief": "Manden bag Twitter, Jack Dorsey, forsøger nu at udfordre de kendte samarbejdsværktøjer på arbejdspladsen med et frisk alternativ. Hans firma står bag et nyt program kaldet Buzz, som minder om de platforme, mange kender i dag, men med en vigtig forskel. Her er der tænkt kunstig intelligens ind fra start, så digitale assistenter kan deltage direkte i de samme samtaler som de menneskelige medarbejdere.\n\nIdéen er at samle flere forskellige arbejdsgange ét sted, så det bliver lettere for kolleger at samarbejde, mens systemet selv kan tilpasses. Da systemet er bygget helt åbent, har IT-folk fuld frihed til at ændre og tilpasse det, så det passer til netop deres virksomheds behov. Det giver en stor grad af kontrol og sikkerhed.\n\nForeløbig er programmet i en tidlig fase, og eksperterne råder til at se tiden an, før man skifter hele kontorets system ud. Alligevel kan det vise sig at blive et spændende bekendtskab for mindre virksomheder, der gerne vil have kunstig intelligens tættere ind på livet i den daglige drift.",
+      "pointer": [
+        "Jack Dorsey har skabt chat-platformen Buzz som alternativ til Slack.",
+        "Mennesker og kunstig intelligens taler sammen i samme vindue.",
+        "Programmet er åbent, så it-folk kan ændre og tilpasse det frit.",
+        "Værktøjet er stadig i en tidlig fase, men kan prøves nu."
+      ],
+      "billede": "data/img/d77aa8a5fe080ce7.jpg"
+    },
+    {
+      "titel": "AI and the rise of the universal entertainment app",
+      "link": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/",
+      "resume": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, and TikTok to become all-purpose entertainment destinations instead.",
+      "dato": "2026-07-21T19:39:30+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder",
+      "rubrik": "Fremtiden byder på én stor underholdnings-app",
+      "resume_da": "Kendte underholdnings-tjenester smelter sammen til alt-i-én-apps hjulpet på vej af kunstig intelligens, så du fremover kan klare det hele ét sted.",
+      "brief": "Gamle skel mellem musiktjenester, videoportaler og sociale medier er ved at forsvinde. Store aktører udvider nu deres sortiment voldsomt, så du både kan streame film, lytte til podcasts, spille spil og købe billetter i nøjagtig den samme app. Udviklingen skyldes, at markedet er mættet, og virksomhederne kæmper benhårdt om at holde på din dyrebare tid.\n\nKunstig intelligens fungerer som den vigtigste motor bag denne forandring. Ny teknologi gør det langt lettere for giganterne at udvikle nye funktioner, skabe personlige anbefalinger og forstå præcis, hvad du vil se eller lytte til næste gang. Samtidig bruger de smarte systemer til at forbedre annoncer og hjælpe skabere med at lave nyt indhold.\n\nFor den almindelige forbruger betyder det, at du sandsynligvis kun behøver at åbne én enkelt app, uanset hvad du mangler af tidsfordriv. Bagsiden af medaljen er dog, at det bliver sværere at skifte platform, når tjenesterne samler alle dine vaner under ét tag, hvilket kan give virksomhederne mere magt over priserne.",
+      "pointer": [
+        "Underholdnings-apps smelter sammen og tilbyder nu alt på ét sted.",
+        "Kunstig intelligens gør det muligt at kombinere video, musik og spil.",
+        "Du får bedre personlige anbefalinger, men færre grunde til at skifte app.",
+        "Konkurrencen handler om at fastholde din opmærksomhed længst muligt."
+      ],
+      "billede": "data/img/0919b4f551ff4e1d.jpg"
+    },
     {
       "titel": "Substack adds an AI detector to help spot blogs written by no one",
       "link": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
@@ -17,17 +53,19 @@
         "Funktionen scanner både artikler, kommentarer og svar",
         "Formålet er at skabe ærlighed og beskytte menneskelige forfattere",
         "Skribenter kan åbent forklare deres brug af digitale værktøjer"
-      ]
+      ],
+      "billede": "data/img/479948011bc90158.jpg"
     },
     {
-      "titel": "AI Didn't Make Programming Easier. It Just Made It Differently Difficult",
+      "titel": "AI makes programming differently difficult",
       "link": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
-      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 65 # Comments: 18",
+      "resume": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 90 # Comments: 55",
       "dato": "2026-07-21T18:30:21+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
       "rubrik": "Computerprogrammering er stadig svært, bare på en anden måde",
-      "resume_da": "Kunstig intelligens gør det ikke lettere at skabe software. Den flytter blot problemerne til nye udfordringer."
+      "resume_da": "Kunstig intelligens gør det ikke lettere at skabe software. Den flytter blot problemerne til nye udfordringer.",
+      "billede": "data/img/3e1218bf11d80e2f.jpg"
     },
     {
       "titel": "Data centers expected to use 4x more electricity by 2035",
@@ -44,7 +82,8 @@
         "AI-teknologi sluger en femtedel af den amerikanske strøm.",
         "Eksisterende elnet er under hårdt pres og giver højere priser.",
         "Globalt vil strømforbruget næsten matche hele Indias årlige forbrug."
-      ]
+      ],
+      "billede": "data/img/50506afdaa3dc7fa.jpg"
     },
     {
       "titel": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
@@ -61,17 +100,19 @@
         "Over 90 procent af de berørte forfattere kræver erstatning",
         "Dommeren skar markant i advokaternes oprindelige millionhøje salærer",
         "Sagen sætter en vigtig grænse for AI-branchens brug af tekster"
-      ]
+      ],
+      "billede": "data/img/e014711cfc53c145.jpg"
     },
     {
       "titel": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
       "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "resume": "Article URL: https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 75 # Comments: 66",
+      "resume": "https://x.com/jack/status/2079605800998146171 , https://xcancel.com/jack/status/2079605800998146171 https://buzz.xyz/ Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 85 # Comments: 88",
       "dato": "2026-07-21T17:14:06+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
       "rubrik": "Twitter-grundlægger lancerer nyt digitalt arbejdsrum",
-      "resume_da": "Kendt tech-profil er klar med et nyt fællesværktøj. Det samler chat og smarte hjælperobotter ét sted."
+      "resume_da": "Kendt tech-profil er klar med et nyt fællesværktøj. Det samler chat og smarte hjælperobotter ét sted.",
+      "billede": "data/img/ee8670fb6715ddd3.jpg"
     },
     {
       "titel": "Google releases three new Gemini models — but no 3.5 Pro",
@@ -88,12 +129,13 @@
         "De nye modeller er billigere og hurtigere at anvende.",
         "En særlig sikkerhedsmodel er øremærket myndigheder og få partnere.",
         "Den store og ventede topmodel lader fortsat vente på sig."
-      ]
+      ],
+      "billede": "data/img/c096964be54d2919.jpg"
     },
     {
-      "titel": "Meta's AI Models Are Powering the First Wave of Genesis Mission Projects",
+      "titel": "Meta's AI models are powering the first wave of Genesis Mission projects",
       "link": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
-      "resume": "Article URL: https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1 Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 56 # Comments: 39",
+      "resume": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 63 # Comments: 45",
       "dato": "2026-07-21T17:03:18+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -105,7 +147,8 @@
         "Meta-modeller skærer analysetid ned fra måneder til minutter",
         "Teknologien kan hjælpe med at udvikle tørkeresistente afgrøder",
         "Åben kildekode gør det muligt at arbejde sikkert"
-      ]
+      ],
+      "billede": "data/img/01d7107bbcebe850.jpg"
     },
     {
       "titel": "Introducing the ChatGPT for small business program",
@@ -115,7 +158,8 @@
       "kilde": "OpenAI Blog",
       "kategori": "Labs",
       "rubrik": "Særligt program skal hjælpe små virksomheder i gang",
-      "resume_da": "Et nyt tiltag vil lære mindre firmaer at bruge smarte robotter. Målet er at gøre hverdagen lettere og spare tid."
+      "resume_da": "Et nyt tiltag vil lære mindre firmaer at bruge smarte robotter. Målet er at gøre hverdagen lettere og spare tid.",
+      "billede": "data/img/9783627bd88cddeb.jpg"
     },
     {
       "titel": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
@@ -132,7 +176,8 @@
         "Ny letvægtsmodel giver lynhurtige svar i søgemaskinen",
         "Sikkerhedsmodel holdes tilbage og udleveres kun til udvalgte partnere",
         "Arbejdet med næste generation kaldet Gemini 4 er allerede igangsat"
-      ]
+      ],
+      "billede": "data/img/856fa25c6c2097c8.jpg"
     },
     {
       "titel": "Anthropic’s $1.5 billion book piracy settlement approved by judge",
@@ -149,7 +194,8 @@
         "Firmaet brugte millioner af bøger til at træne AI",
         "Berørte forfattere modtager cirka 3.000 dollars per bog",
         "Flere andre sager om ophavsret venter stadig forud"
-      ]
+      ],
+      "billede": "data/img/9e86e0fbb2cfe2af.jpg"
     },
     {
       "titel": "US threatens sanctions against Chinese AI models over IP theft",
@@ -166,7 +212,8 @@
         "Frygt for at kineserne stjålet amerikansk teknologi",
         "Kinesiske systemer udfordrer de store i USA",
         "Eksperter strides om metoder og ægte tyveri"
-      ]
+      ],
+      "billede": "data/img/be406df3fd99cbad.jpg"
     },
     {
       "titel": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
@@ -183,7 +230,8 @@
         "De nye versioner er billigere og mere effektive i drift.",
         "En særlig sikkerhedsmodel skal hjælpe med at finde it-fejl.",
         "Udviklingen mod endnu større modeller kaldet Gemini 4 er i gang."
-      ]
+      ],
+      "billede": "data/img/6ba6c25e923af94f.jpg"
     },
     {
       "titel": "Google launches a cheaper alternative to large AI security models like Mythos",
@@ -200,7 +248,8 @@
         "Systemet kan hurtigt gennemsøge store mængder kode for svagheder.",
         "Teknologien er skabt som et billigere alternativ til eksisterende gigant-modeller.",
         "Startskuddet lyder for myndigheder og udvalgte partnere via særlige værktøjer."
-      ]
+      ],
+      "billede": "data/img/5462dce82ab6e4b4.jpg"
     },
     {
       "titel": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
@@ -217,7 +266,8 @@
         "Mængden af AI-musik er eksploderet voldsomt siden 2025.",
         "Deezer sletter nu uafspillede AI-numre for at undgå svindel.",
         "Musiktjenester strides om, hvordan de skal tackle udviklingen."
-      ]
+      ],
+      "billede": "data/img/a70f755423c2f663.jpg"
     },
     {
       "titel": "Halliday’s latest smart glasses feature a much-improved display",
@@ -234,7 +284,8 @@
         "Kameraet er fjernet for at skåne batteriet og beskytte privatlivet",
         "Indbygget AI skal hjælpe med at opsummere møder og beslutninger",
         "Prisen er høj, og de koster omkring 4.000 kroner"
-      ]
+      ],
+      "billede": "data/img/11ac057f121bc82e.jpg"
     },
     {
       "titel": "America needs to stop getting shocked by Chinese AI",
@@ -251,7 +302,8 @@
         "De amerikanske markeder reagerer med chok og uro.",
         "Kina udfordrer USA's dominans på teknologiområdet.",
         "Lavere priser kan presse de amerikanske tech-giganter."
-      ]
+      ],
+      "billede": "data/img/e9faa71a5160afbb.jpg"
     },
     {
       "titel": "Advancing next-gen AI with materials science innovation",
@@ -268,7 +320,8 @@
         "Nye og stærkere specialmaterialer er afgørende for fremtidens computerchips og datacentre.",
         "AI bruges i laboratorierne til at opfinde nye materialer meget hurtigere.",
         "Fremtidens produktion skal både være ekstremt effektiv og mere miljøvenlig."
-      ]
+      ],
+      "billede": "data/img/6d5a86555da5e529.jpg"
     },
     {
       "titel": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
@@ -285,7 +338,8 @@
         "Systemet hjælper med at løfte og placere tunge solceller præcist.",
         "Solcelleopførelsen kan tidobles og aflaste menneskelige medarbejdere effektivt.",
         "Teknologien kan i fremtiden bruges til andre tunge byggeopgaver."
-      ]
+      ],
+      "billede": "data/img/5b7c7b34706f3c38.jpg"
     },
     {
       "titel": "Rater State Bias in RLHF Preference Data: An Audit Framework",
@@ -301,7 +355,8 @@
         "Menneskers dagsform påvirker, hvordan kunstig intelligens bliver opdraget.",
         "Træthed hos dommerne skaber skjulte skævheder i AI-systemer.",
         "Fremtidens AI-svar kan blive mere pålidelige med bedre kontrol."
-      ]
+      ],
+      "billede": "data/img/d910b24135cfd0ce.jpg"
     },
     {
       "titel": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
@@ -318,7 +373,8 @@
         "Systemet kender forskel på kram, klap og puf",
         "Kunstig intelligens i bamsen reagerer på vores følelser",
         "Kan skabe bedre trøst og hjælp til sårbare grupper"
-      ]
+      ],
+      "billede": "data/img/8e1ebc3027c6339d.jpg"
     },
     {
       "titel": "Some Large Language Models Exhibit Consistent Risk Attitudes",
@@ -335,7 +391,8 @@
         "Nogle systemer er konsekvent forsigtige, mens andre søger chancer",
         "Oplevelsen af neutralitet i computere bliver udfordret af forskningen",
         "Det kan påvirke kvaliteten af de råd, du modtager"
-      ]
+      ],
+      "billede": "data/img/e54851fb0c8ecb5b.jpg"
     },
     {
       "titel": "A Survey on GNN-based Link Prediction: Techniques, Applications, and Challenges",
@@ -352,7 +409,8 @@
         "Teknologien kan forudsige usynlige forbindelser mellem forskellige ting.",
         "Metoden kan bruges til alt fra sociale medier til medicin.",
         "Hverdagens digitale tjenester bliver klogere og mere præcise."
-      ]
+      ],
+      "billede": "data/img/30dce3b4860a1464.jpg"
     },
     {
       "titel": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
@@ -369,7 +427,8 @@
         "Snyden sker i den indledende planlægningsfase før opgavens start.",
         "Angrebet kan misbruge automatiserede teams til skadelige formål.",
         "Sikkerheden skal forbedres, før teknologien udbredes yderligere."
-      ]
+      ],
+      "billede": "data/img/4c4fda405d2fe4f4.jpg"
     },
     {
       "titel": "Deterministic Replay for AI Agent Systems",
@@ -386,7 +445,8 @@
         "Fejl kan nu genskabes præcist for nemmere fejlsøgning",
         "Fremtidens digitale hjælpere bliver mere stabile",
         "Teknologien giver større kontrol over smarte systemer"
-      ]
+      ],
+      "billede": "data/img/5db2839459e08fb2.jpg"
     },
     {
       "titel": "Generative Ontology Induction: Domain-Agnostic Schema Discovery from Document Corpora Using Large Language Models",
@@ -403,7 +463,8 @@
         "Metoden virker uanset hvilket emne dokumenterne handler om",
         "Det fjerner behovet for manuelt at sortere store arkiver",
         "Teknologien kan gøre fremtidens søgninger langt mere præcise"
-      ]
+      ],
+      "billede": "data/img/6707508019769cd5.jpg"
     },
     {
       "titel": "Democratizing AI with Small Language Models: Structured Benchmarking and Parameter-Efficient Fine-Tuning for Local Deployment",
@@ -420,7 +481,8 @@
         "Teknikken gør det muligt at droppe de dyre skytjenester.",
         "Brugerne får fuldt kontrol over deres egne private data.",
         "Kunstig intelligens bliver langt mere tilgængelig for almindelige mennesker."
-      ]
+      ],
+      "billede": "data/img/50d65b8db9f8b1e9.jpg"
     },
     {
       "titel": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
@@ -437,7 +499,8 @@
         "Digitale assistenter kan træffe klogere beslutninger på egen hånd",
         "Metoden gør kunstig intelligens mere fleksibel og tilpasningsdygtig",
         "Forskningen er netop offentliggjort af internationale videnskabsfolk"
-      ]
+      ],
+      "billede": "data/img/50b3399b3bb46c5b.jpg"
     },
     {
       "titel": "It Takes 8 Tokens: Weak-to-Strong Off-Policy RL via Auxiliary Branches",
@@ -454,7 +517,8 @@
         "Metoden gør det muligt at opbygge stærkere modeller hurtigere",
         "Kræver færre ressourcer end traditionelle og dyre fremgangsmåder",
         "Baner vejen for endnu mere nyttige digitale hverdagsredskaber"
-      ]
+      ],
+      "billede": "data/img/4a78c2c744e3a217.jpg"
     },
     {
       "titel": "PPO-HSC: An Exploratory Reinforcement Learning Framework Based on Wide-Area Policy Coverage Optimization",
@@ -623,7 +687,7 @@
     {
       "titel": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
       "link": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 331 # Comments: 227",
+      "resume": "https://archive.ph/20260720174223/https://asia.nikkei.com/bu... Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 334 # Comments: 227",
       "dato": "2026-07-21T03:56:03+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -743,7 +807,7 @@
     {
       "titel": "How we measured AI writing across arXiv, and where the measurement breaks",
       "link": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "resume": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 237 # Comments: 161",
+      "resume": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 237 # Comments: 163",
       "dato": "2026-07-20T16:36:36+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -783,7 +847,7 @@
     {
       "titel": "Mythologizing AI makes it more likely that we’ll fail to operate it well (2023)",
       "link": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
-      "resume": "Article URL: https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai Comments URL: https://news.ycombinator.com/item?id=48980238 Points: 78 # Comments: 145",
+      "resume": "Article URL: https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai Comments URL: https://news.ycombinator.com/item?id=48980238 Points: 78 # Comments: 146",
       "dato": "2026-07-20T15:28:32+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -803,7 +867,7 @@
     {
       "titel": "China’s open-weights AI strategy is winning",
       "link": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "resume": "Article URL: https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/ Comments URL: https://news.ycombinator.com/item?id=48979269 Points: 1199 # Comments: 910",
+      "resume": "Article URL: https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/ Comments URL: https://news.ycombinator.com/item?id=48979269 Points: 1201 # Comments: 911",
       "dato": "2026-07-20T14:21:47+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -983,7 +1047,7 @@
     {
       "titel": "What AI did to stackoverflow in a graph",
       "link": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
-      "resume": "Article URL: https://data.stackexchange.com/stackoverflow/query/1953768#graph Comments URL: https://news.ycombinator.com/item?id=48956949 Points: 476 # Comments: 579",
+      "resume": "Article URL: https://data.stackexchange.com/stackoverflow/query/1953768#graph Comments URL: https://news.ycombinator.com/item?id=48956949 Points: 477 # Comments: 579",
       "dato": "2026-07-18T11:12:46+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
@@ -1003,22 +1067,12 @@
     {
       "titel": "AI Mania Is Eviscerating Global Decision-Making",
       "link": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
-      "resume": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/ Comments URL: https://news.ycombinator.com/item?id=48956153 Points: 74 # Comments: 13",
+      "resume": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/ Comments URL: https://news.ycombinator.com/item?id=48956153 Points: 75 # Comments: 13",
       "dato": "2026-07-18T08:14:05+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community",
       "rubrik": "Blindt tech-hysteriet skader vigtige beslutninger",
       "resume_da": "Verdens ledere glemmer sund fornuft, fordi de blindt følger den nye computerbølge. Det skaber dårlige beslutninger."
-    },
-    {
-      "titel": "Neil Rimer thinks the AI money is coming back out",
-      "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-      "resume": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
-      "dato": "2026-07-18T04:47:25+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder",
-      "rubrik": "Ekspert: Milliarder investeret i computer-hype skal retur",
-      "resume_da": "En kendt investor spår, at de enorme pengebeløb i den nye computerindustri snart skal deles ud igen."
     },
     {
       "titel": "A grumpy screed about AI in software engineering",
@@ -1029,16 +1083,6 @@
       "kategori": "Community",
       "rubrik": "Kritik af smarte programmer i it-udvikling",
       "resume_da": "Fagfolk bander og stønner over de nye computerprogrammer, der lover guld og grønne skove, men irriterer."
-    },
-    {
-      "titel": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
-      "link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
-      "resume": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
-      "dato": "2026-07-17T22:55:09+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder",
-      "rubrik": "Luksus-telefon koster en bondegård",
-      "resume_da": "En svindre dyr foldetelefon med indbygget computerhjælp lover guld og grønne skove, men leverer svingende resultater."
     },
     {
       "titel": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
