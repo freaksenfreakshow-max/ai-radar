@@ -16,6 +16,7 @@ aldrig igen (nøglen er artiklens link). Det holder prisen på få øre.
 
 import json
 import os
+import time
 import re
 import html
 import urllib.request
@@ -35,11 +36,20 @@ MAX_PER_FEED = 25            # max artikler pr. feed
 MAX_DAGE_GAMMEL = 30         # smid artikler ældre end 30 dage væk
 TIMEOUT_SEK = 20
 
-# --- AI-omskrivning ---
-API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-AI_MODEL = "claude-haiku-4-5"    # hurtig og billig
+# --- AI-omskrivning (Claude ELLER Gemini - crawleren bruger den nøgle der findes) ---
+CLAUDE_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+CLAUDE_MODEL = "claude-haiku-4-5"     # $1/$5 pr. mio. tokens
+GEMINI_MODEL = "gemini-3.5-flash"     # $1.50/$9 - men har gratis-niveau (rate-begrænset)
+
+# Er begge nøgler sat, vinder AI_UDBYDER ("claude" eller "gemini"), ellers Claude
+UDBYDER = os.environ.get("AI_UDBYDER", "").strip().lower() \
+    or ("claude" if CLAUDE_KEY else "gemini" if GEMINI_KEY else "")
+API_KEY = CLAUDE_KEY if UDBYDER == "claude" else GEMINI_KEY
+
 BATCH_STR = 10                   # artikler pr. API-kald (korte resuméer)
 MAX_OMSKRIV_PR_KOERSEL = 200     # loft over API-forbrug pr. kørsel
+GEMINI_PAUSE_SEK = 4             # pause mellem Gemini-kald (gratis-niveauets fartgrænse)
 
 # --- Dybe briefs (hele artiklen hentes og genfortælles) ---
 DYBDE_ANTAL = 30                 # de N nyeste artikler får komplet brief
@@ -183,26 +193,53 @@ Svar KUN med et JSON-array, ét objekt pr. artikel, i samme rækkefølge som inp
 [{"rubrik": "...", "resume": "..."}, ...]"""
 
 
-def kald_claude(artikler: list[dict]) -> list[dict] | None:
-    """Sender en batch artikler til Claude og får danske omskrivninger tilbage."""
-    input_liste = [{"nr": i + 1, "titel": a["titel"], "tekst": a["resume"][:350],
-                    "kilde": a["kilde"]} for i, a in enumerate(artikler)]
-    body = json.dumps({
-        "model": AI_MODEL,
-        "max_tokens": 4000,
-        "system": SYSTEM_PROMPT,
-        "messages": [{"role": "user", "content":
-                      "Omskriv disse artikler:\n" + json.dumps(input_liste, ensure_ascii=False)}],
-    }).encode()
-    try:
+def kald_ai(system: str, bruger_tekst: str, max_tokens: int) -> str:
+    """Ét fælles AI-kald - taler med Claude eller Gemini alt efter hvilken
+    nøgle der er sat. Returnerer modellens rå tekstsvar."""
+    if UDBYDER == "claude":
+        body = json.dumps({
+            "model": CLAUDE_MODEL,
+            "max_tokens": max_tokens,
+            "system": system,
+            "messages": [{"role": "user", "content": bruger_tekst}],
+        }).encode()
         svar = hent_url("https://api.anthropic.com/v1/messages", data=body, headers={
             "x-api-key": API_KEY,
             "anthropic-version": "2023-06-01",
             "content-type": "application/json",
         })
-        tekst = json.loads(svar)["content"][0]["text"].strip()
-        tekst = re.sub(r"^```(json)?\s*|\s*```$", "", tekst)   # fjern evt. kodehegn
-        resultat = json.loads(tekst)
+        return json.loads(svar)["content"][0]["text"]
+
+    # Gemini
+    body = json.dumps({
+        "systemInstruction": {"parts": [{"text": system}]},
+        "contents": [{"role": "user", "parts": [{"text": bruger_tekst}]}],
+        "generationConfig": {"maxOutputTokens": max_tokens},
+    }).encode()
+    svar = hent_url(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        data=body, headers={"x-goog-api-key": API_KEY, "content-type": "application/json"})
+    tekst = json.loads(svar)["candidates"][0]["content"]["parts"][0]["text"]
+    if UDBYDER == "gemini":
+        time.sleep(GEMINI_PAUSE_SEK)         # bliv under gratis-niveauets fartgrænse
+    return tekst
+
+
+def parse_json_svar(raa: str):
+    """Fjerner evt. kodehegn og parser modellens JSON-svar."""
+    raa = re.sub(r"^```(json)?\s*|\s*```$", "", raa.strip())
+    return json.loads(raa)
+
+
+def kald_ai_batch(artikler: list[dict]) -> list[dict] | None:
+    """Sender en batch artikler til AI'en og får danske omskrivninger tilbage."""
+    input_liste = [{"nr": i + 1, "titel": a["titel"], "tekst": a["resume"][:350],
+                    "kilde": a["kilde"]} for i, a in enumerate(artikler)]
+    try:
+        resultat = parse_json_svar(kald_ai(
+            SYSTEM_PROMPT,
+            "Omskriv disse artikler:\n" + json.dumps(input_liste, ensure_ascii=False),
+            4000))
         if isinstance(resultat, list) and len(resultat) == len(artikler):
             return resultat
         print(f"  ⚠️  AI-svar havde forkert længde ({len(resultat)} vs {len(artikler)})")
@@ -227,24 +264,13 @@ Svar KUN med ét JSON-objekt:
 }"""
 
 
-def kald_claude_brief(a: dict, tekst: str) -> dict | None:
+def kald_ai_brief(a: dict, tekst: str) -> dict | None:
     """Laver et komplet dansk brief ud fra artiklens fulde tekst."""
-    body = json.dumps({
-        "model": AI_MODEL,
-        "max_tokens": 1500,
-        "system": SYSTEM_BRIEF,
-        "messages": [{"role": "user", "content":
-                      f"KILDE: {a['kilde']}\nTITEL: {a['titel']}\n\nARTIKELTEKST:\n{tekst}"}],
-    }).encode()
     try:
-        svar = hent_url("https://api.anthropic.com/v1/messages", data=body, headers={
-            "x-api-key": API_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        })
-        raa = json.loads(svar)["content"][0]["text"].strip()
-        raa = re.sub(r"^```(json)?\s*|\s*```$", "", raa)
-        r = json.loads(raa)
+        r = parse_json_svar(kald_ai(
+            SYSTEM_BRIEF,
+            f"KILDE: {a['kilde']}\nTITEL: {a['titel']}\n\nARTIKELTEKST:\n{tekst}",
+            1500))
         if r.get("rubrik") and r.get("brief"):
             return r
     except Exception as fejl:
@@ -260,7 +286,7 @@ def dybe_briefs(artikler: list[dict]) -> None:
         print("📰 Alle topartikler har allerede et brief (cache)")
         return
     if not API_KEY:
-        print("📰 ANTHROPIC_API_KEY ikke sat - springer dybe briefs over")
+        print("📰 Ingen AI-nøgle sat (ANTHROPIC_API_KEY/GEMINI_API_KEY) - springer dybe briefs over")
         return
 
     print(f"📰 Henter og genfortæller {len(kandidater)} artikler i fuld længde …")
@@ -274,7 +300,7 @@ def dybe_briefs(artikler: list[dict]) -> None:
                 print(f"   ⚠️  {a['kilde']}: kunne ikke hente brødtekst - beholder kort resumé")
 
     for i, (a, tekst) in enumerate(med_tekst, 1):
-        r = kald_claude_brief(a, tekst)
+        r = kald_ai_brief(a, tekst)
         if r:
             a["rubrik"] = str(r["rubrik"]).strip()
             a["resume_da"] = str(r.get("resume", "")).strip() or a.get("resume_da", "")
@@ -315,7 +341,7 @@ def omskriv_nye(artikler: list[dict], cache: dict) -> None:
         print("✍️  Alle artikler er allerede omskrevet (cache)")
         return
     if not API_KEY:
-        print(f"✍️  ANTHROPIC_API_KEY ikke sat - springer omskrivning over "
+        print(f"✍️  Ingen AI-nøgle sat (ANTHROPIC_API_KEY/GEMINI_API_KEY) - springer omskrivning over "
               f"({len(mangler)} artikler vises på engelsk)")
         return
 
@@ -323,7 +349,7 @@ def omskriv_nye(artikler: list[dict], cache: dict) -> None:
     print(f"✍️  Omskriver {len(mangler)} nye artikler til letlæst dansk …")
     for i in range(0, len(mangler), BATCH_STR):
         batch = mangler[i:i + BATCH_STR]
-        resultat = kald_claude(batch)
+        resultat = kald_ai_batch(batch)
         if not resultat:
             continue
         for a, r in zip(batch, resultat):

@@ -12,13 +12,18 @@ feeds.json  ──►  crawler.py  ──────────────►
 
 ## 🔑 AI-omskrivningen (kræver én ting af jer)
 
-Crawleren omskriver hver ny artikel til letlæst dansk via Claude API. Det virker først, når der ligger en API-nøgle i GitHub:
+Crawleren omskriver hver ny artikel til letlæst dansk og skriver komplette briefs af de 30 nyeste. Den kan bruge **Claude eller Gemini** — den bruger automatisk den nøgle, der er sat op:
 
-1. Opret en nøgle på [console.anthropic.com](https://console.anthropic.com) → *API keys*
-2. I repo'et: **Settings → Secrets and variables → Actions → New repository secret**
-3. Navn: `ANTHROPIC_API_KEY` · Value: nøglen → **Add secret**
+| | Claude Haiku 4.5 | Gemini 3.5 Flash |
+|---|---|---|
+| Nøgle laves på | [console.anthropic.com](https://console.anthropic.com) | [aistudio.google.com](https://aistudio.google.com) |
+| Secret-navn i GitHub | `ANTHROPIC_API_KEY` | `GEMINI_API_KEY` |
+| Pris pr. mio. tokens | $1 ind / $5 ud | $1.50 ind / $9 ud |
+| Gratis-niveau | Nej | Ja (rate-begrænset — Google kan bruge data til træning) |
 
-Uden nøglen kører alt stadig — historierne vises bare på engelsk. Omskrivninger **caches** i `data/articles.json` (nøgle = artiklens link), så hver artikel kun omskrives én gang. Med modellen Claude Haiku koster en opdatering typisk **under 10 øre**, og et helt døgn under 1 kr.
+Sæt nøglen ind i repo'et: **Settings → Secrets and variables → Actions → New repository secret**. Har I sat begge nøgler, vælger crawleren Claude — skift ved at oprette en *repository variable* `AI_UDBYDER` med værdien `gemini` (eller `claude`).
+
+Uden nøgle kører alt stadig — historierne vises bare på engelsk. Omskrivninger **caches** (nøgle = artiklens link), så hver artikel kun betales én gang. Typisk pris: 1-2 kr. første kørsel, derefter få øre pr. opdatering — eller 0 kr. med Geminis gratis-niveau.
 
 GitHub Actions kører crawleren automatisk hver 6. time, og GitHub Pages hoster siden gratis. Når først det er sat op, passer det sig selv.
 
