@@ -182,13 +182,45 @@ def udtraek_tekst(html_raa: str) -> str:
     return "\n\n".join(tekst_afsnit)[:MAX_TEKST]
 
 
-def hent_artikeltekst(a: dict) -> tuple[dict, str]:
-    """Henter artiklens egen side og returnerer (artikel, brødtekst)."""
+BILLED_STOPORD = ("logo", "avatar", "author", "icon", "badge", "headshot",
+                  "profile", "gravatar", "sprite", ".svg")
+
+
+def udtraek_billeder(html_raa: str, base_url: str) -> list[dict]:
+    """Finder artiklens billeder med alt-tekst/billedtekst, så AI'en kan
+    udvælge dem der viser benchmarks, grafer og tabeller."""
+    from urllib.parse import urljoin
+    kandidater = []
+    # <figure> med billedtekst først - det er typisk grafikkerne
+    for fig in re.findall(r"<figure[^>]*>(.*?)</figure>", html_raa, flags=re.S | re.I):
+        m = re.search(r"<img[^>]+src=[\'\"]([^\'\"]+)", fig, flags=re.I)
+        if not m:
+            continue
+        alt = re.search(r"alt=[\'\"]([^\'\"]*)", fig, flags=re.I)
+        cap = re.search(r"<figcaption[^>]*>(.*?)</figcaption>", fig, flags=re.S | re.I)
+        tekst = rens_tekst((cap.group(1) if cap else "") or (alt.group(1) if alt else ""), 150)
+        kandidater.append({"url": urljoin(base_url, m.group(1)), "tekst": tekst})
+    # løse <img> med beskrivende alt-tekst som supplement
+    for m in re.finditer(r"<img[^>]+src=[\'\"]([^\'\"]+)[\'\"][^>]*alt=[\'\"]([^\'\"]{15,})", html_raa, flags=re.I):
+        kandidater.append({"url": urljoin(base_url, m.group(1)), "tekst": rens_tekst(m.group(2), 150)})
+    # frasortér logoer, ikoner osv. og dubletter
+    rene, set_urls = [], set()
+    for k in kandidater:
+        u = k["url"].split("?")[0].lower()
+        if k["url"] in set_urls or any(o in u or o in k["tekst"].lower() for o in BILLED_STOPORD):
+            continue
+        set_urls.add(k["url"])
+        rene.append(k)
+    return rene[:8]
+
+
+def hent_artikeltekst(a: dict) -> tuple[dict, str, list[dict]]:
+    """Henter artiklens egen side og returnerer (artikel, brødtekst, billeder)."""
     try:
         raa = hent_url(a["link"]).decode("utf-8", errors="replace")
-        return a, udtraek_tekst(raa)
+        return a, udtraek_tekst(raa), udtraek_billeder(raa, a["link"])
     except Exception:                        # paywall, botblokering, timeout …
-        return a, ""
+        return a, "", []
 
 
 # ----- AI-omskrivning til letlæst dansk --------------------------------------
@@ -279,6 +311,11 @@ ikke fra kilden. Skriv ALTID "AI" - aldrig "kunstig intelligens".
 Fremhæv de 1-2 vigtigste tal eller navne i hver sektion med **dobbelt-stjerner**.
 Skriv levende og varieret - ALDRIG tre ens grå afsnit i træk.
 
+UFRAVIGELIGT KRAV: Indeholder artiklen benchmarks, scores, procenter, priser
+eller sammenligningstal, SKAL de konkrete tal med i genfortællingen - i
+nøgletal-fliserne, detaljerne og/eller sektionerne. Tal må ALDRIG koges væk
+til vage ord som "markant bedre".
+
 Svar KUN med ét JSON-objekt:
 {
  "rubrik":    fængende dansk overskrift, max 8 ord, ingen jargon,
@@ -287,15 +324,22 @@ Svar KUN med ét JSON-objekt:
               fx "Det er sket", "Pengene bag", "Kritikerne siger", "Hvad nu?").
               Hvert afsnit 40-70 ord letlæst hverdagsdansk:
               [{"overskrift": "...", "tekst": "..."}, ...],
+ "noegletal": 2-5 af artiklens vigtigste tal som fliser:
+              [{"tal": "17 %", "label": "billigere end forgængeren"}, ...].
+              Tom liste hvis artiklen ingen tal har,
  "detaljer":  4-7 punkter med de vigtigste fakta, tal og detaljer fra artiklen
               (hvert punkt én sætning, max 20 ord),
  "betydning": ét afsnit (50-80 ord): hvad kan det her betyde for almindelige
               mennesker, deres penge og deres fremtid,
- "pointer":   3-4 ultrakorte hovedpointer (hver max 12 ord)
+ "pointer":   3-4 ultrakorte hovedpointer (hver max 12 ord),
+ "figurer":   Fra listen KANDIDAT-BILLEDER udvælger du 0-3, der viser
+              benchmarks, grafer, tabeller eller andre data - IKKE almindelige
+              pressefotos. Returnér dem med en kort dansk billedtekst:
+              [{"url": "...", "tekst": "..."}]. Tom liste hvis ingen er relevante.
 }"""
 
 
-def kald_ai_brief(a: dict, tekst: str) -> dict | None:
+def kald_ai_brief(a: dict, tekst: str, billeder: list[dict]) -> dict | None:
     """Laver et komplet dansk brief ud fra artiklens fulde tekst."""
     try:
         r = parse_json_svar(kald_ai(
@@ -312,7 +356,8 @@ def kald_ai_brief(a: dict, tekst: str) -> dict | None:
 def dybe_briefs(artikler: list[dict]) -> None:
     """Giver de DYBDE_ANTAL nyeste artikler et komplet dansk brief:
     henter artikelsiden, udtrækker brødteksten og lader Claude genfortælle."""
-    kandidater = [a for a in artikler[:DYBDE_ANTAL] if not a.get("sektioner")]
+    kandidater = [a for a in artikler[:DYBDE_ANTAL]
+                  if not a.get("sektioner") or "noegletal" not in a or "figurer" not in a]
     if not kandidater:
         print("📰 Alle topartikler har allerede et brief (cache)")
         return
@@ -324,14 +369,14 @@ def dybe_briefs(artikler: list[dict]) -> None:
     med_tekst = []
     with ThreadPoolExecutor(max_workers=6) as pool:      # hent siderne parallelt
         for job in as_completed([pool.submit(hent_artikeltekst, a) for a in kandidater]):
-            a, tekst = job.result()
+            a, tekst, billeder = job.result()
             if len(tekst) >= MIN_TEKST:
-                med_tekst.append((a, tekst))
+                med_tekst.append((a, tekst, billeder))
             else:
                 print(f"   ⚠️  {a['kilde']}: kunne ikke hente brødtekst - beholder kort resumé")
 
-    for i, (a, tekst) in enumerate(med_tekst, 1):
-        r = kald_ai_brief(a, tekst)
+    for i, (a, tekst, billeder) in enumerate(med_tekst, 1):
+        r = kald_ai_brief(a, tekst, billeder)
         if r:
             a["rubrik"] = str(r["rubrik"]).strip()
             a["resume_da"] = str(r.get("resume", "")).strip() or a.get("resume_da", "")
@@ -339,6 +384,14 @@ def dybe_briefs(artikler: list[dict]) -> None:
                                "tekst": str(x.get("tekst", "")).strip()}
                               for x in r.get("sektioner", []) if x.get("tekst")][:4]
             a["brief"] = str(r.get("brief", "")).strip()
+            gyldige_urls = {b["url"] for b in billeder}
+            a["figurer"] = [{"url": str(f.get("url", "")).strip(),
+                             "tekst": str(f.get("tekst", "")).strip()}
+                            for f in r.get("figurer", [])
+                            if f.get("url") in gyldige_urls][:3]
+            a["noegletal"] = [{"tal": str(n.get("tal", "")).strip(),
+                               "label": str(n.get("label", "")).strip()}
+                              for n in r.get("noegletal", []) if n.get("tal")][:5]
             a["detaljer"] = [str(d).strip() for d in r.get("detaljer", [])][:7]
             a["betydning"] = str(r.get("betydning", "")).strip()
             a["pointer"] = [str(p).strip() for p in r.get("pointer", [])][:4]
@@ -557,6 +610,10 @@ def omskriv_nye(artikler: list[dict], cache: dict) -> None:
             if gammel.get("brief") or gammel.get("sektioner"):
                 a["brief"] = gammel.get("brief", "")
                 a["sektioner"] = gammel.get("sektioner", [])
+                if gammel.get("noegletal") is not None:
+                    a["noegletal"] = gammel["noegletal"]
+                if gammel.get("figurer") is not None:
+                    a["figurer"] = gammel["figurer"]
                 a["detaljer"] = gammel.get("detaljer", [])
                 a["betydning"] = gammel.get("betydning", "")
                 a["pointer"] = gammel.get("pointer", [])
@@ -712,6 +769,8 @@ def main() -> None:
                                         "resume_da": a.get("resume_da", ""),
                                         "brief": a.get("brief", ""),
                                         "sektioner": a.get("sektioner", []),
+                                        "noegletal": a.get("noegletal"),
+                                        "figurer": a.get("figurer"),
                                         "detaljer": a.get("detaljer", []),
                                         "betydning": a.get("betydning", ""),
                                         "pointer": a.get("pointer", []),
@@ -747,6 +806,12 @@ def main() -> None:
             for sek in a["sektioner"]:
                 sek["overskrift"] = kort_ai(sek["overskrift"])
                 sek["tekst"] = kort_ai(sek["tekst"])
+        if a.get("noegletal"):
+            for n in a["noegletal"]:
+                n["label"] = kort_ai(n["label"])
+        if a.get("figurer"):
+            for f in a["figurer"]:
+                f["tekst"] = kort_ai(f["tekst"])
 
     for a in unikke:
         a["dato"] = a["dato"].isoformat() if a["dato"] else None
