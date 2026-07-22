@@ -228,12 +228,15 @@ def hent_artikeltekst(a: dict) -> tuple[dict, str, list[dict]]:
     for kilde in a.get("andre", [])[:2]:     # samme historie hos andre medier
         try:
             raa2 = hent_url(kilde["link"]).decode("utf-8", errors="replace")
+            ekstra = udtraek_tekst(raa2)[:3000]
+            if len(ekstra) > 300:
+                tekst += f"\n\n--- SUPPLERENDE KILDE ({kilde['kilde']}) ---\n{ekstra}"
             for b2 in udtraek_billeder(raa2, kilde["link"]):
                 b2["kilde"] = kilde["kilde"]
                 billeder.append(b2)
         except Exception:
             pass
-    return a, tekst, billeder[:10]
+    return a, tekst[:MAX_TEKST + 6000], billeder[:10]
 
 
 # ----- AI-omskrivning til letlæst dansk --------------------------------------
@@ -502,6 +505,10 @@ Ingen grupper? Svar: []"""
 def saml_dublet_historier(artikler: list[dict]) -> list[dict]:
     """Finder nyheder som flere medier dækker, beholder den bedste udgave og
     gemmer de øvrige som ekstra kilder på historien ("andre")."""
+    # 0) håndhæv tidligere samlinger: artikler der allerede er registreret som
+    #    ekstra kilde under en anden historie, skal blive væk
+    kendte_dubletter = {k["link"] for a in artikler for k in a.get("andre", [])}
+    artikler = [a for a in artikler if a["link"] not in kendte_dubletter]
     if not API_KEY:
         return artikler
     # forskningsartikler (arXiv) dublerer aldrig nyhedsmedierne - spring dem over
@@ -509,11 +516,16 @@ def saml_dublet_historier(artikler: list[dict]) -> list[dict]:
     if len(kandidater) < 2:
         return artikler
     liste = "\n".join(f"{i+1}. [{a['kilde']}] {a['titel']}" for i, a in enumerate(kandidater))
-    try:
-        grupper = parse_json_svar(kald_ai(SYSTEM_DUBLET, liste, 1000))
-        assert isinstance(grupper, list)
-    except Exception as fejl:
-        print(f"  ⚠️  Dublet-tjek fejlede: {type(fejl).__name__} - fortsætter uden")
+    grupper = None
+    for forsoeg in (1, 2):
+        try:
+            grupper = parse_json_svar(kald_ai(SYSTEM_DUBLET, liste, 1000))
+            assert isinstance(grupper, list)
+            break
+        except Exception as fejl:
+            print(f"  ⚠️  Dublet-tjek fejlede (forsøg {forsoeg}): {type(fejl).__name__}")
+            grupper = None
+    if grupper is None:
         return artikler
 
     fjern: set[str] = set()
@@ -532,7 +544,9 @@ def saml_dublet_historier(artikler: list[dict]) -> list[dict]:
                or medlemmer[0]
         andre = [m for m in medlemmer if m is not primaer]
         primaer.setdefault("andre", [])
-        primaer["andre"] += [{"kilde": m["kilde"], "link": m["link"]} for m in andre]
+        har = {k["link"] for k in primaer["andre"]}
+        primaer["andre"] += [{"kilde": m["kilde"], "link": m["link"]}
+                             for m in andre if m["link"] not in har]
         fjern.update(m["link"] for m in andre)
         samlet += len(andre)
     if samlet:
@@ -639,6 +653,8 @@ def omskriv_nye(artikler: list[dict], cache: dict) -> None:
                     a["noegletal"] = gammel["noegletal"]
                 if gammel.get("figurer") is not None:
                     a["figurer"] = gammel["figurer"]
+                if gammel.get("andre"):
+                    a["andre"] = gammel["andre"]
                 a["detaljer"] = gammel.get("detaljer", [])
                 a["betydning"] = gammel.get("betydning", "")
                 a["pointer"] = gammel.get("pointer", [])
@@ -802,6 +818,7 @@ def main() -> None:
                                         "sektioner": a.get("sektioner", []),
                                         "noegletal": a.get("noegletal"),
                                         "figurer": a.get("figurer"),
+                                        "andre": a.get("andre"),
                                         "detaljer": a.get("detaljer", []),
                                         "betydning": a.get("betydning", ""),
                                         "pointer": a.get("pointer", []),
