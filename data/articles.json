@@ -1,7 +1,15 @@
 {
-  "opdateret": "2026-07-25T07:34:35.693486+00:00",
-  "antal": 93,
+  "opdateret": "2026-07-25T15:46:47.278589+00:00",
+  "antal": 113,
   "artikler": [
+    {
+      "titel": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "resume": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+      "dato": "2026-07-25T13:05:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
     {
       "titel": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
       "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
@@ -131,6 +139,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Open Weights and American AI Leadership [pdf]",
+      "link": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+      "resume": "Article URL: https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf Comments URL: https://news.ycombinator.com/item?id=49035751 Points: 111 # Comments: 2",
+      "dato": "2026-07-24T13:58:12+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "AI firms want more data centers; Trump's EPA may give neighbors less say",
       "link": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
       "resume": "Rule would allow states to decide how much—if any—public input there can be.",
@@ -145,6 +161,22 @@
       "dato": "2026-07-24T13:36:42+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Oracle fires 21,000 employees to fund AI spending",
+      "link": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442",
+      "resume": "Article URL: https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442 Comments URL: https://news.ycombinator.com/item?id=49035314 Points: 75 # Comments: 13",
+      "dato": "2026-07-24T13:33:12+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "I Tried Building a Real App with AI. It Took a Year",
+      "link": "https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/",
+      "resume": "Article URL: https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/ Comments URL: https://news.ycombinator.com/item?id=49034342 Points: 105 # Comments: 82",
+      "dato": "2026-07-24T12:00:17+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
@@ -211,6 +243,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "AI bet goes awry: Oracle fires 21,000 employees",
+      "link": "https://www.msn.com/en-us/money/economy/ai-bet-goes-awry-oracle-fires-21-000-employees/ar-AA28vWuD",
+      "resume": "Article URL: https://www.msn.com/en-us/money/economy/ai-bet-goes-awry-oracle-fires-21-000-employees/ar-AA28vWuD Comments URL: https://news.ycombinator.com/item?id=49025754 Points: 106 # Comments: 25",
+      "dato": "2026-07-23T18:07:33+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Runway launches AI model router as generative media gets crowded",
       "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
       "resume": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
@@ -235,6 +275,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "The arguments against open source AI are bad",
+      "link": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "resume": "Article URL: https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/ Comments URL: https://news.ycombinator.com/item?id=49024643 Points: 309 # Comments: 211",
+      "dato": "2026-07-23T16:49:57+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Meta launched a new AI optimism ad set to a song about human extinction",
       "link": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
       "resume": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
@@ -249,6 +297,30 @@
       "dato": "2026-07-23T16:04:19+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "link": "https://github.com/onecli/onecli",
+      "resume": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to…",
+      "dato": "2026-07-23T15:42:40+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "link": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "resume": "https://littletech.org/ https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0... Comments URL: https://news.ycombinator.com/item?id=49023016 Points: 1056 # Comments: 869",
+      "dato": "2026-07-23T15:18:40+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "link": "https://github.com/palmier-io/palmier-pro",
+      "resume": "Hi HN, we are Marcos and Harrison, cofounders of Palmier ( https://palmier.io ). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos: - Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 - Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 -…",
+      "dato": "2026-07-23T15:11:37+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Nvidia is sending GPUs to the moon",
@@ -291,6 +363,54 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "I think you might be fooling yourself with AI",
+      "link": "https://louwrentius.com/i-think-you-might-be-fooling-yourself-with-ai.html",
+      "resume": "Article URL: https://louwrentius.com/i-think-you-might-be-fooling-yourself-with-ai.html Comments URL: https://news.ycombinator.com/item?id=49021843 Points: 83 # Comments: 167",
+      "dato": "2026-07-23T14:05:43+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "link": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "resume": "Article URL: https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16 Comments URL: https://news.ycombinator.com/item?id=49021597 Points: 265 # Comments: 328",
+      "dato": "2026-07-23T13:51:36+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+      "link": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+      "resume": "Article URL: https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/ Comments URL: https://news.ycombinator.com/item?id=49021006 Points: 273 # Comments: 282",
+      "dato": "2026-07-23T13:10:02+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+      "link": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "resume": "Article URL: https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet Comments URL: https://news.ycombinator.com/item?id=49020999 Points: 684 # Comments: 372",
+      "dato": "2026-07-23T13:09:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
+      "link": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+      "resume": "Article URL: https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china Comments URL: https://news.ycombinator.com/item?id=49020868 Points: 297 # Comments: 331",
+      "dato": "2026-07-23T13:00:03+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Google’s ATLAS is a look at how people are using AI",
+      "link": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "resume": "Article URL: https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/ Comments URL: https://news.ycombinator.com/item?id=49020335 Points: 77 # Comments: 147",
+      "dato": "2026-07-23T12:11:05+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "How AI helps scientists design the next generation of medicines",
       "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
       "resume": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to…",
@@ -299,12 +419,12 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-      "link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
-      "resume": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
-      "dato": "2026-07-23T11:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
+      "titel": "New Framework Desktop Option with AMD Ryzen AI Max+ Pro 495 and 192GB Memory",
+      "link": "https://frame.work/desktop?tab=192gb-coming-soon",
+      "resume": "Article URL: https://frame.work/desktop?tab=192gb-coming-soon Comments URL: https://news.ycombinator.com/item?id=49019694 Points: 78 # Comments: 113",
+      "dato": "2026-07-23T11:09:48+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Launching Health in ChatGPT",
@@ -323,12 +443,36 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Are AI labs pelicanmaxxing?",
+      "link": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "resume": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html Comments URL: https://news.ycombinator.com/item?id=49010129 Points: 680 # Comments: 242",
+      "dato": "2026-07-22T17:17:54+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "OpenAI says its AI agent broke out of testing sandbox to hack Hugging Face",
       "link": "https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/",
       "resume": "\"This is day one for cybersecurity in the age of agents,\" Hugging Face CEO says.",
       "dato": "2026-07-22T16:47:49+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Most Americans say \"not in my backyard\" to AI data centers",
+      "link": "https://www.redfin.com/news/ai-data-centers-opposition-education-benefit/",
+      "resume": "Article URL: https://www.redfin.com/news/ai-data-centers-opposition-education-benefit/ Comments URL: https://news.ycombinator.com/item?id=49007525 Points: 145 # Comments: 307",
+      "dato": "2026-07-22T14:34:27+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Quality non-fiction books are the antithesis of AI slop",
+      "link": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
+      "resume": "https://book-prize-index.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49007247 Points: 491 # Comments: 238",
+      "dato": "2026-07-22T14:18:05+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
@@ -361,6 +505,22 @@
       "dato": "2026-07-22T13:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
+    },
+    {
+      "titel": "Businesses with ugly AI menu redesigns",
+      "link": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/",
+      "resume": "Article URL: https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/ Comments URL: https://news.ycombinator.com/item?id=49005973 Points: 380 # Comments: 303",
+      "dato": "2026-07-22T12:49:45+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
+      "link": "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
+      "resume": "Article URL: https://www.bbc.com/news/articles/c3ek3gvdnj3o Comments URL: https://news.ycombinator.com/item?id=49005398 Points: 76 # Comments: 102",
+      "dato": "2026-07-22T12:03:32+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Advancing the next era of national science",
