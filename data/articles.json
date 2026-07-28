@@ -1,7 +1,79 @@
 {
-  "opdateret": "2026-07-28T09:49:06.709898+00:00",
-  "antal": 117,
+  "opdateret": "2026-07-28T17:12:45.107587+00:00",
+  "antal": 137,
   "artikler": [
+    {
+      "titel": "Scientific computing in the age of agentic AI",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "resume": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "dato": "2026-07-28T17:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
+      "link": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+      "resume": "The decision arrives as the breakneck pace of data center construction has grid operators scrambling to generate power.",
+      "dato": "2026-07-28T15:42:26+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+      "link": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "resume": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+      "dato": "2026-07-28T14:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Recursive Superintelligence signs $410 million compute deal with Amazon",
+      "link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+      "resume": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+      "dato": "2026-07-28T13:19:17+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "link": "https://github.com/schildep/verified-3d-mesh-intersection",
+      "resume": "To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins down the surface of the resulting mesh exactly and guarantees practical well-formedness conditions on the triangulation. This project is also an experiment in avoiding having to…",
+      "dato": "2026-07-28T13:07:14+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "What AI developers could learn from Charles Bukowski?",
+      "link": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
+      "resume": "Article URL: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski Comments URL: https://news.ycombinator.com/item?id=49083132 Points: 57 # Comments: 40",
+      "dato": "2026-07-28T13:00:12+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "resume": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access local files and apps to perform […]",
+      "dato": "2026-07-28T08:30:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Smart rings are looking like my kind of AI gadget",
+      "link": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "resume": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots of these apps, from […]",
+      "dato": "2026-07-28T08:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google's Beyond Zero: Enterprise Security for the AI Era",
+      "link": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+      "resume": "Article URL: https://spawn-queue.acm.org/doi/10.1145/3819083 Comments URL: https://news.ycombinator.com/item?id=49081644 Points: 106 # Comments: 60",
+      "dato": "2026-07-28T09:59:13+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
     {
       "titel": "Samsung’s chip workers are jumping ship to rival SK Hynix",
       "link": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
@@ -267,6 +339,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Professor's invisible prompt trap catches 32/35 students cheating with AI",
+      "link": "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html",
+      "resume": "Article URL: https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html Comments URL: https://news.ycombinator.com/item?id=49074680 Points: 104 # Comments: 87",
+      "dato": "2026-07-27T19:46:05+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
       "link": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
       "resume": "Telecom expects AI revenue from dark fiber deals and retrofitted data centers.",
@@ -323,6 +403,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "resume": "Article URL: https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing Comments URL: https://news.ycombinator.com/item?id=49071512 Points: 81 # Comments: 76",
+      "dato": "2026-07-27T16:02:00+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Google’s AI search is rapidly becoming the default, new data shows",
       "link": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
       "resume": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
@@ -355,12 +443,36 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+      "link": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
+      "resume": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/ Comments URL: https://news.ycombinator.com/item?id=49070427 Points: 247 # Comments: 336",
+      "dato": "2026-07-27T14:42:41+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI companies spend record sums on Washington lobbying",
+      "link": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+      "resume": "https://archive.ph/PASMJ Comments URL: https://news.ycombinator.com/item?id=49069939 Points: 271 # Comments: 143",
+      "dato": "2026-07-27T14:07:48+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
       "link": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
       "resume": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
       "dato": "2026-07-27T13:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI companies are shredding rare books",
+      "link": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+      "resume": "https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 772 # Comments: 496",
+      "dato": "2026-07-27T12:32:12+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
@@ -435,12 +547,68 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "This July I Was Fired from Simple AI (A Deeply YC Company)",
+      "link": "https://andys.blog/this-july-i-was-fired-from-simple-ai/",
+      "resume": "Article URL: https://andys.blog/this-july-i-was-fired-from-simple-ai/ Comments URL: https://news.ycombinator.com/item?id=49059587 Points: 54 # Comments: 170",
+      "dato": "2026-07-26T16:14:46+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "The New AI Superpowers: Focus and Followthrough",
+      "link": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+      "resume": "Article URL: https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and Comments URL: https://news.ycombinator.com/item?id=49057877 Points: 214 # Comments: 78",
+      "dato": "2026-07-26T13:13:03+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Terence Tao: Mathematics in the Age of AI [pdf]",
+      "link": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
+      "resume": "Article URL: https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf Comments URL: https://news.ycombinator.com/item?id=49056620 Points: 162 # Comments: 64",
+      "dato": "2026-07-26T10:32:35+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
       "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
       "resume": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
       "dato": "2026-07-26T01:30:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "What is happening to jobs? Separating AI hype from reality",
+      "link": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "resume": "Article URL: https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality Comments URL: https://news.ycombinator.com/item?id=49052570 Points: 298 # Comments: 379",
+      "dato": "2026-07-25T22:51:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Cloudflare's new AI traffic options for customers",
+      "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "resume": "Article URL: https://blog.cloudflare.com/content-independence-day-ai-options/ Comments URL: https://news.ycombinator.com/item?id=49052564 Points: 193 # Comments: 157",
+      "dato": "2026-07-25T22:50:49+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "'AI Mania Is Eviscerating Global Decision-Making'",
+      "link": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
+      "resume": "Article URL: https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh Comments URL: https://news.ycombinator.com/item?id=49051692 Points: 61 # Comments: 19",
+      "dato": "2026-07-25T21:18:06+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Politician reads AI prompt during assembly",
+      "link": "https://www.youtube.com/watch?v=wlYa8NV5k-U",
+      "resume": "Article URL: https://www.youtube.com/watch?v=wlYa8NV5k-U Comments URL: https://news.ycombinator.com/item?id=49048996 Points: 69 # Comments: 48",
+      "dato": "2026-07-25T16:31:15+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
@@ -451,28 +619,36 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "One fallen power line exposed a growing AI data center problem — here’s how to fix it",
-      "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-      "resume": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
-      "dato": "2026-07-25T13:05:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
+      "titel": "Open-weight AI is having its Kubernetes moment",
+      "link": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "resume": "Article URL: https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/ Comments URL: https://news.ycombinator.com/item?id=49048034 Points: 410 # Comments: 320",
+      "dato": "2026-07-25T14:49:49+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
-      "titel": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
-      "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
-      "resume": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
-      "dato": "2026-07-25T00:23:11+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
+      "titel": "The AI jobs apocalypse probably isn't coming anytime soon",
+      "link": "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
+      "resume": "Article URL: https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor Comments URL: https://news.ycombinator.com/item?id=49047969 Points: 54 # Comments: 91",
+      "dato": "2026-07-25T14:41:06+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
-      "titel": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-      "link": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-      "resume": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-      "dato": "2026-07-24T22:25:58+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
+      "titel": "The AI Productivity Illusion",
+      "link": "https://www.hardresetmedia.com/p/the-ai-productivity-illusion",
+      "resume": "Article URL: https://www.hardresetmedia.com/p/the-ai-productivity-illusion Comments URL: https://news.ycombinator.com/item?id=49047526 Points: 71 # Comments: 27",
+      "dato": "2026-07-25T13:43:33+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Corporate America Has Suddenly Decided to Stop Blowing Money on AI",
+      "link": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
+      "resume": "Article URL: https://www.wsj.com/business/china-us-ai-model-costs-53a12e96 Comments URL: https://news.ycombinator.com/item?id=49047448 Points: 64 # Comments: 84",
+      "dato": "2026-07-25T13:33:03+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Canadian legislator reads out apparent LLM response in floor speech",
@@ -539,6 +715,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Open Weights and American AI Leadership [pdf]",
+      "link": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+      "resume": "Article URL: https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf Comments URL: https://news.ycombinator.com/item?id=49035751 Points: 112 # Comments: 2",
+      "dato": "2026-07-24T13:58:12+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "AI firms want more data centers; Trump's EPA may give neighbors less say",
       "link": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
       "resume": "Rule would allow states to decide how much—if any—public input there can be.",
@@ -547,27 +731,11 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "link": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
-      "resume": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to […]",
-      "dato": "2026-07-23T17:15:06-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
       "link": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
       "resume": "Bill would let Homeland Security chief decide when an AI should be shut down.",
       "dato": "2026-07-23T19:08:01+00:00",
       "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Claude’s voice mode is now available for Opus and Sonnet",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
-      "resume": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused on delivering […]",
-      "dato": "2026-07-23T15:00:00-04:00",
-      "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
     {
@@ -1297,18 +1465,6 @@
       "kategori": "Lanceringer",
       "rubrik": "Ny computerhjerne er både klogere og billigere",
       "resume_da": "Fremtidens digitale tænkning er blevet markant skarpere, hvilket gør det muligt at løse langt sværere opgaver.",
-      "kat_ai": true,
-      "prio": 9
-    },
-    {
-      "titel": "ChatGPT is now a partner for your most ambitious work",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "resume": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "dato": "2026-07-09T10:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Lanceringer",
-      "rubrik": "Ny digital assistent klarer de store opgaver",
-      "resume_da": "En ny digital hjælper kan arbejde selvstændigt med dine filer i timevis og gøre dine projekter færdige for dig.",
       "kat_ai": true,
       "prio": 9
     },
