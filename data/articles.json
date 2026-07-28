@@ -1,7 +1,63 @@
 {
-  "opdateret": "2026-07-28T17:12:45.107587+00:00",
+  "opdateret": "2026-07-28T21:46:32.272632+00:00",
   "antal": 137,
   "artikler": [
+    {
+      "titel": "JFrog tries to spin OpenAI 0-day exploit of its app into a success story",
+      "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+      "resume": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+      "dato": "2026-07-28T21:36:39+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Bot-detection startup Spur nabs $200M from Insight",
+      "link": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
+      "resume": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.",
+      "dato": "2026-07-28T21:29:34+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+      "link": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+      "resume": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP gateway product and then opted to build one itself.",
+      "dato": "2026-07-28T20:45:12+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Despite AI hype, Google's data shows workers aren't automating themselves away",
+      "link": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
+      "resume": "Analysis of 15 million real AI interactions finds most tasks at most jobs are unaffected.",
+      "dato": "2026-07-28T20:20:20+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Sam Altman is ready to decelerate",
+      "link": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+      "resume": "His change of position comes after \"the first security incident that I have felt very viscerally.\"",
+      "dato": "2026-07-28T20:17:08+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI leaders sign statement asking the government to do something about automated AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+      "resume": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better […]",
+      "dato": "2026-07-28T15:46:43-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI’s finally expensive enough to make Wall Street nervous",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+      "resume": "It's earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter's projection of up to $190 billion. Even the lower end of Google's new projected range - $195 billion - is much more than the company had previously […]",
+      "dato": "2026-07-28T15:33:03-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
     {
       "titel": "Scientific computing in the age of agentic AI",
       "link": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -27,9 +83,9 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Recursive Superintelligence signs $410 million compute deal with Amazon",
+      "titel": "Recursive Superintelligence signs $410M compute deal with Amazon",
       "link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
-      "resume": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+      "resume": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate its own product development process.",
       "dato": "2026-07-28T13:19:17+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
@@ -45,7 +101,7 @@
     {
       "titel": "What AI developers could learn from Charles Bukowski?",
       "link": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
-      "resume": "Article URL: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski Comments URL: https://news.ycombinator.com/item?id=49083132 Points: 57 # Comments: 40",
+      "resume": "Article URL: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski Comments URL: https://news.ycombinator.com/item?id=49083132 Points: 64 # Comments: 46",
       "dato": "2026-07-28T13:00:12+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -69,7 +125,7 @@
     {
       "titel": "Google's Beyond Zero: Enterprise Security for the AI Era",
       "link": "https://spawn-queue.acm.org/doi/10.1145/3819083",
-      "resume": "Article URL: https://spawn-queue.acm.org/doi/10.1145/3819083 Comments URL: https://news.ycombinator.com/item?id=49081644 Points: 106 # Comments: 60",
+      "resume": "Article URL: https://spawn-queue.acm.org/doi/10.1145/3819083 Comments URL: https://news.ycombinator.com/item?id=49081644 Points: 136 # Comments: 73",
       "dato": "2026-07-28T09:59:13+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -405,7 +461,7 @@
     {
       "titel": "Nvidia's $750B in Deals Reignite Circular AI Fears",
       "link": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
-      "resume": "Article URL: https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing Comments URL: https://news.ycombinator.com/item?id=49071512 Points: 81 # Comments: 76",
+      "resume": "Article URL: https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing Comments URL: https://news.ycombinator.com/item?id=49071512 Points: 81 # Comments: 77",
       "dato": "2026-07-27T16:02:00+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -445,7 +501,7 @@
     {
       "titel": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
       "link": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
-      "resume": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/ Comments URL: https://news.ycombinator.com/item?id=49070427 Points: 247 # Comments: 336",
+      "resume": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/ Comments URL: https://news.ycombinator.com/item?id=49070427 Points: 248 # Comments: 344",
       "dato": "2026-07-27T14:42:41+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -453,7 +509,7 @@
     {
       "titel": "AI companies spend record sums on Washington lobbying",
       "link": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
-      "resume": "https://archive.ph/PASMJ Comments URL: https://news.ycombinator.com/item?id=49069939 Points: 271 # Comments: 143",
+      "resume": "https://archive.ph/PASMJ Comments URL: https://news.ycombinator.com/item?id=49069939 Points: 272 # Comments: 144",
       "dato": "2026-07-27T14:07:48+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -469,7 +525,7 @@
     {
       "titel": "AI companies are shredding rare books",
       "link": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
-      "resume": "https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 772 # Comments: 496",
+      "resume": "https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 778 # Comments: 505",
       "dato": "2026-07-27T12:32:12+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -539,14 +595,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-      "resume": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
-      "dato": "2026-07-26T16:33:13+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "This July I Was Fired from Simple AI (A Deeply YC Company)",
       "link": "https://andys.blog/this-july-i-was-fired-from-simple-ai/",
       "resume": "Article URL: https://andys.blog/this-july-i-was-fired-from-simple-ai/ Comments URL: https://news.ycombinator.com/item?id=49059587 Points: 54 # Comments: 170",
@@ -565,23 +613,15 @@
     {
       "titel": "Terence Tao: Mathematics in the Age of AI [pdf]",
       "link": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
-      "resume": "Article URL: https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf Comments URL: https://news.ycombinator.com/item?id=49056620 Points: 162 # Comments: 64",
+      "resume": "Article URL: https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf Comments URL: https://news.ycombinator.com/item?id=49056620 Points: 163 # Comments: 64",
       "dato": "2026-07-26T10:32:35+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
     {
-      "titel": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
-      "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-      "resume": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
-      "dato": "2026-07-26T01:30:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "What is happening to jobs? Separating AI hype from reality",
       "link": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
-      "resume": "Article URL: https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality Comments URL: https://news.ycombinator.com/item?id=49052570 Points: 298 # Comments: 379",
+      "resume": "Article URL: https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality Comments URL: https://news.ycombinator.com/item?id=49052570 Points: 298 # Comments: 380",
       "dato": "2026-07-25T22:51:10+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -611,17 +651,9 @@
       "kategori": "Community"
     },
     {
-      "titel": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
-      "link": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-      "resume": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
-      "dato": "2026-07-25T16:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Open-weight AI is having its Kubernetes moment",
       "link": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "resume": "Article URL: https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/ Comments URL: https://news.ycombinator.com/item?id=49048034 Points: 410 # Comments: 320",
+      "resume": "Article URL: https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/ Comments URL: https://news.ycombinator.com/item?id=49048034 Points: 411 # Comments: 321",
       "dato": "2026-07-25T14:49:49+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -699,26 +731,10 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Meta is making its AI chatbot more like an assistant",
-      "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-      "resume": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. […]",
-      "dato": "2026-07-24T13:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "The tech-broification of American science has officially begun",
-      "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-      "resume": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science adviser Michael Kratsios was on Capitol Hill selling lawmakers on […]",
-      "dato": "2026-07-24T10:43:55-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Open Weights and American AI Leadership [pdf]",
-      "link": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
-      "resume": "Article URL: https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf Comments URL: https://news.ycombinator.com/item?id=49035751 Points: 112 # Comments: 2",
-      "dato": "2026-07-24T13:58:12+00:00",
+      "titel": "Show HN: GeoImageTagger – AI image geotagging and metadata editor",
+      "link": "https://geoimagetagger.com",
+      "resume": "Article URL: https://geoimagetagger.com Comments URL: https://news.ycombinator.com/item?id=49036339 Points: 50 # Comments: 23",
+      "dato": "2026-07-24T14:35:59+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
@@ -1059,47 +1075,6 @@
       "prio": 8
     },
     {
-      "titel": "Beyond grep: The case for a context-rich AI coding harness",
-      "link": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
-      "resume": "Augment Code's Vinay Perneti talks models, harnesses, and context.",
-      "dato": "2026-07-20T11:20:10+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Hverdags-AI",
-      "rubrik": "Smart styring af AI til it-udvikling",
-      "resume_da": "Kampen står om, hvordan AI bedst hjælper programmører med at finde rundt i store koder. Eksperter strides om den rette opskrift.",
-      "brief": "",
-      "sektioner": [
-        {
-          "overskrift": "Det handler om rammer",
-          "tekst": "Når man lader en computer hjælpe med at skrive kildekode, er det selve programmet udenom, der bestemmer succesraten. Denne styrende software fungerer som en bro mellem menneskets projekter og de avancerede sprogmodeller. Førende teknologivirksomheder som **Anthropic** og **Augment Code** har dog helt forskellige syn på, hvordan denne bro skal skrues sammen for at give det bedste resultat."
-        },
-        {
-          "overskrift": "To forskellige veje",
-          "tekst": "Nogle udbydere foretrækker en helt enkel tilgang, hvor man lader selve AI'en om at gennemsøge materialet løbende. Andre eksperter, herunder teknikdirektør **Vinay Perneti**, mener, at det betaler sig at forberede materialet grundigt. Ved at lade systemet gennemlæse og indeksere al kode på forhånd, kan computeren finde de rette filer langt hurtigere i store systemer."
-        },
-        {
-          "overskrift": "Kampen om effektivitet",
-          "tekst": "De to lejre er uenige om, hvorvidt denne ekstra forberedelse rent faktisk kan betale seg. Mens den ene side ikke ser nogen målbar fordel i deres egne tests, viser målinger fra modstanderne en besparelse på **33 procent** i forbrug af computerkraft. Særligt ved store, lukkede virksomhedsprojekter skulle den grundige forudgående analyse gøre en mærkbar forskel for hastigheden."
-        }
-      ],
-      "detaljer": [
-        "Virksomheden Augment Code bruger en særlig database til at indeksere koden på forhånd.",
-        "Vinay Perneti er teknisk direktør hos Augment Code og har arbejdet med emnet siden **2022**.",
-        "AI-systemer kan i dag huske næsten alt indhold i offentlige kodebanker.",
-        "Private og lukkede systemer kræver en anderledes indsats, fordi AI'en ikke kender dem i forvejen.",
-        "Tests viser op til **33 procent** bedre effektivitet ved brug af smart genfinding.",
-        "Debatten handler om, hvor meget software der skal bygges udenom selve sprogmodellen."
-      ],
-      "betydning": "For almindelige mennesker betyder udviklingen, at fremtidens apps og hjemmesider kan blive skabt langt hurtigere og billigere. Når programmører får bedre digitalt værktøj, mindskes risikoen for fejl, og nye digitale tjenester kan hurtigere nå ud til forbrugerne på markedet.",
-      "pointer": [
-        "AI-værktøjer til kodning kræver god styring udefra.",
-        "Eksperter strides om den bedste metode til at finde koden.",
-        "Forarbejde sparer computerkraft i store, private systemer."
-      ],
-      "kat_ai": true,
-      "prio": 5
-    },
-    {
       "titel": "Safety and alignment in an era of long-horizon models",
       "link": "https://openai.com/index/safety-alignment-long-horizon-models",
       "resume": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
@@ -1151,64 +1126,6 @@
       ],
       "kat_ai": true,
       "prio": 8
-    },
-    {
-      "titel": "Will AI fix prior authorization—or make it worse?",
-      "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
-      "resume": "The government is piloting a program that uses AI for insurance-coverage decisions.",
-      "dato": "2026-07-18T11:18:25+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Samfund & etik",
-      "rubrik": "Kan computeren redde det langsomme sundhedssystem?",
-      "resume_da": "Ny brug af AI i sundhedssystemet skal speede godkendelser op, men frygten for uretfærdige afvisninger skaber stor bekymring blandt patienter og læger.",
-      "brief": "",
-      "sektioner": [
-        {
-          "overskrift": "Det store godkendelses-bøvl",
-          "tekst": "At få forsikringen til at betale for lægens anbefalede behandlinger er ofte en lang og opslidende kamp for patienterne. Systemet skal ellers bare tjekke, om behandlingen er nødvendig, men det skaber tit store forsinkelser. Omkring **41 procent** oplever, at deres forløb bliver forsinket, når forsikringsselskabet siger nej eller tøver med at godkende hjælpen."
-        },
-        {
-          "overskrift": "Frygten for maskinens nej",
-          "tekst": "Her kommer den nye teknologi ind i billedet som en mulig redning, der hurtigt kan gennemgå store mængder papirer. Men lægerne er dybt skeptiske over for det digitale værktøj. Hele **61 procent** af lægerne er bange for, at computeren vil føre til ufortjente afvisninger, så syge mennesker slet ikke får den medicin eller behandling, de har hårdt brug for."
-        },
-        {
-          "overskrift": "Statens nye AI-forsøg",
-          "tekst": "Myndighederne prøver nu nye metoder af med et stort forsøg, der kører frem til **december 2031** i **seks** delstater. Projektet bruger smarte algoritmer til at fange unødvendige udgifter og svindel. Kritikere advarer dog om, at forsøget allerede har skabt ekstra problemer, længere ventetid og flere afvisninger for de patienter, der er fanget i systemet."
-        }
-      ],
-      "noegletal": [
-        {
-          "tal": "61 %",
-          "label": "af læger frygter flere uberettigede afvisninger med AI"
-        },
-        {
-          "tal": "41 %",
-          "label": "oplevede forsinket behandling ved afvist forhåndsgodkendelse"
-        },
-        {
-          "tal": "december 2031",
-          "label": "slutdato for det statslige AI-forsøg i seks stater"
-        }
-      ],
-      "figurer": [],
-      "detaljer": [
-        "En nylig undersøgelse viser, at **61 procent** af lægerne frygter at AI øger antallet af uberettigede afvisninger.",
-        "Omkring **55 procent** af ældre og handicappede amerikanere er i dag dækket af det private sundhedsalternativ Medicare Advantage.",
-        "Rundt regnet **1 ud af 5** voksne med privat forsikring oplevede at få afvist anbefalet lægehjælp i 2025.",
-        "Nye regler fastsætter, at akut medicinsk hjælp skal godkendes inden for **72 timer**.",
-        "Det statslige AI-projekt WISeR kører i **seks** forskellige delstater for at mindske unødvendigt forbrug.",
-        "Projektet med AI-godkendelser løber frem til **december 2031**.",
-        "Ved tidligere klagesager har forsikringsselskaberne omstødt **81 procent** af de oprindelige afvisninger."
-      ],
-      "betydning": "For helt almindelige mennesker handler det her om tryghed, når sygdommen rammer, og man har brug for hurtig hjælp. Hvis computeren tager fejl og afviser vigtig medicin eller operationer, kan det få alvorlige konsekvenser for helbredet. Samtidig kan smartere digitale systemer forhåbentlig skære igennem det endeløse papirarbejde, så man undgår at sidde fast i månedlange ventetider, før lægen overhovedet må gå i gang med behandlingen.",
-      "pointer": [
-        "AI skal gøre godkendelser hurtigere, men vækker stor frygt.",
-        "Flertallet af læger frygter flere urimelige afvisninger.",
-        "Statens nye forsøg med AI vækker stærk kritik fra eksperter.",
-        "Mange patienter oplever forsinket pleje og forringet helbred."
-      ],
-      "kat_ai": true,
-      "prio": 6
     },
     {
       "titel": "Introducing Gemini 3.5 Flash Cyber",
