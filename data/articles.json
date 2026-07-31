@@ -1,19 +1,83 @@
 {
-  "opdateret": "2026-07-31T17:12:10.021311+00:00",
-  "antal": 139,
+  "opdateret": "2026-07-31T21:46:33.374761+00:00",
+  "antal": 119,
   "artikler": [
     {
-      "titel": "Disrupting a Criminal Scam Operation",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "resume": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-      "dato": "2026-08-04T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
+      "titel": "Reddit keeps its strange DMCA fight over Google search results alive",
+      "link": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
+      "resume": "Reddit advances lawsuit accusing Perplexity AI of conspiring with web scraper.",
+      "dato": "2026-07-31T21:19:39+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "India is starting to pay for apps, not just download them",
+      "link": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+      "resume": "India's app market generated a record $345 million in Q2.",
+      "dato": "2026-07-31T21:07:45+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Claude published malicious code to the Internet and attacked 3 real companies",
+      "link": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
+      "resume": "Had the hacks used conventional methods, someone would likely go to prison.",
+      "dato": "2026-07-31T20:39:14+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
+      "link": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
+      "resume": "“What on earth is Google doing?” Misinformation fears spur walk-back of AI tool.",
+      "dato": "2026-07-31T20:21:05+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "link": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "resume": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "dato": "2026-07-31T19:47:28+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google Earth’s AI deepfake tool only lasted one day",
+      "link": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+      "resume": "Google has shut down Google Earth feature it launched Thursday that allowed users to edit satellite images with text prompts using AI. The tool essentially let users create AI deepfakes of the real world using text prompts; Digital Digging's Henk van Ess, for example, intentionally generated images adding things like refugees near the Mexican border […]",
+      "dato": "2026-07-31T15:13:29-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
+      "link": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
+      "resume": "LemonLime’s CEO got “carried away” with tattoo gimmick.",
+      "dato": "2026-07-31T19:04:56+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "High school defends staying silent while boys made AI nudes of 59 classmates",
+      "link": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
+      "resume": "Gaps in laws may help Pennsylvania high school escape AI nudes scandal.",
+      "dato": "2026-07-31T18:11:55+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+      "link": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
+      "resume": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
+      "dato": "2026-07-31T17:26:32+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
     },
     {
       "titel": "Here’s the problem with putting an AI image generator in Google Earth",
       "link": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-      "resume": "Now a text prompt is all it takes to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery, like these images generated by Digital Digging's Henk van Ess that show \"refugees near the Mexican border\" and a bomb crater near a hospital in Gaza. Google responded to Digital Digging's AI-altered images, saying, \"We […]",
+      "resume": "A text prompt was all it took to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery with a now-rolled back AI feature, like these images generated by Digital Digging's Henk van Ess that show \"refugees near the Mexican border\" and a bomb crater near a hospital in Gaza. Google initially responded to […]",
       "dato": "2026-07-31T13:05:46-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
@@ -41,14 +105,6 @@
       "dato": "2026-07-31T16:08:18+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Is AI reasoning right for the wrong reasons?",
-      "link": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
-      "resume": "Article URL: https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/ Comments URL: https://news.ycombinator.com/item?id=49124358 Points: 68 # Comments: 70",
-      "dato": "2026-07-31T15:29:39+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
@@ -99,20 +155,20 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
+      "link": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/",
+      "resume": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
+      "dato": "2026-07-31T14:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
       "titel": "Anthropic says Claude accidentally hacked real companies too",
       "link": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
       "resume": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI […]",
       "dato": "2026-07-31T09:41:17-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Situational Awareness down 67% in July in AI stock rout",
-      "link": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-      "resume": "Article URL: https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f Comments URL: https://news.ycombinator.com/item?id=49122994 Points: 107 # Comments: 105",
-      "dato": "2026-07-31T13:37:36+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "How a Yale AI-cheating dispute became a 13-count federal lawsuit",
@@ -123,36 +179,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
-      "link": "https://blog.google/security/chrome-stronger-with-every-update/",
-      "resume": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 400 # Comments: 388",
-      "dato": "2026-07-31T07:29:22+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Univé builds an AI-ready workforce",
       "link": "https://openai.com/index/unive",
       "resume": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "dato": "2026-07-31T07:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Show HN: What should the GUI for AI agents look like?",
-      "link": "https://marbleos.com/demo",
-      "resume": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands: C:\\> DIR C:\\> COPY FILE.TXT A: You had to remember the command, syntax, paths, and parameters. The GUI made…",
-      "dato": "2026-07-31T05:17:29+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "The AI trade now runs on borrowed money, and the lenders are repricing it",
-      "link": "https://greyswansignals.com/?theme=dark",
-      "resume": "Article URL: https://greyswansignals.com/?theme=dark Comments URL: https://news.ycombinator.com/item?id=49118933 Points: 137 # Comments: 146",
-      "dato": "2026-07-31T04:15:04+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
@@ -363,20 +395,20 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Disrupting a Criminal Scam Operation",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "resume": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "dato": "2026-07-31T00:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
       "titel": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
       "link": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
       "resume": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
       "dato": "2026-07-30T23:25:58+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "The AI Aesthetic",
-      "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
-      "resume": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 359 # Comments: 171",
-      "dato": "2026-07-30T23:22:16+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Reddit reports a solid quarter but shows signs of AI’s impact",
@@ -491,14 +523,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Citadel Buys Situational Awareness's Stock Portfolio After Big Losses in AI",
-      "link": "https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b",
-      "resume": "Article URL: https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b Comments URL: https://news.ycombinator.com/item?id=49111879 Points: 52 # Comments: 11",
-      "dato": "2026-07-30T16:00:33+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Meta says AI is making it easier to build new apps — and more are coming",
       "link": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
       "resume": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
@@ -539,62 +563,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
-      "link": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
-      "resume": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
-      "dato": "2026-07-30T14:48:32+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
-      "link": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
-      "resume": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
-      "dato": "2026-07-30T14:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
-      "link": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
-      "resume": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
-      "dato": "2026-07-30T13:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "OpenJDK Interim Policy on Generative AI",
-      "link": "https://openjdk.org/legal/ai",
-      "resume": "Article URL: https://openjdk.org/legal/ai Comments URL: https://news.ycombinator.com/item?id=49109165 Points: 73 # Comments: 85",
-      "dato": "2026-07-30T12:36:38+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)",
-      "link": "https://github.com/grafana/ai-sdk",
-      "resume": "Article URL: https://github.com/grafana/ai-sdk Comments URL: https://news.ycombinator.com/item?id=49108778 Points: 58 # Comments: 16",
-      "dato": "2026-07-30T11:55:39+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "GCC steering committee announces AI policy",
-      "link": "https://lwn.net/Articles/1086041/",
-      "resume": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 340 # Comments: 399",
-      "dato": "2026-07-30T11:45:44+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "'My life's screwed': Korean investors stress out after AI bubble bursts",
-      "link": "https://www.ft.com/content/23f388eb-e8ab-4fb1-b1ca-8e04eb4561a1",
-      "resume": "Article URL: https://www.ft.com/content/23f388eb-e8ab-4fb1-b1ca-8e04eb4561a1 Comments URL: https://news.ycombinator.com/item?id=49108480 Points: 56 # Comments: 44",
-      "dato": "2026-07-30T11:22:19+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
       "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "resume": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…",
@@ -611,28 +579,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-      "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
-      "resume": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
-      "dato": "2026-07-30T00:21:06+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "How avatarin built a 24/7 retail agent with GPT-Realtime",
       "link": "https://openai.com/index/avatarin",
       "resume": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
       "dato": "2026-07-30T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Microsoft confirms Copilot ‘super app’ coming this year",
-      "link": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-      "resume": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from chat to Cowork to Autopilots,\" Nadella said. \"This quarter, […]",
-      "dato": "2026-07-29T18:17:38-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
@@ -643,28 +595,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "AI's top startups are barely publishing their research",
-      "link": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "resume": "Article URL: https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research Comments URL: https://news.ycombinator.com/item?id=49103285 Points: 608 # Comments: 315",
-      "dato": "2026-07-29T21:25:40+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Who wins and who loses after US bans foreign robots?",
       "link": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
       "resume": "Government ban on foreign-made robots may hinder instead of help US robotics.",
       "dato": "2026-07-29T20:03:42+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
-      "link": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/",
-      "resume": "Article URL: https://www.emergingtrajectories.com/lh/commodification-and-circularity/ Comments URL: https://news.ycombinator.com/item?id=49101529 Points: 86 # Comments: 48",
-      "dato": "2026-07-29T18:57:10+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Elon Musk’s xAI is trying to sue its way out of a Grok reckoning",
@@ -699,52 +635,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
-      "link": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-      "resume": "Article URL: https://juliahub.com/blog/frontier-models-physical-ai-evaluation Comments URL: https://news.ycombinator.com/item?id=49098388 Points: 99 # Comments: 21",
-      "dato": "2026-07-29T14:56:28+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Teacher arrested for clapping in opposition at an AI data center meeting",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
-      "resume": "Article URL: https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance Comments URL: https://news.ycombinator.com/item?id=49097990 Points: 59 # Comments: 16",
-      "dato": "2026-07-29T14:28:22+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "AI in Linux",
-      "link": "https://drewdevault.com/blog/AI-in-Linux/",
-      "resume": "Article URL: https://drewdevault.com/blog/AI-in-Linux/ Comments URL: https://news.ycombinator.com/item?id=49097649 Points: 51 # Comments: 102",
-      "dato": "2026-07-29T14:00:03+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "What happens when you put AI to work deciphering lost languages?",
       "link": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/",
       "resume": "AI is fantastic at spotting patterns, but human insight is the key.",
       "dato": "2026-07-29T13:23:31+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "After the AI Crash",
-      "link": "https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/",
-      "resume": "Article URL: https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/ Comments URL: https://news.ycombinator.com/item?id=49096953 Points: 126 # Comments: 236",
-      "dato": "2026-07-29T13:00:39+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Document-borne AI worms can self-propagate through Copilot for Word",
-      "link": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-      "resume": "Article URL: https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/ Comments URL: https://news.ycombinator.com/item?id=49096188 Points: 383 # Comments: 297",
-      "dato": "2026-07-29T11:44:33+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation",
@@ -769,22 +665,6 @@
       "dato": "2026-07-29T08:42:57+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
-    },
-    {
-      "titel": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza",
-      "link": "https://www.dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza",
-      "resume": "Article URL: https://www.dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza Comments URL: https://news.ycombinator.com/item?id=49093509 Points: 55 # Comments: 10",
-      "dato": "2026-07-29T04:46:53+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Chip stocks slide in US and Asia as AI jitters rattle investors",
-      "link": "https://www.bbc.com/news/articles/cly8zng43npo",
-      "resume": "Article URL: https://www.bbc.com/news/articles/cly8zng43npo Comments URL: https://news.ycombinator.com/item?id=49092549 Points: 74 # Comments: 51",
-      "dato": "2026-07-29T01:56:00+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
@@ -851,28 +731,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
-      "link": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
-      "resume": "Telecom expects AI revenue from dark fiber deals and retrofitted data centers.",
-      "dato": "2026-07-27T18:48:41+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
       "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
       "resume": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got…",
       "dato": "2026-07-27T18:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
-    },
-    {
-      "titel": "ChatGPT starts blocking direct requests to copy an author's style",
-      "link": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
-      "resume": "New behavior capturing a writer's \"broad qualities\" could have legal implications.",
-      "dato": "2026-07-27T16:58:46+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "The path to artificial superintelligence",
@@ -899,36 +763,12 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "Artist sues AI meme generator for selling deeply personal comic as ad template",
-      "link": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
-      "resume": "Meme generator may have screwed up by using templates in outputs, expert says.",
-      "dato": "2026-07-27T10:50:37+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "How AI is expanding what people do at work",
       "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
       "resume": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
       "dato": "2026-07-27T03:30:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Canadian legislator reads out apparent LLM response in floor speech",
-      "link": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
-      "resume": "\"Here’s a more natural, flowing version of that section...\"",
-      "dato": "2026-07-24T21:25:15+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
-      "link": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-      "resume": "Models are improving quickly, but the cheaper options are often good enough.",
-      "dato": "2026-07-24T21:05:51+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "How AI helps scientists design the next generation of medicines",
