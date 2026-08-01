@@ -1,7 +1,31 @@
 {
-  "opdateret": "2026-07-31T21:46:33.374761+00:00",
-  "antal": 119,
+  "opdateret": "2026-08-01T07:53:22.705166+00:00",
+  "antal": 114,
   "artikler": [
+    {
+      "titel": "Flint: A Visualization Language for the AI Era",
+      "link": "https://microsoft.github.io/flint-chart/",
+      "resume": "Article URL: https://microsoft.github.io/flint-chart/ Comments URL: https://news.ycombinator.com/item?id=49130604 Points: 91 # Comments: 29",
+      "dato": "2026-08-01T02:45:09+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Ten advances in mathematics and theoretical computer science",
+      "link": "https://openai.com/index/ten-advances-in-mathematics",
+      "resume": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "dato": "2026-08-01T00:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "resume": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+      "dato": "2026-07-31T22:47:26+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
     {
       "titel": "Reddit keeps its strange DMCA fight over Google search results alive",
       "link": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
@@ -107,6 +131,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Is AI reasoning right for the wrong reasons?",
+      "link": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "resume": "Article URL: https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/ Comments URL: https://news.ycombinator.com/item?id=49124358 Points: 155 # Comments: 181",
+      "dato": "2026-07-31T15:29:39+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
       "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
       "resume": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
@@ -171,12 +203,28 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Situational Awareness down 67% in July in AI stock rout",
+      "link": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+      "resume": "Article URL: https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f Comments URL: https://news.ycombinator.com/item?id=49122994 Points: 145 # Comments: 155",
+      "dato": "2026-07-31T13:37:36+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "How a Yale AI-cheating dispute became a 13-count federal lawsuit",
       "link": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/",
       "resume": "A disputed exam, an unreliable detector, and one very late Apple Pages file.",
       "dato": "2026-07-31T11:00:52+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "resume": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 493 # Comments: 512",
+      "dato": "2026-07-31T07:29:22+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Univé builds an AI-ready workforce",
@@ -187,204 +235,20 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
-      "link": "https://arxiv.org/abs/2607.26119",
-      "resume": "Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We therefore ask, what internal representational differences enable RL models' superior performance? Our work presents two converging lines of…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
+      "titel": "Show HN: What should the GUI for AI agents look like?",
+      "link": "https://marbleos.com/demo",
+      "resume": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands: C:\\> DIR C:\\> COPY FILE.TXT A: You had to remember the command, syntax, paths, and parameters. The GUI made…",
+      "dato": "2026-07-31T05:17:29+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
-      "titel": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
-      "link": "https://arxiv.org/abs/2607.26120",
-      "resume": "Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misalignment with collective goals becomes a central concern. We propose a novel framework for evaluating objective misalignment using the social…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
-      "link": "https://arxiv.org/abs/2607.26155",
-      "resume": "Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CLINLENS, a benchmark of 200 executable tasks over five linked MIMIC resources spanning structured electronic health records, notes,…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "When benchmark inferences do not compose: Projectibility in AI evaluation",
-      "link": "https://arxiv.org/abs/2607.26159",
-      "resume": "An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with assumptions about human review and downstream consequences. Validity-centred approaches require evidence for each claim. This paper identifies a further…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
-      "link": "https://arxiv.org/abs/2607.26160",
-      "resume": "Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-specific criteria into executable functions returning ordinal diagnostic-support scores. GuideSkill-Zero is initialized from guidelines, while…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
-      "link": "https://arxiv.org/abs/2607.26181",
-      "resume": "Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process, yet existing LLM-based approaches generate each component through independent single-turn calls with no shared context, leaving interface mismatches…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Position: Evaluation Scores Are Perishable Knowledge Claims",
-      "link": "https://arxiv.org/abs/2607.26191",
-      "resume": "Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidence can then substantially exceed the reliability of the weakest signal: a phenomenon we call trust inflation in evaluation. We argue that evaluation…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
-      "link": "https://arxiv.org/abs/2607.26307",
-      "resume": "Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benchmark-driven repair is ephemeral, and post-hoc auditing is impossible. We present a code generation concept that addresses these shortcomings through three complementary mechanisms: (i) a relational snippet-history schema that records, per repair…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
-      "link": "https://arxiv.org/abs/2607.26367",
-      "resume": "An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw partition function to a tractable representation? To probe this question, we introduce StatMechBench-v0, a benchmark of six Ising-type problems covering transfer-matrix…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
-      "link": "https://arxiv.org/abs/2607.26393",
-      "resume": "Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social skills such as reasoning, deception, and collaboration. While recent advances in large language models (LLMs) have driven significant progress in SDG agents, current approaches are predominantly text-based, overlooking the multimodal nature that is fundamental to human…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "CG-World: A Large-Scale World-State Dataset and Protocol for World Models",
-      "link": "https://arxiv.org/abs/2607.26452",
-      "resume": "World models must learn the joint dynamics of states, actions, events, and observations, yet existing video, robotics, and simulation datasets usually capture only part of this structure. We introduce CG-World, a large-scale world-state dataset and protocol derived from industrial computer graphics production pipelines. CG-World explicitly records intermediate states, including multimodal…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "MultivationBench: A Benchmark for Multimodal Sequential Motivation Reasoning",
-      "link": "https://arxiv.org/abs/2607.26465",
-      "resume": "Multimodal Large Language Models have sparked significant interest due to their potential for social intelligence; however, their ability to perform sequential motivation reasoning remains insufficiently studied. Existing evaluations predominantly examine static text or isolated visual snapshots, which do not reflect the cumulative nature of real-world behavioral drivers. To address this gap, we…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "EvoPINN: Agentic Discovery of Executable Algorithms for Physics-Informed Neural Networks",
-      "link": "https://arxiv.org/abs/2607.26490",
-      "resume": "Physics-informed neural networks (PINNs) have emerged as a powerful paradigm for solving partial differential equations (PDEs), yet their performance heavily relies on the manual, trial-and-error engineering of neural representations, loss formulations, and optimization dynamics. While Large Language Models (LLMs) offer a promising avenue for automated design, unconstrained code generation often…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Evidence-Ledger Adjudication for Claim-Evidence Traceability",
-      "link": "https://arxiv.org/abs/2607.26512",
-      "resume": "AI agents can draft claims faster than authors can check whether the cited or retrieved evidence supports them. We study evidence-ledger adjudication: a claim-evidence traceability workflow that pairs each claim with an evidence packet, assigns a support relation, and routes unsupported, contradicted, or mixed-evidence claims back to the author. The empirical core is a 2,335-row blind benchmark…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
-      "link": "https://arxiv.org/abs/2607.26588",
-      "resume": "The rapid development of large language models (LLMs) has renewed interest in agent-based modeling (ABM). However, current LLM-based ABM research faces several key challenges: modeling evolving agent-environment interactions, enabling flexible counterfactual reasoning, and automating simulation workflows for scientific research. In this paper, we propose Eco3S, a socio-economic system simulation…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
-      "link": "https://arxiv.org/abs/2607.26611",
-      "resume": "AI-assisted coding increasingly translates informal user intent into executable software, yet coding requests often contain ambiguities that recur in user-specific ways across tasks and sessions. Existing disambiguation methods typically address each ambiguous request in isolation within the current coding session, often through eliciting additional clarification. However, whether resolved…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "AlphaSchema: Exploring the Space of Trading Semantics for LLM-Based Alpha Mining",
-      "link": "https://arxiv.org/abs/2607.26642",
-      "resume": "Automated alpha mining has increasingly adopted large language model (LLM) agents for factor generation and iterative discovery. However, existing LLM-based systems often delegate both factor construction and search decisions to the agent itself, without an explicit exploration space or a principled mechanism for navigating that space. As a result, exploration remains largely implicit and…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting",
-      "link": "https://arxiv.org/abs/2607.26643",
-      "resume": "Enabling large language model (LLM) agents to accumulate and reuse experience from past interactions remains a central challenge in real-world applications. A promising solution is to treat skills as trainable states and optimize them in the same way as model parameters in neural network training. However, data-driven skill optimization is prone to overfitting to the limited trajectories…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution",
-      "link": "https://arxiv.org/abs/2607.26661",
-      "resume": "Ascend C operator optimization is critical for NPU (Neural Processing Unit) inference performance but requires deep hardware expertise.While large language models (LLMs) have shown promise in automated CUDA kernel generation, the fundamentally different programming model of Ascend C introduces unique challenges that remain unexplored. In this paper, we propose AgenticCANN, a knowledge-augmented…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks",
-      "link": "https://arxiv.org/abs/2607.26724",
-      "resume": "Large language model (LLM) agents have been widely applied in automating data science tasks. However, existing methods typically rely on a limited set of provided datasets, and they face challenges in data-intensive scenarios that require discovering and leveraging relevant information from large-scale and heterogeneous data repositories. Urban tasks are representative examples of such scenarios,…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM",
-      "link": "https://arxiv.org/abs/2607.26773",
-      "resume": "Latent communication in large language model (LLM)-based multi-agent systems (MAS) transmits continuous internal representations instead of text, but greater representational capacity does not establish that the receiver uses task-relevant information. End-task performance alone also cannot reveal whether an observed effect depends on message presence, content generated for the evaluated example,…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Property-driven Causal Abstractions for Markov Decision Processes",
-      "link": "https://arxiv.org/abs/2607.26787",
-      "resume": "Markov Decision Processes (MDPs) are widely used as decision-making models, commonly specified over factored state spaces through state variables and their valuations. The exponential blowup in the number of states renders many reasoning tasks in MDPs challenging. Abstractions are promising techniques to reduce MDPs and thus mitigate scalability issues. In this work, we introduce a notion of…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence",
-      "link": "https://arxiv.org/abs/2607.26903",
-      "resume": "The key bottleneck in embodied AI is not model architecture but data. Although billions of human manipulation videos exist online, robots cannot directly learn from them due to the embodiment gap between human morphology and robot hardware. We introduce Pegasus, a low-resource framework that bridges this gap by translating human demonstrations into robot-learnable data through structured…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
-      "link": "https://arxiv.org/abs/2607.26935",
-      "resume": "Bot detectors deployed at scale treat traffic as binary: human or bot. This assumption breaks when AI agents browse the web through browser automation, a traffic class that is neither and that binary classifiers structurally cannot represent. We present a three-class detection framework distinguishing humans, bots, and AI agents, and show that the binary-vs-agent confusion is architectural: a…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Belief-Guided Decision Making with Uncertainty Gating in the Game of Go",
-      "link": "https://arxiv.org/abs/2607.26946",
-      "resume": "Recent advancements in Computer Go, driven by AlphaZero and MuZero, rely heavily on Monte Carlo Tree Search (MCTS) to correct the errors of the neural network policy. While effective on massive computational clusters, this dependence creates a critical bottleneck on consumer-grade hardware, where the computational cost of tree management severely limits inference rates. Furthermore, without deep…",
-      "dato": "2026-07-31T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
+      "titel": "The AI trade now runs on borrowed money, and the lenders are repricing it",
+      "link": "https://greyswansignals.com/?theme=dark",
+      "resume": "Article URL: https://greyswansignals.com/?theme=dark Comments URL: https://news.ycombinator.com/item?id=49118933 Points: 141 # Comments: 158",
+      "dato": "2026-07-31T04:15:04+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Anthropic says its own AI models breached three companies during security tests",
@@ -409,6 +273,14 @@
       "dato": "2026-07-30T23:25:58+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "The AI Aesthetic",
+      "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "resume": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 364 # Comments: 176",
+      "dato": "2026-07-30T23:22:16+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Reddit reports a solid quarter but shows signs of AI’s impact",
@@ -523,6 +395,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Citadel Buys Situational Awareness's Stock Portfolio After Big Losses in AI",
+      "link": "https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b",
+      "resume": "Article URL: https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b Comments URL: https://news.ycombinator.com/item?id=49111879 Points: 53 # Comments: 15",
+      "dato": "2026-07-30T16:00:33+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Meta says AI is making it easier to build new apps — and more are coming",
       "link": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
       "resume": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
@@ -547,20 +427,44 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Forward-deployed engineers are the AI industry’s latest talent obsession",
-      "link": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
-      "resume": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
-      "dato": "2026-07-30T15:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "New MCP specification addresses the main barrier to enterprise adoption",
       "link": "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/",
       "resume": "Plus, a new policy for the AI protocol ensures features aren't removed suddenly.",
       "dato": "2026-07-30T14:53:07+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "OpenJDK Interim Policy on Generative AI",
+      "link": "https://openjdk.org/legal/ai",
+      "resume": "Article URL: https://openjdk.org/legal/ai Comments URL: https://news.ycombinator.com/item?id=49109165 Points: 73 # Comments: 85",
+      "dato": "2026-07-30T12:36:38+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)",
+      "link": "https://github.com/grafana/ai-sdk",
+      "resume": "Article URL: https://github.com/grafana/ai-sdk Comments URL: https://news.ycombinator.com/item?id=49108778 Points: 58 # Comments: 16",
+      "dato": "2026-07-30T11:55:39+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "GCC steering committee announces AI policy",
+      "link": "https://lwn.net/Articles/1086041/",
+      "resume": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 346 # Comments: 420",
+      "dato": "2026-07-30T11:45:44+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "'My life's screwed': Korean investors stress out after AI bubble bursts",
+      "link": "https://www.ft.com/content/23f388eb-e8ab-4fb1-b1ca-8e04eb4561a1",
+      "resume": "Article URL: https://www.ft.com/content/23f388eb-e8ab-4fb1-b1ca-8e04eb4561a1 Comments URL: https://news.ycombinator.com/item?id=49108480 Points: 56 # Comments: 44",
+      "dato": "2026-07-30T11:22:19+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
@@ -595,12 +499,28 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "AI's top startups are barely publishing their research",
+      "link": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "resume": "Article URL: https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research Comments URL: https://news.ycombinator.com/item?id=49103285 Points: 611 # Comments: 317",
+      "dato": "2026-07-29T21:25:40+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Who wins and who loses after US bans foreign robots?",
       "link": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
       "resume": "Government ban on foreign-made robots may hinder instead of help US robotics.",
       "dato": "2026-07-29T20:03:42+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
+      "link": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/",
+      "resume": "Article URL: https://www.emergingtrajectories.com/lh/commodification-and-circularity/ Comments URL: https://news.ycombinator.com/item?id=49101529 Points: 86 # Comments: 48",
+      "dato": "2026-07-29T18:57:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Elon Musk’s xAI is trying to sue its way out of a Grok reckoning",
@@ -635,12 +555,52 @@
       "kategori": "Labs"
     },
     {
+      "titel": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+      "link": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+      "resume": "Article URL: https://juliahub.com/blog/frontier-models-physical-ai-evaluation Comments URL: https://news.ycombinator.com/item?id=49098388 Points: 99 # Comments: 21",
+      "dato": "2026-07-29T14:56:28+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Teacher arrested for clapping in opposition at an AI data center meeting",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
+      "resume": "Article URL: https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance Comments URL: https://news.ycombinator.com/item?id=49097990 Points: 59 # Comments: 16",
+      "dato": "2026-07-29T14:28:22+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI in Linux",
+      "link": "https://drewdevault.com/blog/AI-in-Linux/",
+      "resume": "Article URL: https://drewdevault.com/blog/AI-in-Linux/ Comments URL: https://news.ycombinator.com/item?id=49097649 Points: 51 # Comments: 102",
+      "dato": "2026-07-29T14:00:03+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "What happens when you put AI to work deciphering lost languages?",
       "link": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/",
       "resume": "AI is fantastic at spotting patterns, but human insight is the key.",
       "dato": "2026-07-29T13:23:31+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "After the AI Crash",
+      "link": "https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/",
+      "resume": "Article URL: https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/ Comments URL: https://news.ycombinator.com/item?id=49096953 Points: 127 # Comments: 236",
+      "dato": "2026-07-29T13:00:39+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Document-borne AI worms can self-propagate through Copilot for Word",
+      "link": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "resume": "Article URL: https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/ Comments URL: https://news.ycombinator.com/item?id=49096188 Points: 383 # Comments: 298",
+      "dato": "2026-07-29T11:44:33+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation",
@@ -665,6 +625,14 @@
       "dato": "2026-07-29T08:42:57+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza",
+      "link": "https://www.dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza",
+      "resume": "Article URL: https://www.dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza Comments URL: https://news.ycombinator.com/item?id=49093509 Points: 56 # Comments: 11",
+      "dato": "2026-07-29T04:46:53+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
@@ -1054,18 +1022,6 @@
       "dato": "2026-07-16T07:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "How Cars24 scales conversations and builds faster with OpenAI",
-      "link": "https://openai.com/index/cars24",
-      "resume": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "dato": "2026-07-16T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Hverdags-AI",
-      "rubrik": "Brugtbilfirma sætter computere til at tale med kunder",
-      "resume_da": "En stor forhandler af brugte biler lader kunstige stemmer klare millioner af kundesamtaler hver måned.",
-      "kat_ai": true,
-      "prio": 8
     },
     {
       "titel": "Empowering India’s next generation of innovators with ATL Saathi",
