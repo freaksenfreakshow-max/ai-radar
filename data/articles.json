@@ -1,7 +1,15 @@
 {
-  "opdateret": "2026-08-13T05:50:02.214881+00:00",
-  "antal": 140,
+  "opdateret": "2026-08-13T09:46:40.229178+00:00",
+  "antal": 120,
   "artikler": [
+    {
+      "titel": "How kids feel about AI, in their own words",
+      "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "resume": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+      "dato": "2026-08-13T09:00:00+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
     {
       "titel": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
       "link": "https://arxiv.org/abs/2608.11207",
@@ -347,22 +355,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "German advocacy group lodges criminal complaint over Meta AI glasses",
-      "link": "https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/",
-      "resume": "Article URL: https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/ Comments URL: https://news.ycombinator.com/item?id=49272620 Points: 110 # Comments: 46",
-      "dato": "2026-08-12T14:06:03+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "link": "https://knownagents.com/insights",
-      "resume": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 260 # Comments: 191",
-      "dato": "2026-08-12T14:02:46+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Putting sign language AI into users’ hands",
       "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
       "resume": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
@@ -377,14 +369,6 @@
       "dato": "2026-08-12T10:00:00-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "AI is removing the middle class of software engineering?",
-      "link": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "resume": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 817 # Comments: 741",
-      "dato": "2026-08-12T13:20:05+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Of course the ChatGPT dog cancer vaccine spawned a startup",
@@ -411,28 +395,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
-      "link": "https://discoveredmaterials.com/research/",
-      "resume": "Hey HN, we're Advaith and Akash from Discovered Materials ( https://discoveredmaterials.com/ ). We build AI agents that discover new materials for the semiconductor industry. GPUs today have a heat problem. Nvidia & AMD are almost doubling the TDP (Thermal Design Power) in every chip they release - the H100 (released 2022) has a TDP of 700W, Blackwell (2024) gives out 1.2 kW and Rubin (2026)…",
-      "dato": "2026-08-12T07:51:20+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "From assistance to execution: How enterprises put AI to work",
       "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "resume": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
       "dato": "2026-08-12T06:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-      "link": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-      "resume": "Article URL: https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/ Comments URL: https://news.ycombinator.com/item?id=49267057 Points: 195 # Comments: 48",
-      "dato": "2026-08-12T02:05:42+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
@@ -457,14 +425,6 @@
       "dato": "2026-08-11T21:39:11+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Suzanne: AI tool for designing and manufacturing physical products",
-      "link": "https://www.suzanne3d.com/",
-      "resume": "Article URL: https://www.suzanne3d.com/ Comments URL: https://news.ycombinator.com/item?id=49264755 Points: 51 # Comments: 36",
-      "dato": "2026-08-11T21:28:26+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Gemini becomes Google's fastest-growing product ever as it hits 1B users",
@@ -531,14 +491,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Go is an ideal language for AI-assisted software engineering",
-      "link": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
-      "resume": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 427 # Comments: 503",
-      "dato": "2026-08-11T16:57:09+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "An unreleased Anthropic model made progress on one of math’s biggest unsolved problems",
       "link": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
       "resume": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect.",
@@ -587,28 +539,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "As AI eats the web, the internet’s collective memory is disappearing",
-      "link": "https://thewalrus.ca/google-search-is-dying/",
-      "resume": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 928 # Comments: 965",
-      "dato": "2026-08-10T22:36:30+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "With new open models, Meta pitches another reboot of its struggling AI strategy",
       "link": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
       "resume": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
       "dato": "2026-08-10T22:13:03+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "How Claude marks AI-generated content",
-      "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-      "resume": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 443 # Comments: 408",
-      "dato": "2026-08-10T21:36:56+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Amazon backs power plant that may become top source of US climate pollution",
@@ -633,38 +569,6 @@
       "dato": "2026-08-10T17:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
-      "link": "https://www.stoaexchange.com",
-      "resume": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa ( https://www.stoaexchange.com ), a marketplace for new and used GPUs and AI servers. GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute. If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller…",
-      "dato": "2026-08-10T16:35:27+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
-      "link": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/",
-      "resume": "Article URL: https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/ Comments URL: https://news.ycombinator.com/item?id=49244569 Points: 153 # Comments: 174",
-      "dato": "2026-08-10T14:56:32+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "link": "https://openai.com/index/responsible-ai-infrastructure-texas/",
-      "resume": "Article URL: https://openai.com/index/responsible-ai-infrastructure-texas/ Comments URL: https://news.ycombinator.com/item?id=49244308 Points: 124 # Comments: 232",
-      "dato": "2026-08-10T14:38:20+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
-      "link": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
-      "resume": "https://archive.is/20LOJ https://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 638 # Comments: 600",
-      "dato": "2026-08-10T14:06:22+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
@@ -707,14 +611,6 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Tech leaders say AI means less work – staff say they work up to 90 hours a week",
-      "link": "https://www.bbc.com/news/articles/cvgx4yd1gl2o",
-      "resume": "Article URL: https://www.bbc.com/news/articles/cvgx4yd1gl2o Comments URL: https://news.ycombinator.com/item?id=49241559 Points: 146 # Comments: 53",
-      "dato": "2026-08-10T09:53:37+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "AI for science needs reasoning, not just data",
       "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
       "resume": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the…",
@@ -729,30 +625,6 @@
       "dato": "2026-08-10T09:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
-    },
-    {
-      "titel": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "link": "https://www.docker.com/products/docker-sandboxes/",
-      "resume": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 690 # Comments: 393",
-      "dato": "2026-08-10T06:02:38+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "The Philippines' big offshoring industry is growing despite AI",
-      "link": "https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai",
-      "resume": "Article URL: https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai Comments URL: https://news.ycombinator.com/item?id=49239226 Points: 75 # Comments: 88",
-      "dato": "2026-08-10T04:35:24+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
-      "link": "https://www.whodunnitai.com/",
-      "resume": "Hey HN! I'm excited to show off this really fun project I put together. I originally built this project 2-3 years ago, AI was already booming at the time, however voice AI agents were still very early. I loved my proof of concept at the time, but wasn't quite happy with it. I recently had the desire to check out the tech again, and know many of you will be interested. Interviews are speech to…",
-      "dato": "2026-08-10T03:18:40+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
@@ -777,30 +649,6 @@
       "dato": "2026-08-10T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "AI assistant hacks gym website in first known Australian autonomous cyber attack",
-      "link": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986",
-      "resume": "Article URL: https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986 Comments URL: https://news.ycombinator.com/item?id=49236439 Points: 76 # Comments: 60",
-      "dato": "2026-08-09T21:52:23+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "I've yet to see any\"My AI went rogue and caused us to recognise a workers union",
-      "link": "https://mastodon.neilzone.co.uk/@neil/117061512483182546",
-      "resume": "Article URL: https://mastodon.neilzone.co.uk/@neil/117061512483182546 Comments URL: https://news.ycombinator.com/item?id=49235836 Points: 50 # Comments: 18",
-      "dato": "2026-08-09T21:01:31+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "The tragedy of the commons, AI edition",
-      "link": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
-      "resume": "Article URL: https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition Comments URL: https://news.ycombinator.com/item?id=49235011 Points: 145 # Comments: 117",
-      "dato": "2026-08-09T19:43:52+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "DeepMind’s hurricane breakthrough has surprised weather scientists",
@@ -1071,14 +919,6 @@
       "link": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
       "resume": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on…",
       "dato": "2026-07-28T09:18:57+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
-    },
-    {
-      "titel": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "resume": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got…",
-      "dato": "2026-07-27T18:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
     },
