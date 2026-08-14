@@ -1,7 +1,63 @@
 {
-  "opdateret": "2026-08-14T15:07:12.286251+00:00",
+  "opdateret": "2026-08-14T20:00:30.635748+00:00",
   "antal": 140,
   "artikler": [
+    {
+      "titel": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "link": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "resume": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+      "dato": "2026-08-14T17:26:53+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Mark Zuckerberg has an Instagzam",
+      "link": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "resume": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of […]",
+      "dato": "2026-08-14T12:54:16-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "You can now turn off Google Gemini’s visible watermarks",
+      "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "resume": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of […]",
+      "dato": "2026-08-14T12:39:32-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google will now allow users to remove visible watermark from its AI generations",
+      "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "resume": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "dato": "2026-08-14T16:13:40+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI by Hand",
+      "link": "https://www.byhand.ai/",
+      "resume": "Article URL: https://www.byhand.ai/ Comments URL: https://news.ycombinator.com/item?id=49300568 Points: 90 # Comments: 10",
+      "dato": "2026-08-14T15:58:59+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "link": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "resume": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+      "dato": "2026-08-14T15:43:28+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google is making private AI practical with homomorphic encryption",
+      "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "resume": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 138 # Comments: 88",
+      "dato": "2026-08-14T15:43:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
     {
       "titel": "Kog is going deeper to squeeze more inference out of GPUs",
       "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
@@ -9,6 +65,14 @@
       "dato": "2026-08-14T14:50:11+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
+      "link": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+      "resume": "Article URL: https://weightythoughts.com/p/when-genius-failsthe-intellectual Comments URL: https://news.ycombinator.com/item?id=49299282 Points: 161 # Comments: 174",
+      "dato": "2026-08-14T14:34:49+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
@@ -24,6 +88,22 @@
       "resume": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
       "dato": "2026-08-14T14:05:00+00:00",
       "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "link": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "resume": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+      "dato": "2026-08-14T14:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Apple trained its own AI model for China with help from Alibaba",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "resume": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained with the company's support, Reuters reports, citing three unnamed people familiar with […]",
+      "dato": "2026-08-14T05:21:17-04:00",
+      "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
     {
@@ -229,7 +309,7 @@
     {
       "titel": "How AI text watermarking works",
       "link": "https://declaude.org/watermarking/",
-      "resume": "Article URL: https://declaude.org/watermarking/ Comments URL: https://news.ycombinator.com/item?id=49292932 Points: 122 # Comments: 92",
+      "resume": "Article URL: https://declaude.org/watermarking/ Comments URL: https://news.ycombinator.com/item?id=49292932 Points: 128 # Comments: 95",
       "dato": "2026-08-13T23:16:55+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -269,7 +349,7 @@
     {
       "titel": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
       "link": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
-      "resume": "Article URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf Comments URL: https://news.ycombinator.com/item?id=49290768 Points: 120 # Comments: 94",
+      "resume": "Article URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf Comments URL: https://news.ycombinator.com/item?id=49290768 Points: 123 # Comments: 99",
       "dato": "2026-08-13T19:25:38+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -293,7 +373,7 @@
     {
       "titel": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
       "link": "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/",
-      "resume": "Article URL: https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/ Comments URL: https://news.ycombinator.com/item?id=49290521 Points: 53 # Comments: 15",
+      "resume": "Article URL: https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/ Comments URL: https://news.ycombinator.com/item?id=49290521 Points: 54 # Comments: 15",
       "dato": "2026-08-13T19:04:52+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -301,7 +381,7 @@
     {
       "titel": "AI Is Threatening Natural Resources for Billions",
       "link": "https://unric.org/en/ais-environmental-costs-threaten-water-land-and-climate/",
-      "resume": "Article URL: https://unric.org/en/ais-environmental-costs-threaten-water-land-and-climate/ Comments URL: https://news.ycombinator.com/item?id=49290062 Points: 56 # Comments: 56",
+      "resume": "Article URL: https://unric.org/en/ais-environmental-costs-threaten-water-land-and-climate/ Comments URL: https://news.ycombinator.com/item?id=49290062 Points: 57 # Comments: 56",
       "dato": "2026-08-13T18:28:20+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -349,7 +429,7 @@
     {
       "titel": "AI At Home Part 1: A Box Of Scraps",
       "link": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-      "resume": "Article URL: https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html Comments URL: https://news.ycombinator.com/item?id=49288293 Points: 124 # Comments: 56",
+      "resume": "Article URL: https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html Comments URL: https://news.ycombinator.com/item?id=49288293 Points: 125 # Comments: 58",
       "dato": "2026-08-13T16:22:05+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -389,7 +469,7 @@
     {
       "titel": "Text AI watermarks will always be trivial to remove",
       "link": "https://www.seangoedecke.com/text-ai-watermarks/",
-      "resume": "Article URL: https://www.seangoedecke.com/text-ai-watermarks/ Comments URL: https://news.ycombinator.com/item?id=49287153 Points: 135 # Comments: 171",
+      "resume": "Article URL: https://www.seangoedecke.com/text-ai-watermarks/ Comments URL: https://news.ycombinator.com/item?id=49287153 Points: 139 # Comments: 179",
       "dato": "2026-08-13T15:07:10+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -437,7 +517,7 @@
     {
       "titel": "AI agents lie, cheat and steal. That is putting off users",
       "link": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-      "resume": "Article URL: https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users Comments URL: https://news.ycombinator.com/item?id=49285604 Points: 163 # Comments: 199",
+      "resume": "Article URL: https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users Comments URL: https://news.ycombinator.com/item?id=49285604 Points: 163 # Comments: 203",
       "dato": "2026-08-13T13:28:45+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -445,7 +525,7 @@
     {
       "titel": "Choosing an AI model: one prompt, 11 models, different results",
       "link": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
-      "resume": "Article URL: https://www.netlify.com/blog/one-prompt-11-models-very-different-results/ Comments URL: https://news.ycombinator.com/item?id=49285327 Points: 210 # Comments: 91",
+      "resume": "Article URL: https://www.netlify.com/blog/one-prompt-11-models-very-different-results/ Comments URL: https://news.ycombinator.com/item?id=49285327 Points: 213 # Comments: 94",
       "dato": "2026-08-13T13:05:29+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -477,7 +557,7 @@
     {
       "titel": "Can I use my Outputs to train an AI model?",
       "link": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
-      "resume": "Article URL: https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model Comments URL: https://news.ycombinator.com/item?id=49283563 Points: 90 # Comments: 84",
+      "resume": "Article URL: https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model Comments URL: https://news.ycombinator.com/item?id=49283563 Points: 91 # Comments: 84",
       "dato": "2026-08-13T09:34:13+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -587,38 +667,6 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
-      "link": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
-      "resume": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way. One of […]",
-      "dato": "2026-08-12T16:46:02+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Lovable confirms new $13.3B valuation, raises another $400M",
-      "link": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
-      "resume": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
-      "dato": "2026-08-12T16:04:27+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Guitar company D’Addario admits that AI music was used in a promotional video",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
-      "resume": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plug-ins like Autotune introducing […]",
-      "dato": "2026-08-12T11:52:07-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
-      "link": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
-      "resume": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
-      "dato": "2026-08-12T15:44:56+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Booksellers suspect AI firms are buying and then destroying rare books",
       "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
       "resume": "AI firms quietly bulk buying rare books face resistance from booksellers.",
@@ -651,28 +699,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Google’s Pixel Watch 5 dives deeper into AI and health",
-      "link": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
-      "resume": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too, because the Pixel […]",
-      "dato": "2026-08-12T10:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "AI is removing the middle class of software engineering?",
       "link": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "resume": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 980 # Comments: 905",
+      "resume": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 982 # Comments: 914",
       "dato": "2026-08-12T13:20:05+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Of course the ChatGPT dog cancer vaccine spawned a startup",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
-      "resume": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well […]",
-      "dato": "2026-08-12T08:09:34-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
@@ -725,7 +757,7 @@
     {
       "titel": "Go is an ideal language for AI-assisted software engineering",
       "link": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
-      "resume": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 436 # Comments: 530",
+      "resume": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 436 # Comments: 533",
       "dato": "2026-08-11T16:57:09+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -749,7 +781,7 @@
     {
       "titel": "As AI eats the web, the internet’s collective memory is disappearing",
       "link": "https://thewalrus.ca/google-search-is-dying/",
-      "resume": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 933 # Comments: 976",
+      "resume": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 933 # Comments: 981",
       "dato": "2026-08-10T22:36:30+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -761,14 +793,6 @@
       "dato": "2026-08-10T22:13:03+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "How Claude marks AI-generated content",
-      "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-      "resume": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 448 # Comments: 418",
-      "dato": "2026-08-10T21:36:56+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Amazon backs power plant that may become top source of US climate pollution",
@@ -793,22 +817,6 @@
       "dato": "2026-08-10T17:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
-      "link": "https://www.stoaexchange.com",
-      "resume": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa ( https://www.stoaexchange.com ), a marketplace for new and used GPUs and AI servers. GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute. If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller…",
-      "dato": "2026-08-10T16:35:27+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
-      "link": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/",
-      "resume": "Article URL: https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/ Comments URL: https://news.ycombinator.com/item?id=49244569 Points: 153 # Comments: 175",
-      "dato": "2026-08-10T14:56:32+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
@@ -951,14 +959,6 @@
       "link": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
       "resume": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.",
       "dato": "2026-08-06T20:03:44+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Large genome models used to design new viruses",
-      "link": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
-      "resume": "The AI system makes genetically distant versions of a bacteria-killing virus.",
-      "dato": "2026-08-06T19:04:57+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
     },
