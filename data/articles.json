@@ -1,11 +1,211 @@
 {
-  "opdateret": "2026-08-17T03:15:33.701927+00:00",
-  "antal": 113,
+  "opdateret": "2026-08-17T08:07:28.302885+00:00",
+  "antal": 138,
   "artikler": [
+    {
+      "titel": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+      "link": "https://arxiv.org/abs/2608.13564",
+      "resume": "Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expensive, slow, or unavailable at deployment time. Such a judge is a reward-free proxy whose value depends on whether it can be trusted, yet existing judges either hand-write the scoring rubric, as in G-Eval, or fine-tune…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+      "link": "https://arxiv.org/abs/2608.13565",
+      "resume": "Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation. Despite their widespread adoption, the relative importance of individual MoE layers remains insufficiently characterized, particularly for model compression. This paper presents a systematic layer-wise sensitivity analysis of the Qwen3.6-35B-A3B model (40…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Modular Cognitive Architecture Emerges in Large Language Models",
+      "link": "https://arxiv.org/abs/2608.13567",
+      "resume": "The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental principle of how intelligent systems must be built, or an evolutionary accident specific to biological brains? Here, we test whether a similar…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing",
+      "link": "https://arxiv.org/abs/2608.13573",
+      "resume": "Large Language Model (LLM) serving has become a critical cloud workload, and realistic traces are essential for motivating and benchmarking serving systems. However, existing LLM serving workload studies remain limited in scale and scope. They often observe short time periods and provide limited visibility into how users interact with models in production. As a result, they do not fully capture…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
+      "link": "https://arxiv.org/abs/2608.13574",
+      "resume": "LLM agents increasingly operate as execution systems that invoke tools, modify local state, use persistent memory, and interact with external protocols. These capabilities make agents useful, but they also introduce risks related to over-privileged actions, weak auditability, prompt injection, tool poisoning, and uncontrolled side effects. This paper presents Agentao, a governed local-first…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "AI Evaluation Should Work With Humans",
+      "link": "https://arxiv.org/abs/2608.13577",
+      "resume": "This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) is guiding AI development in the wrong direction. Instead, the AI community should pivot to evaluating the performance of human--AI teams. We argue that this collaborative shift will foster AI systems that act as true…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors",
+      "link": "https://arxiv.org/abs/2608.13591",
+      "resume": "High-confidence errors in large language models are often treated as evidence of fragile internal inference. We study a different possibility: stable miscalibration, where a confident wrong answer remains locally stable under small perturbations. We combine two diagnostics: a label-aware output-level audit score that ranks domains by confidence variation and overconfident mistakes under a…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Measuring Cross-Task Behavioral Consistency in Language Model Agents",
+      "link": "https://arxiv.org/abs/2608.13598",
+      "resume": "Agent evaluation relies almost entirely on outcome metrics such as success rate, which capture whether an agent succeeds but not how consistently it behaves. We argue that behavioral consistency across tasks is a distinct and measurable property, and we introduce the Behavioral Consistency Metric (BCM) to quantify it. BCM trains a model to predict task success from behavioral features of agent…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Cross-Disciplinary Taxonomy and Modeling of Misunderstanding Generation, Amplification, and Detection, from Pragmatics to AI Agents",
+      "link": "https://arxiv.org/abs/2608.13604",
+      "resume": "Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift cuts communicators off from the resources repair depends on faster than new means of detection are being built. In this paper we analyse misunderstanding as a layered process in which a divergence is…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Active Perception for Embodied Disambiguation",
+      "link": "https://arxiv.org/abs/2608.13605",
+      "resume": "Natural language provides robots with a flexible task interface, but target ambiguity in embodied environments arises not only from user intent; it can also result from missing taskrelevant physical evidence in the current observation. Existing interactive disambiguation methods primarily obtain additional information by asking the user, whereas occlusion, restricted viewpoints, unreadable text,…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "MobileMem: Learning from a Year of Mobile Experiences",
+      "link": "https://arxiv.org/abs/2608.13606",
+      "resume": "The next generation of AI agents is increasingly moving beyond systems that answer isolated questions toward persistent personal assistants that can understand, remember, and continuously learn from users' experiences. Such assistants require long-term memory to accumulate and leverage user-specific experiences over time, yet existing benchmarks remain inadequate for realistic mobile settings,…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "No Universal Signal Predicts Sample-Level LLM Regression under Version Updates",
+      "link": "https://arxiv.org/abs/2608.13607",
+      "resume": "Frontier LLMs are updated frequently and typically outperform their predecessors in aggregate. But aggregate gains say little about individual samples: an update can still cause sample-level regression, where a response correct under the old model becomes incorrect under the new one. This paper studies how to predict such regressions from signals available at inference time. We compare…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis",
+      "link": "https://arxiv.org/abs/2608.13608",
+      "resume": "Agentic \"Continual Learning Harnesses\", systems that pair an LLM with retrieval or memory to improve from feedback without retraining, have shown growing value in cybersecurity. But their value is conventionally measured by gains against labeled benchmarks, an approach that often fails in operational security settings. Benchmark labels are scarce, stale, and unrepresentative, so a practitioner…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "SemPlan: Benchmarking Structured Semantic Planning for LLM-Based Queries over Enterprise Data",
+      "link": "https://arxiv.org/abs/2608.13612",
+      "resume": "Natural-language interfaces to enterprise data must translate underspecified requests into governed, executable behavior while controlling invalid queries, policy failures, cost, and nondeterminism. SemPlan Benchmark evaluates this architectural design space with a deterministic synthetic bilingual benchmark containing 1,800 cases in English and Brazilian Portuguese; 1,200 cases form the frozen…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "How Compliant is Sepsis Treatment? An Expert-Guided Neuro-symbolic Pipeline for Generating Clinical Compliance Insights",
+      "link": "https://arxiv.org/abs/2608.13617",
+      "resume": "Verifying whether clinical care follows evidence-based protocols is a natural neuro-symbolic problem, yet the safety-critical setting defeats either paradigm alone. We present an expert-guided pipeline that constrains a large language model strictly to semantic normalization, mapping messy drug and microbiology strings onto a fixed clinical vocabulary, while a Sugeno fuzzy inference system…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Algorithm Design and Physician Liability",
+      "link": "https://arxiv.org/abs/2608.13618",
+      "resume": "A single clinical algorithm can deliver unequal accuracy across patient groups, and concern about such disparity has grown as artificial intelligence (AI) spreads through clinical decision-making. In response, a liability rule introduced in the United States holds healthcare providers responsible when their reliance on disparate algorithms contributes to erroneous clinical decisions. We examine…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Your Probabilistic JEPA Is Secretly a Hidden Markov Model: A State-Space Interpretation of Joint-Embedding Predictive Learning",
+      "link": "https://arxiv.org/abs/2608.13621",
+      "resume": "A hidden Markov model (HMM) combines three roles: inference of a hidden-state belief from observations, propagation through a Markov transition, and emission back to observation space. We show that full, time-indexed Predictive Information Bottleneck VJEPA (PIB-VJEPA) exposes the same computational structure: a stochastic context encoder plays the role of an amortized filtering distribution, a…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+      "link": "https://arxiv.org/abs/2608.13622",
+      "resume": "Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification, provide progress updates, or confirm before acting. This flexibility breaks a core assumption behind group-based RL: rollouts compared within a group are no longer guaranteed to be behaviorally comparable. As a result, reward-model preferences over interaction style can distort…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Reward Machines for Signal Temporal Logic",
+      "link": "https://arxiv.org/abs/2608.13625",
+      "resume": "Signal temporal logic (STL) provides a formal language for specifying real-time properties of real-valued observations, along with a quantitative robustness score for monitoring satisfaction. Control synthesis from STL specifications is of interest since manual controller design becomes infeasible as real-world systems grow in complexity. Moreover, many modern autonomous and AI-enabled systems…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "A Calibrated Test of Internal Action Maps: State Signals Without Global Affine Closure",
+      "link": "https://arxiv.org/abs/2608.13626",
+      "resume": "A hidden state signal can be decodable or causally usable without supporting a reusable action map. We test whether action maps fitted without a source reach its natural post-action activation and compose. We organize the tests as an evidence lattice and validate the geometric branch on a known affine S_5 carrier: all held-source folds pass one-step, composition, inverse, decoding, and…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Exploring ESC Winners with Nested Diagrams",
+      "link": "https://arxiv.org/abs/2608.13630",
+      "resume": "We present ConceptFlow, a scikit-learn-compatible Python library for Formal Concept Analysis that constructs and renders nested line diagrams from many-valued formal contexts. Given a many-valued context and a partition of its attributes into conceptual scales, ConceptFlow performs conceptual scaling, computes the factor lattices, identifies filled nodes of the corresponding subdirect product,…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Ontology-Grounded Project Memory for Coding Agents",
+      "link": "https://arxiv.org/abs/2608.13662",
+      "resume": "Coding agents have become the primary means of generating new code in many software projects, and the resulting velocity of changes makes keeping track of the reasons behind those changes challenging. This paper introduces MOOSEDev, a system designed to give coding agents structured, ontology-grounded project memory. The system captures architectural decisions, lessons, constraints, and…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
+      "link": "https://arxiv.org/abs/2608.13667",
+      "resume": "LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confined to the Thought phase: while the agent serializes an action and waits for the environment, its reasoning is frozen. We identify this recurring interval for Action and Observation as a reasoning idle window and ask whether it can host additional reasoning in parallel that serves…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Learning to Assemble Novel Structures with Unfamiliar Parts under Semantic Constraints",
+      "link": "https://arxiv.org/abs/2608.13684",
+      "resume": "This paper describes a neurosymbolic architecture for learning to assemble novel structures using evidence from embodied conversations and task demonstrations. We focus on scenarios where an agent encounters, after deployment, semantic constraints on structures--in other words, constraints as to which part types and features make valid structures--that were not available during training, and…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Coverage Aware Active Evaluation for Failure Discovery with Paired Systems",
+      "link": "https://arxiv.org/abs/2608.13719",
+      "resume": "Autonomous systems can fail in rare and heterogeneous ways, making real-world failure discovery difficult under limited testing budgets. Although cheaper proxies such as simulators, lower-fidelity systems, or related policies can be sampled extensively to find failures, proxy failures often do not transfer to the real world due to sim-to-real and system-to-system gaps. The key challenge is…",
+      "dato": "2026-08-17T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
     {
       "titel": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
       "link": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
-      "resume": "Article URL: https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll Comments URL: https://news.ycombinator.com/item?id=49323932 Points: 95 # Comments: 85",
+      "resume": "Article URL: https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll Comments URL: https://news.ycombinator.com/item?id=49323932 Points: 113 # Comments: 116",
       "dato": "2026-08-16T21:34:06+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -35,10 +235,10 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-      "resume": "Article URL: https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion Comments URL: https://news.ycombinator.com/item?id=49323381 Points: 223 # Comments: 151",
-      "dato": "2026-08-16T20:31:16+00:00",
+      "titel": "Red queen hypothesis – A new way forward for self-improving AI",
+      "link": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+      "resume": "Article URL: https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai Comments URL: https://news.ycombinator.com/item?id=49323136 Points: 50 # Comments: 10",
+      "dato": "2026-08-16T20:01:13+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
@@ -61,7 +261,7 @@
     {
       "titel": "The AI Credit Resale Economy",
       "link": "https://vectoral.com/blog/who-are-the-token-brokers",
-      "resume": "Article URL: https://vectoral.com/blog/who-are-the-token-brokers Comments URL: https://news.ycombinator.com/item?id=49320611 Points: 237 # Comments: 93",
+      "resume": "Article URL: https://vectoral.com/blog/who-are-the-token-brokers Comments URL: https://news.ycombinator.com/item?id=49320611 Points: 277 # Comments: 113",
       "dato": "2026-08-16T14:44:55+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -69,7 +269,7 @@
     {
       "titel": "Show HN: A public AI whose memory is shared across all users",
       "link": "https://wildstatic.com/",
-      "resume": "Article URL: https://wildstatic.com/ Comments URL: https://news.ycombinator.com/item?id=49319814 Points: 69 # Comments: 63",
+      "resume": "Article URL: https://wildstatic.com/ Comments URL: https://news.ycombinator.com/item?id=49319814 Points: 70 # Comments: 64",
       "dato": "2026-08-16T13:21:45+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -85,7 +285,7 @@
     {
       "titel": "AI Coding Without the Vibes",
       "link": "https://peterbloem.nl/blog/craft-coding",
-      "resume": "Article URL: https://peterbloem.nl/blog/craft-coding Comments URL: https://news.ycombinator.com/item?id=49318735 Points: 80 # Comments: 48",
+      "resume": "Article URL: https://peterbloem.nl/blog/craft-coding Comments URL: https://news.ycombinator.com/item?id=49318735 Points: 82 # Comments: 50",
       "dato": "2026-08-16T10:31:36+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -93,7 +293,7 @@
     {
       "titel": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
       "link": "https://arxiv.org/abs/2608.13122",
-      "resume": "Article URL: https://arxiv.org/abs/2608.13122 Comments URL: https://news.ycombinator.com/item?id=49314967 Points: 51 # Comments: 7",
+      "resume": "Article URL: https://arxiv.org/abs/2608.13122 Comments URL: https://news.ycombinator.com/item?id=49314967 Points: 55 # Comments: 7",
       "dato": "2026-08-15T22:41:51+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -117,7 +317,7 @@
     {
       "titel": "AI in drug discovery – what it is, where we stand and the path forward",
       "link": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-      "resume": "https://www.nature.com/articles/s41573-026-01496-2 Comments URL: https://news.ycombinator.com/item?id=49313367 Points: 183 # Comments: 90",
+      "resume": "https://www.nature.com/articles/s41573-026-01496-2 Comments URL: https://news.ycombinator.com/item?id=49313367 Points: 184 # Comments: 90",
       "dato": "2026-08-15T19:12:53+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -133,7 +333,7 @@
     {
       "titel": "AI isn’t outthinking mathematicians, it’s out-remembering them",
       "link": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "resume": "Article URL: https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians Comments URL: https://news.ycombinator.com/item?id=49312845 Points: 600 # Comments: 489",
+      "resume": "Article URL: https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians Comments URL: https://news.ycombinator.com/item?id=49312845 Points: 613 # Comments: 492",
       "dato": "2026-08-15T18:13:02+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -149,7 +349,7 @@
     {
       "titel": "AI Can Now Design Functional Viruses. Should We Worry?",
       "link": "https://spectrum.ieee.org/ai-designed-virus",
-      "resume": "Article URL: https://spectrum.ieee.org/ai-designed-virus Comments URL: https://news.ycombinator.com/item?id=49311445 Points: 61 # Comments: 136",
+      "resume": "Article URL: https://spectrum.ieee.org/ai-designed-virus Comments URL: https://news.ycombinator.com/item?id=49311445 Points: 61 # Comments: 137",
       "dato": "2026-08-15T15:32:25+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -165,7 +365,7 @@
     {
       "titel": "Cloudflare's AI Psychosis",
       "link": "https://opensauce.it/cloudflare-ai-psychosis/",
-      "resume": "Article URL: https://opensauce.it/cloudflare-ai-psychosis/ Comments URL: https://news.ycombinator.com/item?id=49310719 Points: 115 # Comments: 97",
+      "resume": "Article URL: https://opensauce.it/cloudflare-ai-psychosis/ Comments URL: https://news.ycombinator.com/item?id=49310719 Points: 116 # Comments: 100",
       "dato": "2026-08-15T14:08:40+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -173,7 +373,7 @@
     {
       "titel": "Yadda 3.0.0: BDD in the Age of AI Agents",
       "link": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
-      "resume": "Article URL: http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html Comments URL: https://news.ycombinator.com/item?id=49310495 Points: 63 # Comments: 28",
+      "resume": "Article URL: http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html Comments URL: https://news.ycombinator.com/item?id=49310495 Points: 64 # Comments: 28",
       "dato": "2026-08-15T13:43:46+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -181,7 +381,7 @@
     {
       "titel": "Working with AI feels more like leadership than coding",
       "link": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
-      "resume": "Article URL: https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/ Comments URL: https://news.ycombinator.com/item?id=49309451 Points: 322 # Comments: 200",
+      "resume": "Article URL: https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/ Comments URL: https://news.ycombinator.com/item?id=49309451 Points: 326 # Comments: 200",
       "dato": "2026-08-15T10:39:41+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -189,7 +389,7 @@
     {
       "titel": "Debian has begun voting on the future of AI/LLM contributions",
       "link": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
-      "resume": "Article URL: https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html Comments URL: https://news.ycombinator.com/item?id=49309050 Points: 66 # Comments: 55",
+      "resume": "Article URL: https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html Comments URL: https://news.ycombinator.com/item?id=49309050 Points: 66 # Comments: 54",
       "dato": "2026-08-15T09:20:07+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -197,7 +397,7 @@
     {
       "titel": "Show HN: Deltix – AI Driven Testing",
       "link": "https://app.deltix.ai",
-      "resume": "Article URL: https://app.deltix.ai Comments URL: https://news.ycombinator.com/item?id=49307099 Points: 53 # Comments: 11",
+      "resume": "Article URL: https://app.deltix.ai Comments URL: https://news.ycombinator.com/item?id=49307099 Points: 54 # Comments: 11",
       "dato": "2026-08-15T02:42:14+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -253,7 +453,7 @@
     {
       "titel": "Google is making private AI practical with homomorphic encryption",
       "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "resume": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 491 # Comments: 283",
+      "resume": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 494 # Comments: 284",
       "dato": "2026-08-14T15:43:10+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -269,7 +469,7 @@
     {
       "titel": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
       "link": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
-      "resume": "Article URL: https://weightythoughts.com/p/when-genius-failsthe-intellectual Comments URL: https://news.ycombinator.com/item?id=49299282 Points: 176 # Comments: 199",
+      "resume": "Article URL: https://weightythoughts.com/p/when-genius-failsthe-intellectual Comments URL: https://news.ycombinator.com/item?id=49299282 Points: 176 # Comments: 200",
       "dato": "2026-08-14T14:34:49+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
