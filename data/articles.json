@@ -1,12 +1,100 @@
 {
-  "opdateret": "2026-08-19T14:05:52.660348+00:00",
-  "antal": 136,
+  "opdateret": "2026-08-19T19:11:42.426368+00:00",
+  "antal": 137,
   "artikler": [
     {
-      "titel": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
-      "link": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-      "resume": "It's the data, stupid.",
-      "dato": "2026-08-19T12:00:00+00:00",
+      "titel": "Google Gemini is getting a dedicated student hub",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "resume": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates […]",
+      "dato": "2026-08-19T15:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google packs Search and Gemini with new AI study tools",
+      "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "resume": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+      "dato": "2026-08-19T19:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "dato": "2026-08-19T19:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Researchers say OpenAI revoked their access to limited cyber program",
+      "link": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+      "resume": "Multiple cybersecurity researchers said they suddenly lost access to OpenAI’s Trusted Access for Cyber (TAC) program, which offers models with fewer guardrails for vetted users.",
+      "dato": "2026-08-19T18:46:14+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Meet the startup helping Wall Street put a price on AI compute",
+      "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "resume": "The AI buildout shows no signs of slowing. And with hundreds of billions of dollars a year going into data centers and GPUs, compute has become the single biggest cost for anyone building AI products. But for all that spending, there still isn’t a straightforward way to put a price on compute — or for firms to hedge their exposure when the price changes. Silicon Data […]",
+      "dato": "2026-08-19T17:26:48+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "OpenAI hit the brakes. Now what?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "resume": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause […]",
+      "dato": "2026-08-19T13:10:09-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Meta AI is getting a Mac app",
+      "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "resume": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The […]",
+      "dato": "2026-08-19T13:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Meta ran ads for an app promising to nudify female politicians",
+      "link": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+      "resume": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
+      "dato": "2026-08-19T15:45:29+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+      "link": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+      "resume": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
+      "dato": "2026-08-19T15:44:53+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+      "link": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+      "resume": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
+      "dato": "2026-08-19T15:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "resume": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers — the directors, VPs, CIOs, and CTOs — who are evaluating, buying,…",
+      "dato": "2026-08-19T14:18:12+00:00",
+      "kilde": "VentureBeat AI",
+      "kategori": "Business"
+    },
+    {
+      "titel": "Calendly throws its hat into meeting note-taker circus",
+      "link": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
+      "resume": "Calendly is also releasing a meeting scheduling assistant called Callie.",
+      "dato": "2026-08-19T14:09:39+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
     },
@@ -19,12 +107,28 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+      "link": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+      "resume": "It's the data, stupid.",
+      "dato": "2026-08-19T12:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
       "titel": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
       "link": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
       "resume": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
       "dato": "2026-08-19T10:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Replit expands access to software creation with GPT-5.6 Luna",
+      "link": "https://openai.com/index/replit",
+      "resume": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "dato": "2026-08-19T07:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
     },
     {
       "titel": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
@@ -237,7 +341,7 @@
     {
       "titel": "AI usage patterns in software teams",
       "link": "https://linear.app/data",
-      "resume": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 158 # Comments: 101",
+      "resume": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 176 # Comments: 110",
       "dato": "2026-08-18T22:08:07+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -395,14 +499,6 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "Apple’s camera-equipped AirPods appear in leaked video",
-      "link": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
-      "resume": "We may have our first glimpse of Apple's rumored camera-equipped AirPods, thanks to a video that MacRumors found in the macOS Tahoe 26.7 Release Candidate. The short video clip features a man - who is wearing the new AirPods - holding up a book with the cover displayed, so that Visual Intelligence can see the […]",
-      "dato": "2026-08-18T05:00:01-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "AI’s recursive self-improvement might not come so quickly after all",
       "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
       "resume": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
@@ -437,7 +533,7 @@
     {
       "titel": "My friends all hate AI; I just joined an AI startup",
       "link": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
-      "resume": "Article URL: https://www.fast.ai/posts/2026-08-18-returning-to-AI/ Comments URL: https://news.ycombinator.com/item?id=49338139 Points: 57 # Comments: 203",
+      "resume": "Article URL: https://www.fast.ai/posts/2026-08-18-returning-to-AI/ Comments URL: https://news.ycombinator.com/item?id=49338139 Points: 57 # Comments: 206",
       "dato": "2026-08-17T21:47:30+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -461,7 +557,7 @@
     {
       "titel": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
       "link": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "resume": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 1030 # Comments: 780",
+      "resume": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 1040 # Comments: 802",
       "dato": "2026-08-17T20:46:10+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -469,7 +565,7 @@
     {
       "titel": "AI;DR (AI; Didn't Read)",
       "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "resume": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 1081 # Comments: 677",
+      "resume": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 1085 # Comments: 683",
       "dato": "2026-08-17T19:47:15+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -517,7 +613,7 @@
     {
       "titel": "Anthropic's War on open source AI",
       "link": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
-      "resume": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 151 # Comments: 59",
+      "resume": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 152 # Comments: 59",
       "dato": "2026-08-17T15:24:34+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -541,7 +637,7 @@
     {
       "titel": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
       "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "resume": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 423 # Comments: 155",
+      "resume": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 423 # Comments: 156",
       "dato": "2026-08-17T14:18:38+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -549,7 +645,7 @@
     {
       "titel": "How to disable or avoid intrusive AI",
       "link": "https://www.librarian.net/notoai/",
-      "resume": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 335 # Comments: 195",
+      "resume": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 336 # Comments: 196",
       "dato": "2026-08-17T14:07:56+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -557,42 +653,18 @@
     {
       "titel": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
       "link": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
-      "resume": "Article URL: https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/ Comments URL: https://news.ycombinator.com/item?id=49330742 Points: 160 # Comments: 316",
+      "resume": "Article URL: https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/ Comments URL: https://news.ycombinator.com/item?id=49330742 Points: 162 # Comments: 318",
       "dato": "2026-08-17T13:44:23+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
     {
-      "titel": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-      "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
-      "resume": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
-      "dato": "2026-08-17T13:10:05+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Show HN: Sokoban AI Solver",
       "link": "https://mkornreich.me/projects/sokoban/",
-      "resume": "Article URL: https://mkornreich.me/projects/sokoban/ Comments URL: https://news.ycombinator.com/item?id=49330215 Points: 69 # Comments: 42",
+      "resume": "Article URL: https://mkornreich.me/projects/sokoban/ Comments URL: https://news.ycombinator.com/item?id=49330215 Points: 70 # Comments: 42",
       "dato": "2026-08-17T13:07:00+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
-      "link": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review",
-      "resume": "The greatest invention in pet tech in recent years is the litter robot. A machine that scoops your kitties' poop so you don't have to - what else could a cat owner possibly want? How about insights into your kitty's litter box usage that could flag health issues? Sign me up. But I have two […]",
-      "dato": "2026-08-17T07:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Anthropic explains how Claude’s invisible text watermarks will work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
-      "resume": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This…",
-      "dato": "2026-08-17T06:57:13-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "What happens when a kid’s robot best friend dies?",
@@ -637,7 +709,7 @@
     {
       "titel": "On AI regulation and messaging",
       "link": "https://twitter.com/DarioAmodei/status/2088758816376807762",
-      "resume": "https://xcancel.com/DarioAmodei/status/2088758816376807762 Comments URL: https://news.ycombinator.com/item?id=49325789 Points: 249 # Comments: 539",
+      "resume": "https://xcancel.com/DarioAmodei/status/2088758816376807762 Comments URL: https://news.ycombinator.com/item?id=49325789 Points: 249 # Comments: 542",
       "dato": "2026-08-17T01:59:56+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -645,26 +717,10 @@
     {
       "titel": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
       "link": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
-      "resume": "Article URL: https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll Comments URL: https://news.ycombinator.com/item?id=49323932 Points: 155 # Comments: 186",
+      "resume": "Article URL: https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll Comments URL: https://news.ycombinator.com/item?id=49323932 Points: 156 # Comments: 186",
       "dato": "2026-08-16T21:34:06+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "resume": "OpenRouter's CEO recently described the startup as Stripe for AI.",
-      "dato": "2026-08-16T20:57:04+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Why people aren’t buying Mark Zuckerberg’s AI future",
-      "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-      "resume": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
-      "dato": "2026-08-16T20:32:01+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Red queen hypothesis – A new way forward for self-improving AI",
@@ -673,14 +729,6 @@
       "dato": "2026-08-16T20:01:13+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
-      "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
-      "resume": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
-      "dato": "2026-08-16T16:53:51+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "The AI Credit Resale Economy",
@@ -693,7 +741,7 @@
     {
       "titel": "Show HN: A public AI whose memory is shared across all users",
       "link": "https://wildstatic.com/",
-      "resume": "Article URL: https://wildstatic.com/ Comments URL: https://news.ycombinator.com/item?id=49319814 Points: 86 # Comments: 74",
+      "resume": "Article URL: https://wildstatic.com/ Comments URL: https://news.ycombinator.com/item?id=49319814 Points: 86 # Comments: 75",
       "dato": "2026-08-16T13:21:45+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -701,26 +749,10 @@
     {
       "titel": "AI Coding Without the Vibes",
       "link": "https://peterbloem.nl/blog/craft-coding",
-      "resume": "Article URL: https://peterbloem.nl/blog/craft-coding Comments URL: https://news.ycombinator.com/item?id=49318735 Points: 98 # Comments: 56",
+      "resume": "Article URL: https://peterbloem.nl/blog/craft-coding Comments URL: https://news.ycombinator.com/item?id=49318735 Points: 98 # Comments: 58",
       "dato": "2026-08-16T10:31:36+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-      "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-      "resume": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
-      "dato": "2026-08-15T21:29:19+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-      "resume": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
-      "dato": "2026-08-15T18:58:39+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Suspecting court of using AI, man injected prompts in filings to try to win case",
@@ -1003,22 +1035,6 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "resume": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-      "dato": "2026-08-10T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "How Zapier transformed core marketing processes with ChatGPT Work",
-      "link": "https://openai.com/index/zapier",
-      "resume": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-      "dato": "2026-08-10T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
       "titel": "DeepMind’s hurricane breakthrough has surprised weather scientists",
       "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
       "resume": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
@@ -1031,14 +1047,6 @@
       "link": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
       "resume": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff.",
       "dato": "2026-08-07T17:36:22+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "AI chatbots have failed people in crisis. Can that be fixed?",
-      "link": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-      "resume": "Clinicians and researchers say AI companies need to open up their safety data.",
-      "dato": "2026-08-07T13:49:37+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
     },
