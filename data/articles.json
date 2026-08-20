@@ -1,7 +1,63 @@
 {
-  "opdateret": "2026-08-20T08:03:27.000975+00:00",
-  "antal": 119,
+  "opdateret": "2026-08-20T14:08:41.309910+00:00",
+  "antal": 138,
   "artikler": [
+    {
+      "titel": "Welcome to the AI crisis in math",
+      "link": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "resume": "Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. […]",
+      "dato": "2026-08-20T10:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "resume": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
+      "dato": "2026-08-20T13:00:35+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Meta AI’s new Mac app wants you to talk to your apps",
+      "link": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "resume": "Meta said its Muse Spark model is powering the dictation feature.",
+      "dato": "2026-08-20T12:11:57+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Slack is launching collaborative vibe-coding channels",
+      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "resume": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have […]",
+      "dato": "2026-08-20T08:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Unlocking hidden revenue streams with market models",
+      "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+      "resume": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name…",
+      "dato": "2026-08-20T09:47:22+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
+    {
+      "titel": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "resume": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+      "dato": "2026-08-20T09:30:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Don't Paste the AI, please",
+      "link": "https://dontpastetheai.com/",
+      "resume": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 785 # Comments: 392",
+      "dato": "2026-08-20T08:20:44+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
     {
       "titel": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
       "link": "https://arxiv.org/abs/2608.18078",
@@ -251,20 +307,20 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Google packs Search and Gemini with new AI study tools",
-      "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-      "resume": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
-      "dato": "2026-08-19T19:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Offering Zero Data Retention for frontier models",
       "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
       "dato": "2026-08-19T19:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
+    },
+    {
+      "titel": "Google packs Search and Gemini with new AI study tools",
+      "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "resume": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+      "dato": "2026-08-19T19:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
     },
     {
       "titel": "Researchers say OpenAI revoked their access to limited cyber program",
@@ -313,6 +369,14 @@
       "dato": "2026-08-19T15:44:53+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Mathematics in the age of AI",
+      "link": "https://arxiv.org/abs/2608.16753",
+      "resume": "Article URL: https://arxiv.org/abs/2608.16753 Comments URL: https://news.ycombinator.com/item?id=49362728 Points: 198 # Comments: 232",
+      "dato": "2026-08-19T15:14:25+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
@@ -377,6 +441,14 @@
       "dato": "2026-08-18T22:14:25+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI usage patterns in software teams",
+      "link": "https://linear.app/data",
+      "resume": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 192 # Comments: 112",
+      "dato": "2026-08-18T22:08:07+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "ChatGPT Ads expands across Europe",
@@ -451,14 +523,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Perplexity’s free AI offer left it with millions more users in India",
-      "link": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-      "resume": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.",
-      "dato": "2026-08-18T13:45:40+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Microsoft Copilot reveals secret input that allowed it to be hacked",
       "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
       "resume": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
@@ -479,22 +543,6 @@
       "link": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
       "resume": "One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they send often means I miss important ones. So, when Google announced its new Pet Memory feature for Gemini for Home, […]",
       "dato": "2026-08-18T08:01:29-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Elon Musk broke the FAA — Palantir is picking up the pieces",
-      "link": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
-      "resume": "On August 6th, the Minneapolis Air Route Traffic Control Center lost radar and communications for around two hours. The outage disrupted more than 1,100 flights across the center's 330,000 square mile, nine-state airspace sector. Two days earlier, on August 4th, President Donald Trump departed the White House inside his Marine One military helicopter. As Federal […]",
-      "dato": "2026-08-18T07:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "ChatGPT is getting a dedicated mode for teens",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
-      "resume": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens […]",
-      "dato": "2026-08-18T07:00:00-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
@@ -555,12 +603,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Anthropic’s annualized revenue surges to $65B",
-      "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-      "resume": "The model maker added $18 billion in annualized revenue in two months.",
-      "dato": "2026-08-17T23:56:26+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
+      "titel": "My friends all hate AI; I just joined an AI startup",
+      "link": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
+      "resume": "Article URL: https://www.fast.ai/posts/2026-08-18-returning-to-AI/ Comments URL: https://news.ycombinator.com/item?id=49338139 Points: 57 # Comments: 208",
+      "dato": "2026-08-17T21:47:30+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Former SpaceX engineers are building a robotic factory for making steel parts",
@@ -569,6 +617,22 @@
       "dato": "2026-08-17T21:18:49+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "link": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "resume": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 1046 # Comments: 825",
+      "dato": "2026-08-17T20:46:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI;DR (AI; Didn't Read)",
+      "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "resume": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 1091 # Comments: 688",
+      "dato": "2026-08-17T19:47:15+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "What Flock’s defenders are missing",
@@ -587,12 +651,84 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "resume": "Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=49335216 Points: 93 # Comments: 17",
+      "dato": "2026-08-17T18:10:16+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+      "link": "https://speko.ai/",
+      "resume": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why. Demo: https://www.youtube.com/watch?v=no2LY2gRh-c Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS. Each of those layers offers a dozen credible…",
+      "dato": "2026-08-17T15:36:18+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Anthropic's War on open source AI",
+      "link": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
+      "resume": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 152 # Comments: 59",
+      "dato": "2026-08-17T15:24:34+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Judge relying wholly on AI in order is covered by judicial immunity, court rules",
+      "link": "https://reason.com/volokh/2026/08/17/judges-allegedly-relying-wholly-on-ai-in-order-is-covered-by-judicial-immunity-court-rules/",
+      "resume": "Article URL: https://reason.com/volokh/2026/08/17/judges-allegedly-relying-wholly-on-ai-in-order-is-covered-by-judicial-immunity-court-rules/ Comments URL: https://news.ycombinator.com/item?id=49331625 Points: 58 # Comments: 58",
+      "dato": "2026-08-17T14:30:09+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "resume": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 424 # Comments: 156",
+      "dato": "2026-08-17T14:18:38+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "How to disable or avoid intrusive AI",
+      "link": "https://www.librarian.net/notoai/",
+      "resume": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 336 # Comments: 197",
+      "dato": "2026-08-17T14:07:56+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "link": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+      "resume": "Article URL: https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/ Comments URL: https://news.ycombinator.com/item?id=49330742 Points: 162 # Comments: 319",
+      "dato": "2026-08-17T13:44:23+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Show HN: Sokoban AI Solver",
+      "link": "https://mkornreich.me/projects/sokoban/",
+      "resume": "Article URL: https://mkornreich.me/projects/sokoban/ Comments URL: https://news.ycombinator.com/item?id=49330215 Points: 72 # Comments: 42",
+      "dato": "2026-08-17T13:07:00+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "What happens when a kid’s robot best friend dies?",
       "link": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
       "resume": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other,…",
       "dato": "2026-08-17T09:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "HackEurope 2026: A short rant on AI and hackathons",
+      "link": "https://duti.dev/blog/2026/spr/",
+      "resume": "Article URL: https://duti.dev/blog/2026/spr/ Comments URL: https://news.ycombinator.com/item?id=49327490 Points: 57 # Comments: 62",
+      "dato": "2026-08-17T07:28:43+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "The Defender’s Window",
@@ -617,6 +753,38 @@
       "dato": "2026-08-17T03:15:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
+    },
+    {
+      "titel": "On AI regulation and messaging",
+      "link": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+      "resume": "https://xcancel.com/DarioAmodei/status/2088758816376807762 Comments URL: https://news.ycombinator.com/item?id=49325789 Points: 249 # Comments: 543",
+      "dato": "2026-08-17T01:59:56+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
+      "link": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+      "resume": "Article URL: https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll Comments URL: https://news.ycombinator.com/item?id=49323932 Points: 157 # Comments: 186",
+      "dato": "2026-08-16T21:34:06+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Red queen hypothesis – A new way forward for self-improving AI",
+      "link": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+      "resume": "Article URL: https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai Comments URL: https://news.ycombinator.com/item?id=49323136 Points: 103 # Comments: 28",
+      "dato": "2026-08-16T20:01:13+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "The AI Credit Resale Economy",
+      "link": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "resume": "Article URL: https://vectoral.com/blog/who-are-the-token-brokers Comments URL: https://news.ycombinator.com/item?id=49320611 Points: 331 # Comments: 129",
+      "dato": "2026-08-16T14:44:55+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Suspecting court of using AI, man injected prompts in filings to try to win case",
@@ -883,28 +1051,12 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "These startups are chasing the next big thing in LLMs",
-      "link": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-      "resume": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they described a new…",
-      "dato": "2026-08-10T09:00:00+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
-    },
-    {
       "titel": "Premium seats are coming to ChatGPT Business",
       "link": "https://openai.com/index/premium-seats-chatgpt-business",
       "resume": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
       "dato": "2026-08-10T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "DeepMind’s hurricane breakthrough has surprised weather scientists",
-      "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-      "resume": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
-      "dato": "2026-08-08T11:05:50+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
