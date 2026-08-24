@@ -1,7 +1,15 @@
 {
-  "opdateret": "2026-08-24T06:43:17.437922+00:00",
-  "antal": 137,
+  "opdateret": "2026-08-24T12:36:42.090846+00:00",
+  "antal": 118,
   "artikler": [
+    {
+      "titel": "Kids outlearn AI—and we still don’t know why",
+      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "resume": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
+      "dato": "2026-08-24T09:00:00+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
     {
       "titel": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
       "link": "https://arxiv.org/abs/2608.20341",
@@ -267,14 +275,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
-      "link": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
-      "resume": "Article URL: https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs Comments URL: https://news.ycombinator.com/item?id=49399941 Points: 55 # Comments: 70",
-      "dato": "2026-08-22T14:13:05+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Anthropic’s Opus 4.6 is a smut-machine",
       "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
       "resume": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
@@ -307,22 +307,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "AI boosted homework scores, then exam scores dropped: Study",
-      "link": "https://canews24.online/?p=71",
-      "resume": "Article URL: https://canews24.online/?p=71 Comments URL: https://news.ycombinator.com/item?id=49389565 Points: 165 # Comments: 11",
-      "dato": "2026-08-21T15:25:42+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "resume": "There's about to be a big fight to secure access to space.",
-      "dato": "2026-08-21T14:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "The DOJ is investigating a16z. What does this mean for venture capital?",
       "link": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
       "resume": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a year, dusting off a 112-year-old antitrust law that’s rarely used against VCs. Board conflicts…",
@@ -331,12 +315,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "How a Texas student blew the whistle on a rogue AI hacking attempt",
-      "link": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
-      "resume": "Article URL: https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/ Comments URL: https://news.ycombinator.com/item?id=49387959 Points: 188 # Comments: 98",
-      "dato": "2026-08-21T13:43:33+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
+      "titel": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "resume": "There's about to be a big fight to secure access to space.",
+      "dato": "2026-08-21T14:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
     },
     {
       "titel": "Major YouTube creators are facing backlash for accepting AI money",
@@ -355,36 +339,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "I'm becoming AI-blind",
-      "link": "https://cymerys.com/w/im-becoming-ai-blind",
-      "resume": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 487 # Comments: 492",
-      "dato": "2026-08-21T11:48:05+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
       "link": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
       "resume": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
       "dato": "2026-08-21T11:00:53+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "link": "https://annas-archive.gl/blog/physical-destruction.html",
-      "resume": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 623 # Comments: 898",
-      "dato": "2026-08-21T02:37:47+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Copyright does not protect AI-generated content in EU",
-      "link": "https://mathstodon.xyz/@maxpool/117128107757895678",
-      "resume": "Article URL: https://mathstodon.xyz/@maxpool/117128107757895678 Comments URL: https://news.ycombinator.com/item?id=49382041 Points: 189 # Comments: 209",
-      "dato": "2026-08-21T00:15:12+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
@@ -443,14 +403,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Show HN: Huzzah – a novel approach to coding with AI",
-      "link": "https://www.danielvaughn.dev/posts/huzzah/",
-      "resume": "Hello everyone. I've been working on this experimental editor called Huzzah. I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there's a complexity limit for…",
-      "dato": "2026-08-20T19:05:36+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Grok keeps sending gibberish responses to users",
       "link": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
       "resume": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
@@ -473,14 +425,6 @@
       "dato": "2026-08-20T15:42:39+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
-    },
-    {
-      "titel": "Anti-AI fonts are useless and harmful",
-      "link": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-      "resume": "Article URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ Comments URL: https://news.ycombinator.com/item?id=49375719 Points: 210 # Comments: 165",
-      "dato": "2026-08-20T15:06:53+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Welcome to the AI crisis in math",
@@ -507,28 +451,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "AI didn't erase the junior engineer's value, it increased it it",
-      "link": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
-      "resume": "Article URL: https://franciscotrindade.me/blog/the-kids-are-really-alright/ Comments URL: https://news.ycombinator.com/item?id=49373269 Points: 89 # Comments: 143",
-      "dato": "2026-08-20T11:42:20+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Unlocking hidden revenue streams with market models",
       "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
       "resume": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name…",
       "dato": "2026-08-20T09:47:22+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
-    },
-    {
-      "titel": "Don't paste the AI, please",
-      "link": "https://dontpastetheai.com/",
-      "resume": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 1044 # Comments: 579",
-      "dato": "2026-08-20T08:20:44+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Introducing AI Futures",
@@ -555,20 +483,20 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Offering Zero Data Retention for frontier models",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "dato": "2026-08-19T19:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
       "titel": "Google Gemini is getting a dedicated student hub",
       "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
       "resume": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates […]",
       "dato": "2026-08-19T15:00:00-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "dato": "2026-08-19T19:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
     },
     {
       "titel": "OpenAI hit the brakes. Now what?",
@@ -595,14 +523,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Mathematics in the age of AI",
-      "link": "https://arxiv.org/abs/2608.16753",
-      "resume": "Article URL: https://arxiv.org/abs/2608.16753 Comments URL: https://news.ycombinator.com/item?id=49362728 Points: 208 # Comments: 265",
-      "dato": "2026-08-19T15:14:25+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
       "resume": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers — the directors, VPs, CIOs, and CTOs — who are evaluating, buying,…",
@@ -625,22 +545,6 @@
       "dato": "2026-08-19T07:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "AI boosted homework scores, then exam scores dropped: study",
-      "link": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "resume": "https://archive.is/w1eng https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618 Comments URL: https://news.ycombinator.com/item?id=49357530 Points: 375 # Comments: 376",
-      "dato": "2026-08-19T06:13:31+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "AI usage patterns in software teams",
-      "link": "https://linear.app/data",
-      "resume": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 199 # Comments: 115",
-      "dato": "2026-08-18T22:08:07+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "ChatGPT Ads expands across Europe",
@@ -723,36 +627,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "My friends all hate AI; I just joined an AI startup",
-      "link": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
-      "resume": "Article URL: https://www.fast.ai/posts/2026-08-18-returning-to-AI/ Comments URL: https://news.ycombinator.com/item?id=49338139 Points: 58 # Comments: 210",
-      "dato": "2026-08-17T21:47:30+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Former SpaceX engineers are building a robotic factory for making steel parts",
       "link": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
       "resume": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
       "dato": "2026-08-17T21:18:49+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
-      "link": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "resume": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 1054 # Comments: 868",
-      "dato": "2026-08-17T20:46:10+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "AI;DR (AI; Didn't Read)",
-      "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "resume": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 1111 # Comments: 690",
-      "dato": "2026-08-17T19:47:15+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "What Flock’s defenders are missing",
@@ -769,30 +649,6 @@
       "dato": "2026-08-17T18:13:47+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Amazon, which started off selling books, is destroying rare texts to train AI",
-      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "resume": "Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=49335216 Points: 94 # Comments: 17",
-      "dato": "2026-08-17T18:10:16+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
-      "link": "https://speko.ai/",
-      "resume": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why. Demo: https://www.youtube.com/watch?v=no2LY2gRh-c Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS. Each of those layers offers a dozen credible…",
-      "dato": "2026-08-17T15:36:18+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Anthropic's War on open source AI",
-      "link": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
-      "resume": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 152 # Comments: 59",
-      "dato": "2026-08-17T15:24:34+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "What happens when a kid’s robot best friend dies?",
@@ -1025,14 +881,6 @@
       "dato": "2026-08-10T20:45:52+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "AI professors are negotiating the new realities of academic research",
-      "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
-      "resume": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI…",
-      "dato": "2026-08-10T20:00:00+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
     },
     {
       "titel": "What building an AI-native finance function taught me",
