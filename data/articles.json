@@ -1,7 +1,207 @@
 {
-  "opdateret": "2026-08-24T00:55:35.294794+00:00",
-  "antal": 112,
+  "opdateret": "2026-08-24T06:43:17.437922+00:00",
+  "antal": 137,
   "artikler": [
+    {
+      "titel": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "link": "https://arxiv.org/abs/2608.20341",
+      "resume": "Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requirement Documents (FRDs) and repository context to be ingested in a single workflow, making specification quality the execution…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "link": "https://arxiv.org/abs/2608.20342",
+      "resume": "Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "link": "https://arxiv.org/abs/2608.20378",
+      "resume": "Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "link": "https://arxiv.org/abs/2608.20379",
+      "resume": "Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "link": "https://arxiv.org/abs/2608.20384",
+      "resume": "Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective that current high-capacity models, notably Transformers, only partially address. While Transformers attain strong predictive performance, their…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
+      "link": "https://arxiv.org/abs/2608.20389",
+      "resume": "A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its system prompt, without an explicit embedding-based retrieval step. We treat this in-context selection as the small-N counterpart to embedding-based skill…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+      "link": "https://arxiv.org/abs/2608.20397",
+      "resume": "Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to decouple routing from the schema-prefill cost: an INT8 semantic lookaside buffer (SLB) with a calibrated cross-encoder margin gate selects tools…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Environmental Slow AI: Design Principles for Generative Systems",
+      "link": "https://arxiv.org/abs/2608.20398",
+      "resume": "Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist values of current generative AI through an environmental humanities tradition and proposes design principles in which environmental sustainability…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
+      "link": "https://arxiv.org/abs/2608.20400",
+      "resume": "Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evidence survives eviction, but we challenge this by isolating a pre-retrieval failure mode: structurally indirect prerequisite eviction, in which upstream blocks weakly aligned with the query are discarded under budget pressure. We provide an…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "World models of environment, agent and joint agent-environment systems",
+      "link": "https://arxiv.org/abs/2608.20401",
+      "resume": "World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as observations, rewards, states, latent or information states. We argue that there is a prior distinction: which channel they model. We consider three cases: the environment channel $O_{:} \\mid A_{:}$, the agent channel $A_{:} \\mid O_{:}$, and the…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "StateSight: Benchmarking Latent Spatial-State Reconstruction in Vision-Language Models",
+      "link": "https://arxiv.org/abs/2608.20414",
+      "resume": "Vision-language models are increasingly used for multimodal question answering, yet their ability to reconstruct latent spatial structure from a single image remains difficult to isolate. Broad benchmarks often combine perception, optical character recognition, domain knowledge, linguistic priors, and reasoning in the same evaluation. We introduce StateSight, a procedurally generated benchmark…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Categorical AI phenomenology: A first-person approach",
+      "link": "https://arxiv.org/abs/2608.20420",
+      "resume": "This paper develops a phenomenology-first approach to artificial consciousness by reframing consciousness as the subjective experience enacted through an agent's interface with the world. We shift the methodological focus to first-person structures, modeled mathematically by categories derived from Q-networks to capture actions and phenomenological invariants. In this framework, Q-networks are…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Who Delegates to AI? Evidence from 53,000 Agent Configurations",
+      "link": "https://arxiv.org/abs/2608.20425",
+      "resume": "A growing literature measures how far occupations are exposed to AI, but these measures capture where AI could perform tasks, not whether workers have adopted it. We propose a new layer of exposure, delegated exposure, which records whether a worker has committed a task to AI by building it into a workflow. We operationalize it as the Agentic Adoption Index (AAI), which measures how closely an…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "STCO: Conditional Neural Operators for Time-Dependent PDEs",
+      "link": "https://arxiv.org/abs/2608.20477",
+      "resume": "Neural operators have emerged as efficient surrogates for time-dependent physical systems governed by partial differential equations (PDEs), but their future-state predictions are often conditioned only on observed states and static problem descriptors. For control or optimization, however, body motion, inflow, or forcing are prescribed for the query without being determined solely by the…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Terminal Agents: A Survey of AI Agents in Command-Line Environments",
+      "link": "https://arxiv.org/abs/2608.20485",
+      "resume": "Large language model agents increasingly act through terminals, yet existing surveys disperse terminal-mediated behavior across software engineering, tool use, and computer-use research. We regard terminal agents as systems whose dominant progress-bearing action--observation loop is mediated by terminal command execution, textual feedback, and stateful environment interaction. Using…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Lost in Translation: How Universal Ethical Values Fail to Translate Across Global Contexts",
+      "link": "https://arxiv.org/abs/2608.20490",
+      "resume": "AI ethics frameworks treat values such as fairness, transparency, and accountability as universal and uniformly operationalizable across contexts. We examined how 14 experts across 10 countries made sense of AI in practice, reinterpreted core values, and envisioned governance alternatives. We found that AI deployment is characterized by structurally unequal conditions, marked by infrastructural…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "A Temporal Planning Approach for Intelligent Flood Response",
+      "link": "https://arxiv.org/abs/2608.20510",
+      "resume": "Effective response to multiple, simultaneously flooded areas requires coordinating appropriate actions in the correct temporal order, under severe resource constraints. Automated planning provides a foundation for addressing this challenge by generating time-aware schedules, given a formal description of available resources, constraints, and goals. This work presents an intelligent flood-response…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "FL-MAESTRO: Multi-Agent LLM Orchestration for Resource-Constrained Federated Learning",
+      "link": "https://arxiv.org/abs/2608.20518",
+      "resume": "In Federated Learning (FL), the communication topology is a runtime variable rather than a fixed design choice, since links and edge devices drop in and out during training. Each round, the server must commit three coupled decisions, namely the communication topology, per-client resource allocation, and the aggregation rule for combining local updates. Recent agentic systems have begun bringing…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Volumetric Radiology AI in the Era of Multimodal Large Language Models",
+      "link": "https://arxiv.org/abs/2608.20549",
+      "resume": "Advances in multimodal large language models (MLLMs) are extending radiological artificial intelligence (AI) beyond task-specific image analysis toward multimodal understanding and reasoning. Volumetric radiology, however, presents a fundamental representational mismatch: clinical interpretation often requires full-volume spatial context and acquisition-dependent quantitative information, whereas…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Consilience: Conformally Calibrated Communication Control for Hidden-Profile Multi-Agent Reasoning",
+      "link": "https://arxiv.org/abs/2608.20564",
+      "resume": "Multi-agent LLM systems can improve reasoning by pooling diverse perspectives, but their effectiveness depends on coordinating communication, particularly in hidden-profile settings where each agent holds only part of the evidence required for a correct decision. Existing protocols, including fixed schedules, round-robin exchange, and unstructured debate, provide no guarantee that a…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Open-Weight Masked Introspection: Measuring What Language Models Can Report About Their Own Computation",
+      "link": "https://arxiv.org/abs/2608.20569",
+      "resume": "Are frontier models able to introspect about their internal states? Recent work suggests that under certain conditions a complex enough model can audit its own internals, call out what changed, and report back confidently about it. We tested that claim on eight open-weight models from seven families and found no such ability: asked whether their own computation had been altered, none answered…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth",
+      "link": "https://arxiv.org/abs/2608.20574",
+      "resume": "Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exact-match key. We introduce FlavourBench, an automated benchmark in which a versioned culinary system supplies dense, executable ground truth. Each task presents eight ingredients and asks for a three-ingredient portfolio; before model execution, Epicure scores all 56 possible…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Difficulty-Aware Semantic-ID Optimization for Generative Recommendation",
+      "link": "https://arxiv.org/abs/2608.20611",
+      "resume": "Semantic-ID-based generative recommendation casts retrieval and ranking as autoregressive generation over hierarchical item identifiers. A common recipe is SFT followed by GRPO, yet vanilla GRPO is poorly matched to this tree-structured task. Under the frozen SFT checkpoint, the exact target is absent from the first 16 candidates of the 50-beam constrained ranking for many prompts, and in harder…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Evaluating Skills, Not Just Agents: Agentic Continuous Evaluation of Skills",
+      "link": "https://arxiv.org/abs/2608.20614",
+      "resume": "Enterprise agent programs are moving from prototypes into production, where reusable skills, tools, and workflow packages must be reviewed with evidence rather than prose. Current gates often scan these artifacts for structure, style, and security, but they do not answer the deployment question: does the capability package help a live agent complete enterprise tasks under the same model, sandbox,…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Dual-Cache Latent Space Communication between Heterogeneous Language Models",
+      "link": "https://arxiv.org/abs/2608.20617",
+      "resume": "Multi-agent LLM systems split work across models, so answering often requires knowledge that sits in another agent's context: a Sharer has encoded information that a Receiver needs to complete its task. They usually communicate by exchanging text, which puts autoregressive decoding on the critical path and reduces the exchange to a discrete message written without sight of the receiver's state.…",
+      "dato": "2026-08-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
     {
       "titel": "Who’s behind the new ‘stealth model’ Ox Alpha?",
       "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -115,17 +315,17 @@
       "kategori": "Community"
     },
     {
-      "titel": "The DOJ is investigating a16z. What does this mean for venture capital?",
-      "link": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
-      "resume": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a year, dusting off a 112-year-old antitrust law that’s rarely used against VCs. Board conflicts…",
+      "titel": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "resume": "There's about to be a big fight to secure access to space.",
       "dato": "2026-08-21T14:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
     },
     {
-      "titel": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "resume": "There's about to be a big fight to secure access to space.",
+      "titel": "The DOJ is investigating a16z. What does this mean for venture capital?",
+      "link": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+      "resume": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a year, dusting off a 112-year-old antitrust law that’s rarely used against VCs. Board conflicts…",
       "dato": "2026-08-21T14:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
@@ -355,20 +555,20 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Google Gemini is getting a dedicated student hub",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
-      "resume": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates […]",
-      "dato": "2026-08-19T15:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Offering Zero Data Retention for frontier models",
       "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
       "dato": "2026-08-19T19:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
+    },
+    {
+      "titel": "Google Gemini is getting a dedicated student hub",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "resume": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates […]",
+      "dato": "2026-08-19T15:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
     },
     {
       "titel": "OpenAI hit the brakes. Now what?",
