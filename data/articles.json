@@ -1,7 +1,71 @@
 {
-  "opdateret": "2026-08-26T06:37:38.680331+00:00",
+  "opdateret": "2026-08-26T12:39:07.445521+00:00",
   "antal": 137,
   "artikler": [
+    {
+      "titel": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+      "link": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+      "resume": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
+      "dato": "2026-08-26T12:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+      "link": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
+      "resume": "The focus is on agentic capability and predictable enterprise deployment.",
+      "dato": "2026-08-26T11:10:49+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Bill Gates is deeply worried about AI, and he’s no longer staying quiet",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
+      "resume": "Bill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awakening. Once a staunch AI optimist, the Microsoft cofounder is now deeply pessimistic about what AI means for our collective future. Having been conspicuously quiet on AI issues recently, Gates is back with a nearly 6,000-word essay seeking […]",
+      "dato": "2026-08-26T07:07:40-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+      "link": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+      "resume": "Runable says 60%–70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+      "dato": "2026-08-26T11:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "resume": "Article URL: https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek Comments URL: https://news.ycombinator.com/item?id=49446422 Points: 177 # Comments: 70",
+      "dato": "2026-08-26T10:04:55+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Raised on AI",
+      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "resume": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet. Fast-forward a couple…",
+      "dato": "2026-08-26T09:00:00+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
+    {
+      "titel": "AI models flub these intelligence tests. Can you fare any better?",
+      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "resume": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur…",
+      "dato": "2026-08-26T09:00:00+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
+    {
+      "titel": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
+      "link": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
+      "resume": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marina, where a flotilla of expensive boats bob in…",
+      "dato": "2026-08-26T07:01:00+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
     {
       "titel": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
       "link": "https://arxiv.org/abs/2608.23568",
@@ -221,10 +285,18 @@
     {
       "titel": "OpenAI loses a top data center exec as stream of high-profile departures continues",
       "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
-      "resume": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+      "resume": "In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
       "dato": "2026-08-26T00:06:20+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "How loveholidays is making everyone a builder with Codex",
+      "link": "https://openai.com/index/loveholidays",
+      "resume": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "dato": "2026-08-26T00:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
     },
     {
       "titel": "World humanoid robot games show runners breaking records, bursting into flames",
@@ -253,7 +325,7 @@
     {
       "titel": "How much of HN is AI?",
       "link": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
-      "resume": "Article URL: https://blog.coredump.cx/p/how-much-of-hn-is-ai Comments URL: https://news.ycombinator.com/item?id=49435728 Points: 257 # Comments: 310",
+      "resume": "Article URL: https://blog.coredump.cx/p/how-much-of-hn-is-ai Comments URL: https://news.ycombinator.com/item?id=49435728 Points: 269 # Comments: 329",
       "dato": "2026-08-25T15:23:41+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -281,6 +353,14 @@
       "dato": "2026-08-25T15:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+      "resume": "Article URL: https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/ Comments URL: https://news.ycombinator.com/item?id=49435147 Points: 141 # Comments: 166",
+      "dato": "2026-08-25T14:48:58+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
@@ -379,14 +459,6 @@
       "kategori": "Labs"
     },
     {
-      "titel": "AI is hitting entry-level jobs hardest, Stanford study finds",
-      "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-      "resume": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
-      "dato": "2026-08-24T21:45:53+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Trump bought SpaceX shares two weeks after blockbuster IPO",
       "link": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
       "resume": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
@@ -421,7 +493,7 @@
     {
       "titel": "Coding expertise is going to collapse from AI reliance",
       "link": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
-      "resume": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 548 # Comments: 537",
+      "resume": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 552 # Comments: 540",
       "dato": "2026-08-24T15:52:33+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -469,7 +541,7 @@
     {
       "titel": "We never use AI. For anything",
       "link": "https://corkmac.app/our-ai-stance/",
-      "resume": "Article URL: https://corkmac.app/our-ai-stance/ Comments URL: https://news.ycombinator.com/item?id=49417313 Points: 83 # Comments: 99",
+      "resume": "Article URL: https://corkmac.app/our-ai-stance/ Comments URL: https://news.ycombinator.com/item?id=49417313 Points: 83 # Comments: 100",
       "dato": "2026-08-24T09:32:32+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -485,7 +557,7 @@
     {
       "titel": "I built a low-latency AI companion that plays Skyrim with me",
       "link": "https://pantel.is/projects/ai-gaming-companion/",
-      "resume": "Article URL: https://pantel.is/projects/ai-gaming-companion/ Comments URL: https://news.ycombinator.com/item?id=49413561 Points: 391 # Comments: 76",
+      "resume": "Article URL: https://pantel.is/projects/ai-gaming-companion/ Comments URL: https://news.ycombinator.com/item?id=49413561 Points: 393 # Comments: 76",
       "dato": "2026-08-23T23:18:17+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -501,7 +573,7 @@
     {
       "titel": "Training AI to Paint with Code",
       "link": "https://surya.website/rling-qwen-to-paint-with-code",
-      "resume": "Article URL: https://surya.website/rling-qwen-to-paint-with-code Comments URL: https://news.ycombinator.com/item?id=49411800 Points: 201 # Comments: 22",
+      "resume": "Article URL: https://surya.website/rling-qwen-to-paint-with-code Comments URL: https://news.ycombinator.com/item?id=49411800 Points: 211 # Comments: 26",
       "dato": "2026-08-23T19:39:29+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -517,7 +589,7 @@
     {
       "titel": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
       "link": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "resume": "Article URL: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245 Comments URL: https://news.ycombinator.com/item?id=49411102 Points: 809 # Comments: 698",
+      "resume": "Article URL: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245 Comments URL: https://news.ycombinator.com/item?id=49411102 Points: 813 # Comments: 698",
       "dato": "2026-08-23T18:16:37+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -539,22 +611,6 @@
       "kategori": "Community"
     },
     {
-      "titel": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "resume": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
-      "dato": "2026-08-23T15:30:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Is it legal to train AI models on copyrighted books? It’s complicated",
-      "link": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "resume": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
-      "dato": "2026-08-23T15:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
       "link": "https://ericpardee.github.io/fire-hd-ownership/",
       "resume": "Article URL: https://ericpardee.github.io/fire-hd-ownership/ Comments URL: https://news.ycombinator.com/item?id=49409073 Points: 694 # Comments: 291",
@@ -565,7 +621,7 @@
     {
       "titel": "AI Chip Architectures",
       "link": "https://www.jepeake.com/ai-chip-architectures",
-      "resume": "Article URL: https://www.jepeake.com/ai-chip-architectures Comments URL: https://news.ycombinator.com/item?id=49405657 Points: 159 # Comments: 48",
+      "resume": "Article URL: https://www.jepeake.com/ai-chip-architectures Comments URL: https://news.ycombinator.com/item?id=49405657 Points: 159 # Comments: 49",
       "dato": "2026-08-23T02:25:10+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -621,7 +677,7 @@
     {
       "titel": "I'm becoming AI-blind",
       "link": "https://cymerys.com/w/im-becoming-ai-blind",
-      "resume": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 508 # Comments: 507",
+      "resume": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 509 # Comments: 508",
       "dato": "2026-08-21T11:48:05+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -681,14 +737,6 @@
       "dato": "2026-08-20T15:42:39+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
-    },
-    {
-      "titel": "Anti-AI fonts are useless and harmful",
-      "link": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-      "resume": "Article URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ Comments URL: https://news.ycombinator.com/item?id=49375719 Points: 212 # Comments: 165",
-      "dato": "2026-08-20T15:06:53+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Welcome to the AI crisis in math",
@@ -761,14 +809,6 @@
       "dato": "2026-08-19T19:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "OpenAI hit the brakes. Now what?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "resume": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause […]",
-      "dato": "2026-08-19T13:10:09-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Meta ran ads for an app promising to nudify female politicians",
@@ -883,28 +923,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "What Flock’s defenders are missing",
-      "link": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
-      "resume": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent…",
-      "dato": "2026-08-17T19:16:09+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
-    },
-    {
       "titel": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
       "link": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
       "resume": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
       "dato": "2026-08-17T18:13:47+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "What happens when a kid’s robot best friend dies?",
-      "link": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
-      "resume": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other,…",
-      "dato": "2026-08-17T09:00:00+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
     },
     {
       "titel": "The Defender’s Window",
@@ -979,14 +1003,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Flock is tightening its rules in response to a growing surveillance backlash",
-      "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-      "resume": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:…",
-      "dato": "2026-08-13T13:41:10+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
-    },
-    {
       "titel": "Claude's new Scarlet Letter watermark is invisible—for now",
       "link": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
       "resume": "The mark flags anything Claude processed, even human writing it only edited.",
@@ -1027,14 +1043,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Terabytes of credentials leaked in massive supply-chain attack",
-      "link": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-      "resume": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
-      "dato": "2026-08-12T21:43:21+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Putting sign language AI into users’ hands",
       "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
       "resume": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
@@ -1055,14 +1063,6 @@
       "link": "https://openai.com/index/ringcentral",
       "resume": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
       "dato": "2026-08-12T00:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Testing ads in ChatGPT",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "resume": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "dato": "2026-08-11T10:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
     },
