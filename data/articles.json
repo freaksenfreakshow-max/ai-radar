@@ -1,7 +1,39 @@
 {
-  "opdateret": "2026-08-25T18:31:21.370505+00:00",
-  "antal": 118,
+  "opdateret": "2026-08-26T00:56:17.032393+00:00",
+  "antal": 137,
   "artikler": [
+    {
+      "titel": "Robotics startup Generalist reaches $3B valuation, sources say",
+      "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+      "resume": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+      "dato": "2026-08-26T00:40:59+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+      "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+      "resume": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+      "dato": "2026-08-26T00:06:20+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "World humanoid robot games show runners breaking records, bursting into flames",
+      "link": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
+      "resume": "Record-breaking robot races are less substantial than household chore challenges.",
+      "dato": "2026-08-25T20:59:03+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "link": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "resume": "The company's new fundraising total now stands at $232 million.",
+      "dato": "2026-08-25T19:03:47+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
     {
       "titel": "Claude Cowork finally remembers what you told the app in chat",
       "link": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
@@ -9,6 +41,22 @@
       "dato": "2026-08-25T17:50:33+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "How much of HN is AI?",
+      "link": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
+      "resume": "Article URL: https://blog.coredump.cx/p/how-much-of-hn-is-ai Comments URL: https://news.ycombinator.com/item?id=49435728 Points: 246 # Comments: 292",
+      "dato": "2026-08-25T15:23:41+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Show HN: I made a Raspberry with Qwen my local car AI",
+      "link": "https://github.com/ThinkOffApp/CarWatch",
+      "resume": "Found that you can actually run a 35B Qwen model on a Pi with very impressive intelligence and stability. Built connectors for car ODB to read all about car internals, and manufacturer's cloud service for stuff like changing AC or opening/ locking doors. Gave it info such as the full car manual. And then hooked it up with my other agents in our discussion room! So now it can answer car questions…",
+      "dato": "2026-08-25T15:20:20+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "AI won’t replace radiologists, but it will dramatically change their jobs",
@@ -363,6 +411,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Coding expertise is going to collapse from AI reliance",
+      "link": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "resume": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 538 # Comments: 533",
+      "dato": "2026-08-24T15:52:33+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
       "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
       "resume": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
@@ -403,12 +459,28 @@
       "kategori": "Labs"
     },
     {
+      "titel": "We never use AI. For anything",
+      "link": "https://corkmac.app/our-ai-stance/",
+      "resume": "Article URL: https://corkmac.app/our-ai-stance/ Comments URL: https://news.ycombinator.com/item?id=49417313 Points: 83 # Comments: 98",
+      "dato": "2026-08-24T09:32:32+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Kids outlearn AI—and we still don’t know why",
       "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
       "resume": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
       "dato": "2026-08-24T09:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "I built a low-latency AI companion that plays Skyrim with me",
+      "link": "https://pantel.is/projects/ai-gaming-companion/",
+      "resume": "Article URL: https://pantel.is/projects/ai-gaming-companion/ Comments URL: https://news.ycombinator.com/item?id=49413561 Points: 388 # Comments: 76",
+      "dato": "2026-08-23T23:18:17+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Who’s behind the new ‘stealth model’ Ox Alpha?",
@@ -419,12 +491,44 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Training AI to Paint with Code",
+      "link": "https://surya.website/rling-qwen-to-paint-with-code",
+      "resume": "Article URL: https://surya.website/rling-qwen-to-paint-with-code Comments URL: https://news.ycombinator.com/item?id=49411800 Points: 194 # Comments: 22",
+      "dato": "2026-08-23T19:39:29+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
       "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
       "resume": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
       "dato": "2026-08-23T19:14:08+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "link": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "resume": "Article URL: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245 Comments URL: https://news.ycombinator.com/item?id=49411102 Points: 806 # Comments: 698",
+      "dato": "2026-08-23T18:16:37+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI and Infrastructure Engineering",
+      "link": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering/",
+      "resume": "Article URL: https://omegion.dev/2026/08/ai-and-infrastructure-engineering/ Comments URL: https://news.ycombinator.com/item?id=49411024 Points: 72 # Comments: 40",
+      "dato": "2026-08-23T18:09:01+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "We must not grant AI agents legal personhood",
+      "link": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+      "resume": "Article URL: https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473 Comments URL: https://news.ycombinator.com/item?id=49410628 Points: 62 # Comments: 113",
+      "dato": "2026-08-23T17:25:03+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
@@ -443,6 +547,22 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+      "link": "https://ericpardee.github.io/fire-hd-ownership/",
+      "resume": "Article URL: https://ericpardee.github.io/fire-hd-ownership/ Comments URL: https://news.ycombinator.com/item?id=49409073 Points: 693 # Comments: 291",
+      "dato": "2026-08-23T14:23:09+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI Chip Architectures",
+      "link": "https://www.jepeake.com/ai-chip-architectures",
+      "resume": "Article URL: https://www.jepeake.com/ai-chip-architectures Comments URL: https://news.ycombinator.com/item?id=49405657 Points: 157 # Comments: 46",
+      "dato": "2026-08-23T02:25:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
       "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
       "resume": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
@@ -451,28 +571,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "resume": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "dato": "2026-08-22T19:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "OpenAI says California should strengthen its AI safety bill",
-      "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "resume": "OpenAI's global affairs team post also referenced “recent incidents” that “underscore both the need for these protections and the importance of updating them” as new risks emerge.",
-      "dato": "2026-08-22T16:30:34+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Frontier AI labs still won’t say how they’d contain a rogue model",
-      "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-      "resume": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
-      "dato": "2026-08-22T16:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
+      "titel": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
+      "link": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+      "resume": "Article URL: https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs Comments URL: https://news.ycombinator.com/item?id=49399941 Points: 57 # Comments: 70",
+      "dato": "2026-08-22T14:13:05+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Over 1 million people have clicked LinkedIn’s AI slop button",
@@ -481,6 +585,22 @@
       "dato": "2026-08-21T17:25:50-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI boosted homework scores, then exam scores dropped: Study",
+      "link": "https://canews24.online/?p=71",
+      "resume": "Article URL: https://canews24.online/?p=71 Comments URL: https://news.ycombinator.com/item?id=49389565 Points: 166 # Comments: 11",
+      "dato": "2026-08-21T15:25:42+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "link": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "resume": "Article URL: https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/ Comments URL: https://news.ycombinator.com/item?id=49387959 Points: 210 # Comments: 127",
+      "dato": "2026-08-21T13:43:33+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Major YouTube creators are facing backlash for accepting AI money",
@@ -499,6 +619,14 @@
       "kategori": "Labs"
     },
     {
+      "titel": "I'm becoming AI-blind",
+      "link": "https://cymerys.com/w/im-becoming-ai-blind",
+      "resume": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 508 # Comments: 507",
+      "dato": "2026-08-21T11:48:05+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
       "link": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
       "resume": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
@@ -507,12 +635,36 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "link": "https://annas-archive.gl/blog/physical-destruction.html",
+      "resume": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 645 # Comments: 914",
+      "dato": "2026-08-21T02:37:47+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Copyright does not protect AI-generated content in EU",
+      "link": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "resume": "Article URL: https://mathstodon.xyz/@maxpool/117128107757895678 Comments URL: https://news.ycombinator.com/item?id=49382041 Points: 190 # Comments: 211",
+      "dato": "2026-08-21T00:15:12+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Google Discover is getting an AI chatbot-tuned feed",
       "link": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
       "resume": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your […]",
       "dato": "2026-08-20T17:50:22-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Show HN: Huzzah – a novel approach to coding with AI",
+      "link": "https://www.danielvaughn.dev/posts/huzzah/",
+      "resume": "Hello everyone. I've been working on this experimental editor called Huzzah. I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there's a complexity limit for…",
+      "dato": "2026-08-20T19:05:36+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "It’s Greg Brockman’s OpenAI now",
@@ -529,6 +681,14 @@
       "dato": "2026-08-20T15:42:39+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "Anti-AI fonts are useless and harmful",
+      "link": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+      "resume": "Article URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ Comments URL: https://news.ycombinator.com/item?id=49375719 Points: 212 # Comments: 165",
+      "dato": "2026-08-20T15:06:53+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Welcome to the AI crisis in math",
@@ -587,20 +747,20 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Offering Zero Data Retention for frontier models",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "dato": "2026-08-19T19:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
       "titel": "Google Gemini is getting a dedicated student hub",
       "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
       "resume": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates […]",
       "dato": "2026-08-19T15:00:00-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "dato": "2026-08-19T19:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
     },
     {
       "titel": "OpenAI hit the brakes. Now what?",
@@ -871,14 +1031,6 @@
       "link": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
       "resume": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
       "dato": "2026-08-12T21:43:21+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Twitch content has trained Amazon AI for years, but users can opt out now",
-      "link": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
-      "resume": "Streaming platform says user-generated content \"may be used for future Gen AI model improvements.\"",
-      "dato": "2026-08-12T21:00:30+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
     },
