@@ -1,7 +1,103 @@
 {
-  "opdateret": "2026-09-01T15:56:26.419635+00:00",
-  "antal": 140,
+  "opdateret": "2026-09-01T20:24:06.847354+00:00",
+  "antal": 142,
   "artikler": [
+    {
+      "titel": "Anthropic’s new Fable release is cheaper, less restrictive",
+      "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "resume": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
+      "dato": "2026-09-01T19:39:22+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+      "resume": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to […]",
+      "dato": "2026-09-01T15:02:54-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "link": "https://danluu.com/zitron/",
+      "resume": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 114 # Comments: 79",
+      "dato": "2026-09-01T18:35:15+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Apple accuses OpenAI of destroying evidence",
+      "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+      "resume": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about \"destroying […]",
+      "dato": "2026-09-01T14:19:26-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google’s answer to Canva is an AI tool where you prompt instead of design",
+      "link": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "resume": "With Google Pics, Google is pushing deeper into the creative software market dominated by Canva and Adobe, but with a distinctly AI-first approach.",
+      "dato": "2026-09-01T17:35:37+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Introducing agentic video understanding with Gemini",
+      "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "resume": "",
+      "dato": "2026-09-01T17:08:51+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "resume": "OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "dato": "2026-09-01T17:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "How AI-native companies turn workflows into operating capability",
+      "link": "https://openai.com/index/ai-native-company-workflows",
+      "resume": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "dato": "2026-09-01T17:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+      "link": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+      "resume": "The startup wants to do for IT infrastructure what Cursor did for software engineering.",
+      "dato": "2026-09-01T16:31:04+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "John Deere launched an AI chatbot for farmers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+      "resume": "John Deere is testing a new \"JD\" AI assistant that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their \"field, machine and operational data\" to answer questions on topics like equipment settings, fuel usage, or harvest timing. The […]",
+      "dato": "2026-09-01T12:00:52-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google Pics is like Canva, but with even more AI",
+      "link": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+      "resume": "Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses. Built around Gemini and the Nano Banana generative AI model, Google Pics is designed to give more granular control over prompt-based image making and manipulation, allowing […]",
+      "dato": "2026-09-01T12:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Dwarf Fortress' creator says the industry's in shambles over AI",
+      "link": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
+      "resume": "Article URL: https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/ Comments URL: https://news.ycombinator.com/item?id=49523720 Points: 150 # Comments: 130",
+      "dato": "2026-09-01T15:53:42+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
     {
       "titel": "Amazon Alexa can now alert you when something new might tempt you to shop",
       "link": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
@@ -13,7 +109,7 @@
     {
       "titel": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
       "link": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-      "resume": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behaviour.",
+      "resume": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
       "dato": "2026-09-01T15:45:51+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
@@ -35,17 +131,33 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Path to Astra: critical capabilities and frontier safeguards",
+      "link": "https://openai.com/index/path-to-astra",
+      "resume": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "dato": "2026-09-01T13:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
       "titel": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
       "link": "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
-      "resume": "Article URL: https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype Comments URL: https://news.ycombinator.com/item?id=49521315 Points: 141 # Comments: 143",
+      "resume": "Article URL: https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype Comments URL: https://news.ycombinator.com/item?id=49521315 Points: 157 # Comments: 175",
       "dato": "2026-09-01T12:53:51+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
     {
+      "titel": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "resume": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "dato": "2026-09-01T12:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
       "titel": "AI Can Make You Suck Faster Too",
       "link": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-      "resume": "Article URL: https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too Comments URL: https://news.ycombinator.com/item?id=49518316 Points: 117 # Comments: 122",
+      "resume": "Article URL: https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too Comments URL: https://news.ycombinator.com/item?id=49518316 Points: 131 # Comments: 135",
       "dato": "2026-09-01T05:32:56+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -285,7 +397,7 @@
     {
       "titel": "The safest job from AI may be writing",
       "link": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-      "resume": "Article URL: http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html Comments URL: https://news.ycombinator.com/item?id=49512856 Points: 142 # Comments: 194",
+      "resume": "Article URL: http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html Comments URL: https://news.ycombinator.com/item?id=49512856 Points: 146 # Comments: 201",
       "dato": "2026-08-31T18:12:20+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -341,7 +453,7 @@
     {
       "titel": "Marx, Keynes, and AI",
       "link": "https://www.unpopularfront.news/p/marx-keynes-and-ai",
-      "resume": "Article URL: https://www.unpopularfront.news/p/marx-keynes-and-ai Comments URL: https://news.ycombinator.com/item?id=49510302 Points: 56 # Comments: 90",
+      "resume": "Article URL: https://www.unpopularfront.news/p/marx-keynes-and-ai Comments URL: https://news.ycombinator.com/item?id=49510302 Points: 58 # Comments: 90",
       "dato": "2026-08-31T14:36:03+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -389,7 +501,7 @@
     {
       "titel": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
       "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-      "resume": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 472 # Comments: 545",
+      "resume": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 488 # Comments: 579",
       "dato": "2026-08-31T12:41:22+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -477,7 +589,7 @@
     {
       "titel": "No AI Fridays",
       "link": "https://noaifridays.com/",
-      "resume": "Article URL: https://noaifridays.com/ Comments URL: https://news.ycombinator.com/item?id=49498095 Points: 288 # Comments: 204",
+      "resume": "Article URL: https://noaifridays.com/ Comments URL: https://news.ycombinator.com/item?id=49498095 Points: 288 # Comments: 205",
       "dato": "2026-08-30T12:31:05+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -509,7 +621,7 @@
     {
       "titel": "Smartphone LED detects hidden cameras with AI",
       "link": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
-      "resume": "Article URL: https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/ Comments URL: https://news.ycombinator.com/item?id=49496292 Points: 261 # Comments: 77",
+      "resume": "Article URL: https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/ Comments URL: https://news.ycombinator.com/item?id=49496292 Points: 267 # Comments: 80",
       "dato": "2026-08-30T06:52:04+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -520,14 +632,6 @@
       "resume": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
       "dato": "2026-08-29T18:41:59+00:00",
       "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "resume": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, […]",
-      "dato": "2026-08-29T14:19:53-04:00",
-      "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
     {
@@ -571,22 +675,6 @@
       "kategori": "Community"
     },
     {
-      "titel": "Nvidia’s AI advantage is moving beyond the GPU",
-      "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-      "resume": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-      "dato": "2026-08-29T13:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Musicians-turned-detectives are hunting for AI grifters",
-      "link": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
-      "resume": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […]",
-      "dato": "2026-08-29T08:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "StemDeck, a free, open-source and local AI stem separator",
       "link": "https://github.com/stemdeckapp/stemdeck",
       "resume": "Article URL: https://github.com/stemdeckapp/stemdeck Comments URL: https://news.ycombinator.com/item?id=49486081 Points: 244 # Comments: 65",
@@ -603,35 +691,11 @@
       "kategori": "Community"
     },
     {
-      "titel": "Neocloud Lambda secures $1B in debt to buy more chips",
-      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-      "resume": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-      "dato": "2026-08-28T20:24:11+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-      "resume": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "dato": "2026-08-28T19:30:38+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
       "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
       "resume": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
       "dato": "2026-08-28T18:07:55+00:00",
       "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Trump’s EPA wants to let data centers hide their air pollution",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
-      "resume": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites […]",
-      "dato": "2026-08-28T12:28:40-04:00",
-      "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
     {
@@ -659,36 +723,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Please stop flooding our projects with AI slop to furnish your CV",
-      "link": "https://neilalexander.dev/2026/06/30/flooding-contributions",
-      "resume": "Article URL: https://neilalexander.dev/2026/06/30/flooding-contributions Comments URL: https://news.ycombinator.com/item?id=49474143 Points: 213 # Comments: 144",
-      "dato": "2026-08-28T03:49:33+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "resume": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red […]",
-      "dato": "2026-08-27T23:14:06-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Supporting Thailand’s next generation of AI startups",
       "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
       "resume": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
       "dato": "2026-08-28T02:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-      "link": "https://www.terminal-bench-science.ai/announcement",
-      "resume": "Article URL: https://www.terminal-bench-science.ai/announcement Comments URL: https://news.ycombinator.com/item?id=49472820 Points: 117 # Comments: 36",
-      "dato": "2026-08-28T00:06:51+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Anthropic's new hardware standard lets AI agents control the physical world",
@@ -1071,30 +1111,6 @@
       "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "resume": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
       "dato": "2026-08-18T19:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Partnering with CodeAI to prepare the first AI generation",
-      "link": "https://openai.com/index/partnering-with-codeai",
-      "resume": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "dato": "2026-08-18T11:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Pacing model development in an era of cyber-critical capabilities",
-      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "resume": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "dato": "2026-08-18T11:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "link": "https://openai.com/index/chatgpt-for-teens",
-      "resume": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "dato": "2026-08-18T11:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
     },
