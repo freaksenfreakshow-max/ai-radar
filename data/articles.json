@@ -1,7 +1,119 @@
 {
-  "opdateret": "2026-09-02T15:48:11.158760+00:00",
-  "antal": 142,
+  "opdateret": "2026-09-02T20:23:56.773014+00:00",
+  "antal": 144,
   "artikler": [
+    {
+      "titel": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "resume": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+      "dato": "2026-09-02T20:19:14+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "resume": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million […]",
+      "dato": "2026-09-02T16:11:40-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "resume": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+      "dato": "2026-09-02T18:13:54+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+      "link": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+      "resume": "Trump’s secret reviews of frontier AI models may hide corruption, lawsuit says.",
+      "dato": "2026-09-02T17:58:33+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Amazon’s AI assistant can now spot fake emails from the company",
+      "link": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+      "resume": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare […]",
+      "dato": "2026-09-02T13:52:56-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
+      "link": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
+      "resume": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real. A handful of startups have cropped up in the past couple of […]",
+      "dato": "2026-09-02T17:18:13+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
+      "link": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
+      "resume": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real. A handful of startups have cropped up in the past couple of […]",
+      "dato": "2026-09-02T17:09:57+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+      "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+      "resume": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
+      "dato": "2026-09-02T17:09:06+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "resume": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
+      "dato": "2026-09-02T12:40:50-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Proactive cyber defense for governments and enterprises",
+      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "resume": "",
+      "dato": "2026-09-02T16:24:24+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "resume": "",
+      "dato": "2026-09-02T16:18:31+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+      "resume": "The Trump administration has intervened in The New York Times' copyright lawsuit against OpenAI, making an argument in favor of the AI lab. The landmark lawsuit, filed in December 2023, alleging that OpenAI unlawfully trained its AI systems on articles from The New York Times and seeks to recoup \"billions of dollars\" in damages from […]",
+      "dato": "2026-09-02T12:12:25-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Wonderful more than doubles its valuation to $5B in under 6 months",
+      "link": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
+      "resume": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
+      "dato": "2026-09-02T16:04:10+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "India’s richest man now wants to turn aging computers into AI-ready PCs",
+      "link": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
+      "resume": "Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months.",
+      "dato": "2026-09-02T16:01:48+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
     {
       "titel": "Google is sending MrBeast into the wilderness, armed with AI",
       "link": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
@@ -13,7 +125,7 @@
     {
       "titel": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
       "link": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-      "resume": "HiddenLayer has raised a $100M Series B from Delta-v Capital, Ten Eleven Ventures, Morgan Stanley, Microsoft's M12, Booz Allen Hamilton, and others.",
+      "resume": "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
       "dato": "2026-09-02T15:01:23+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
@@ -61,7 +173,7 @@
     {
       "titel": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
       "link": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "resume": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 113 # Comments: 62",
+      "resume": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 244 # Comments: 111",
       "dato": "2026-09-02T13:59:59+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -77,7 +189,7 @@
     {
       "titel": "Quasar 438B: Europe's Leading AI Model",
       "link": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-      "resume": "Article URL: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model Comments URL: https://news.ycombinator.com/item?id=49534132 Points: 104 # Comments: 85",
+      "resume": "Article URL: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model Comments URL: https://news.ycombinator.com/item?id=49534132 Points: 152 # Comments: 99",
       "dato": "2026-09-02T10:02:41+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -347,28 +459,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
-      "resume": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to […]",
-      "dato": "2026-09-01T15:02:54-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "How accurate have Ed Zitron's AI skeptic predictions been?",
       "link": "https://danluu.com/zitron/",
-      "resume": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 814 # Comments: 925",
+      "resume": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 835 # Comments: 973",
       "dato": "2026-09-01T18:35:15+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Apple accuses OpenAI of destroying evidence",
-      "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
-      "resume": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about \"destroying […]",
-      "dato": "2026-09-01T14:19:26-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Google’s answer to Canva is an AI tool where you prompt instead of design",
@@ -411,25 +507,9 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "John Deere launched an AI chatbot for farmers",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
-      "resume": "John Deere is testing a new \"JD\" AI assistant that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their \"field, machine and operational data\" to answer questions on topics like equipment settings, fuel usage, or harvest timing. The […]",
-      "dato": "2026-09-01T12:00:52-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Google Pics is like Canva, but with even more AI",
-      "link": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
-      "resume": "Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses. Built around Gemini and the Nano Banana generative AI model, Google Pics is designed to give more granular control over prompt-based image making and manipulation, allowing […]",
-      "dato": "2026-09-01T12:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Dwarf Fortress' creator says the industry's in shambles over AI",
       "link": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
-      "resume": "Article URL: https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/ Comments URL: https://news.ycombinator.com/item?id=49523720 Points: 233 # Comments: 240",
+      "resume": "Article URL: https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/ Comments URL: https://news.ycombinator.com/item?id=49523720 Points: 234 # Comments: 245",
       "dato": "2026-09-01T15:53:42+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -469,7 +549,7 @@
     {
       "titel": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
       "link": "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
-      "resume": "Article URL: https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype Comments URL: https://news.ycombinator.com/item?id=49521315 Points: 163 # Comments: 187",
+      "resume": "Article URL: https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype Comments URL: https://news.ycombinator.com/item?id=49521315 Points: 163 # Comments: 188",
       "dato": "2026-09-01T12:53:51+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -485,7 +565,7 @@
     {
       "titel": "AI Can Make You Suck Faster Too",
       "link": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-      "resume": "Article URL: https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too Comments URL: https://news.ycombinator.com/item?id=49518316 Points: 181 # Comments: 167",
+      "resume": "Article URL: https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too Comments URL: https://news.ycombinator.com/item?id=49518316 Points: 183 # Comments: 167",
       "dato": "2026-09-01T05:32:56+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -499,41 +579,9 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-      "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-      "resume": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
-      "dato": "2026-09-01T00:13:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "The Pentagon now has its own version of ChatGPT and Grok",
-      "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "resume": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
-      "dato": "2026-08-31T20:13:45+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Instagram puts new limits on undisclosed AI profiles",
-      "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-      "resume": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
-      "dato": "2026-08-31T19:16:59+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
-      "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-      "resume": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
-      "dato": "2026-08-31T18:35:11+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "The safest job from AI may be writing",
       "link": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-      "resume": "Article URL: http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html Comments URL: https://news.ycombinator.com/item?id=49512856 Points: 148 # Comments: 206",
+      "resume": "Article URL: http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html Comments URL: https://news.ycombinator.com/item?id=49512856 Points: 149 # Comments: 206",
       "dato": "2026-08-31T18:12:20+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -555,14 +603,6 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-      "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-      "resume": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
-      "dato": "2026-08-31T16:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Launch HN: Almanac (YC S26) – AI that knows your company",
       "link": "https://usealmanac.com/",
       "resume": "Hi HN, I'm Kushagra, one of three founders of Almanac, a Hermes with a brain that knows everything about your company. We started our journey with setting up Hermes for our company, thinking it must be easy. We wanted an agent that would know every context about our company, so we could ask questions and get context-appropriate responses to. This started a very annoying and difficult journey.…",
@@ -571,17 +611,9 @@
       "kategori": "Community"
     },
     {
-      "titel": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "resume": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
-      "dato": "2026-08-31T15:15:25+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Marx, Keynes, and AI",
       "link": "https://www.unpopularfront.news/p/marx-keynes-and-ai",
-      "resume": "Article URL: https://www.unpopularfront.news/p/marx-keynes-and-ai Comments URL: https://news.ycombinator.com/item?id=49510302 Points: 59 # Comments: 91",
+      "resume": "Article URL: https://www.unpopularfront.news/p/marx-keynes-and-ai Comments URL: https://news.ycombinator.com/item?id=49510302 Points: 59 # Comments: 94",
       "dato": "2026-08-31T14:36:03+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -597,7 +629,7 @@
     {
       "titel": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
       "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-      "resume": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 494 # Comments: 588",
+      "resume": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 495 # Comments: 590",
       "dato": "2026-08-31T12:41:22+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -605,7 +637,7 @@
     {
       "titel": "AI-written code is still your code",
       "link": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
-      "resume": "Article URL: https://martiansoftware.com/articles/ai-written-code-is-still-yours Comments URL: https://news.ycombinator.com/item?id=49508664 Points: 58 # Comments: 91",
+      "resume": "Article URL: https://martiansoftware.com/articles/ai-written-code-is-still-yours Comments URL: https://news.ycombinator.com/item?id=49508664 Points: 58 # Comments: 92",
       "dato": "2026-08-31T12:08:25+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -613,7 +645,7 @@
     {
       "titel": "You Know Who Hates AI? Insurance Claims Adjusters",
       "link": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
-      "resume": "Article URL: https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/ Comments URL: https://news.ycombinator.com/item?id=49508225 Points: 125 # Comments: 108",
+      "resume": "Article URL: https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/ Comments URL: https://news.ycombinator.com/item?id=49508225 Points: 132 # Comments: 129",
       "dato": "2026-08-31T11:01:19+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -661,7 +693,7 @@
     {
       "titel": "No AI Fridays",
       "link": "https://noaifridays.com/",
-      "resume": "Article URL: https://noaifridays.com/ Comments URL: https://news.ycombinator.com/item?id=49498095 Points: 289 # Comments: 205",
+      "resume": "Article URL: https://noaifridays.com/ Comments URL: https://news.ycombinator.com/item?id=49498095 Points: 290 # Comments: 205",
       "dato": "2026-08-30T12:31:05+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -971,14 +1003,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Apple's new desktop computers are designed specifically for local AI development",
-      "link": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
-      "resume": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind.",
-      "dato": "2026-08-25T13:00:11+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
       "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
       "resume": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the…",
@@ -1017,14 +1041,6 @@
       "dato": "2026-08-25T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "AI is hitting entry-level jobs hardest, Stanford study finds",
-      "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-      "resume": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
-      "dato": "2026-08-24T21:45:53+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "How to encourage smarter AI use in the classroom",
