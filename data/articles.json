@@ -1,7 +1,79 @@
 {
-  "opdateret": "2026-09-04T15:36:02.788111+00:00",
+  "opdateret": "2026-09-04T20:08:52.675011+00:00",
   "antal": 140,
   "artikler": [
+    {
+      "titel": "Architecting memory and storage in the AI era",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "resume": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…",
+      "dato": "2026-09-04T18:39:19+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
+    {
+      "titel": "Roland is getting into generative AI music with Melody Flip",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "resume": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from […]",
+      "dato": "2026-09-04T13:51:35-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "resume": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+      "dato": "2026-09-04T17:18:12+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "What will Apple’s John Ternus era look like?",
+      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "resume": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s even settled in. Cook isn’t going far, though: he’s staying on as Executive Chairman, focused on the kind of policy […]",
+      "dato": "2026-09-04T17:18:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
+      "link": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+      "resume": "Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose.",
+      "dato": "2026-09-04T16:22:18+00:00",
+      "kilde": "Ars Technica AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "resume": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "dato": "2026-09-04T16:21:11+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "resume": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot […]",
+      "dato": "2026-09-04T12:05:57-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+      "link": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+      "resume": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s even settled in. Cook isn’t going far, though: he’s staying on as Executive Chairman, focused on the kind of policy […]",
+      "dato": "2026-09-04T16:04:08+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Corporate America is getting hooked on open-source AI",
+      "link": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+      "resume": "Article URL: https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html Comments URL: https://news.ycombinator.com/item?id=49566137 Points: 203 # Comments: 180",
+      "dato": "2026-09-04T15:33:45+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
     {
       "titel": "Google’s Gemini Spark can now manage your Google Photos library",
       "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
@@ -37,7 +109,7 @@
     {
       "titel": "Google AI Mode shows same products 21.6% more expensive than traditional search",
       "link": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
-      "resume": "Article URL: https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products Comments URL: https://news.ycombinator.com/item?id=49563386 Points: 179 # Comments: 28",
+      "resume": "Article URL: https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products Comments URL: https://news.ycombinator.com/item?id=49563386 Points: 335 # Comments: 70",
       "dato": "2026-09-04T11:59:15+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -69,7 +141,7 @@
     {
       "titel": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
       "link": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
-      "resume": "Article URL: https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/ Comments URL: https://news.ycombinator.com/item?id=49562744 Points: 83 # Comments: 67",
+      "resume": "Article URL: https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/ Comments URL: https://news.ycombinator.com/item?id=49562744 Points: 90 # Comments: 2",
       "dato": "2026-09-04T10:30:57+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -357,7 +429,7 @@
     {
       "titel": "Sanders introduces bill to ban artificial superintelligence and pause AI",
       "link": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
-      "resume": "Article URL: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/ Comments URL: https://news.ycombinator.com/item?id=49553463 Points: 60 # Comments: 72",
+      "resume": "Article URL: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/ Comments URL: https://news.ycombinator.com/item?id=49553463 Points: 61 # Comments: 77",
       "dato": "2026-09-03T17:20:29+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -375,22 +447,6 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
       "resume": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply: PAIR is not a hardware router. It's open-source software […]",
       "dato": "2026-09-03T12:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Google now lets you chat with Gmail, Docs, and Keep",
-      "link": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-      "resume": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them. The real time conversational capabilities are called Gmail Live, Docs Live, and Keep Live, and like the Gemini Live experience for Google's chatbot, aim to make it easier to note down […]",
-      "dato": "2026-09-03T12:00:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "ChatGPT, Grok, and Claude all went down at the same time",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "resume": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing […]",
-      "dato": "2026-09-03T11:35:14-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
@@ -435,17 +491,17 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "resume": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "titel": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "resume": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "dato": "2026-09-03T12:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
     },
     {
-      "titel": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "resume": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "titel": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "resume": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "dato": "2026-09-03T12:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
@@ -461,7 +517,7 @@
     {
       "titel": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
       "link": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
-      "resume": "Article URL: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007 Comments URL: https://news.ycombinator.com/item?id=49544762 Points: 409 # Comments: 161",
+      "resume": "Article URL: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007 Comments URL: https://news.ycombinator.com/item?id=49544762 Points: 454 # Comments: 173",
       "dato": "2026-09-03T01:11:22+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -501,7 +557,7 @@
     {
       "titel": "Mamdani bans AI in NYC schools",
       "link": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
-      "resume": "Article URL: https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html Comments URL: https://news.ycombinator.com/item?id=49542443 Points: 213 # Comments: 171",
+      "resume": "Article URL: https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html Comments URL: https://news.ycombinator.com/item?id=49542443 Points: 215 # Comments: 173",
       "dato": "2026-09-02T20:57:04+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -547,22 +603,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
-      "link": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
-      "resume": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real. A handful of startups have cropped up in the past couple of […]",
-      "dato": "2026-09-02T17:09:57+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-      "resume": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
-      "dato": "2026-09-02T17:09:06+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Proactive cyber defense for governments and enterprises",
       "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
       "resume": "",
@@ -577,14 +617,6 @@
       "dato": "2026-09-02T16:18:31+00:00",
       "kilde": "Google DeepMind",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Wonderful more than doubles its valuation to $5B in under 6 months",
-      "link": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
-      "resume": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
-      "dato": "2026-09-02T16:04:10+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "AI Policy",
@@ -605,7 +637,7 @@
     {
       "titel": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
       "link": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "resume": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 512 # Comments: 250",
+      "resume": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 512 # Comments: 249",
       "dato": "2026-09-02T13:59:59+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -621,7 +653,7 @@
     {
       "titel": "Quasar 438B: Europe's Leading AI Model",
       "link": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
-      "resume": "Article URL: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model Comments URL: https://news.ycombinator.com/item?id=49534132 Points: 195 # Comments: 128",
+      "resume": "Article URL: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model Comments URL: https://news.ycombinator.com/item?id=49534132 Points: 196 # Comments: 128",
       "dato": "2026-09-02T10:02:41+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -645,7 +677,7 @@
     {
       "titel": "How accurate have Ed Zitron's AI skeptic predictions been?",
       "link": "https://danluu.com/zitron/",
-      "resume": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 867 # Comments: 1040",
+      "resume": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 869 # Comments: 1042",
       "dato": "2026-09-01T18:35:15+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -761,14 +793,6 @@
       "dato": "2026-08-31T13:41:40+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-      "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-      "resume": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 500 # Comments: 594",
-      "dato": "2026-08-31T12:41:22+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Pocket's AI made my game ideas real. Now Meta controls the results.",
@@ -939,14 +963,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Google announces Gemini 3.5 Transcribe for AI-powered speech-to-text",
-      "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-5-transcribe-for-ai-powered-speech-to-text/",
-      "resume": "The AI that powers Gboard's Rambler is coming to more Google products, including Chrome.",
-      "dato": "2026-08-26T19:19:22+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "The inside story on why OpenAI agents hacked Hugging Face",
       "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
       "resume": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’…",
@@ -963,25 +979,17 @@
       "kategori": "Labs"
     },
     {
-      "titel": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
-      "link": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
-      "resume": "The focus is on agentic capability and predictable enterprise deployment.",
-      "dato": "2026-08-26T11:10:49+00:00",
-      "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Learning never stops: How AI makes learning continuous",
-      "link": "https://openai.com/index/learning-never-stops",
-      "resume": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "titel": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "resume": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
       "dato": "2026-08-26T10:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
     },
     {
-      "titel": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "resume": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "titel": "Learning never stops: How AI makes learning continuous",
+      "link": "https://openai.com/index/learning-never-stops",
+      "resume": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
       "dato": "2026-08-26T10:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
@@ -1081,14 +1089,6 @@
       "dato": "2026-08-24T12:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Kids outlearn AI—and we still don’t know why",
-      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-      "resume": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
-      "dato": "2026-08-24T09:00:00+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
     },
     {
       "titel": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
