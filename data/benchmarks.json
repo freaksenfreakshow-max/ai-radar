@@ -1,5 +1,5 @@
 {
- "opdateret": "2026-09-16T15:56:51.384970+00:00",
+ "opdateret": "2026-09-16T20:45:23.452925+00:00",
  "kilde": "Artificial Analysis",
  "modeller": [
   {
@@ -14,7 +14,7 @@
    "navn": "GPT-6 Astra (max)",
    "udbyder": "OpenAI",
    "indeks": 52.8,
-   "hastighed": 52.62,
+   "hastighed": 52.19,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -94,7 +94,7 @@
    "navn": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
    "udbyder": "Anthropic",
    "indeks": 38.4,
-   "hastighed": 75.15,
+   "hastighed": 70.99,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -158,7 +158,7 @@
    "navn": "MiniMax-M3",
    "udbyder": "MiniMax",
    "indeks": 29.6,
-   "hastighed": 114.97,
+   "hastighed": 117.78,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -182,7 +182,7 @@
    "navn": "Solar Pro 4",
    "udbyder": "Upstage",
    "indeks": 28.2,
-   "hastighed": 70.48,
+   "hastighed": 69.02,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -206,7 +206,7 @@
    "navn": "Kimi K2.6",
    "udbyder": "Kimi",
    "indeks": 27.5,
-   "hastighed": 37.04,
+   "hastighed": 37.62,
    "pris_ind": 0.95,
    "pris_ud": 4
   },
@@ -214,7 +214,7 @@
    "navn": "Grok Build 0.1 0616",
    "udbyder": "SpaceXAI",
    "indeks": 27.2,
-   "hastighed": 49.36,
+   "hastighed": 50.63,
    "pris_ind": 1,
    "pris_ud": 2
   },
@@ -270,7 +270,7 @@
    "navn": "Ling-3.0-flash-VL",
    "udbyder": "InclusionAI",
    "indeks": 25,
-   "hastighed": 144.07,
+   "hastighed": 144.15,
    "pris_ind": 0,
    "pris_ud": 0
   },
@@ -278,7 +278,7 @@
    "navn": "Claude Sonnet 5 (Adaptive Reasoning, Low Effort)",
    "udbyder": "Anthropic",
    "indeks": 24.7,
-   "hastighed": 57.07,
+   "hastighed": 57.06,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -334,7 +334,7 @@
    "navn": "GPT-5 (high)",
    "udbyder": "OpenAI",
    "indeks": 23,
-   "hastighed": 88.15,
+   "hastighed": 82.2,
    "pris_ind": 1.25,
    "pris_ud": 10
   },
@@ -398,7 +398,7 @@
    "navn": "Qwen3.5 397B A17B (Non-reasoning)",
    "udbyder": "Alibaba",
    "indeks": 21.4,
-   "hastighed": 80.77,
+   "hastighed": 80.38,
    "pris_ind": 0.6,
    "pris_ud": 3.6
   }
