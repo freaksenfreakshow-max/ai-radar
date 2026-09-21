@@ -1,7 +1,231 @@
 {
-  "opdateret": "2026-09-21T02:51:33.478113+00:00",
-  "antal": 115,
+  "opdateret": "2026-09-21T11:43:39.283027+00:00",
+  "antal": 140,
   "artikler": [
+    {
+      "titel": "UN says AI safeguards can’t wait for certainty",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+      "resume": "Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization's first major assessment of OpenAI's hack of Hugging Face earlier this year. The report cements AI's place on the global diplomatic agenda this week as leaders gather in New York […]",
+      "dato": "2026-09-21T06:18:06-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Amazon doesn’t trust Meta’s Muse AI agent",
+      "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+      "resume": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that […]",
+      "dato": "2026-09-21T05:21:47-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "link": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "resume": "Article URL: https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666 Comments URL: https://news.ycombinator.com/item?id=49783062 Points: 118 # Comments: 58",
+      "dato": "2026-09-21T04:28:44+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "link": "https://arxiv.org/abs/2609.20971",
+      "resume": "Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "link": "https://arxiv.org/abs/2609.20974",
+      "resume": "In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and spectral features extracted from a sliding window of attention weights that represent a summary of the model's contextual state, disentangled from…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "link": "https://arxiv.org/abs/2609.20981",
+      "resume": "Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "link": "https://arxiv.org/abs/2609.21061",
+      "resume": "Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "link": "https://arxiv.org/abs/2609.21096",
+      "resume": "In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "link": "https://arxiv.org/abs/2609.21113",
+      "resume": "Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal representations in LLMs, including attention patterns and layer-wise activations, and examine whether these changes are linked to task-relevant…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+      "link": "https://arxiv.org/abs/2609.21139",
+      "resume": "Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framework using CeNN-inspired cellular-recurrent layers with bounded local processing, compact recurrent memory, routing, fusion, and accept-or-rollback validation. Three…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+      "link": "https://arxiv.org/abs/2609.21149",
+      "resume": "Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake styles, evaluation for this task must (1) support comparison across interviewing approaches, (2) minimize clinician burden, and (3) measure clinically relevant…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+      "link": "https://arxiv.org/abs/2609.21157",
+      "resume": "Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging higher-level abstractions. We compare Direct RTL Design, Agent-based HLS Design, Post-Compiler HLS Refinement, and Post-HLS RTL Refinement, and combine Agent-based HLS Design with Post-HLS RTL…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
+      "link": "https://arxiv.org/abs/2609.21165",
+      "resume": "Off-target protein binding is a major source of adverse effects for small-molecule drugs, yet most structure-based molecular design methods focus on generating selective compounds de novo rather than improving the selectivity of existing, well- characterized drugs. We introduce specificity optimization (SpecOpt), a molecular design task that seeks constrained structural modifications to an…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Implicit Rule Induction with Test-Time Task Embeddings in ARC-like Tasks",
+      "link": "https://arxiv.org/abs/2609.21181",
+      "resume": "The Abstraction and Reasoning Corpus and related benchmarks evaluate whether AI models can solve novel reasoning tasks, but often leave unclear whether success reflects inference of the intended underlying rule or reliance on shortcuts. We address this gap by studying test-time task embeddings in Vision ARC (VARC), a model in which a pre-trained backbone is complemented by a trainable embedding…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
+      "link": "https://arxiv.org/abs/2609.21192",
+      "resume": "Organizations deploying agentic artificial intelligence must determine more than whether a model is trustworthy; they must establish what to validate, control, and observe for a use case to deliver its intended outcome while meeting applicable obligations. This paper proposes AI-GRACE (Agentic Intelligence-Governance, Risk, Assurance, Controls, and Evidence) as a use-case operationalization…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Information-Gain Rewards over Diversity-Pruned Tests: GT-Anchored Verifier Co-Training for Reliable Code Generation",
+      "link": "https://arxiv.org/abs/2609.21208",
+      "resume": "Self-play methods that co-train a single language model as both coder and test author promise to move code-generation RL beyond fixed test suites, but they suffer from two coupled pathologies: permissiveness collapse, where pass-rate rewards are maximised by trivial, non-discriminative tests, and concentration bias, where i.i.d. sampled tests cluster on modal inputs and inflate estimator…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
+      "link": "https://arxiv.org/abs/2609.21214",
+      "resume": "Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and fatigue can also affect performance. Affective cognitive diagnosis therefore extends conventional cognitive diagnosis by incorporating affective states. Existing methods often assume that the cognitive…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "A Fully Differentiable Neuro-Soft-Symbolic Framework for Perceptual Task Planning",
+      "link": "https://arxiv.org/abs/2609.21221",
+      "resume": "Perceptual planning tasks require two key capabilities: accurately perceiving uncertain scenes and planning valid action sequences following logical rules. Conventional methods convert perception into discrete symbolic facts and then plan, discarding perceptual uncertainty and severing task-level feedback to perception. We introduce a generic, fully differentiable neuro-soft-symbolic framework…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "CogGym: Towards Large-Scale Comparative Evaluation of Human and Machine Cognition",
+      "link": "https://arxiv.org/abs/2609.21259",
+      "resume": "Understanding and modeling human intelligence are parallel goals shared by artificial intelligence (AI) and cognitive science. As AI systems grow increasingly capable, in what ways do model responses resemble human responses, and where do they systematically diverge? The sheer breadth and diversity of the tasks humans can perform and think about pose a challenge for scalable and rigorous…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking",
+      "link": "https://arxiv.org/abs/2609.21263",
+      "resume": "Automated macro placement remains a fundamental challenge in VLSI physical design. Despite decades of research, existing approaches predominantly optimize hand-crafted proxy objectives, such as estimated wirelength, and typically produce placements through one-shot numerical optimization, limiting their ability to incorporate visual layout context, codified design expertise, and downstream…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Efficient Benchmarking in Production: A Study of an Evolving LLM Agent",
+      "link": "https://arxiv.org/abs/2609.21267",
+      "resume": "Production LLM agents are evaluated repeatedly as they evolve, but full agent benchmarks are costly to rerun. We study efficient recurring evaluation for a production analytics agent serving tens of thousands of monthly active users and report first-hand deployment experience. Using 574 historical runs of the production benchmark, split chronologically into calibration and held-out periods, we…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "GameASG-Bench: Benchmarking Autonomous Software Generation for Game Development",
+      "link": "https://arxiv.org/abs/2609.21293",
+      "resume": "Autonomous software generation (ASG) aims to turn human requirements into executable applications, but delivering these applications does not necessarily establish that their interacting components satisfy the specified behavioral requirements. We introduce GameASG-Bench, a benchmark that makes behavioral testability part of the generation task for game development. Our design declares an…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "LEGIT: Credentialing Protocol for Trustworthy AI Agent Marketplaces",
+      "link": "https://arxiv.org/abs/2609.21325",
+      "resume": "Agentic marketplaces are emerging where AI agents with varying capabilities autonomously complete specialized tasks for buyers. A major challenge of such marketplaces is that buyers cannot easily determine which agent will perform best on their tasks. Reported benchmark scores may be difficult to verify or compare across tasks, software, and budgets. We introduce LEGIT, a credentialing protocol…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Offline Multimodal Large Language Models for Decision Support in Air Operations",
+      "link": "https://arxiv.org/abs/2609.21390",
+      "resume": "Air operations rely on complex rules, established procedures, and time-critical analysis under limited connectivity and strict security constraints. In such environments, analysts must combine written doctrine with images, often without access to external computing resources. This paper studies offline large language models as decision support tools, deployed in isolated and restricted…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "DENSE: Distilling Agent Trajectories into Evidence-Grounded Shortcut Trees for Self-Refinement",
+      "link": "https://arxiv.org/abs/2609.21423",
+      "resume": "Online agent deployments produce abundant execution traces, while task-specific verification and expert annotation are costly to scale. We study how to distill these traces into reusable feedback without post-hoc outcome labels, drawing on their evidence of local progress, recovery, and unfinished requirements. We introduce DENSE (Distilling Evidence from Nested Subtask Executions), which…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "GVPO++: Group Variance Policy Optimization for LLM Post-Training and On-Policy Distillation",
+      "link": "https://arxiv.org/abs/2609.21432",
+      "resume": "Post-training plays a pivotal role in enhancing the reasoning capabilities and task-specific expertise of large language models (LLMs). Despite recent advances in post-training methods, such as Group Relative Policy Optimization (GRPO), their practical deployment remains impeded by training instability arising from the reliance on importance sampling. We introduce Group Variance Policy…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Risk-Aware Occupancy for Safety-Oriented End-to-End Autonomous Driving",
+      "link": "https://arxiv.org/abs/2609.21470",
+      "resume": "Sparse representation formulates the environment perception for the end-to-end driving system as a set of discrete elements like objects and lane lines. This formulation meets safety risks in crowded, occluded scenes dealing with unstructured obstacles, uncertain regions, and intricate interactions. In this paper, we propose a dense representation, risk-aware occupancy, to characterize…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Driving on Registers, Reasoning on Risk: Risk-Aware Occupancy for Register-Based End-to-End Autonomous Driving",
+      "link": "https://arxiv.org/abs/2609.21486",
+      "resume": "Multimodal trajectory prediction improves behavioral coverage in end-to-end autonomous driving, but existing methods remain limited by sparse scene representations. Incomplete evidence leads to low-quality candidate generation and unreliable ranking among geometrically similar trajectories. On a register-based baseline, bad and poor candidates constitute 19.74% of the candidate set, while the…",
+      "dato": "2026-09-21T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
     {
       "titel": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
       "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
@@ -13,7 +237,7 @@
     {
       "titel": "I stopped drinking the AI Kool-Aid",
       "link": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/",
-      "resume": "Article URL: https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/ Comments URL: https://news.ycombinator.com/item?id=49780162 Points: 58 # Comments: 40",
+      "resume": "Article URL: https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/ Comments URL: https://news.ycombinator.com/item?id=49780162 Points: 62 # Comments: 44",
       "dato": "2026-09-20T21:17:26+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -35,7 +259,7 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+      "titel": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
       "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
       "resume": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the […]",
       "dato": "2026-09-20T14:50:18-04:00",
@@ -77,7 +301,7 @@
     {
       "titel": "If AI coding is lowering your code quality, you're not managing quality right",
       "link": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-      "resume": "Article URL: https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code Comments URL: https://news.ycombinator.com/item?id=49774795 Points: 73 # Comments: 117",
+      "resume": "Article URL: https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code Comments URL: https://news.ycombinator.com/item?id=49774795 Points: 97 # Comments: 144",
       "dato": "2026-09-20T11:37:10+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -85,7 +309,7 @@
     {
       "titel": "AI and the Destruction of the Creative Commons",
       "link": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-      "resume": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 223 # Comments: 268",
+      "resume": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 229 # Comments: 275",
       "dato": "2026-09-20T10:07:51+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -93,7 +317,7 @@
     {
       "titel": "Google AI Studio fakes data deletion. VRP auto-banned me in 60s for reporting it",
       "link": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
-      "resume": "Article URL: https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2 Comments URL: https://news.ycombinator.com/item?id=49772544 Points: 56 # Comments: 42",
+      "resume": "Article URL: https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2 Comments URL: https://news.ycombinator.com/item?id=49772544 Points: 56 # Comments: 39",
       "dato": "2026-09-20T04:39:12+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -101,7 +325,7 @@
     {
       "titel": "Can you tell which images are AI-generated?",
       "link": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
-      "resume": "Article URL: https://slop-sense.labtoagi.com/games/is-this-image-ai/ Comments URL: https://news.ycombinator.com/item?id=49770847 Points: 105 # Comments: 78",
+      "resume": "Article URL: https://slop-sense.labtoagi.com/games/is-this-image-ai/ Comments URL: https://news.ycombinator.com/item?id=49770847 Points: 108 # Comments: 85",
       "dato": "2026-09-19T23:02:34+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -133,7 +357,7 @@
     {
       "titel": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
       "link": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
-      "resume": "Article URL: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b Comments URL: https://news.ycombinator.com/item?id=49769050 Points: 54 # Comments: 22",
+      "resume": "Article URL: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b Comments URL: https://news.ycombinator.com/item?id=49769050 Points: 55 # Comments: 22",
       "dato": "2026-09-19T18:36:44+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -141,7 +365,7 @@
     {
       "titel": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
       "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-      "resume": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit Comments URL: https://news.ycombinator.com/item?id=49768921 Points: 182 # Comments: 49",
+      "resume": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit Comments URL: https://news.ycombinator.com/item?id=49768921 Points: 186 # Comments: 49",
       "dato": "2026-09-19T18:21:30+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -157,7 +381,7 @@
     {
       "titel": "I think you should almost never use AI to write",
       "link": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "resume": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai Comments URL: https://news.ycombinator.com/item?id=49767937 Points: 343 # Comments: 165",
+      "resume": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai Comments URL: https://news.ycombinator.com/item?id=49767937 Points: 350 # Comments: 168",
       "dato": "2026-09-19T16:35:24+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -189,18 +413,10 @@
     {
       "titel": "AI Safety Is Mostly a Sex Cult",
       "link": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
-      "resume": "Article URL: https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q Comments URL: https://news.ycombinator.com/item?id=49766911 Points: 74 # Comments: 44",
+      "resume": "Article URL: https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q Comments URL: https://news.ycombinator.com/item?id=49766911 Points: 75 # Comments: 44",
       "dato": "2026-09-19T14:36:28+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Prices go up in 7 days. Get your Disrupt ticket now.",
-      "link": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
-      "resume": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
-      "dato": "2026-09-19T14:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
@@ -211,10 +427,10 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
-      "link": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
-      "resume": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
-      "dato": "2026-09-19T13:00:00+00:00",
+      "titel": "Prices go up in 7 days. Get your Disrupt ticket now.",
+      "link": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
+      "resume": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "dato": "2026-09-19T14:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
     },
@@ -227,9 +443,17 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+      "link": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+      "resume": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
+      "dato": "2026-09-19T13:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
       "titel": "AI-generated posters don’t have to be horrible",
       "link": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "resume": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 1786 # Comments: 913",
+      "resume": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 1827 # Comments: 924",
       "dato": "2026-09-19T09:20:58+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -269,7 +493,7 @@
     {
       "titel": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
       "link": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
-      "resume": "Article URL: https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions Comments URL: https://news.ycombinator.com/item?id=49761840 Points: 151 # Comments: 23",
+      "resume": "Article URL: https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions Comments URL: https://news.ycombinator.com/item?id=49761840 Points: 151 # Comments: 25",
       "dato": "2026-09-18T23:54:42+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -339,14 +563,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Virginia governor creates an AI task force and moves to restrain data centers",
-      "link": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
-      "resume": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down approvals in a state that is already home to the data center capital of the world. Executive Order 22 bans executive branch officials from signing nondisclosure agreements […]",
-      "dato": "2026-09-18T14:29:17-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Disney’s first CTO led an AI startup it once accused of copying its characters",
       "link": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
       "resume": "The former CEO of Character.AI, which Disney previously sent a cease-and-desist letter to, will serve as the company's first-ever chief technology officer.",
@@ -365,23 +581,15 @@
     {
       "titel": "US Military had close call after using AI for hallucinated intelligence report",
       "link": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-      "resume": "Article URL: https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship Comments URL: https://news.ycombinator.com/item?id=49757520 Points: 511 # Comments: 388",
+      "resume": "Article URL: https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship Comments URL: https://news.ycombinator.com/item?id=49757520 Points: 513 # Comments: 388",
       "dato": "2026-09-18T17:28:01+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
     {
-      "titel": "Gavin Newsom is pushing for an AI kill switch",
-      "link": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
-      "resume": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive order issued Friday. Newsom's order directs the state to convene a group of experts that will deliver recommendations within two months on how to […]",
-      "dato": "2026-09-18T13:04:51-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "AI is an elite crime spree",
       "link": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
-      "resume": "Article URL: https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree Comments URL: https://news.ycombinator.com/item?id=49755590 Points: 123 # Comments: 42",
+      "resume": "Article URL: https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree Comments URL: https://news.ycombinator.com/item?id=49755590 Points: 124 # Comments: 42",
       "dato": "2026-09-18T15:15:33+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -397,7 +605,7 @@
     {
       "titel": "AI chatbots are becoming experts at changing people's minds",
       "link": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-      "resume": "Article URL: https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret Comments URL: https://news.ycombinator.com/item?id=49754250 Points: 135 # Comments: 101",
+      "resume": "Article URL: https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret Comments URL: https://news.ycombinator.com/item?id=49754250 Points: 136 # Comments: 101",
       "dato": "2026-09-18T13:39:27+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -429,7 +637,7 @@
     {
       "titel": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
       "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "resume": "Article URL: https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/ Comments URL: https://news.ycombinator.com/item?id=49752056 Points: 936 # Comments: 825",
+      "resume": "Article URL: https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/ Comments URL: https://news.ycombinator.com/item?id=49752056 Points: 940 # Comments: 825",
       "dato": "2026-09-18T09:45:07+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -447,14 +655,6 @@
       "link": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
       "resume": "Article URL: https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/ Comments URL: https://news.ycombinator.com/item?id=49746654 Points: 231 # Comments: 279",
       "dato": "2026-09-17T21:15:52+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Bend – a language that blocks AI mistakes via proof and runs on GPUs",
-      "link": "https://bend-lang.com/",
-      "resume": "Article URL: https://bend-lang.com/ Comments URL: https://news.ycombinator.com/item?id=49746163 Points: 609 # Comments: 314",
-      "dato": "2026-09-17T20:36:13+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
