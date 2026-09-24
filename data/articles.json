@@ -1,7 +1,231 @@
 {
-  "opdateret": "2026-09-24T02:42:36.142924+00:00",
+  "opdateret": "2026-09-24T10:56:21.583046+00:00",
   "antal": 141,
   "artikler": [
+    {
+      "titel": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "link": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+      "resume": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is […]",
+      "dato": "2026-09-24T05:04:18-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "link": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "resume": "Article URL: https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/ Comments URL: https://news.ycombinator.com/item?id=49827794 Points: 146 # Comments: 63",
+      "dato": "2026-09-24T08:23:03+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "link": "https://transluce.org/agent-activity",
+      "resume": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 142 # Comments: 113",
+      "dato": "2026-09-24T05:21:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "link": "https://arxiv.org/abs/2609.25010",
+      "resume": "Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But is that prediction actually valid against real behaviour - and does the persona machinery help? We present a sim-to-real validity study using the Upworthy Research…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "link": "https://arxiv.org/abs/2609.25013",
+      "resume": "Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimization and preconditioning strategies on biomedical fine-tuning remains largely unexplored. In this work, we present a comprehensive empirical investigation of five…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "link": "https://arxiv.org/abs/2609.25036",
+      "resume": "Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predictive dynamics. We propose 4DGS-JEPA, a Gaussian-native joint-embedding predictive architecture for causal multi-horizon prediction over dynamic Gaussian scenes. The…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "link": "https://arxiv.org/abs/2609.25088",
+      "resume": "Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while interpretable models accept degraded predictive power. We argue that this trade-off is not inherent. Graph neural net- works offer a structural foundation for extracting…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "link": "https://arxiv.org/abs/2609.25165",
+      "resume": "In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make \\textbf{three key advances}: (1) \\textbf{native…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "link": "https://arxiv.org/abs/2609.25187",
+      "resume": "Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to rely on coarse task-level annotations or serialize long reasoning traces token by token. We present X-Planner, a planning front-end that addresses…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "link": "https://arxiv.org/abs/2609.25199",
+      "resume": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
+      "link": "https://arxiv.org/abs/2609.25254",
+      "resume": "Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The system integrates a large language model (LLM) with a neuroimaging toolset to perform quality control, modeling, and visualization. This allows…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification",
+      "link": "https://arxiv.org/abs/2609.25272",
+      "resume": "Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructured clinical narratives. We propose MedGate-Fusion, a multi-modal gated architecture that integrates transformer-based embeddings of first-encounter narratives with ten routinely recorded risk markers. We used electronic medical record data from…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
+      "link": "https://arxiv.org/abs/2609.25284",
+      "resume": "A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often hinges on the latent relationship between people -- tie strength, reciprocity, mutual connections -- rather than on which content is most salient. Standard LLM agent loops do not explicitly represent how new relational evidence should revise the…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Attention as a Routing Graph: Live Circuit Extraction from a Single Forward Pass",
+      "link": "https://arxiv.org/abs/2609.25285",
+      "resume": "Finding circuits in language models usually means running many careful interventions. We try something simpler: treat attention as a routing map from one forward pass, keep a small set of routes that point toward the answer, and ask whether those routes actually matter. They often do. On induction and IOI (tasks where the \"right\" circuit is already known), ablating our extracted edges hurts the…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Learned Enterprise Data Comprehension: Compression and Routing for Data Agents",
+      "link": "https://arxiv.org/abs/2609.25286",
+      "resume": "Structured-data agents in enterprise settings must reason over complex data environments whose relevant evidence is distributed across schemas, relationships, policies, and recurring business roles. Modern agentic systems often address this burden through reusable markdown-style memory or skill files that preserve previously discovered information for later queries, reducing the need to…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
+      "link": "https://arxiv.org/abs/2609.25299",
+      "resume": "On repeated work, agents are inconsistent. We ran 42 tasks three times each and found that, depending on the model, 38% to 74% returned answers that did not agree. Consistency is what a buyer, an auditor, or a regulator requires, and agents do not have it. They are wasteful too: 95.3% to 97.2% of what an agent generates goes to re-deriving a plan the system already knows. We propose skill habit…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
+      "link": "https://arxiv.org/abs/2609.25303",
+      "resume": "Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-augmented generation (RAG) system over an authentic machine learning course corpus (Foundations of Machine Learning) and found that retrieval improved contextual…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Clarification Is Not Correction: LLMs Fail to Let Go",
+      "link": "https://arxiv.org/abs/2609.25337",
+      "resume": "Dialogue failures in language models are usually framed as memory failures: context too long, summaries lossy, a constraint forgotten. We argue this misses a deeper problem: in many conversations the model does not forget, it commits too early. An ambiguous early turn collapses into a single hidden interpretation, and later clarification is filtered through that commitment. We call this early…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought",
+      "link": "https://arxiv.org/abs/2609.25366",
+      "resume": "Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer. We introduce continuation-based causal testing, an ablation-patch intervention that perturbs one reasoning step, truncates the chain, and forces the model to continue from the corrupted prefix. It measures how load-bearing a CoT is for the final answer, a behavioral notion distinct from…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Robust Failure, Conservative Repair: Textual Knowledge Distillation from Cross-Model Failures",
+      "link": "https://arxiv.org/abs/2609.25400",
+      "resume": "Failure-based textual knowledge distillation aims to discover gaps in a model's knowledge by examining its task errors. The distilled knowledge can be useful for the reasoning of both this model (\"source model\") and other models. However, this transfer of knowledge may not be stable. We define a rule atom to be a standalone rule injected into a model's textual input at inference time. A rule atom…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Efficient Iterative Retrieval with Heterogeneous Batching",
+      "link": "https://arxiv.org/abs/2609.25405",
+      "resume": "Modern information retrieval increasingly employs both embedding and generative models to handle complex queries. However, current serving systems suffer from low throughput and poor GPU utilization because they execute these models in isolation. Coarse-grained partitioning, such as dedicating GPUs to specific tasks, fails to adapt to dynamic workloads and creates computational \"bubbles\". To…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "From Offline Proxies to Online Decisions: A Layered Engagement Evaluation Framework for Conversational AI",
+      "link": "https://arxiv.org/abs/2609.25408",
+      "resume": "Online A/B experiments are the decision standard for user engagement, but traffic and readout time limit how many conversational-AI changes can be tested. We ask whether an offline signal designed to be computable without treatment-arm user exposure agrees with the outcomes of those experiments. We contribute a reusable construction and diagnosis checklist that treats an offline proxy as a chain…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "ZeroGate: Trust-Preserving Fast Paths for Governed AI Agent Runtimes",
+      "link": "https://arxiv.org/abs/2609.25443",
+      "resume": "Moving authorization earlier can shorten an agent's dispatch boundary without removing authorization work. It can also admit an action whose payload, authority, or relevant state has changed. ZeroGate separates exact-action approval from durable local admission: an issuer signs a short-lived ActionPass, and a trusted runtime adapter reconstructs the final action before a local gate checks its…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Rollout Efficiency in Reinforcement Learning for Reasoning Large Language Models: A Taxonomy and Future Directions",
+      "link": "https://arxiv.org/abs/2609.25463",
+      "resume": "Reasoning-oriented reinforcement learning enables large language models to solve mathematical, coding, and other multi-step tasks, but shifts a substantial portion of the training cost to rollout, where trajectories are generated for policy updates. Efficient rollout mechanisms are therefore essential to reduce this cost while maintaining the freshness, consistency, and statistical validity of…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Real-Time Hand Gesture Recognition for OpenXR Using Transformer-Based Machine Learning",
+      "link": "https://arxiv.org/abs/2609.25466",
+      "resume": "Hand gesture recognition is a key component in human-computer interaction (HCI), enabling intuitive interfaces for applications in gaming, virtual reality (VR), robotics, and more. This study integrates transformer-based machine-learning models for real-time hand gesture recognition, using hand-tracking data captured through the OpenXR standard in Unity. We leverage positional data of hand joints…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "ShowTellArena: Evaluating Business Workflow Understanding from Demonstrations",
+      "link": "https://arxiv.org/abs/2609.25467",
+      "resume": "We often teach a colleague by showing the work and explaining the decisions as we go. How can we check what an agent understood from the same lesson? We introduce ShowTellArena, a benchmark protocol and public dataset for comprehension after narrated business demonstrations. The v1.0 release contains 50 business workflow tasks, with recordings, screenshots, narration, fixture seeds, and 502…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation",
+      "link": "https://arxiv.org/abs/2609.25469",
+      "resume": "Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability. Existing knowledge-base poisoning attacks are fundamentally static. Adversarial documents are…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Spectra: A Rules-Driven LLM Pipeline for Automated KYC Document Processing",
+      "link": "https://arxiv.org/abs/2609.25474",
+      "resume": "Know Your Client (KYC) onboarding in capital markets requires analysts to manually classify documents, extract structured data from heterogeneous sources, and validate compliance against complex regulatory policies. This process requires significant analyst time per client, with end-to-end onboarding often stretching to multiple weeks due to sequential handoffs. In this work, we analyze an…",
+      "dato": "2026-09-24T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
     {
       "titel": "Everything new coming to Meta’s AI agent Muse",
       "link": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
@@ -17,6 +241,14 @@
       "dato": "2026-09-24T00:46:17+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Feds Target AI Critics as \"Foreign Agents\"",
+      "link": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+      "resume": "Article URL: https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign Comments URL: https://news.ycombinator.com/item?id=49824686 Points: 297 # Comments: 308",
+      "dato": "2026-09-24T00:41:31+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Meta is making a standalone Muse AI gadget",
@@ -133,7 +365,7 @@
     {
       "titel": "Cloud Agents Are Inevitable AI Prisons",
       "link": "https://normanponte.io/19df691f",
-      "resume": "Article URL: https://normanponte.io/19df691f Comments URL: https://news.ycombinator.com/item?id=49820267 Points: 51 # Comments: 118",
+      "resume": "Article URL: https://normanponte.io/19df691f Comments URL: https://news.ycombinator.com/item?id=49820267 Points: 59 # Comments: 136",
       "dato": "2026-09-23T18:16:41+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -168,14 +400,6 @@
       "resume": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",
       "dato": "2026-09-23T16:49:58+00:00",
       "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
-      "resume": "Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as capable of the \"destruction or disempowerment of humanity,\" including by overthrowing the government. Under the Ban Artificial Superintelligence Act, AI leaders would face up to 20 years […]",
-      "dato": "2026-09-23T12:23:05-04:00",
-      "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
     {
@@ -245,7 +469,7 @@
     {
       "titel": "Stripe's Knowledge AI Platform",
       "link": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-      "resume": "Article URL: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform Comments URL: https://news.ycombinator.com/item?id=49815982 Points: 174 # Comments: 108",
+      "resume": "Article URL: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform Comments URL: https://news.ycombinator.com/item?id=49815982 Points: 181 # Comments: 111",
       "dato": "2026-09-23T13:38:00+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -331,204 +555,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-      "link": "https://arxiv.org/abs/2609.25010",
-      "resume": "Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But is that prediction actually valid against real behaviour - and does the persona machinery help? We present a sim-to-real validity study using the Upworthy Research…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
-      "link": "https://arxiv.org/abs/2609.25013",
-      "resume": "Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimization and preconditioning strategies on biomedical fine-tuning remains largely unexplored. In this work, we present a comprehensive empirical investigation of five…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
-      "link": "https://arxiv.org/abs/2609.25036",
-      "resume": "Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predictive dynamics. We propose 4DGS-JEPA, a Gaussian-native joint-embedding predictive architecture for causal multi-horizon prediction over dynamic Gaussian scenes. The…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
-      "link": "https://arxiv.org/abs/2609.25088",
-      "resume": "Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while interpretable models accept degraded predictive power. We argue that this trade-off is not inherent. Graph neural net- works offer a structural foundation for extracting…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
-      "link": "https://arxiv.org/abs/2609.25165",
-      "resume": "In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make \\textbf{three key advances}: (1) \\textbf{native…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
-      "link": "https://arxiv.org/abs/2609.25187",
-      "resume": "Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to rely on coarse task-level annotations or serialize long reasoning traces token by token. We present X-Planner, a planning front-end that addresses…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "link": "https://arxiv.org/abs/2609.25199",
-      "resume": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
-      "link": "https://arxiv.org/abs/2609.25254",
-      "resume": "Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The system integrates a large language model (LLM) with a neuroimaging toolset to perform quality control, modeling, and visualization. This allows…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification",
-      "link": "https://arxiv.org/abs/2609.25272",
-      "resume": "Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructured clinical narratives. We propose MedGate-Fusion, a multi-modal gated architecture that integrates transformer-based embeddings of first-encounter narratives with ten routinely recorded risk markers. We used electronic medical record data from…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
-      "link": "https://arxiv.org/abs/2609.25284",
-      "resume": "A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often hinges on the latent relationship between people -- tie strength, reciprocity, mutual connections -- rather than on which content is most salient. Standard LLM agent loops do not explicitly represent how new relational evidence should revise the…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Attention as a Routing Graph: Live Circuit Extraction from a Single Forward Pass",
-      "link": "https://arxiv.org/abs/2609.25285",
-      "resume": "Finding circuits in language models usually means running many careful interventions. We try something simpler: treat attention as a routing map from one forward pass, keep a small set of routes that point toward the answer, and ask whether those routes actually matter. They often do. On induction and IOI (tasks where the \"right\" circuit is already known), ablating our extracted edges hurts the…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Learned Enterprise Data Comprehension: Compression and Routing for Data Agents",
-      "link": "https://arxiv.org/abs/2609.25286",
-      "resume": "Structured-data agents in enterprise settings must reason over complex data environments whose relevant evidence is distributed across schemas, relationships, policies, and recurring business roles. Modern agentic systems often address this burden through reusable markdown-style memory or skill files that preserve previously discovered information for later queries, reducing the need to…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
-      "link": "https://arxiv.org/abs/2609.25299",
-      "resume": "On repeated work, agents are inconsistent. We ran 42 tasks three times each and found that, depending on the model, 38% to 74% returned answers that did not agree. Consistency is what a buyer, an auditor, or a regulator requires, and agents do not have it. They are wasteful too: 95.3% to 97.2% of what an agent generates goes to re-deriving a plan the system already knows. We propose skill habit…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
-      "link": "https://arxiv.org/abs/2609.25303",
-      "resume": "Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-augmented generation (RAG) system over an authentic machine learning course corpus (Foundations of Machine Learning) and found that retrieval improved contextual…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Clarification Is Not Correction: LLMs Fail to Let Go",
-      "link": "https://arxiv.org/abs/2609.25337",
-      "resume": "Dialogue failures in language models are usually framed as memory failures: context too long, summaries lossy, a constraint forgotten. We argue this misses a deeper problem: in many conversations the model does not forget, it commits too early. An ambiguous early turn collapses into a single hidden interpretation, and later clarification is filtered through that commitment. We call this early…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought",
-      "link": "https://arxiv.org/abs/2609.25366",
-      "resume": "Chain-of-thought (CoT) monitoring is only meaningful if written reasoning causally constrains the answer. We introduce continuation-based causal testing, an ablation-patch intervention that perturbs one reasoning step, truncates the chain, and forces the model to continue from the corrupted prefix. It measures how load-bearing a CoT is for the final answer, a behavioral notion distinct from…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Robust Failure, Conservative Repair: Textual Knowledge Distillation from Cross-Model Failures",
-      "link": "https://arxiv.org/abs/2609.25400",
-      "resume": "Failure-based textual knowledge distillation aims to discover gaps in a model's knowledge by examining its task errors. The distilled knowledge can be useful for the reasoning of both this model (\"source model\") and other models. However, this transfer of knowledge may not be stable. We define a rule atom to be a standalone rule injected into a model's textual input at inference time. A rule atom…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Efficient Iterative Retrieval with Heterogeneous Batching",
-      "link": "https://arxiv.org/abs/2609.25405",
-      "resume": "Modern information retrieval increasingly employs both embedding and generative models to handle complex queries. However, current serving systems suffer from low throughput and poor GPU utilization because they execute these models in isolation. Coarse-grained partitioning, such as dedicating GPUs to specific tasks, fails to adapt to dynamic workloads and creates computational \"bubbles\". To…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "From Offline Proxies to Online Decisions: A Layered Engagement Evaluation Framework for Conversational AI",
-      "link": "https://arxiv.org/abs/2609.25408",
-      "resume": "Online A/B experiments are the decision standard for user engagement, but traffic and readout time limit how many conversational-AI changes can be tested. We ask whether an offline signal designed to be computable without treatment-arm user exposure agrees with the outcomes of those experiments. We contribute a reusable construction and diagnosis checklist that treats an offline proxy as a chain…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "ZeroGate: Trust-Preserving Fast Paths for Governed AI Agent Runtimes",
-      "link": "https://arxiv.org/abs/2609.25443",
-      "resume": "Moving authorization earlier can shorten an agent's dispatch boundary without removing authorization work. It can also admit an action whose payload, authority, or relevant state has changed. ZeroGate separates exact-action approval from durable local admission: an issuer signs a short-lived ActionPass, and a trusted runtime adapter reconstructs the final action before a local gate checks its…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Rollout Efficiency in Reinforcement Learning for Reasoning Large Language Models: A Taxonomy and Future Directions",
-      "link": "https://arxiv.org/abs/2609.25463",
-      "resume": "Reasoning-oriented reinforcement learning enables large language models to solve mathematical, coding, and other multi-step tasks, but shifts a substantial portion of the training cost to rollout, where trajectories are generated for policy updates. Efficient rollout mechanisms are therefore essential to reduce this cost while maintaining the freshness, consistency, and statistical validity of…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Real-Time Hand Gesture Recognition for OpenXR Using Transformer-Based Machine Learning",
-      "link": "https://arxiv.org/abs/2609.25466",
-      "resume": "Hand gesture recognition is a key component in human-computer interaction (HCI), enabling intuitive interfaces for applications in gaming, virtual reality (VR), robotics, and more. This study integrates transformer-based machine-learning models for real-time hand gesture recognition, using hand-tracking data captured through the OpenXR standard in Unity. We leverage positional data of hand joints…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "ShowTellArena: Evaluating Business Workflow Understanding from Demonstrations",
-      "link": "https://arxiv.org/abs/2609.25467",
-      "resume": "We often teach a colleague by showing the work and explaining the decisions as we go. How can we check what an agent understood from the same lesson? We introduce ShowTellArena, a benchmark protocol and public dataset for comprehension after narrated business demonstrations. The v1.0 release contains 50 business workflow tasks, with recordings, screenshots, narration, fixture seeds, and 502…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation",
-      "link": "https://arxiv.org/abs/2609.25469",
-      "resume": "Retrieval augmented generation (RAG) systems have emerged as the dominant architecture for grounding large language model (LLM) outputs in verifiable external knowledge, yet their structural reliance on a dynamic retrieval pipeline introduces a largely unexplored class of adversarial vulnerability. Existing knowledge-base poisoning attacks are fundamentally static. Adversarial documents are…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Spectra: A Rules-Driven LLM Pipeline for Automated KYC Document Processing",
-      "link": "https://arxiv.org/abs/2609.25474",
-      "resume": "Know Your Client (KYC) onboarding in capital markets requires analysts to manually classify documents, extract structured data from heterogeneous sources, and validate compliance against complex regulatory policies. This process requires significant analyst time per client, with end-to-end onboarding often stretching to multiple weeks due to sequential handoffs. In this work, we analyze an…",
-      "dato": "2026-09-23T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
+      "titel": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "resume": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "dato": "2026-09-23T02:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
     },
     {
       "titel": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
@@ -621,7 +653,7 @@
     {
       "titel": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "resume": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 895 # Comments: 502",
+      "resume": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 916 # Comments: 520",
       "dato": "2026-09-22T19:03:38+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -653,7 +685,7 @@
     {
       "titel": "Stanford R&DE Uses AI to Race Swap Students for Advertising",
       "link": "https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/",
-      "resume": "Article URL: https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/ Comments URL: https://news.ycombinator.com/item?id=49801330 Points: 85 # Comments: 64",
+      "resume": "Article URL: https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/ Comments URL: https://news.ycombinator.com/item?id=49801330 Points: 88 # Comments: 64",
       "dato": "2026-09-22T13:52:56+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -693,7 +725,7 @@
     {
       "titel": "AI Has No Wisdom and Neither Will You",
       "link": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
-      "resume": "Article URL: https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/ Comments URL: https://news.ycombinator.com/item?id=49799965 Points: 383 # Comments: 542",
+      "resume": "Article URL: https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/ Comments URL: https://news.ycombinator.com/item?id=49799965 Points: 383 # Comments: 543",
       "dato": "2026-09-22T12:11:09+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -749,7 +781,7 @@
     {
       "titel": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
       "link": "https://linear.app/now/ci-bottleneck-reworked",
-      "resume": "Article URL: https://linear.app/now/ci-bottleneck-reworked Comments URL: https://news.ycombinator.com/item?id=49792067 Points: 313 # Comments: 402",
+      "resume": "Article URL: https://linear.app/now/ci-bottleneck-reworked Comments URL: https://news.ycombinator.com/item?id=49792067 Points: 313 # Comments: 406",
       "dato": "2026-09-21T19:23:33+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -765,7 +797,7 @@
     {
       "titel": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
       "link": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
-      "resume": "Article URL: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/ Comments URL: https://news.ycombinator.com/item?id=49789982 Points: 151 # Comments: 159",
+      "resume": "Article URL: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/ Comments URL: https://news.ycombinator.com/item?id=49789982 Points: 152 # Comments: 161",
       "dato": "2026-09-21T17:00:23+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -789,7 +821,7 @@
     {
       "titel": "macOS 27: Workaround to avoid downloading AI models and save storage",
       "link": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-      "resume": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/ Comments URL: https://news.ycombinator.com/item?id=49787535 Points: 237 # Comments: 121",
+      "resume": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/ Comments URL: https://news.ycombinator.com/item?id=49787535 Points: 238 # Comments: 121",
       "dato": "2026-09-21T14:10:49+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -809,22 +841,6 @@
       "dato": "2026-09-21T12:07:16+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Advisory Group on Mathematics and Artificial Intelligence",
-      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "resume": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "dato": "2026-09-21T12:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "resume": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "dato": "2026-09-21T12:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
     },
     {
       "titel": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
@@ -859,6 +875,22 @@
       "kategori": "Dybde"
     },
     {
+      "titel": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "resume": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "dato": "2026-09-21T12:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Advisory Group on Mathematics and Artificial Intelligence",
+      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "resume": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "dato": "2026-09-21T12:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
       "titel": "Building standards for the next phase of AI",
       "link": "https://openai.com/index/building-standards-next-phase-ai",
       "resume": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
@@ -883,36 +915,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "AI chatbots give wrong answers to financial queries 'most of the time'",
-      "link": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
-      "resume": "Article URL: https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666 Comments URL: https://news.ycombinator.com/item?id=49783062 Points: 156 # Comments: 88",
-      "dato": "2026-09-21T04:28:44+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "How V7 gives AI agents institutional memory",
       "link": "https://openai.com/index/v7",
       "resume": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "dato": "2026-09-21T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "I stopped drinking the AI Kool-Aid",
-      "link": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/",
-      "resume": "Article URL: https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/ Comments URL: https://news.ycombinator.com/item?id=49780162 Points: 66 # Comments: 46",
-      "dato": "2026-09-20T21:17:26+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "If AI coding is lowering your code quality, you're not managing quality right",
-      "link": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-      "resume": "Article URL: https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code Comments URL: https://news.ycombinator.com/item?id=49774795 Points: 129 # Comments: 169",
-      "dato": "2026-09-20T11:37:10+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "AI hallucination of Chinese nuclear components almost led to US military attack",
@@ -1038,14 +1046,6 @@
       "titel": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
       "link": "https://openai.com/index/hex-gpt-6-astra",
       "resume": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "dato": "2026-09-16T12:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "How to connect AI usage to business value",
-      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "resume": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
       "dato": "2026-09-16T12:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
