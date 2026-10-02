@@ -1,9 +1,9 @@
 {
- "opdateret": "2026-10-02T17:15:46.868223+00:00",
+ "opdateret": "2026-10-02T21:42:47.857184+00:00",
  "kilde": "Artificial Analysis",
  "modeller": [
   {
-   "navn": "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+   "navn": "Claude Opus 5.5 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 57.6,
    "hastighed": 93.01,
@@ -11,10 +11,10 @@
    "pris_ud": 20
   },
   {
-   "navn": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+   "navn": "Claude Fable 5.1 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 53.4,
-   "hastighed": 68.28,
+   "hastighed": 68.19,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -38,7 +38,7 @@
    "navn": "GPT-6.1 Sol (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 51,
-   "hastighed": 53.45,
+   "hastighed": 51.2,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -46,39 +46,39 @@
    "navn": "GPT-6.1 Sol (High)",
    "udbyder": "OpenAI",
    "indeks": 50.2,
-   "hastighed": 58.23,
+   "hastighed": 52.67,
    "pris_ind": 2,
    "pris_ud": 10
   },
   {
-   "navn": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
+   "navn": "Claude Opus 5 (Xhigh)",
    "udbyder": "Anthropic",
    "indeks": 49.7,
-   "hastighed": 55.81,
+   "hastighed": 57.4,
    "pris_ind": 5,
    "pris_ud": 25
   },
   {
-   "navn": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+   "navn": "Claude Fable 5.1 (Medium, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 48.9,
-   "hastighed": 53.58,
+   "hastighed": 57.23,
    "pris_ind": 10,
    "pris_ud": 50
   },
   {
-   "navn": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
+   "navn": "Claude Fable 5.1 (Low, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 46.8,
-   "hastighed": 52.82,
+   "hastighed": 55.18,
    "pris_ind": 10,
    "pris_ud": 50
   },
   {
-   "navn": "Claude Sonnet 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+   "navn": "Claude Sonnet 5.5 (High, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 46.8,
-   "hastighed": 102.03,
+   "hastighed": 105.02,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -94,7 +94,7 @@
    "navn": "Grok 4.7 (High)",
    "udbyder": "SpaceXAI",
    "indeks": 46.3,
-   "hastighed": 78.41,
+   "hastighed": 77.78,
    "pris_ind": 2,
    "pris_ud": 6
   },
@@ -102,7 +102,7 @@
    "navn": "Step 5 Preview",
    "udbyder": "StepFun",
    "indeks": 43.7,
-   "hastighed": 85.89,
+   "hastighed": 85.7,
    "pris_ind": 1,
    "pris_ud": 2.7
   },
@@ -110,15 +110,15 @@
    "navn": "Grok 4.6 (Medium)",
    "udbyder": "SpaceXAI",
    "indeks": 42.8,
-   "hastighed": 75.67,
+   "hastighed": 71.29,
    "pris_ind": 2,
    "pris_ud": 6
   },
   {
-   "navn": "Claude Opus 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)",
+   "navn": "Claude Opus 5.5 (Low, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 42.3,
-   "hastighed": 76.28,
+   "hastighed": 80.19,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -126,7 +126,7 @@
    "navn": "Grok 4.7 (Low)",
    "udbyder": "SpaceXAI",
    "indeks": 42.2,
-   "hastighed": 77.9,
+   "hastighed": 76.86,
    "pris_ind": 2,
    "pris_ud": 6
   },
@@ -139,10 +139,10 @@
    "pris_ud": 0.5
   },
   {
-   "navn": "Claude Sonnet 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+   "navn": "Claude Sonnet 5.5 (Medium, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 40.8,
-   "hastighed": 98.65,
+   "hastighed": 106.92,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -150,12 +150,12 @@
    "navn": "Muse Spark 1.2 (Xhigh)",
    "udbyder": "Meta",
    "indeks": 39.6,
-   "hastighed": 242.4,
+   "hastighed": 243.12,
    "pris_ind": 1.25,
    "pris_ud": 4.25
   },
   {
-   "navn": "Claude Opus 5 (Adaptive Reasoning, Low Effort)",
+   "navn": "Claude Opus 5 (Low)",
    "udbyder": "Anthropic",
    "indeks": 39.4,
    "hastighed": 54.82,
@@ -166,15 +166,15 @@
    "navn": "GPT-5.5 (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 38.4,
-   "hastighed": 85.49,
+   "hastighed": 85.02,
    "pris_ind": 5,
    "pris_ud": 30
   },
   {
-   "navn": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
+   "navn": "Claude Sonnet 5 (Max)",
    "udbyder": "Anthropic",
    "indeks": 38.2,
-   "hastighed": 86.33,
+   "hastighed": 85.13,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -182,7 +182,7 @@
    "navn": "MiMo-V2.6-Flash",
    "udbyder": "Xiaomi",
    "indeks": 37.9,
-   "hastighed": 51.24,
+   "hastighed": 52.43,
    "pris_ind": 0.14,
    "pris_ud": 0.28
   },
@@ -190,7 +190,7 @@
    "navn": "GPT-5.6 Luna (Max)",
    "udbyder": "OpenAI",
    "indeks": 37.3,
-   "hastighed": 124.81,
+   "hastighed": 125.11,
    "pris_ind": 0.2,
    "pris_ud": 1.2
   },
@@ -206,7 +206,7 @@
    "navn": "GPT-6 Sol (Low)",
    "udbyder": "OpenAI",
    "indeks": 34.2,
-   "hastighed": 78.23,
+   "hastighed": 78.86,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -214,7 +214,7 @@
    "navn": "GPT-5.6 Sol (Low)",
    "udbyder": "OpenAI",
    "indeks": 33.5,
-   "hastighed": 72.4,
+   "hastighed": 70.26,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -227,10 +227,10 @@
    "pris_ud": 9
   },
   {
-   "navn": "Claude Opus 4.7 (Non-reasoning, High Effort)",
+   "navn": "Claude Opus 4.7 (Non-reasoning, High)",
    "udbyder": "Anthropic",
    "indeks": 30.9,
-   "hastighed": 43.25,
+   "hastighed": 44.23,
    "pris_ind": 5,
    "pris_ud": 25
   },
@@ -262,7 +262,7 @@
    "navn": "Claude Opus 4.5 (Reasoning)",
    "udbyder": "Anthropic",
    "indeks": 29.1,
-   "hastighed": 48.62,
+   "hastighed": 49.55,
    "pris_ind": 5,
    "pris_ud": 25
   },
@@ -278,7 +278,7 @@
    "navn": "Solar Pro 4",
    "udbyder": "Upstage",
    "indeks": 28.2,
-   "hastighed": 109.19,
+   "hastighed": 104.21,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -294,7 +294,7 @@
    "navn": "GLM-5 (Reasoning)",
    "udbyder": "Z AI",
    "indeks": 27.9,
-   "hastighed": 76.84,
+   "hastighed": 78.11,
    "pris_ind": 1,
    "pris_ud": 3.2
   },
@@ -302,7 +302,7 @@
    "navn": "Grok Build 0.1 0616",
    "udbyder": "SpaceXAI",
    "indeks": 27.2,
-   "hastighed": 64.96,
+   "hastighed": 67.33,
    "pris_ind": 1,
    "pris_ud": 2
   },
@@ -310,7 +310,7 @@
    "navn": "Kimi K2.6 (Reasoning)",
    "udbyder": "Kimi",
    "indeks": 27,
-   "hastighed": 68.07,
+   "hastighed": 67.89,
    "pris_ind": 0.95,
    "pris_ud": 4
   },
@@ -331,7 +331,7 @@
    "pris_ud": 3
   },
   {
-   "navn": "Claude Opus 4.6 (Non-reasoning, High Effort)",
+   "navn": "Claude Opus 4.6 (Non-reasoning, High)",
    "udbyder": "Anthropic",
    "indeks": 26.4,
    "hastighed": 38.35,
@@ -342,7 +342,7 @@
    "navn": "MiMo-V2.5-Pro (Reasoning)",
    "udbyder": "Xiaomi",
    "indeks": 26,
-   "hastighed": 33.84,
+   "hastighed": 35.08,
    "pris_ind": 0.43,
    "pris_ud": 0.87
   },
@@ -358,7 +358,7 @@
    "navn": "MiMo-V2.5",
    "udbyder": "Xiaomi",
    "indeks": 25.2,
-   "hastighed": 57.87,
+   "hastighed": 58.63,
    "pris_ind": 0.14,
    "pris_ud": 0.28
   },
@@ -374,12 +374,12 @@
    "navn": "Inkling (Xhigh)",
    "udbyder": "Thinking Machines",
    "indeks": 25,
-   "hastighed": 171.23,
+   "hastighed": 169.4,
    "pris_ind": 1,
    "pris_ud": 4.05
   },
   {
-   "navn": "Claude Sonnet 4.6 (Non-reasoning, High Effort)",
+   "navn": "Claude Sonnet 4.6 (Non-reasoning, High)",
    "udbyder": "Anthropic",
    "indeks": 24.7,
    "hastighed": 45.14,
@@ -395,10 +395,10 @@
    "pris_ud": 0.22
   },
   {
-   "navn": "Claude Sonnet 5 (Adaptive Reasoning, Low Effort)",
+   "navn": "Claude Sonnet 5 (Low)",
    "udbyder": "Anthropic",
    "indeks": 24.3,
-   "hastighed": 62.98,
+   "hastighed": 67.43,
    "pris_ind": 2,
    "pris_ud": 10
   }
