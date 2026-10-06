@@ -1,12 +1,12 @@
 {
- "opdateret": "2026-10-06T04:22:12.759256+00:00",
+ "opdateret": "2026-10-06T12:35:44.586067+00:00",
  "kilde": "Artificial Analysis",
  "modeller": [
   {
    "navn": "Claude Opus 5.5 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 57.6,
-   "hastighed": 94,
+   "hastighed": 96.63,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -14,7 +14,7 @@
    "navn": "Claude Fable 5.1 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 53.4,
-   "hastighed": 62.48,
+   "hastighed": 63.51,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -62,7 +62,7 @@
    "navn": "Claude Fable 5.1 (Medium, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 48.9,
-   "hastighed": 55.08,
+   "hastighed": 56.22,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -78,7 +78,7 @@
    "navn": "Claude Sonnet 5.5 (High, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 46.8,
-   "hastighed": 103.07,
+   "hastighed": 106.9,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -86,7 +86,7 @@
    "navn": "MiMo-V2.6-Pro",
    "udbyder": "Xiaomi",
    "indeks": 46.3,
-   "hastighed": 44.93,
+   "hastighed": 46.59,
    "pris_ind": 0.43,
    "pris_ud": 0.87
   },
@@ -102,7 +102,7 @@
    "navn": "Step 5 Preview",
    "udbyder": "StepFun",
    "indeks": 43.7,
-   "hastighed": 89.74,
+   "hastighed": 89.59,
    "pris_ind": 1,
    "pris_ud": 2.7
   },
@@ -118,7 +118,7 @@
    "navn": "Claude Opus 5.5 (Low, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 42.3,
-   "hastighed": 79.09,
+   "hastighed": 79.27,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -142,7 +142,7 @@
    "navn": "Claude Sonnet 5.5 (Medium, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 40.8,
-   "hastighed": 103.34,
+   "hastighed": 104.69,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -150,7 +150,7 @@
    "navn": "Muse Spark 1.2 (Xhigh)",
    "udbyder": "Meta",
    "indeks": 39.6,
-   "hastighed": 289.16,
+   "hastighed": 303.43,
    "pris_ind": 1.25,
    "pris_ud": 4.25
   },
@@ -190,7 +190,7 @@
    "navn": "GPT-5.6 Luna (Max)",
    "udbyder": "OpenAI",
    "indeks": 37.3,
-   "hastighed": 127.66,
+   "hastighed": 127.9,
    "pris_ind": 0.2,
    "pris_ud": 1.2
   },
@@ -198,7 +198,7 @@
    "navn": "GPT-6 Luna (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 34.6,
-   "hastighed": 137.91,
+   "hastighed": 136.76,
    "pris_ind": 0.1,
    "pris_ud": 0.5
   },
@@ -206,7 +206,7 @@
    "navn": "GPT-6 Sol (Low)",
    "udbyder": "OpenAI",
    "indeks": 34.2,
-   "hastighed": 105.54,
+   "hastighed": 103.42,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -214,7 +214,7 @@
    "navn": "GPT-5.6 Sol (Low)",
    "udbyder": "OpenAI",
    "indeks": 33.5,
-   "hastighed": 75.08,
+   "hastighed": 74.62,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -222,7 +222,7 @@
    "navn": "Gemini 3.5 Flash (High)",
    "udbyder": "Google",
    "indeks": 32.6,
-   "hastighed": 212.93,
+   "hastighed": 213.06,
    "pris_ind": 1.5,
    "pris_ud": 9
   },
@@ -230,7 +230,7 @@
    "navn": "Claude Opus 4.7 (Non-reasoning, High)",
    "udbyder": "Anthropic",
    "indeks": 30.9,
-   "hastighed": 44.9,
+   "hastighed": 48.29,
    "pris_ind": 5,
    "pris_ud": 25
   },
@@ -238,7 +238,7 @@
    "navn": "GPT-5.6 Terra (Medium)",
    "udbyder": "OpenAI",
    "indeks": 30.1,
-   "hastighed": 103.29,
+   "hastighed": 103.04,
    "pris_ind": 2,
    "pris_ud": 12
   },
@@ -254,7 +254,7 @@
    "navn": "MiniMax-M3",
    "udbyder": "MiniMax",
    "indeks": 29.2,
-   "hastighed": 102.71,
+   "hastighed": 103.11,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -262,7 +262,7 @@
    "navn": "Claude Opus 4.5 (Reasoning)",
    "udbyder": "Anthropic",
    "indeks": 29.1,
-   "hastighed": 51.6,
+   "hastighed": 52.18,
    "pris_ind": 5,
    "pris_ud": 25
   },
@@ -294,7 +294,7 @@
    "navn": "GLM-5 (Reasoning)",
    "udbyder": "Z AI",
    "indeks": 27.9,
-   "hastighed": 81.45,
+   "hastighed": 78.86,
    "pris_ind": 1,
    "pris_ud": 3.2
   },
@@ -302,7 +302,7 @@
    "navn": "Grok Build 0.1 0616",
    "udbyder": "SpaceXAI",
    "indeks": 27.2,
-   "hastighed": 77.18,
+   "hastighed": 80.35,
    "pris_ind": 1,
    "pris_ud": 2
   },
@@ -310,7 +310,7 @@
    "navn": "Kimi K2.6 (Reasoning)",
    "udbyder": "Kimi",
    "indeks": 27,
-   "hastighed": 62.66,
+   "hastighed": 59.39,
    "pris_ind": 0.95,
    "pris_ud": 4
   },
@@ -334,7 +334,7 @@
    "navn": "Claude Opus 4.6 (Non-reasoning, High)",
    "udbyder": "Anthropic",
    "indeks": 26.4,
-   "hastighed": 40.62,
+   "hastighed": 41.56,
    "pris_ind": 5,
    "pris_ud": 25
   },
@@ -342,7 +342,7 @@
    "navn": "MiMo-V2.5-Pro (Reasoning)",
    "udbyder": "Xiaomi",
    "indeks": 26,
-   "hastighed": 43.69,
+   "hastighed": 41.64,
    "pris_ind": 0.43,
    "pris_ud": 0.87
   },
@@ -358,7 +358,7 @@
    "navn": "MiMo-V2.5",
    "udbyder": "Xiaomi",
    "indeks": 25.2,
-   "hastighed": 62.47,
+   "hastighed": 61.9,
    "pris_ind": 0.14,
    "pris_ud": 0.28
   },
@@ -374,7 +374,7 @@
    "navn": "Inkling (Xhigh)",
    "udbyder": "Thinking Machines",
    "indeks": 25,
-   "hastighed": 189.69,
+   "hastighed": 190.51,
    "pris_ind": 1,
    "pris_ud": 4.05
   },
@@ -390,7 +390,7 @@
    "navn": "Ling-3.0-flash-VL",
    "udbyder": "InclusionAI",
    "indeks": 24.6,
-   "hastighed": 137.13,
+   "hastighed": 141.43,
    "pris_ind": 0.07,
    "pris_ud": 0.22
   },
