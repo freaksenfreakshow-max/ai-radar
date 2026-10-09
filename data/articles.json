@@ -1,7 +1,39 @@
 {
-  "opdateret": "2026-10-09T04:07:18.342580+00:00",
-  "antal": 118,
+  "opdateret": "2026-10-09T12:25:40.078855+00:00",
+  "antal": 130,
   "artikler": [
+    {
+      "titel": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "resume": "Article URL: https://github.com/franzenzenhofer/big-arrow-on-the-screen Comments URL: https://news.ycombinator.com/item?id=50018817 Points: 77 # Comments: 25",
+      "dato": "2026-10-09T11:03:48+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "resume": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear policies on handling sensitive information.\" It insisted the decision was […]",
+      "dato": "2026-10-09T05:48:26-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "We’re putting too much faith in AI’s ability to say no",
+      "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "resume": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently, the idea that AI shouldn’t…",
+      "dato": "2026-10-09T09:00:00+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
+    {
+      "titel": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "link": "https://openai.com/index/sophos",
+      "resume": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "dato": "2026-10-09T07:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
     {
       "titel": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
       "link": "https://arxiv.org/abs/2610.10541",
@@ -227,6 +259,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "AI-ready biological data: $1.8B global commitment",
+      "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "resume": "Article URL: https://biohub.org/news/virtual-biology-initiative-expansion/ Comments URL: https://news.ycombinator.com/item?id=50011999 Points: 132 # Comments: 19",
+      "dato": "2026-10-08T20:46:25+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "California is trying to shut down robot vs. human cage matches",
       "link": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
       "resume": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that […]",
@@ -241,6 +281,14 @@
       "dato": "2026-10-08T20:04:26+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+      "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
+      "resume": "Article URL: https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months Comments URL: https://news.ycombinator.com/item?id=50010656 Points: 63 # Comments: 59",
+      "dato": "2026-10-08T19:17:51+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Ben Affleck is an AI nerd, and the internet is impressed",
@@ -315,6 +363,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Show HN: Jevman – AI decision models play Pac-Man",
+      "link": "https://opper.ai/jevman-benchmark/",
+      "resume": "Openai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives are out there. We wanted to put the popular ones to the test and thought Pac-Man is a good benchmark for simple and fast decision making. So we let jev 1.13, kev, clef, clef flash, GPT-6 Luna and Laya play Pac-Man against bot ghosts. The low latency of these models allows for…",
+      "dato": "2026-10-08T16:34:13+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Natura’s $99 smart ring puts AI agents on your finger",
       "link": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
       "resume": "Natura’s $99 Interface smart ring lets you summon AI agents with the press of a finger to complete tasks, capture thoughts, and control devices — while doubling as a health tracker.",
@@ -363,22 +419,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass",
-      "link": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
-      "resume": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
-      "dato": "2026-10-08T14:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
-      "link": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
-      "resume": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
-      "dato": "2026-10-08T14:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
       "link": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
       "resume": "My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier […]",
@@ -392,6 +432,22 @@
       "resume": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to play God, that's very interesting to me.\" The idea of playing God, and power in general - who has it, who desperately wants it, and who will do anything to get […]",
       "dato": "2026-10-08T10:00:00-04:00",
       "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass",
+      "link": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+      "resume": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
+      "dato": "2026-10-08T14:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+      "link": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+      "resume": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
+      "dato": "2026-10-08T14:00:00+00:00",
+      "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
     },
     {
@@ -491,12 +547,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-      "resume": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the […]",
-      "dato": "2026-10-07T15:10:42-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
+      "titel": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "resume": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 370 # Comments: 381",
+      "dato": "2026-10-07T18:49:40+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Meta’s Muse launches on iPad just a month after its mobile debut",
@@ -531,12 +587,28 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "link": "https://agent.reviews/",
+      "resume": "Hi HN! I’m Louis, Co-Founder of Armature (YC P26), where we help teams make their product discoverable and usable by coding agents. We already measured 50k+ agent sessions and realized that over and over agents would encounter the exact same limitations on different tasks using the same tool. So we wondered why these weren’t fixed. And the answer is simple: the feedback loop just doesn’t exist…",
+      "dato": "2026-10-07T16:59:11+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Mistral says \"Le Chonk\" can challenge the best AI models",
       "link": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
       "resume": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
       "dato": "2026-10-07T14:12:37+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI-assisted proof of optimal packing for 11 squares",
+      "link": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "resume": "Article URL: https://github.com/Queuingtheorydotcom/11SquaresFormalized Comments URL: https://news.ycombinator.com/item?id=49993121 Points: 118 # Comments: 54",
+      "dato": "2026-10-07T14:10:55+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Google rolls out improved SynthID AI content detector, now available globally",
@@ -555,12 +627,36 @@
       "kategori": "Labs"
     },
     {
+      "titel": "Reasons to Dislike AI Coding",
+      "link": "https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/",
+      "resume": "Article URL: https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/ Comments URL: https://news.ycombinator.com/item?id=49990204 Points: 79 # Comments: 112",
+      "dato": "2026-10-07T09:15:00+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Forever junior: Skills AI can't develop for you",
+      "link": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/",
+      "resume": "Article URL: https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/ Comments URL: https://news.ycombinator.com/item?id=49989684 Points: 80 # Comments: 60",
+      "dato": "2026-10-07T08:00:06+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "Radisson Hotel Group brings hotel discovery into ChatGPT",
       "link": "https://openai.com/index/radisson",
       "resume": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "dato": "2026-10-07T07:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
+    },
+    {
+      "titel": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+      "link": "https://github.com/nano-muse/nanoMuse",
+      "resume": "Article URL: https://github.com/nano-muse/nanoMuse Comments URL: https://news.ycombinator.com/item?id=49987765 Points: 63 # Comments: 22",
+      "dato": "2026-10-07T03:30:44+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "GPT-6 and Intelligent UI for everyone",
@@ -571,6 +667,30 @@
       "kategori": "Labs"
     },
     {
+      "titel": "South Korea says AI agents appear to have been used to hack the country's banks",
+      "link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+      "resume": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/ Comments URL: https://news.ycombinator.com/item?id=49985861 Points: 100 # Comments: 32",
+      "dato": "2026-10-06T23:50:33+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Sharing AI progress in mathematics",
+      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "resume": "https://github.com/openai/math https://github.com/openai/math/tree/main/preprints Comments URL: https://news.ycombinator.com/item?id=49984923 Points: 1328 # Comments: 1512",
+      "dato": "2026-10-06T22:17:21+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "link": "https://penguin-mail.com/",
+      "resume": "Article URL: https://penguin-mail.com/ Comments URL: https://news.ycombinator.com/item?id=49984716 Points: 239 # Comments: 185",
+      "dato": "2026-10-06T21:59:43+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
       "link": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
       "resume": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
@@ -579,12 +699,20 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "resume": "",
-      "dato": "2026-10-06T19:57:04+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
+      "titel": "Utah to let AI examine patients and prescribe medication without human oversight",
+      "link": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+      "resume": "Article URL: https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html Comments URL: https://news.ycombinator.com/item?id=49981197 Points: 140 # Comments: 131",
+      "dato": "2026-10-06T17:01:52+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "link": "https://github.com/FeSens/openTPU",
+      "resume": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 343 # Comments: 401",
+      "dato": "2026-10-06T16:23:25+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
@@ -593,6 +721,14 @@
       "dato": "2026-10-06T16:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
+    },
+    {
+      "titel": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "link": "https://www.erdosproblems.com/forum/thread/blog:9",
+      "resume": "Article URL: https://www.erdosproblems.com/forum/thread/blog:9 Comments URL: https://news.ycombinator.com/item?id=49977689 Points: 120 # Comments: 56",
+      "dato": "2026-10-06T12:53:58+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
@@ -627,12 +763,28 @@
       "kategori": "Labs"
     },
     {
+      "titel": "AI tutoring with Khanmigo in a two-year school experiment",
+      "link": "https://edworkingpapers.com/ai26-1551",
+      "resume": "Article URL: https://edworkingpapers.com/ai26-1551 Comments URL: https://news.ycombinator.com/item?id=49972419 Points: 73 # Comments: 70",
+      "dato": "2026-10-06T00:00:45+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
       "titel": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
       "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
       "resume": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
       "dato": "2026-10-05T22:26:35+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "AI Companies Are Parasites",
+      "link": "https://www.coryd.dev/posts/2026/ai-companies-are-parasites",
+      "resume": "Article URL: https://www.coryd.dev/posts/2026/ai-companies-are-parasites Comments URL: https://news.ycombinator.com/item?id=49969369 Points: 71 # Comments: 37",
+      "dato": "2026-10-05T19:30:10+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Command-line tool quickly removes Apple Intelligence from macOS 27",
@@ -649,6 +801,14 @@
       "dato": "2026-10-05T15:47:52+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "Florida woman arrested for allegedly making threats in an AI chat",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat",
+      "resume": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat Comments URL: https://news.ycombinator.com/item?id=49965895 Points: 50 # Comments: 84",
+      "dato": "2026-10-05T15:11:36+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Our approach to EU text provenance rules",
@@ -673,6 +833,14 @@
       "dato": "2026-10-05T13:29:32+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "Spending on AI is becoming almost impossible for businesses to budget",
+      "link": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+      "resume": "Article URL: https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a Comments URL: https://news.ycombinator.com/item?id=49964537 Points: 59 # Comments: 87",
+      "dato": "2026-10-05T13:22:31+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "Building advertising for the way people use AI",
@@ -811,14 +979,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Gemini 4 Argon: our next era of frontier intelligence",
-      "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "resume": "",
-      "dato": "2026-09-30T20:01:45+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
-    },
-    {
       "titel": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
       "link": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
       "resume": "AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.",
@@ -833,22 +993,6 @@
       "dato": "2026-09-30T18:47:01+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Introducing SynthID Bio",
-      "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "resume": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "dato": "2026-09-30T15:03:07+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-      "resume": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions…",
-      "dato": "2026-09-30T10:40:30+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
     },
     {
       "titel": "Disrupting a coordinated model-distillation campaign",
@@ -896,54 +1040,6 @@
       "resume": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "dato": "2026-09-28T19:00:00+00:00",
       "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Towards safety cases for frontier AI training",
-      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "resume": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "dato": "2026-09-28T19:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Introducing Gemini 3.8 Live with Live Avatar",
-      "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "resume": "",
-      "dato": "2026-09-24T16:20:39+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Advancing Private AI Compute with secure, server-side memory",
-      "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "resume": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "dato": "2026-09-23T16:00:57+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Gemini 3.8 text-to-speech says hello",
-      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "resume": "",
-      "dato": "2026-09-23T15:25:14+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "resume": "",
-      "dato": "2026-09-15T17:05:57+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "resume": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "dato": "2026-09-08T14:00:15+00:00",
-      "kilde": "Google DeepMind",
       "kategori": "Labs"
     }
   ]
