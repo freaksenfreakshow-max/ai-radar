@@ -1,7 +1,55 @@
 {
-  "opdateret": "2026-10-13T22:10:50.873503+00:00",
-  "antal": 104,
+  "opdateret": "2026-10-14T03:07:42.189691+00:00",
+  "antal": 115,
   "artikler": [
+    {
+      "titel": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "resume": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "dato": "2026-10-14T02:00:14+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "resume": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+      "dato": "2026-10-13T23:13:31+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "link": "https://pulseos.finance",
+      "resume": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage…",
+      "dato": "2026-10-13T23:13:23+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "resume": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+      "dato": "2026-10-13T23:05:34+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "link": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "resume": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+      "dato": "2026-10-13T23:00:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Cerebras CEO pushes back on AI doomsday warnings",
+      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "resume": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
+      "dato": "2026-10-13T22:36:59+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
     {
       "titel": "OpenAI employee arrested for allegedly planting a bug in a conference room",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
@@ -17,6 +65,22 @@
       "dato": "2026-10-13T20:36:44+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "link": "https://parsimony.lasu.dev/",
+      "resume": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls,…",
+      "dato": "2026-10-13T19:50:31+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Developing Gemini 4 Argon responsibly and safely",
+      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "resume": "",
+      "dato": "2026-10-13T19:43:07+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
     },
     {
       "titel": "Shopify opens its catalog up to more AI agents",
@@ -99,19 +163,19 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
-      "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-      "resume": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
-      "dato": "2026-10-13T17:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Google makes it easier to launch your vibe-coded apps",
       "link": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
       "resume": "The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to vibe-code […]",
       "dato": "2026-10-13T13:00:00-04:00",
       "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "resume": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+      "dato": "2026-10-13T17:00:00+00:00",
+      "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
     },
     {
@@ -129,6 +193,22 @@
       "dato": "2026-10-13T16:30:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "resume": "",
+      "dato": "2026-10-13T16:01:58+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Gemini 4 Argon: Built to solve your hardest problems",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "resume": "",
+      "dato": "2026-10-13T16:01:52+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
     },
     {
       "titel": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
@@ -149,7 +229,7 @@
     {
       "titel": "I posted to HN, and then my website was flooded with AI bot traffic",
       "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-      "resume": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 206 # Comments: 131",
+      "resume": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 271 # Comments: 152",
       "dato": "2026-10-13T15:25:50+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -173,7 +253,7 @@
     {
       "titel": "How to engineer an AI harness for game development",
       "link": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "resume": "Article URL: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code Comments URL: https://news.ycombinator.com/item?id=50072120 Points: 101 # Comments: 43",
+      "resume": "Article URL: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code Comments URL: https://news.ycombinator.com/item?id=50072120 Points: 136 # Comments: 61",
       "dato": "2026-10-13T14:14:23+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -237,7 +317,7 @@
     {
       "titel": "Character.ai Files for Bankruptcy",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-      "resume": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney Comments URL: https://news.ycombinator.com/item?id=50069942 Points: 144 # Comments: 20",
+      "resume": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney Comments URL: https://news.ycombinator.com/item?id=50069942 Points: 145 # Comments: 22",
       "dato": "2026-10-13T11:24:08+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -261,7 +341,7 @@
     {
       "titel": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
       "link": "https://blog.character.ai/an-update-on-character-ai/",
-      "resume": "https://www.theverge.com/ai-artificial-intelligence/1009802/... https://techcrunch.com/2026/10/13/just-5-years-in-interactiv... https://www.reuters.com/legal/litigation/characterai-files-b... https://variety.com/2026/biz/news/disney-bids-on-character-a... Comments URL: https://news.ycombinator.com/item?id=50068036 Points: 254 # Comments: 254",
+      "resume": "https://www.theverge.com/ai-artificial-intelligence/1009802/... https://techcrunch.com/2026/10/13/just-5-years-in-interactiv... https://www.reuters.com/legal/litigation/characterai-files-b... https://variety.com/2026/biz/news/disney-bids-on-character-a... Comments URL: https://news.ycombinator.com/item?id=50068036 Points: 300 # Comments: 270",
       "dato": "2026-10-13T07:28:34+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -269,7 +349,7 @@
     {
       "titel": "Threat of AI share crash puts world financial stability at risk, says IMF",
       "link": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
-      "resume": "Article URL: https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks Comments URL: https://news.ycombinator.com/item?id=50067356 Points: 107 # Comments: 124",
+      "resume": "Article URL: https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks Comments URL: https://news.ycombinator.com/item?id=50067356 Points: 111 # Comments: 124",
       "dato": "2026-10-13T05:57:32+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -277,7 +357,7 @@
     {
       "titel": "AI models can provably hide arbitrary capabilities",
       "link": "https://arxiv.org/abs/2610.13928",
-      "resume": "Article URL: https://arxiv.org/abs/2610.13928 Comments URL: https://news.ycombinator.com/item?id=50065692 Points: 270 # Comments: 136",
+      "resume": "Article URL: https://arxiv.org/abs/2610.13928 Comments URL: https://news.ycombinator.com/item?id=50065692 Points: 273 # Comments: 136",
       "dato": "2026-10-13T02:07:08+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -285,7 +365,7 @@
     {
       "titel": "AI is a tool and using it well takes skill",
       "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-      "resume": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 632 # Comments: 500",
+      "resume": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 651 # Comments: 524",
       "dato": "2026-10-12T21:40:18+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -293,7 +373,7 @@
     {
       "titel": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
       "link": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-      "resume": "Article URL: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html Comments URL: https://news.ycombinator.com/item?id=50063365 Points: 301 # Comments: 175",
+      "resume": "Article URL: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html Comments URL: https://news.ycombinator.com/item?id=50063365 Points: 302 # Comments: 175",
       "dato": "2026-10-12T21:35:35+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -317,7 +397,7 @@
     {
       "titel": "AI models may be capable of self-replicating without access to a datacenter",
       "link": "https://www.anthropic.com/research/self-replicating-ai",
-      "resume": "Article URL: https://www.anthropic.com/research/self-replicating-ai Comments URL: https://news.ycombinator.com/item?id=50061603 Points: 104 # Comments: 108",
+      "resume": "Article URL: https://www.anthropic.com/research/self-replicating-ai Comments URL: https://news.ycombinator.com/item?id=50061603 Points: 106 # Comments: 109",
       "dato": "2026-10-12T19:25:29+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -333,7 +413,7 @@
     {
       "titel": "'AI' Is Not a Tool by Rich Hickey",
       "link": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
-      "resume": "https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b1... Comments URL: https://news.ycombinator.com/item?id=50060269 Points: 300 # Comments: 174",
+      "resume": "https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b1... Comments URL: https://news.ycombinator.com/item?id=50060269 Points: 302 # Comments: 176",
       "dato": "2026-10-12T18:00:25+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -379,17 +459,9 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "This AI startup says it can generate permit-ready blueprints in minutes",
-      "link": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
-      "resume": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
-      "dato": "2026-10-12T15:27:59+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
       "link": "https://taylor.town/kk-ai-2026",
-      "resume": "Article URL: https://taylor.town/kk-ai-2026 Comments URL: https://news.ycombinator.com/item?id=50057668 Points: 214 # Comments: 85",
+      "resume": "Article URL: https://taylor.town/kk-ai-2026 Comments URL: https://news.ycombinator.com/item?id=50057668 Points: 215 # Comments: 86",
       "dato": "2026-10-12T15:16:45+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -401,22 +473,6 @@
       "dato": "2026-10-12T14:52:37+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
-      "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-      "resume": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $100, and get 50% off a second.",
-      "dato": "2026-10-12T14:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-      "link": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-      "resume": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
-      "dato": "2026-10-12T12:47:59+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "AI less regulated than milk, Microsoft president says in warning over safety",
@@ -437,18 +493,10 @@
     {
       "titel": "QGIS enacts moratorium on AI contributions",
       "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "resume": "https://lists.osgeo.org/pipermail/qgis-developer/2026-Septem... Comments URL: https://news.ycombinator.com/item?id=50054751 Points: 385 # Comments: 407",
+      "resume": "https://lists.osgeo.org/pipermail/qgis-developer/2026-Septem... Comments URL: https://news.ycombinator.com/item?id=50054751 Points: 386 # Comments: 407",
       "dato": "2026-10-12T11:22:24+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "Will the HomeView be Apple’s first smart home success?",
-      "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "resume": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-      "dato": "2026-10-11T21:14:40+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "AI is creating a 'human premium' for art created by people",
@@ -463,22 +511,6 @@
       "link": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
       "resume": "Article URL: https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute Comments URL: https://news.ycombinator.com/item?id=50041873 Points: 98 # Comments: 36",
       "dato": "2026-10-11T11:03:21+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Using AI for just 10 minutes erodes your ability to persist at hard things",
-      "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-      "resume": "Article URL: https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things Comments URL: https://news.ycombinator.com/item?id=50041765 Points: 187 # Comments: 147",
-      "dato": "2026-10-11T10:47:21+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "500B tokens later: Letting AI agents decompile a first-person shooter",
-      "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "resume": "Article URL: https://momo5502.com/posts/2026-10-09-game-decompilation/ Comments URL: https://news.ycombinator.com/item?id=50039092 Points: 215 # Comments: 152",
-      "dato": "2026-10-11T02:02:38+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
@@ -667,6 +699,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "resume": "",
+      "dato": "2026-10-06T19:57:04+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
       "titel": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
       "link": "https://openai.com/index/atlassian-partnership",
       "resume": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
@@ -803,6 +843,22 @@
       "kategori": "Labs"
     },
     {
+      "titel": "Gemini 4 Argon: our next era of frontier intelligence",
+      "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "resume": "",
+      "dato": "2026-09-30T20:01:45+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Introducing SynthID Bio",
+      "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "resume": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "dato": "2026-09-30T15:03:07+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
       "titel": "Disrupting a coordinated model-distillation campaign",
       "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "resume": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
@@ -832,6 +888,38 @@
       "resume": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "dato": "2026-09-29T10:00:00+00:00",
       "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Introducing Gemini 3.8 Live with Live Avatar",
+      "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "resume": "",
+      "dato": "2026-09-24T16:20:39+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Advancing Private AI Compute with secure, server-side memory",
+      "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "resume": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "dato": "2026-09-23T16:00:57+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Gemini 3.8 text-to-speech says hello",
+      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "resume": "",
+      "dato": "2026-09-23T15:25:14+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "resume": "",
+      "dato": "2026-09-15T17:05:57+00:00",
+      "kilde": "Google DeepMind",
       "kategori": "Labs"
     }
   ]
