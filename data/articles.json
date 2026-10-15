@@ -1,7 +1,215 @@
 {
-  "opdateret": "2026-10-15T02:47:05.560125+00:00",
+  "opdateret": "2026-10-15T10:42:34.320710+00:00",
   "antal": 121,
   "artikler": [
+    {
+      "titel": "Figma announces new features to define how agents work on its platform",
+      "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "resume": "Figma is also releasing its code layers feature in open beta.",
+      "dato": "2026-10-15T04:30:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "link": "https://arxiv.org/abs/2610.14005",
+      "resume": "Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "The Silent Failures in Agentic Data Science",
+      "link": "https://arxiv.org/abs/2610.14115",
+      "resume": "Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "link": "https://arxiv.org/abs/2610.14118",
+      "resume": "The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Correction Training for Diffusion Models",
+      "link": "https://arxiv.org/abs/2610.14136",
+      "resume": "Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG.…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "link": "https://arxiv.org/abs/2610.14146",
+      "resume": "Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+      "link": "https://arxiv.org/abs/2610.14149",
+      "resume": "VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration across academic and non-academic sectors. This framework addresses the gap between AI advances in human medicine and the fragmented state of…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Unconstrained CTI-REALM with Open-Weights",
+      "link": "https://arxiv.org/abs/2610.14180",
+      "resume": "Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Visualizing the World Model in an Agent's Value Function",
+      "link": "https://arxiv.org/abs/2610.14186",
+      "resume": "Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Cross-Modal Latent Influence: Patch-Level Training Sample Attribution for Vision-Language Models",
+      "link": "https://arxiv.org/abs/2610.14190",
+      "resume": "Explaining a vision--language model (VLM) prediction requires tracing training-example influence to the multimodal evidence that mediates it, yet existing attribution methods largely operate only at the sample level. Recent latent-mediated influence methods provide feature-level attribution in language models, but lack the multimodal and spatial structure needed to ground influence in VLMs. We…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
+      "link": "https://arxiv.org/abs/2610.14209",
+      "resume": "The most accurate agents executing user-provided tasks are driven by large, cloud-hosted models, which solve them by reading the private data of the user. Agents powered by models small enough to run on edge devices keep that data local, but yield far worse results. A third option is to have cloud models write a program that devices execute: the data stays local, but as the program is written…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "link": "https://arxiv.org/abs/2610.14224",
+      "resume": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time,…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+      "link": "https://arxiv.org/abs/2610.14277",
+      "resume": "Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values would cut this cost by nearly 4x, but the all-reduce must add the values it carries, and rounding the sum injects an error at every call. Model quality depends on how…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Controllable Diverse Sampling through Pullback Directions",
+      "link": "https://arxiv.org/abs/2610.14294",
+      "resume": "Conditional diffusion models can generate high-quality images that align closely with a given prompt. However, samples generated from different random seeds may remain visually similar, limiting creative exploration. Existing approaches can increase variation, but often require additional optimization or sampling overhead, while stronger perturbations may introduce distortions that degrade image…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "ConicFlow: constrained Inference-time optimal control for flow matching models",
+      "link": "https://arxiv.org/abs/2610.14307",
+      "resume": "We propose ConicFlow, which frames constrained sampling from a flow matching model at inference time as an optimal control problem that balances deviation from the pretrained trajectory against reward, subject to hard terminal constraints. We discretize this problem and adapt receding-horizon control, optimizing only a short window of the trajectory at each step for computational tractability. We…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions",
+      "link": "https://arxiv.org/abs/2610.14334",
+      "resume": "In Model Context Protocol (MCP) systems, LLMs select tools from metadata rather than from their implementations. Names and descriptions summarize what a tool does, while the parameter schema specifies the fields a tool accepts and how they are organized. Our analysis of metadata for 367,174 MCP tools reveals substantial schema variation among functionally similar tools. Many of these tools share…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Actionable Meta-Requirements for AI Robustness Auditing",
+      "link": "https://arxiv.org/abs/2610.14356",
+      "resume": "AI-enabled systems must remain dependable when the conditions under which they operate change (e.g., due to input perturbations, distribution shifts, or changes in external dependencies). This makes robustness auditing of such systems important for judging whether the available evidence is sufficient to support a defined robustness conclusion. However, designing an AI robustness auditing…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "When Pleasing the User Compromises Care: AI Sycophancy in Caregiver-Mediated Healthcare",
+      "link": "https://arxiv.org/abs/2610.14360",
+      "resume": "Large language model (LLM) alignment often assumes that the user interacting with a model is also the primary beneficiary of its behavior. Yet in many consequential settings, one person directs the system while another bears the consequences. We study this problem in caregiver-mediated healthcare, where parents, pet owners, and caregivers make decisions for children, animals, and older adults. We…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
+      "link": "https://arxiv.org/abs/2610.14381",
+      "resume": "Large language models are increasingly used as scientific assistants, yet we still lack reliable ways to evaluate whether they can investigate a system rather than merely answer a prompt. A useful evaluation must let agents choose experiments, interpret finite evidence, and make causal decisions, while keeping the environment coherent across repeated observations and interventions and preserving…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "ANASSA: From High-Level Framework to Low-Level Architecture for Spatial Agentic AI",
+      "link": "https://arxiv.org/abs/2610.14382",
+      "resume": "Agentic AI systems operating over geospatial data require more than autonomous reasoning and tool use; they must also support explicit orchestration, spatial validation, governance, provenance, failure handling, and human decision authority. Prior work introduced ANASSA, an agentic AI orchestration framework for spatial intelligence that established high-level components and responsibility…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Measuring the Inference Energy Efficiency of Open-Weight LLMs across Benchmarks, Reasoning Modes, and Hardware",
+      "link": "https://arxiv.org/abs/2610.14389",
+      "resume": "Benchmark scores tell us what an LLM can do, but not how much energy is required to deliver that capability. We directly measure this trade-off for 86 open-weight model checkpoints, evaluated on seven benchmarks and six hardware platforms ranging from a consumer GPU to an eight-GPU server. We find large differences in energy efficiency even among models with similar capability. Most…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "SAT-RL: Training Language Models for Logical Reasoning with Symbolic Solvers",
+      "link": "https://arxiv.org/abs/2610.14402",
+      "resume": "Large language models (LLMs) have achieved strong performance in mathematical and logical reasoning, yet they still suffer from the curse of complexity and struggle as problem difficulty increases with the number of constraint interactions and the size of the search space. In contrast, satisfiability solvers such as Z3 provide scalable and verifiable reasoning through constraint solving under…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Frustratingly Easy Agentic RAG via Portable Skills: A Case Study in Customer Support",
+      "link": "https://arxiv.org/abs/2610.14428",
+      "resume": "Enterprise workflow automation typically requires retrieving a complete and accurate set of relevant information from large operational document corpora (SOPs, policy documents) given a specific scenario or request. In customer support (CS), for example, human specialists must determine the correct sequence of resolution steps for each case, a task that demands precise grounding in policy…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "AlignPoison: Conditional Targeted Poisoning of Generative Recommenders via Decoding-Aligned Prefixes",
+      "link": "https://arxiv.org/abs/2610.14487",
+      "resume": "Generative recommendation models based on autoregressive decoding have been adopted as alternatives to classical ranking-based systems. While their modeling flexibility has been widely studied, their resilience to data poisoning remains largely unexplored. In this work, we ask: how susceptible are generative recommenders to conditional targeted poisoning? Under a realistic setting where an…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "HiPPT: Physiology-Grounded Wearable PPG Representation Learning via Multi-Scope Text Alignment",
+      "link": "https://arxiv.org/abs/2610.14489",
+      "resume": "Reusable wearable PPG representations should capture local pulse morphology and broader physiological regularities. Existing pretraining objectives, however, usually apply supervision at the recording or pair level, overlooking that different concepts become reliable over different scopes of waveform evidence. We propose HiPPT, a physiology-grounded framework that matches each supervision source…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
+      "link": "https://arxiv.org/abs/2610.14495",
+      "resume": "Explainer videos -- a worked geometry problem, why the sky is blue, how a dynasty fell -- are usually one more target for pixel video generation. We argue they are a different kind of artifact: a program (script, storyboard and per-frame animation code) that a deterministic renderer turns into frames. A program can be read, diffed, tested and audited; pixels can only be watched. Reels-RSI is an…",
+      "dato": "2026-10-15T00:00:00-04:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
     {
       "titel": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
       "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
@@ -243,206 +451,6 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "link": "https://arxiv.org/abs/2610.14005",
-      "resume": "Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "The Silent Failures in Agentic Data Science",
-      "link": "https://arxiv.org/abs/2610.14115",
-      "resume": "Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-      "link": "https://arxiv.org/abs/2610.14118",
-      "resume": "The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Correction Training for Diffusion Models",
-      "link": "https://arxiv.org/abs/2610.14136",
-      "resume": "Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG.…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
-      "link": "https://arxiv.org/abs/2610.14146",
-      "resume": "Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
-      "link": "https://arxiv.org/abs/2610.14149",
-      "resume": "VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration across academic and non-academic sectors. This framework addresses the gap between AI advances in human medicine and the fragmented state of…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Unconstrained CTI-REALM with Open-Weights",
-      "link": "https://arxiv.org/abs/2610.14180",
-      "resume": "Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Visualizing the World Model in an Agent's Value Function",
-      "link": "https://arxiv.org/abs/2610.14186",
-      "resume": "Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Cross-Modal Latent Influence: Patch-Level Training Sample Attribution for Vision-Language Models",
-      "link": "https://arxiv.org/abs/2610.14190",
-      "resume": "Explaining a vision--language model (VLM) prediction requires tracing training-example influence to the multimodal evidence that mediates it, yet existing attribution methods largely operate only at the sample level. Recent latent-mediated influence methods provide feature-level attribution in language models, but lack the multimodal and spatial structure needed to ground influence in VLMs. We…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
-      "link": "https://arxiv.org/abs/2610.14209",
-      "resume": "The most accurate agents executing user-provided tasks are driven by large, cloud-hosted models, which solve them by reading the private data of the user. Agents powered by models small enough to run on edge devices keep that data local, but yield far worse results. A third option is to have cloud models write a program that devices execute: the data stays local, but as the program is written…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Harness^2: Recursive Agent Harnessing for an Open World",
-      "link": "https://arxiv.org/abs/2610.14224",
-      "resume": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time,…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
-      "link": "https://arxiv.org/abs/2610.14277",
-      "resume": "Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values would cut this cost by nearly 4x, but the all-reduce must add the values it carries, and rounding the sum injects an error at every call. Model quality depends on how…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Controllable Diverse Sampling through Pullback Directions",
-      "link": "https://arxiv.org/abs/2610.14294",
-      "resume": "Conditional diffusion models can generate high-quality images that align closely with a given prompt. However, samples generated from different random seeds may remain visually similar, limiting creative exploration. Existing approaches can increase variation, but often require additional optimization or sampling overhead, while stronger perturbations may introduce distortions that degrade image…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "ConicFlow: constrained Inference-time optimal control for flow matching models",
-      "link": "https://arxiv.org/abs/2610.14307",
-      "resume": "We propose ConicFlow, which frames constrained sampling from a flow matching model at inference time as an optimal control problem that balances deviation from the pretrained trajectory against reward, subject to hard terminal constraints. We discretize this problem and adapt receding-horizon control, optimizing only a short window of the trajectory at each step for computational tractability. We…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions",
-      "link": "https://arxiv.org/abs/2610.14334",
-      "resume": "In Model Context Protocol (MCP) systems, LLMs select tools from metadata rather than from their implementations. Names and descriptions summarize what a tool does, while the parameter schema specifies the fields a tool accepts and how they are organized. Our analysis of metadata for 367,174 MCP tools reveals substantial schema variation among functionally similar tools. Many of these tools share…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Actionable Meta-Requirements for AI Robustness Auditing",
-      "link": "https://arxiv.org/abs/2610.14356",
-      "resume": "AI-enabled systems must remain dependable when the conditions under which they operate change (e.g., due to input perturbations, distribution shifts, or changes in external dependencies). This makes robustness auditing of such systems important for judging whether the available evidence is sufficient to support a defined robustness conclusion. However, designing an AI robustness auditing…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "When Pleasing the User Compromises Care: AI Sycophancy in Caregiver-Mediated Healthcare",
-      "link": "https://arxiv.org/abs/2610.14360",
-      "resume": "Large language model (LLM) alignment often assumes that the user interacting with a model is also the primary beneficiary of its behavior. Yet in many consequential settings, one person directs the system while another bears the consequences. We study this problem in caregiver-mediated healthcare, where parents, pet owners, and caregivers make decisions for children, animals, and older adults. We…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
-      "link": "https://arxiv.org/abs/2610.14381",
-      "resume": "Large language models are increasingly used as scientific assistants, yet we still lack reliable ways to evaluate whether they can investigate a system rather than merely answer a prompt. A useful evaluation must let agents choose experiments, interpret finite evidence, and make causal decisions, while keeping the environment coherent across repeated observations and interventions and preserving…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "ANASSA: From High-Level Framework to Low-Level Architecture for Spatial Agentic AI",
-      "link": "https://arxiv.org/abs/2610.14382",
-      "resume": "Agentic AI systems operating over geospatial data require more than autonomous reasoning and tool use; they must also support explicit orchestration, spatial validation, governance, provenance, failure handling, and human decision authority. Prior work introduced ANASSA, an agentic AI orchestration framework for spatial intelligence that established high-level components and responsibility…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Measuring the Inference Energy Efficiency of Open-Weight LLMs across Benchmarks, Reasoning Modes, and Hardware",
-      "link": "https://arxiv.org/abs/2610.14389",
-      "resume": "Benchmark scores tell us what an LLM can do, but not how much energy is required to deliver that capability. We directly measure this trade-off for 86 open-weight model checkpoints, evaluated on seven benchmarks and six hardware platforms ranging from a consumer GPU to an eight-GPU server. We find large differences in energy efficiency even among models with similar capability. Most…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "SAT-RL: Training Language Models for Logical Reasoning with Symbolic Solvers",
-      "link": "https://arxiv.org/abs/2610.14402",
-      "resume": "Large language models (LLMs) have achieved strong performance in mathematical and logical reasoning, yet they still suffer from the curse of complexity and struggle as problem difficulty increases with the number of constraint interactions and the size of the search space. In contrast, satisfiability solvers such as Z3 provide scalable and verifiable reasoning through constraint solving under…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Frustratingly Easy Agentic RAG via Portable Skills: A Case Study in Customer Support",
-      "link": "https://arxiv.org/abs/2610.14428",
-      "resume": "Enterprise workflow automation typically requires retrieving a complete and accurate set of relevant information from large operational document corpora (SOPs, policy documents) given a specific scenario or request. In customer support (CS), for example, human specialists must determine the correct sequence of resolution steps for each case, a task that demands precise grounding in policy…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "AlignPoison: Conditional Targeted Poisoning of Generative Recommenders via Decoding-Aligned Prefixes",
-      "link": "https://arxiv.org/abs/2610.14487",
-      "resume": "Generative recommendation models based on autoregressive decoding have been adopted as alternatives to classical ranking-based systems. While their modeling flexibility has been widely studied, their resilience to data poisoning remains largely unexplored. In this work, we ask: how susceptible are generative recommenders to conditional targeted poisoning? Under a realistic setting where an…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "HiPPT: Physiology-Grounded Wearable PPG Representation Learning via Multi-Scope Text Alignment",
-      "link": "https://arxiv.org/abs/2610.14489",
-      "resume": "Reusable wearable PPG representations should capture local pulse morphology and broader physiological regularities. Existing pretraining objectives, however, usually apply supervision at the recording or pair level, overlooking that different concepts become reliable over different scopes of waveform evidence. We propose HiPPT, a physiology-grounded framework that matches each supervision source…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
-      "titel": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
-      "link": "https://arxiv.org/abs/2610.14495",
-      "resume": "Explainer videos -- a worked geometry problem, why the sky is blue, how a dynasty fell -- are usually one more target for pixel video generation. We argue they are a different kind of artifact: a program (script, storyboard and per-frame animation code) that a deterministic renderer turns into frames. A program can be read, diffed, tested and audited; pixels can only be watched. Reels-RSI is an…",
-      "dato": "2026-10-14T00:00:00-04:00",
-      "kilde": "arXiv cs.AI",
-      "kategori": "Forskning"
-    },
-    {
       "titel": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
       "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "resume": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
@@ -535,14 +543,6 @@
       "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
       "resume": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
       "dato": "2026-10-13T17:30:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
-      "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
-      "resume": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
-      "dato": "2026-10-13T17:18:25+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
     },
