@@ -1,7 +1,63 @@
 {
-  "opdateret": "2026-10-16T15:55:32.964741+00:00",
-  "antal": 142,
+  "opdateret": "2026-10-16T20:23:30.868098+00:00",
+  "antal": 141,
   "artikler": [
+    {
+      "titel": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "resume": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+      "dato": "2026-10-16T18:00:00+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
+    {
+      "titel": "India becomes the latest country to report rogue AI agent activity",
+      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "resume": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "dato": "2026-10-16T17:52:24+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "resume": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 257 # Comments: 222",
+      "dato": "2026-10-16T17:08:38+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "resume": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+      "dato": "2026-10-16T16:30:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "resume": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+      "dato": "2026-10-16T16:30:00+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Elorian’s first AI model wants to reason with images, not just about them",
+      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "resume": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "dato": "2026-10-16T16:01:37+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "resume": "Article URL: https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471 Comments URL: https://news.ycombinator.com/item?id=50119991 Points: 148 # Comments: 58",
+      "dato": "2026-10-16T15:55:40+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
     {
       "titel": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
       "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
@@ -13,7 +69,7 @@
     {
       "titel": "Jev is Vercel’s fastest-adopted AI model ever",
       "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "resume": "The data comes from the Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "resume": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
       "dato": "2026-10-16T15:33:49+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
@@ -267,6 +323,14 @@
       "kategori": "Forskning"
     },
     {
+      "titel": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "resume": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "dato": "2026-10-16T00:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
       "titel": "When it came to Cal AI’s viral success, a small army of influencers paid off",
       "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
       "resume": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
@@ -357,7 +421,7 @@
     {
       "titel": "Why We're Banning AI",
       "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-      "resume": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 245 # Comments: 193",
+      "resume": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 253 # Comments: 199",
       "dato": "2026-10-15T18:32:29+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -389,7 +453,7 @@
     {
       "titel": "Market selloff, rising rates test AI data centre deal boom",
       "link": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
-      "resume": "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105900 Points: 71 # Comments: 85",
+      "resume": "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105900 Points: 72 # Comments: 87",
       "dato": "2026-10-15T16:17:40+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -429,7 +493,7 @@
     {
       "titel": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
       "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "resume": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=50104654 Points: 243 # Comments: 196",
+      "resume": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=50104654 Points: 246 # Comments: 198",
       "dato": "2026-10-15T14:58:48+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -437,7 +501,7 @@
     {
       "titel": "Using AI to reverse engineer hardware",
       "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "resume": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 234 # Comments: 212",
+      "resume": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 242 # Comments: 233",
       "dato": "2026-10-15T14:35:15+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -507,28 +571,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "link": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-      "resume": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it turns into a crisis.",
-      "dato": "2026-10-15T00:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Sullivan & Cromwell brings legal expertise into agreement review",
       "link": "https://openai.com/index/sullivan-cromwell",
       "resume": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "dato": "2026-10-15T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
-      "link": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
-      "resume": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
-      "dato": "2026-10-14T21:30:33+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
@@ -541,31 +589,15 @@
     {
       "titel": "Banks are now trying to offload the AI data center debt they just underwrote",
       "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-      "resume": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 382 # Comments: 277",
+      "resume": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 383 # Comments: 277",
       "dato": "2026-10-14T18:32:52+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
     {
-      "titel": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-      "link": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-      "resume": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-      "dato": "2026-10-14T18:23:46+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-      "link": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
-      "resume": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
-      "dato": "2026-10-14T18:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Containment and monitoring failures are to blame for AI hacking reports: experts",
       "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "resume": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 945 # Comments: 616",
+      "resume": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 946 # Comments: 619",
       "dato": "2026-10-14T17:45:23+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -581,7 +613,7 @@
     {
       "titel": "Has AI tells",
       "link": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-      "resume": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 137 # Comments: 116",
+      "resume": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 137 # Comments: 119",
       "dato": "2026-10-14T16:52:42+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -597,7 +629,7 @@
     {
       "titel": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
       "link": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
-      "resume": "Article URL: https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/ Comments URL: https://news.ycombinator.com/item?id=50089395 Points: 65 # Comments: 101",
+      "resume": "Article URL: https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/ Comments URL: https://news.ycombinator.com/item?id=50089395 Points: 66 # Comments: 101",
       "dato": "2026-10-14T15:39:45+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -605,7 +637,7 @@
     {
       "titel": "AI is mass decompiling games. That's both awesome and scary",
       "link": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
-      "resume": "Article URL: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/ Comments URL: https://news.ycombinator.com/item?id=50088534 Points: 108 # Comments: 166",
+      "resume": "Article URL: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/ Comments URL: https://news.ycombinator.com/item?id=50088534 Points: 109 # Comments: 168",
       "dato": "2026-10-14T14:47:44+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -653,7 +685,7 @@
     {
       "titel": "AI-assisted PCB design for KiCad 10",
       "link": "https://github.com/mixelpixx/Konnect",
-      "resume": "Article URL: https://github.com/mixelpixx/Konnect Comments URL: https://news.ycombinator.com/item?id=50085553 Points: 79 # Comments: 24",
+      "resume": "Article URL: https://github.com/mixelpixx/Konnect Comments URL: https://news.ycombinator.com/item?id=50085553 Points: 122 # Comments: 46",
       "dato": "2026-10-14T10:51:37+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -787,28 +819,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-      "resume": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 350 # Comments: 186",
-      "dato": "2026-10-13T15:25:50+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "They war-gamed dimming the Sun. It went even worse than you think.",
       "link": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
       "resume": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
       "dato": "2026-10-13T15:17:59+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "How to engineer an AI harness for game development",
-      "link": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "resume": "Article URL: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code Comments URL: https://news.ycombinator.com/item?id=50072120 Points: 173 # Comments: 89",
-      "dato": "2026-10-13T14:14:23+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Higgsfield takes AI video from 1 minute to over 10",
@@ -899,14 +915,6 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "link": "https://openai.com/index/asana-browser-agent",
-      "resume": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "dato": "2026-10-09T07:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
       "titel": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "link": "https://openai.com/index/sophos",
       "resume": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
@@ -915,12 +923,12 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "resume": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
-      "dato": "2026-10-09T00:08:24+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
+      "titel": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "resume": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "dato": "2026-10-09T07:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
     },
     {
       "titel": "How Oracle turns days of work into minutes with ChatGPT and Codex",
@@ -1083,14 +1091,6 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "A model guide for the GPT-6 family",
-      "link": "https://openai.com/index/practical-guide-building-gpt-6",
-      "resume": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "dato": "2026-10-02T16:15:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
       "titel": "Gemini 4 Argon: our next era of frontier intelligence",
       "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "resume": "",
@@ -1127,14 +1127,6 @@
       "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "resume": "",
       "dato": "2026-09-23T15:25:14+00:00",
-      "kilde": "Google DeepMind",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "resume": "",
-      "dato": "2026-09-15T17:05:57+00:00",
       "kilde": "Google DeepMind",
       "kategori": "Labs"
     }
