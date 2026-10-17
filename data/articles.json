@@ -1,7 +1,15 @@
 {
-  "opdateret": "2026-10-17T10:00:13.177176+00:00",
+  "opdateret": "2026-10-17T14:48:30.943509+00:00",
   "antal": 130,
   "artikler": [
+    {
+      "titel": "Websites are closing their doors to AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "resume": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+      "dato": "2026-10-17T09:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
     {
       "titel": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
       "link": "https://arxiv.org/abs/2610.20665",
@@ -253,7 +261,7 @@
     {
       "titel": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
       "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "resume": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 502 # Comments: 421",
+      "resume": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 552 # Comments: 489",
       "dato": "2026-10-16T17:08:38+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -285,7 +293,7 @@
     {
       "titel": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
       "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-      "resume": "Article URL: https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471 Comments URL: https://news.ycombinator.com/item?id=50119991 Points: 198 # Comments: 77",
+      "resume": "Article URL: https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471 Comments URL: https://news.ycombinator.com/item?id=50119991 Points: 202 # Comments: 81",
       "dato": "2026-10-16T15:55:40+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -363,17 +371,17 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "resume": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "titel": "Benefit Street Partners answers questions faster with Codex",
+      "link": "https://openai.com/index/benefit-street-partners",
+      "resume": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "dato": "2026-10-16T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
     },
     {
-      "titel": "Benefit Street Partners answers questions faster with Codex",
-      "link": "https://openai.com/index/benefit-street-partners",
-      "resume": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "titel": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "resume": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "dato": "2026-10-16T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
@@ -469,7 +477,7 @@
     {
       "titel": "Why We're Banning AI",
       "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-      "resume": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 255 # Comments: 201",
+      "resume": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 256 # Comments: 202",
       "dato": "2026-10-15T18:32:29+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -541,18 +549,10 @@
     {
       "titel": "Using AI to reverse engineer hardware",
       "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "resume": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 249 # Comments: 239",
+      "resume": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 249 # Comments: 241",
       "dato": "2026-10-15T14:35:15+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
-    },
-    {
-      "titel": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
-      "link": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-      "resume": "Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear […]",
-      "dato": "2026-10-15T10:30:00-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Google’s Universal Cart shopping tool launches in the US",
@@ -629,7 +629,7 @@
     {
       "titel": "Containment and monitoring failures are to blame for AI hacking reports: experts",
       "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "resume": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 946 # Comments: 619",
+      "resume": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 947 # Comments: 619",
       "dato": "2026-10-14T17:45:23+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -645,7 +645,7 @@
     {
       "titel": "Has AI tells",
       "link": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-      "resume": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 137 # Comments: 120",
+      "resume": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 137 # Comments: 121",
       "dato": "2026-10-14T16:52:42+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -669,7 +669,7 @@
     {
       "titel": "AI is mass decompiling games. That's both awesome and scary",
       "link": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
-      "resume": "Article URL: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/ Comments URL: https://news.ycombinator.com/item?id=50088534 Points: 109 # Comments: 169",
+      "resume": "Article URL: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/ Comments URL: https://news.ycombinator.com/item?id=50088534 Points: 109 # Comments: 170",
       "dato": "2026-10-14T14:47:44+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -717,7 +717,7 @@
     {
       "titel": "AI-assisted PCB design for KiCad 10",
       "link": "https://github.com/mixelpixx/Konnect",
-      "resume": "Article URL: https://github.com/mixelpixx/Konnect Comments URL: https://news.ycombinator.com/item?id=50085553 Points: 131 # Comments: 49",
+      "resume": "Article URL: https://github.com/mixelpixx/Konnect Comments URL: https://news.ycombinator.com/item?id=50085553 Points: 135 # Comments: 51",
       "dato": "2026-10-14T10:51:37+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -733,7 +733,7 @@
     {
       "titel": "I let an AI run my startup for a week",
       "link": "https://daily.tinyprojects.dev/221",
-      "resume": "Article URL: https://daily.tinyprojects.dev/221 Comments URL: https://news.ycombinator.com/item?id=50085296 Points: 67 # Comments: 72",
+      "resume": "Article URL: https://daily.tinyprojects.dev/221 Comments URL: https://news.ycombinator.com/item?id=50085296 Points: 67 # Comments: 73",
       "dato": "2026-10-14T10:25:48+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -765,7 +765,7 @@
     {
       "titel": "Show HN: I built a tool to track what AI leaders say and how their views change",
       "link": "https://blumify.io/people",
-      "resume": "Article URL: https://blumify.io/people Comments URL: https://news.ycombinator.com/item?id=50081151 Points: 117 # Comments: 76",
+      "resume": "Article URL: https://blumify.io/people Comments URL: https://news.ycombinator.com/item?id=50081151 Points: 118 # Comments: 76",
       "dato": "2026-10-14T01:09:13+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -891,17 +891,17 @@
       "kategori": "Dybde"
     },
     {
-      "titel": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "link": "https://openai.com/index/sophos",
-      "resume": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "titel": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "resume": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "dato": "2026-10-09T07:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
     },
     {
-      "titel": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "link": "https://openai.com/index/asana-browser-agent",
-      "resume": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "titel": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "link": "https://openai.com/index/sophos",
+      "resume": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "dato": "2026-10-09T07:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
