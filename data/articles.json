@@ -1,7 +1,15 @@
 {
-  "opdateret": "2026-10-19T02:50:20.681074+00:00",
-  "antal": 115,
+  "opdateret": "2026-10-19T11:50:04.468404+00:00",
+  "antal": 96,
   "artikler": [
+    {
+      "titel": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "resume": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
+      "dato": "2026-10-19T09:08:05+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
     {
       "titel": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
       "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
@@ -35,30 +43,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "resume": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments URL: https://news.ycombinator.com/item?id=50141429 Points: 157 # Comments: 161",
-      "dato": "2026-10-18T14:30:27+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "How Far Will AI Assistants Go for a Refund They Can't Get?",
-      "link": "https://www.vals.ai/blogs/impossible-refund",
-      "resume": "Article URL: https://www.vals.ai/blogs/impossible-refund Comments URL: https://news.ycombinator.com/item?id=50140462 Points: 80 # Comments: 97",
-      "dato": "2026-10-18T12:22:58+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "link": "https://sphinx-six-theta.vercel.app/",
-      "resume": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 242 # Comments: 85",
-      "dato": "2026-10-18T04:33:49+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Meta removes language that raised scraping and AI training concerns",
       "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "resume": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
@@ -81,14 +65,6 @@
       "dato": "2026-10-17T18:48:08+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Amazon uses AI to monitor union risk in UK warehouses",
-      "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-      "resume": "Article URL: https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/ Comments URL: https://news.ycombinator.com/item?id=50132278 Points: 170 # Comments: 59",
-      "dato": "2026-10-17T16:04:23+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Meta removes language that may have allowed it to scrape news sites",
@@ -147,14 +123,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "resume": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 616 # Comments: 569",
-      "dato": "2026-10-16T17:08:38+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
       "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
       "resume": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
@@ -179,14 +147,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-      "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-      "resume": "Article URL: https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471 Comments URL: https://news.ycombinator.com/item?id=50119991 Points: 218 # Comments: 93",
-      "dato": "2026-10-16T15:55:40+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
       "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
       "resume": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
@@ -209,14 +169,6 @@
       "dato": "2026-10-16T11:00:00-04:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Show HN: rStation – A shared research lab for your AI agents",
-      "link": "https://rstation.ai/",
-      "resume": "Article URL: https://rstation.ai/ Comments URL: https://news.ycombinator.com/item?id=50118876 Points: 59 # Comments: 19",
-      "dato": "2026-10-16T14:35:43+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
@@ -363,28 +315,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Why We're Banning AI",
-      "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-      "resume": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 261 # Comments: 203",
-      "dato": "2026-10-15T18:32:29+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
       "link": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
       "resume": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest questions and make the day count for your business.",
       "dato": "2026-10-15T18:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Market selloff, rising rates test AI data centre deal boom",
-      "link": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
-      "resume": "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105900 Points: 75 # Comments: 92",
-      "dato": "2026-10-15T16:17:40+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -419,36 +355,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-      "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "resume": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=50104654 Points: 249 # Comments: 199",
-      "dato": "2026-10-15T14:58:48+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Using AI to reverse engineer hardware",
-      "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "resume": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 253 # Comments: 253",
-      "dato": "2026-10-15T14:35:15+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Teaching students to think and learn through questions",
       "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "resume": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "dato": "2026-10-15T13:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "AI was great until it was not",
-      "link": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
-      "resume": "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 124 # Comments: 77",
-      "dato": "2026-10-15T08:18:38+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Sullivan & Cromwell brings legal expertise into agreement review",
@@ -467,22 +379,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Banks are now trying to offload the AI data center debt they just underwrote",
-      "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-      "resume": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 385 # Comments: 277",
-      "dato": "2026-10-14T18:32:52+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-      "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "resume": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 948 # Comments: 620",
-      "dato": "2026-10-14T17:45:23+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Researchers use AI to design proteins that cut up other proteins",
       "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
       "resume": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
@@ -491,44 +387,12 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Has AI tells",
-      "link": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-      "resume": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 137 # Comments: 122",
-      "dato": "2026-10-14T16:52:42+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
       "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
       "resume": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
       "dato": "2026-10-14T16:41:49+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
-      "link": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
-      "resume": "Article URL: https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/ Comments URL: https://news.ycombinator.com/item?id=50089395 Points: 66 # Comments: 103",
-      "dato": "2026-10-14T15:39:45+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "AI is mass decompiling games. That's both awesome and scary",
-      "link": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
-      "resume": "Article URL: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/ Comments URL: https://news.ycombinator.com/item?id=50088534 Points: 109 # Comments: 170",
-      "dato": "2026-10-14T14:47:44+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "ASML's strong orders ease fears AI spending boom is running out of steam",
-      "link": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-      "resume": "Article URL: https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/ Comments URL: https://news.ycombinator.com/item?id=50088430 Points: 173 # Comments: 173",
-      "dato": "2026-10-14T14:38:55+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "Anthropic warns small AI models could self-replicate through IoT devices",
@@ -561,14 +425,6 @@
       "dato": "2026-10-14T11:00:30+00:00",
       "kilde": "Ars Technica AI",
       "kategori": "Nyheder"
-    },
-    {
-      "titel": "AI-assisted PCB design for KiCad 10",
-      "link": "https://github.com/mixelpixx/Konnect",
-      "resume": "Article URL: https://github.com/mixelpixx/Konnect Comments URL: https://news.ycombinator.com/item?id=50085553 Points: 146 # Comments: 52",
-      "dato": "2026-10-14T10:51:37+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "How Third Moment Research runs 10,000 agents for 36+ hours",
@@ -871,14 +727,6 @@
       "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
       "resume": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…",
       "dato": "2026-10-05T08:00:00+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
-    },
-    {
-      "titel": "EmTech Future 2026: When AI Meets Everything",
-      "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
-      "resume": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields. Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches…",
-      "dato": "2026-10-05T04:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
     },
