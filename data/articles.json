@@ -1,11 +1,35 @@
 {
-  "opdateret": "2026-10-23T10:52:11.866619+00:00",
+  "opdateret": "2026-10-23T16:16:36.271608+00:00",
   "antal": 130,
   "artikler": [
     {
+      "titel": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "resume": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "dato": "2026-10-23T17:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Meta delays new business terms after publisher pushback on AI scraping",
+      "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "resume": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
+      "dato": "2026-10-23T10:47:41-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Retro gaming is being overrun with AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "resume": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]",
+      "dato": "2026-10-23T08:00:00-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
       "titel": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
       "link": "https://berget.ai/en/blog/per-request-co2-press-release",
-      "resume": "Article URL: https://berget.ai/en/blog/per-request-co2-press-release Comments URL: https://news.ycombinator.com/item?id=50205229 Points: 119 # Comments: 126",
+      "resume": "Article URL: https://berget.ai/en/blog/per-request-co2-press-release Comments URL: https://news.ycombinator.com/item?id=50205229 Points: 133 # Comments: 144",
       "dato": "2026-10-23T06:41:11+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -221,7 +245,7 @@
     {
       "titel": "Left alone with nothing to do, AI agents started playing",
       "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "resume": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "resume": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring, and, eventually, getting better at their jobs.",
       "dato": "2026-10-23T00:45:37+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
@@ -233,6 +257,14 @@
       "dato": "2026-10-23T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
+    },
+    {
+      "titel": "AI compute is the new oil–and needs a new market",
+      "link": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "resume": "Article URL: https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market Comments URL: https://news.ycombinator.com/item?id=50202671 Points: 50 # Comments: 53",
+      "dato": "2026-10-22T23:45:16+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
     },
     {
       "titel": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
@@ -261,7 +293,7 @@
     {
       "titel": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
       "link": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
-      "resume": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 85 # Comments: 54",
+      "resume": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 88 # Comments: 55",
       "dato": "2026-10-22T20:51:23+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -357,7 +389,7 @@
     {
       "titel": "Award-winning AI literature",
       "link": "https://jamesyu.org/award-winning-ai-literature/",
-      "resume": "Article URL: https://jamesyu.org/award-winning-ai-literature/ Comments URL: https://news.ycombinator.com/item?id=50199232 Points: 62 # Comments: 73",
+      "resume": "Article URL: https://jamesyu.org/award-winning-ai-literature/ Comments URL: https://news.ycombinator.com/item?id=50199232 Points: 63 # Comments: 73",
       "dato": "2026-10-22T18:28:26+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -365,7 +397,7 @@
     {
       "titel": "AI and the Enclosure of the Scientific Commons",
       "link": "https://arxiv.org/abs/2610.27251",
-      "resume": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 135 # Comments: 77",
+      "resume": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 137 # Comments: 80",
       "dato": "2026-10-22T18:28:16+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -381,7 +413,7 @@
     {
       "titel": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
       "link": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
-      "resume": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 85 # Comments: 43",
+      "resume": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 87 # Comments: 44",
       "dato": "2026-10-22T18:02:54+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -397,7 +429,7 @@
     {
       "titel": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
       "link": "https://github.com/NVIDIA/OpenShell",
-      "resume": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 406 # Comments: 195",
+      "resume": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 467 # Comments: 205",
       "dato": "2026-10-22T17:44:06+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -419,17 +451,9 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
-      "link": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
-      "resume": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brought to life by a […]",
-      "dato": "2026-10-22T12:16:15-04:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Every AI model has the same \"controversial\" take on humans",
       "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "resume": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 437 # Comments: 438",
+      "resume": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 571 # Comments: 544",
       "dato": "2026-10-22T16:08:00+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -440,14 +464,6 @@
       "resume": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
       "dato": "2026-10-22T16:00:00+00:00",
       "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-      "link": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-      "resume": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, […]",
-      "dato": "2026-10-22T11:50:30-04:00",
-      "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
     {
@@ -653,7 +669,7 @@
     {
       "titel": "PHP2Shell: AI uncovers critical RCE in PHP",
       "link": "https://www.wiz.io/blog/php2shell-php-rce",
-      "resume": "https://www.php2shell.com/ Comments URL: https://news.ycombinator.com/item?id=50180836 Points: 450 # Comments: 184",
+      "resume": "https://www.php2shell.com/ Comments URL: https://news.ycombinator.com/item?id=50180836 Points: 451 # Comments: 184",
       "dato": "2026-10-21T13:43:19+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -661,7 +677,7 @@
     {
       "titel": "Using thousands of AI agents to uncover new leads in biological data",
       "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-      "resume": "Article URL: https://openai.com/index/scaling-ai-research-for-complex-biological-data/ Comments URL: https://news.ycombinator.com/item?id=50180752 Points: 157 # Comments: 105",
+      "resume": "Article URL: https://openai.com/index/scaling-ai-research-for-complex-biological-data/ Comments URL: https://news.ycombinator.com/item?id=50180752 Points: 158 # Comments: 105",
       "dato": "2026-10-21T13:37:00+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -773,7 +789,7 @@
     {
       "titel": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
       "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-      "resume": "Article URL: https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop Comments URL: https://news.ycombinator.com/item?id=50168190 Points: 183 # Comments: 229",
+      "resume": "Article URL: https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop Comments URL: https://news.ycombinator.com/item?id=50168190 Points: 183 # Comments: 230",
       "dato": "2026-10-20T15:48:26+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -907,14 +923,6 @@
       "kategori": "Labs"
     },
     {
-      "titel": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "link": "https://news.ycombinator.com/item?id=50151036",
-      "resume": "I saw this LinkedIn post from a Meta engineer and it resonated with me: https://www.linkedin.com/posts/ali-hamie_im-an-engineer-at-m... > I'm an engineer at Meta and I never felt this uncomfortable doing my job. I'm writing code these days and it all feels like a black box. This new standard of shipping with AI is moving so fast that if we're going to spend our time checking each line of code,…",
-      "dato": "2026-10-19T11:24:34+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
       "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "resume": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
@@ -971,17 +979,17 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "resume": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "titel": "Benefit Street Partners answers questions faster with Codex",
+      "link": "https://openai.com/index/benefit-street-partners",
+      "resume": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "dato": "2026-10-16T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
     },
     {
-      "titel": "Benefit Street Partners answers questions faster with Codex",
-      "link": "https://openai.com/index/benefit-street-partners",
-      "resume": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "titel": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "resume": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "dato": "2026-10-16T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
@@ -1030,14 +1038,6 @@
       "titel": "Amp puts AI agents to work beyond code with OpenAI models",
       "link": "https://openai.com/index/amp-beyond-coding",
       "resume": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "dato": "2026-10-14T12:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
-      "titel": "SentinelOne cuts malware analysis from weeks to hours",
-      "link": "https://openai.com/index/sentinelone",
-      "resume": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "dato": "2026-10-14T12:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"

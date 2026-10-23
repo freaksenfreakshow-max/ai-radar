@@ -1,12 +1,12 @@
 {
- "opdateret": "2026-10-23T10:52:29.565648+00:00",
+ "opdateret": "2026-10-23T16:16:49.352195+00:00",
  "kilde": "Artificial Analysis",
  "modeller": [
   {
    "navn": "Claude Opus 5.5 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 57.6,
-   "hastighed": 95.85,
+   "hastighed": 96.14,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -166,7 +166,7 @@
    "navn": "Muse Spark Open (Xhigh)",
    "udbyder": "Meta",
    "indeks": 38.9,
-   "hastighed": 161.54,
+   "hastighed": 157.03,
    "pris_ind": 1.25,
    "pris_ud": 4.25
   },
@@ -174,7 +174,7 @@
    "navn": "GPT-5.5 (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 38.4,
-   "hastighed": 83.39,
+   "hastighed": 81.01,
    "pris_ind": 5,
    "pris_ud": 30
   },
@@ -182,7 +182,7 @@
    "navn": "Mistral Large 4 Preview",
    "udbyder": "Mistral",
    "indeks": 38.4,
-   "hastighed": 86.96,
+   "hastighed": 90.01,
    "pris_ind": 1.36,
    "pris_ud": 4.18
   },
@@ -238,7 +238,7 @@
    "navn": "GPT-5.6 Sol (Low)",
    "udbyder": "OpenAI",
    "indeks": 33.5,
-   "hastighed": 81.94,
+   "hastighed": 80.17,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -262,7 +262,7 @@
    "navn": "GPT-5.6 Terra (Medium)",
    "udbyder": "OpenAI",
    "indeks": 30.1,
-   "hastighed": 108.89,
+   "hastighed": 106.42,
    "pris_ind": 2,
    "pris_ud": 12
   },
@@ -286,7 +286,7 @@
    "navn": "MiniMax-M3",
    "udbyder": "MiniMax",
    "indeks": 29.2,
-   "hastighed": 87.33,
+   "hastighed": 84.33,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -302,7 +302,7 @@
    "navn": "GPT-5.2 Codex (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 28.5,
-   "hastighed": 85.02,
+   "hastighed": 80.97,
    "pris_ind": 1.75,
    "pris_ud": 14
   },
@@ -318,7 +318,7 @@
    "navn": "GLM-5 (Reasoning)",
    "udbyder": "Z AI",
    "indeks": 27.9,
-   "hastighed": 68.64,
+   "hastighed": 68.88,
    "pris_ind": 1,
    "pris_ud": 3.2
   },
@@ -326,7 +326,7 @@
    "navn": "Grok Build 0.1 0616",
    "udbyder": "SpaceXAI",
    "indeks": 27.2,
-   "hastighed": 82.84,
+   "hastighed": 70.92,
    "pris_ind": 1,
    "pris_ud": 2
   },
@@ -334,7 +334,7 @@
    "navn": "Kimi K2.6 (Reasoning)",
    "udbyder": "Kimi",
    "indeks": 27,
-   "hastighed": 60.34,
+   "hastighed": 61.28,
    "pris_ind": 0.95,
    "pris_ud": 4
   },
@@ -350,7 +350,7 @@
    "navn": "Solar Pro 4",
    "udbyder": "Upstage",
    "indeks": 26.6,
-   "hastighed": 119.67,
+   "hastighed": 120.07,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -374,9 +374,9 @@
    "navn": "MiMo-V2.5-Pro (Reasoning)",
    "udbyder": "Xiaomi",
    "indeks": 26,
-   "hastighed": 44.34,
-   "pris_ind": 0.435,
-   "pris_ud": 0.87
+   "hastighed": 51.69,
+   "pris_ind": 0.4125,
+   "pris_ud": 1.02
   },
   {
    "navn": "Grok 4.20 0309 (Reasoning)",
