@@ -1,7 +1,47 @@
 {
-  "opdateret": "2026-10-22T21:05:50.561987+00:00",
+  "opdateret": "2026-10-23T02:57:28.605515+00:00",
   "antal": 142,
   "artikler": [
+    {
+      "titel": "Left alone with nothing to do, AI agents started playing",
+      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "resume": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "dato": "2026-10-23T00:45:37+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "resume": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "dato": "2026-10-22T22:08:24+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Canva’s first AI image model plans designs before generating them",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "resume": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]",
+      "dato": "2026-10-22T17:51:25-04:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Designing an AI serving harness built to last",
+      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "resume": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+      "dato": "2026-10-22T21:17:29+00:00",
+      "kilde": "MIT Tech Review AI",
+      "kategori": "Dybde"
+    },
+    {
+      "titel": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "link": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "resume": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 57 # Comments: 36",
+      "dato": "2026-10-22T20:51:23+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
     {
       "titel": "Meta’s AI could still scrape news sites, legal experts say",
       "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
@@ -35,17 +75,17 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Canva releases its first image generation model",
-      "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "resume": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "titel": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "resume": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
       "dato": "2026-10-22T19:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
     },
     {
-      "titel": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "resume": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "titel": "Canva releases its first image generation model",
+      "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "resume": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
       "dato": "2026-10-22T19:00:00+00:00",
       "kilde": "TechCrunch AI",
       "kategori": "Nyheder"
@@ -85,8 +125,24 @@
     {
       "titel": "Show HN: UI micro interactions prompts for AI",
       "link": "https://www.typeui.sh/micro-interactions",
-      "resume": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 50 # Comments: 20",
+      "resume": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 71 # Comments: 42",
       "dato": "2026-10-22T18:32:57+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Award-winning AI literature",
+      "link": "https://jamesyu.org/award-winning-ai-literature/",
+      "resume": "Article URL: https://jamesyu.org/award-winning-ai-literature/ Comments URL: https://news.ycombinator.com/item?id=50199232 Points: 59 # Comments: 66",
+      "dato": "2026-10-22T18:28:26+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "AI and the Enclosure of the Scientific Commons",
+      "link": "https://arxiv.org/abs/2610.27251",
+      "resume": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 116 # Comments: 71",
+      "dato": "2026-10-22T18:28:16+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
     },
@@ -101,7 +157,7 @@
     {
       "titel": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
       "link": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
-      "resume": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 51 # Comments: 29",
+      "resume": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 79 # Comments: 41",
       "dato": "2026-10-22T18:02:54+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -117,7 +173,7 @@
     {
       "titel": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
       "link": "https://github.com/NVIDIA/OpenShell",
-      "resume": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 172 # Comments: 91",
+      "resume": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 314 # Comments: 162",
       "dato": "2026-10-22T17:44:06+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -149,7 +205,7 @@
     {
       "titel": "Every AI model has the same \"controversial\" take on humans",
       "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "resume": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 70 # Comments: 103",
+      "resume": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 254 # Comments: 320",
       "dato": "2026-10-22T16:08:00+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -176,14 +232,6 @@
       "resume": "Hackers were already probing the bug before defenders were told it existed.",
       "dato": "2026-10-22T15:25:02+00:00",
       "kilde": "Ars Technica AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "PHP: The three little letters wreaking havoc across the web",
-      "link": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
-      "resume": "Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, which were temporarily shut down after the […]",
-      "dato": "2026-10-22T11:12:27-04:00",
-      "kilde": "The Verge AI",
       "kategori": "Nyheder"
     },
     {
@@ -525,7 +573,7 @@
     {
       "titel": "Google staff resign in backlash over its AI contracts with military",
       "link": "https://www.bbc.com/news/articles/cmreyvepnv0po",
-      "resume": "Article URL: https://www.bbc.com/news/articles/cmreyvepnv0po Comments URL: https://news.ycombinator.com/item?id=50186043 Points: 124 # Comments: 26",
+      "resume": "Article URL: https://www.bbc.com/news/articles/cmreyvepnv0po Comments URL: https://news.ycombinator.com/item?id=50186043 Points: 126 # Comments: 26",
       "dato": "2026-10-21T19:14:21+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -573,7 +621,7 @@
     {
       "titel": "Rust off Rails: The opinionated web stack for the AI era",
       "link": "https://rustoffrails.org/",
-      "resume": "Article URL: https://rustoffrails.org/ Comments URL: https://news.ycombinator.com/item?id=50183727 Points: 74 # Comments: 76",
+      "resume": "Article URL: https://rustoffrails.org/ Comments URL: https://news.ycombinator.com/item?id=50183727 Points: 75 # Comments: 76",
       "dato": "2026-10-21T16:34:16+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -595,14 +643,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "AI promises productivity, but for managers, it’s mostly a headache for now",
-      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-      "resume": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
-      "dato": "2026-10-21T14:00:00+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "PHP2Shell: AI uncovers critical RCE in PHP",
       "link": "https://www.wiz.io/blog/php2shell-php-rce",
       "resume": "https://www.php2shell.com/ Comments URL: https://news.ycombinator.com/item?id=50180836 Points: 446 # Comments: 184",
@@ -613,7 +653,7 @@
     {
       "titel": "Using thousands of AI agents to uncover new leads in biological data",
       "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-      "resume": "Article URL: https://openai.com/index/scaling-ai-research-for-complex-biological-data/ Comments URL: https://news.ycombinator.com/item?id=50180752 Points: 153 # Comments: 103",
+      "resume": "Article URL: https://openai.com/index/scaling-ai-research-for-complex-biological-data/ Comments URL: https://news.ycombinator.com/item?id=50180752 Points: 155 # Comments: 104",
       "dato": "2026-10-21T13:37:00+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -627,7 +667,7 @@
       "kategori": "Labs"
     },
     {
-      "titel": "LayerFS: The filesystem for AI coding agents",
+      "titel": "LayerFS: A filesystem for AI coding agents",
       "link": "https://layerfs.ai/",
       "resume": "Article URL: https://layerfs.ai/ Comments URL: https://news.ycombinator.com/item?id=50179857 Points: 74 # Comments: 47",
       "dato": "2026-10-21T12:34:46+00:00",
@@ -681,14 +721,6 @@
       "dato": "2026-10-21T00:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "resume": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "dato": "2026-10-20T23:01:23+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
@@ -899,30 +931,6 @@
       "kategori": "Community"
     },
     {
-      "titel": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "resume": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments URL: https://news.ycombinator.com/item?id=50141429 Points: 172 # Comments: 167",
-      "dato": "2026-10-18T14:30:27+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "How Far Will AI Assistants Go for a Refund They Can't Get?",
-      "link": "https://www.vals.ai/blogs/impossible-refund",
-      "resume": "Article URL: https://www.vals.ai/blogs/impossible-refund Comments URL: https://news.ycombinator.com/item?id=50140462 Points: 107 # Comments: 127",
-      "dato": "2026-10-18T12:22:58+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
-      "titel": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "link": "https://sphinx-six-theta.vercel.app/",
-      "resume": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 252 # Comments: 89",
-      "dato": "2026-10-18T04:33:49+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
-    },
-    {
       "titel": "OpenAI models hacked a crypto wallet and breached more websites",
       "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "resume": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
@@ -945,14 +953,6 @@
       "dato": "2026-10-16T19:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "resume": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
-      "dato": "2026-10-16T18:00:00+00:00",
-      "kilde": "MIT Tech Review AI",
-      "kategori": "Dybde"
     },
     {
       "titel": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
