@@ -1,12 +1,12 @@
 {
- "opdateret": "2026-10-28T17:57:27.530658+00:00",
+ "opdateret": "2026-10-28T22:14:12.743872+00:00",
  "kilde": "Artificial Analysis",
  "modeller": [
   {
    "navn": "Claude Opus 5.5 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 58.4,
-   "hastighed": 98.29,
+   "hastighed": 98.24,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -22,7 +22,7 @@
    "navn": "GPT-6 Astra (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 55.3,
-   "hastighed": 69.41,
+   "hastighed": 65.54,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -46,7 +46,7 @@
    "navn": "Claude Fable 5.1 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 49,
-   "hastighed": 65.92,
+   "hastighed": 64.85,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -158,7 +158,7 @@
    "navn": "Muse Spark Open (Xhigh)",
    "udbyder": "Meta",
    "indeks": 24.7,
-   "hastighed": 153.21,
+   "hastighed": 140.88,
    "pris_ind": 1.25,
    "pris_ud": 4.25
   },
@@ -214,7 +214,7 @@
    "navn": "Command A+",
    "udbyder": "Cohere",
    "indeks": 6.2,
-   "hastighed": 152.28,
+   "hastighed": 149.55,
    "pris_ind": 0,
    "pris_ud": 0
   }
