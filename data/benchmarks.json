@@ -1,5 +1,5 @@
 {
- "opdateret": "2026-10-30T11:58:42.503490+00:00",
+ "opdateret": "2026-10-30T17:50:05.314568+00:00",
  "kilde": "Artificial Analysis",
  "modeller": [
   {
@@ -14,7 +14,7 @@
    "navn": "GPT-6 Astra (Max)",
    "udbyder": "OpenAI",
    "indeks": 56.9,
-   "hastighed": 80.81,
+   "hastighed": 82.27,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -22,7 +22,7 @@
    "navn": "GPT-6 Astra (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 55.3,
-   "hastighed": 66.05,
+   "hastighed": 68.18,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -30,7 +30,7 @@
    "navn": "GPT-6.1 Sol (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 52.3,
-   "hastighed": 70.05,
+   "hastighed": 69.84,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -38,7 +38,7 @@
    "navn": "GPT-6.1 Sol (High)",
    "udbyder": "OpenAI",
    "indeks": 50.2,
-   "hastighed": 65.43,
+   "hastighed": 65.6,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -46,7 +46,7 @@
    "navn": "Claude Fable 5.1 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 49,
-   "hastighed": 65.95,
+   "hastighed": 68.19,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -70,7 +70,7 @@
    "navn": "Claude Fable 5.1 (Low, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 38.5,
-   "hastighed": 54.77,
+   "hastighed": 54.91,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -118,7 +118,7 @@
    "navn": "MiMo-V2.6-Pro",
    "udbyder": "Xiaomi",
    "indeks": 29.9,
-   "hastighed": 53.43,
+   "hastighed": 53.89,
    "pris_ind": 0.435,
    "pris_ud": 0.87
   },
@@ -134,7 +134,7 @@
    "navn": "Step 5 Preview",
    "udbyder": "StepFun",
    "indeks": 28.5,
-   "hastighed": 166.65,
+   "hastighed": 166.46,
    "pris_ind": 1,
    "pris_ud": 2.7
   },
@@ -150,7 +150,7 @@
    "navn": "MiMo-V2.6-Flash",
    "udbyder": "Xiaomi",
    "indeks": 26.7,
-   "hastighed": 52.63,
+   "hastighed": 47.14,
    "pris_ind": 0.14,
    "pris_ud": 0.28
   },
@@ -158,7 +158,7 @@
    "navn": "Mistral Large 4 Preview",
    "udbyder": "Mistral",
    "indeks": 25.3,
-   "hastighed": 117.57,
+   "hastighed": 124.08,
    "pris_ind": 0.7,
    "pris_ud": 2.1
   },
@@ -166,7 +166,7 @@
    "navn": "Muse Spark Open (Xhigh)",
    "udbyder": "Meta",
    "indeks": 24.7,
-   "hastighed": 139.64,
+   "hastighed": 139.31,
    "pris_ind": 1.25,
    "pris_ud": 4.25
   },
@@ -174,7 +174,7 @@
    "navn": "GPT-6 Luna (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 23.3,
-   "hastighed": 121.24,
+   "hastighed": 119.13,
    "pris_ind": 0.1,
    "pris_ud": 0.5
   },
@@ -190,7 +190,7 @@
    "navn": "MiniMax-M3",
    "udbyder": "MiniMax",
    "indeks": 18.7,
-   "hastighed": 100.97,
+   "hastighed": 105.32,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -214,7 +214,7 @@
    "navn": "Inkling (Xhigh)",
    "udbyder": "Thinking Machines",
    "indeks": 12.5,
-   "hastighed": 198.42,
+   "hastighed": 196.93,
    "pris_ind": 1,
    "pris_ud": 4.05
   },
@@ -227,10 +227,18 @@
    "pris_ud": 2.5
   },
   {
+   "navn": "Qwen3.8 27B (Non-reasoning)",
+   "udbyder": "Alibaba",
+   "indeks": 10,
+   "hastighed": 42.94,
+   "pris_ind": 0.5,
+   "pris_ud": 3
+  },
+  {
    "navn": "Command A+",
    "udbyder": "Cohere",
    "indeks": 6.2,
-   "hastighed": 160.01,
+   "hastighed": 153.24,
    "pris_ind": 0,
    "pris_ud": 0
   },
@@ -238,15 +246,23 @@
    "navn": "Nemotron 3.5 Lightning",
    "udbyder": "NVIDIA",
    "indeks": 5.5,
-   "hastighed": 292.53,
+   "hastighed": 292.62,
    "pris_ind": 0.06,
    "pris_ud": 0.2
+  },
+  {
+   "navn": "Granite 4.2 3B",
+   "udbyder": "IBM",
+   "indeks": 4.7,
+   "hastighed": null,
+   "pris_ind": null,
+   "pris_ud": null
   },
   {
    "navn": "Mistral Small 4 (Reasoning)",
    "udbyder": "Mistral",
    "indeks": 4.3,
-   "hastighed": 177.23,
+   "hastighed": 175.54,
    "pris_ind": 0.15,
    "pris_ud": 0.6
   }
