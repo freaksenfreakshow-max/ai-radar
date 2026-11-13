@@ -1,11 +1,243 @@
 {
-  "opdateret": "2026-11-13T04:38:22.545232+00:00",
-  "antal": 105,
+  "opdateret": "2026-11-13T13:46:13.844858+00:00",
+  "antal": 147,
   "artikler": [
+    {
+      "titel": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "resume": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "dato": "2026-11-13T12:52:19+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Jensen Huang didn’t show confidence in his successor, report says",
+      "link": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "resume": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+      "dato": "2026-11-13T12:28:23+00:00",
+      "kilde": "TechCrunch AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Let’s talk about Jensen Huang’s many affairs!",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "resume": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+      "dato": "2026-11-13T07:00:00-05:00",
+      "kilde": "The Verge AI",
+      "kategori": "Nyheder"
+    },
+    {
+      "titel": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "link": "https://status.claude.com/incidents/nn11wk485zfn",
+      "resume": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 306 # Comments: 259",
+      "dato": "2026-11-13T10:18:13+00:00",
+      "kilde": "Hacker News: AI",
+      "kategori": "Community"
+    },
+    {
+      "titel": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+      "link": "https://arxiv.org/abs/2611.14544",
+      "resume": "Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter most. A misread that yields an illegal move is loud. One that yields a legal-but-wrong move is silent, because a legality-only pipeline accepts it and reads every later move against a wrong position. We…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+      "link": "https://arxiv.org/abs/2611.14654",
+      "resume": "Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work cleans the history at a fixed world, where showing a corrected step and saying it is done move together. We ask whether the same correct content helps or hurts…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Together Compiler: Continual Compilation for AI Inference",
+      "link": "https://arxiv.org/abs/2611.14681",
+      "resume": "Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+      "link": "https://arxiv.org/abs/2611.14736",
+      "resume": "Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic information to resolve these directions, but incorrect proposals can exclude the true causal graph and invalidate downstream inference. We study three separate decisions: where to allocate semantic queries, which proposals to admit, and which causal graphs to…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "link": "https://arxiv.org/abs/2611.14765",
+      "resume": "Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Each data estate combines relational databases, a document store, and a data catalog, paired with evaluation tasks and executable…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Rational Use of Time for Social Coordination in Humans and AI",
+      "link": "https://arxiv.org/abs/2611.14766",
+      "resume": "All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans use temporal cues for dynamic, fine-grained social coordination? And can AI systems do the same, without ``experiencing'' continuous real-time as humans do? We study these questions using a…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+      "link": "https://arxiv.org/abs/2611.14769",
+      "resume": "Arena-style rankings of language models are a widely used evaluation framework in online leaderboards, research papers, and model evaluation in production. These rankings aim to realistically assess model performance using pairwise comparisons of anonymous models on user prompts, aggregating votes via the Bradley-Terry model to produce the final ranking. However, we find that these leaderboards…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Robust Task-Aware State Estimation from Pre-trained Perception",
+      "link": "https://arxiv.org/abs/2611.14781",
+      "resume": "Agents that perform state estimation using pretrained perception models, e.g., Vision-Language Models (VLMs), face the fundamental challenge that predictions are uncertain. Still, most approaches determinize these predictions into a single best-guess state and make decisions as if it were ground truth. This is brittle because when the guess is wrong, the agent's decisions may be unsafe or…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning",
+      "link": "https://arxiv.org/abs/2611.14794",
+      "resume": "Proof-step verification rewrites a solver's answer into typed steps and uses LLM judges to certify or decline. We evaluate this pipeline on open-weight models across GPQA, AIME-2025, and a MATH-500 subset. Certification raises answer-key-match precision by 31 percentage points on the strong GPQA configuration and 46 on AIME, while answering only 35% and 21% of attempts. On near-ceiling MATH-500,…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering",
+      "link": "https://arxiv.org/abs/2611.14804",
+      "resume": "Costly simulations and experiments limit the data available for engineering design. This paper proposes GenPFN, a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network (TabPFN) classifier with fixed weights. The context contains evaluated designs labeled desired (Class 1) or undesired (Class 0). GenPFN interpolates between desired designs and refines…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+      "link": "https://arxiv.org/abs/2611.14844",
+      "resume": "Many advances in ML systems came from breaking an assumption that earlier methods took for granted: speculative decoding dropped the assumption that a model needs one forward pass per token. Yet algorithms rarely state their assumptions, so experts and discovery harnesses search over programs, where one edit changes several design choices and gains are difficult to attribute. Searching over the…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Open Challenges and Opportunities in Human-Agent Systems",
+      "link": "https://arxiv.org/abs/2611.14846",
+      "resume": "Agentic AI systems increasingly undertake extended tasks and act on people's behalf, making human-agent interaction central to their effectiveness. Successful interaction requires understanding human perspectives, coordinating complementary capabilities, and maintaining productive relationships within socio-technical environments. This paper examines how foundations developed by the Autonomous…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Effective Teacher Support for Reasoning Distillation",
+      "link": "https://arxiv.org/abs/2611.14850",
+      "resume": "Forward-KL language-model distillation normally computes dense teacher and student scores over the full vocabulary at every supervised position, making training and stored teacher targets expensive. We instead distill from the teacher's highest-probability vocabulary fraction, renormalizing the retained mass as we sweep support from 100% to 0.01%. Our main study distills Qwen3 4B -> 1.7B. We…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence & the Limits of Self-Correction",
+      "link": "https://arxiv.org/abs/2611.14889",
+      "resume": "When we judge that our reasoning was defective, it seems plausible that we should abandon the conclusion it produced. This thought has special force for AI agents built to assess and correct their own work. Yet obeying such judgments can make an agent worse at distinguishing sound reasoning from defective reasoning. An AI agent may rely on information about its reasoning when deciding which…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+      "link": "https://arxiv.org/abs/2611.14910",
+      "resume": "Large language models (LLMs) require frequent knowledge updates across heterogeneous domains, but existing editing methods fail when applied sequentially to multi-task settings. We trace this collapse to inter-domain null-space misalignment: heterogeneous tasks induce distinct Jacobian geometries, causing their common null space to shrink dramatically and leaving insufficient admissible…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Edge-Native Multimodal RAG: Hardware-Aware Quantization and Architectural Optimization for Consumer GPUs",
+      "link": "https://arxiv.org/abs/2611.14924",
+      "resume": "Deployment of retrieval-augmented generation (RAG) for Edge-AI is constrained by memory and bandwidth limitations. A standard 7B parameter model consumes 14 GB Video Random Access Memory (VRAM) in half-precision (FP16), precluding co-location of vector indices and Key-Value (KV) caches. This paper presents an engineering integration and empirical evaluation of a multimodal RAG framework optimized…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Provably Optimal HBT Legalization in Seconds: Certified Optima Reveal Where the Headroom Really Lies",
+      "link": "https://arxiv.org/abs/2611.14928",
+      "resume": "Hybrid bonding terminal (HBT) legalization assigns every terminal of a face-to-face 3D IC to its own pitch-grid site with minimum total Manhattan displacement. Open3DBench reports that a reinforcement-learning (RL) legalizer reduces displacement by 19-22% relative to a sliding-window (SW) heuristic, but none of its legalizers is publicly released. We ask how much displacement any legalizer can…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Emergent Vision-Shaped Thinking in Text-Only Reasoning through Multimodal Training",
+      "link": "https://arxiv.org/abs/2611.14942",
+      "resume": "Does multimodal training shape how a language model thinks, even when the input is text only? We test this with targeted causal ablations across 10 multimodal configurations from 6 model families, with matched text-only backbones and cross-family transfer controls. We contrast spatial-imagery tasks that invite mental scene construction with symbol-manipulation tasks solvable by symbolic rules…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
+      "link": "https://arxiv.org/abs/2611.14949",
+      "resume": "Identifying and solving partial differential equations (PDEs) from sampled solution data often requires substantial expert effort in equation discovery, coefficient estimation, and numerical solver configuration, especially under noise and distribution shifts. Can large language model (LLM) agents automate this workflow accurately and efficiently? To investigate this question, we introduce…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Termination Lag: Coding Agents Solve Early but Stop Late",
+      "link": "https://arxiv.org/abs/2611.14960",
+      "resume": "Coding agents can solve a task well before they stop working on it. We characterize \\emph{termination lag}--the number of steps between an agent's first correct patch and the end of its run--across five models, two agent frameworks, and three SWE-bench datasets by recording and testing every distinct repository patch generated during execution. Our analysis reveals that 38--82% of successful runs…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Early Signals, Strong Decisions: Prefix-Guided Sampling for Parallel Test-Time Scaling",
+      "link": "https://arxiv.org/abs/2611.14965",
+      "resume": "Parallel test-time scaling (TTS) has been shown to enhance reasoning in large language models by generating and aggregating multiple independent reasoning paths. Internal confidence scores can further improve this process by identifying paths of varying quality. However, existing methods remain computationally inefficient, as low-quality paths are fully expanded before being evaluated. In this…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Same Task, Different Statement: When and How Reformulation Helps LLM Problem Solving",
+      "link": "https://arxiv.org/abs/2611.14997",
+      "resume": "When people face a hard problem, they often restate it in a clearer way before solving it. We study whether the same habit helps large language models by rewriting the statement of a problem. A legal rewrite must keep the meaning, the constraints, and the correct answer unchanged. We test three kinds of rewrites. Decomposition makes hidden subgoals explicit. Typed Reformulation casts the task…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+      "link": "https://arxiv.org/abs/2611.15006",
+      "resume": "Large language model (LLM) agents increasingly interact with tools and environments, yet plausible model decisions do not always translate into successful execution due to tool-call mismatches, interrupted workflows, and unsupported completion claims. We present EvoX, a Rust-based, multi-model agent runtime guided by The Second Policy, which views the harness as an Operational Policy…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Science Prediction Universe",
+      "link": "https://arxiv.org/abs/2611.15049",
+      "resume": "Humanity has long sought to explain natural phenomena. Reliable prediction of experimental outcomes is a central test of our understanding of the processes that produce them. If artificial general intelligence (AGI) is to surpass human scientific capabilities, it must also predict experimental outcomes more reliably than humans. Such capabilities could accelerate scientific discovery across…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
+    {
+      "titel": "Advancing Weighted Partial MaxSAT Solving via Differentiable GPU Guidance",
+      "link": "https://arxiv.org/abs/2611.15091",
+      "resume": "We present a GPU-CPU hybrid framework for Weighted Partial MaxSAT (WPMAX-SAT) that complements state-of-the-art CPU solvers with differentiable GPU optimization. The GPU stage directly optimizes instance-specific categorical decision parameters without a training dataset or a pretrained predictive model. The central challenge in extending differentiable optimization to WPMAX-SAT is the hard/soft…",
+      "dato": "2026-11-13T00:00:00-05:00",
+      "kilde": "arXiv cs.AI",
+      "kategori": "Forskning"
+    },
     {
       "titel": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI",
       "link": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
-      "resume": "Article URL: https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html Comments URL: https://news.ycombinator.com/item?id=50476586 Points: 64 # Comments: 19",
+      "resume": "Article URL: https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html Comments URL: https://news.ycombinator.com/item?id=50476586 Points: 82 # Comments: 24",
       "dato": "2026-11-13T00:38:41+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -13,7 +245,7 @@
     {
       "titel": "Why You Should Expect an AI Crash",
       "link": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
-      "resume": "Article URL: https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash Comments URL: https://news.ycombinator.com/item?id=50475735 Points: 88 # Comments: 75",
+      "resume": "Article URL: https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash Comments URL: https://news.ycombinator.com/item?id=50475735 Points: 97 # Comments: 81",
       "dato": "2026-11-12T23:08:31+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -21,7 +253,7 @@
     {
       "titel": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
       "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-      "resume": "Article URL: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer Comments URL: https://news.ycombinator.com/item?id=50475713 Points: 126 # Comments: 26",
+      "resume": "Article URL: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer Comments URL: https://news.ycombinator.com/item?id=50475713 Points: 288 # Comments: 85",
       "dato": "2026-11-12T23:06:17+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -53,7 +285,7 @@
     {
       "titel": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
       "link": "https://unemploymentlabs.com/checkpoint-forensics",
-      "resume": "Article URL: https://unemploymentlabs.com/checkpoint-forensics Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 220 # Comments: 59",
+      "resume": "Article URL: https://unemploymentlabs.com/checkpoint-forensics Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 318 # Comments: 119",
       "dato": "2026-11-12T21:56:11+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -85,7 +317,7 @@
     {
       "titel": "AI is turning Apple's app review process into a nightmare for synth developers",
       "link": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-      "resume": "Article URL: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html Comments URL: https://news.ycombinator.com/item?id=50474311 Points: 134 # Comments: 119",
+      "resume": "Article URL: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html Comments URL: https://news.ycombinator.com/item?id=50474311 Points: 184 # Comments: 208",
       "dato": "2026-11-12T21:09:49+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -177,6 +409,14 @@
       "dato": "2026-11-12T13:06:54-05:00",
       "kilde": "The Verge AI",
       "kategori": "Nyheder"
+    },
+    {
+      "titel": "Introducing Gemini 4 Hydrogen",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "resume": "",
+      "dato": "2026-11-12T18:00:50+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
     },
     {
       "titel": "The Jensen Huang scandal is hardly over",
@@ -315,22 +555,6 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "I reviewed the Apple HomeView, ask me anything",
-      "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-      "resume": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and on […]",
-      "dato": "2026-11-12T09:10:00-05:00",
-      "kilde": "The Verge AI",
-      "kategori": "Nyheder"
-    },
-    {
-      "titel": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
-      "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-      "resume": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
-      "dato": "2026-11-12T13:26:25+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
-    },
-    {
       "titel": "Gondola doubles revenue as its team builds more with Codex",
       "link": "https://openai.com/business/customer-stories/gondola",
       "resume": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
@@ -345,14 +569,6 @@
       "dato": "2026-11-12T09:30:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-      "resume": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-      "dato": "2026-11-12T03:13:10+00:00",
-      "kilde": "TechCrunch AI",
-      "kategori": "Nyheder"
     },
     {
       "titel": "Supporting research on AI and children’s safety",
@@ -373,7 +589,7 @@
     {
       "titel": "United Airlines bans AI agents from booking flights on behalf of travelers",
       "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-      "resume": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 666 # Comments: 689",
+      "resume": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 674 # Comments: 697",
       "dato": "2026-11-11T21:24:35+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -381,7 +597,7 @@
     {
       "titel": "Retirement Savings Are Fueling the AI Bubble",
       "link": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
-      "resume": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 165 # Comments: 194",
+      "resume": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 165 # Comments: 195",
       "dato": "2026-11-11T19:06:43+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -405,10 +621,18 @@
     {
       "titel": "AI, activity, and outcomes in software engineering",
       "link": "https://cabird.com/talks/shipping-faster/",
-      "resume": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 127 # Comments: 112",
+      "resume": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 128 # Comments: 112",
       "dato": "2026-11-11T16:33:28+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
+    },
+    {
+      "titel": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "resume": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "dato": "2026-11-11T15:00:15+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
     },
     {
       "titel": "Google DeepMind just mathematically verified key parts of Signal",
@@ -421,7 +645,7 @@
     {
       "titel": "My AI agents found an unmapped Maya site?",
       "link": "https://pietromiotti.com/latest/maya-site",
-      "resume": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1029 # Comments: 391",
+      "resume": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1032 # Comments: 391",
       "dato": "2026-11-11T12:05:22+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -429,7 +653,7 @@
     {
       "titel": "OSS projects banning AI-generated contributions",
       "link": "https://osssaysno.com",
-      "resume": "Article URL: https://osssaysno.com Comments URL: https://news.ycombinator.com/item?id=50451102 Points: 65 # Comments: 112",
+      "resume": "Article URL: https://osssaysno.com Comments URL: https://news.ycombinator.com/item?id=50451102 Points: 65 # Comments: 114",
       "dato": "2026-11-11T08:51:45+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -469,7 +693,7 @@
     {
       "titel": "Apple has new Mac app coming to make running local AI models easy",
       "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-      "resume": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 554 # Comments: 551",
+      "resume": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 557 # Comments: 554",
       "dato": "2026-11-10T21:25:03+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -491,6 +715,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Gemini 4 Carbon is now available",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "resume": "",
+      "dato": "2026-11-10T16:03:47+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
       "titel": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
       "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
       "resume": "The new model is up to twice as successful at some tasks.",
@@ -501,7 +733,7 @@
     {
       "titel": "AI Users have workdays up to 90 min longer than non-users",
       "link": "https://www.activtrak.com/news/productivity-lab-ai-users-longer-workdays/",
-      "resume": "Article URL: https://www.activtrak.com/news/productivity-lab-ai-users-longer-workdays/ Comments URL: https://news.ycombinator.com/item?id=50439686 Points: 65 # Comments: 27",
+      "resume": "Article URL: https://www.activtrak.com/news/productivity-lab-ai-users-longer-workdays/ Comments URL: https://news.ycombinator.com/item?id=50439686 Points: 66 # Comments: 27",
       "dato": "2026-11-10T12:57:24+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -515,6 +747,14 @@
       "kategori": "Nyheder"
     },
     {
+      "titel": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "resume": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "dato": "2026-11-10T12:02:28+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
       "titel": "Helping caregivers use AI in everyday life",
       "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "resume": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
@@ -523,9 +763,17 @@
       "kategori": "Labs"
     },
     {
+      "titel": "Opening the datasets behind our AI weather models",
+      "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "resume": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "dato": "2026-11-10T11:13:04+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
       "titel": "Meet the Sad Wives of AI",
       "link": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
-      "resume": "Article URL: https://www.wired.com/story/meet-the-sad-wives-of-ai/ Comments URL: https://news.ycombinator.com/item?id=50438429 Points: 78 # Comments: 71",
+      "resume": "Article URL: https://www.wired.com/story/meet-the-sad-wives-of-ai/ Comments URL: https://news.ycombinator.com/item?id=50438429 Points: 79 # Comments: 71",
       "dato": "2026-11-10T10:40:51+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -533,7 +781,7 @@
     {
       "titel": "AI usage generates a fragile codebase",
       "link": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-      "resume": "Article URL: https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/ Comments URL: https://news.ycombinator.com/item?id=50438318 Points: 639 # Comments: 624",
+      "resume": "Article URL: https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/ Comments URL: https://news.ycombinator.com/item?id=50438318 Points: 640 # Comments: 625",
       "dato": "2026-11-10T10:25:58+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -565,7 +813,7 @@
     {
       "titel": "Fireworks AI security breach impacts Notion and their customers",
       "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "resume": "Article URL: https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor Comments URL: https://news.ycombinator.com/item?id=50437106 Points: 165 # Comments: 66",
+      "resume": "Article URL: https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor Comments URL: https://news.ycombinator.com/item?id=50437106 Points: 166 # Comments: 66",
       "dato": "2026-11-10T07:19:38+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -581,7 +829,7 @@
     {
       "titel": "CoreWeave bond yield tops 16% as AI credit stress rises",
       "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "resume": "Article URL: https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html Comments URL: https://news.ycombinator.com/item?id=50435660 Points: 196 # Comments: 192",
+      "resume": "Article URL: https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html Comments URL: https://news.ycombinator.com/item?id=50435660 Points: 196 # Comments: 193",
       "dato": "2026-11-10T03:20:06+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
@@ -601,6 +849,14 @@
       "dato": "2026-11-09T22:19:12+00:00",
       "kilde": "Hacker News: AI",
       "kategori": "Community"
+    },
+    {
+      "titel": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "resume": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "dato": "2026-11-09T19:51:47+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
     },
     {
       "titel": "The backlash about data centers might really just be about electricity",
@@ -651,20 +907,20 @@
       "kategori": "Nyheder"
     },
     {
-      "titel": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "link": "https://openai.com/index/control-room",
-      "resume": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "dato": "2026-11-09T13:00:00+00:00",
-      "kilde": "OpenAI Blog",
-      "kategori": "Labs"
-    },
-    {
       "titel": "Innovating with AI in the special chemicals industry",
       "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
       "resume": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster,…",
       "dato": "2026-11-09T13:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "link": "https://openai.com/index/control-room",
+      "resume": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "dato": "2026-11-09T13:00:00+00:00",
+      "kilde": "OpenAI Blog",
+      "kategori": "Labs"
     },
     {
       "titel": "CodeRabbit scales agentic software development and ships 20x more",
@@ -681,14 +937,6 @@
       "dato": "2026-11-09T08:00:00+00:00",
       "kilde": "OpenAI Blog",
       "kategori": "Labs"
-    },
-    {
-      "titel": "Being a meat proxy for AI should be grounds for getting people fired",
-      "link": "https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired",
-      "resume": "Article URL: https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired Comments URL: https://news.ycombinator.com/item?id=50422001 Points: 50 # Comments: 44",
-      "dato": "2026-11-09T06:55:38+00:00",
-      "kilde": "Hacker News: AI",
-      "kategori": "Community"
     },
     {
       "titel": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
@@ -752,6 +1000,14 @@
       "resume": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "dato": "2026-11-05T20:00:00+00:00",
       "kilde": "OpenAI Blog",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "resume": "",
+      "dato": "2026-11-05T17:05:16+00:00",
+      "kilde": "Google DeepMind",
       "kategori": "Labs"
     },
     {
@@ -819,6 +1075,14 @@
       "kategori": "Dybde"
     },
     {
+      "titel": "Agentic cheminformatics with Google Antigravity",
+      "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "resume": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "dato": "2026-11-03T17:01:49+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
       "titel": "How “reverse game theory” could keep AI agents in check",
       "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
       "resume": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
@@ -841,6 +1105,78 @@
       "dato": "2026-11-02T17:00:00+00:00",
       "kilde": "MIT Tech Review AI",
       "kategori": "Dybde"
+    },
+    {
+      "titel": "Speeding up planning decisions with AI",
+      "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "resume": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "dato": "2026-10-30T14:18:30+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Gemini 4 Carbon: Our next frontier model",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "resume": "",
+      "dato": "2026-10-28T17:00:58+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Genie 4: A new generation of world simulation",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "resume": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "dato": "2026-10-27T16:01:38+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Beyond tree cover: mapping the world’s forest types",
+      "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "resume": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "dato": "2026-10-22T14:30:24+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "resume": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "dato": "2026-10-15T16:08:03+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "resume": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "dato": "2026-10-14T02:00:14+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Developing Gemini 4 Argon responsibly and safely",
+      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "resume": "",
+      "dato": "2026-10-13T19:43:07+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "resume": "",
+      "dato": "2026-10-13T16:01:58+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
+    },
+    {
+      "titel": "Gemini 4 Argon: Built to solve your hardest problems",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "resume": "",
+      "dato": "2026-10-13T16:01:52+00:00",
+      "kilde": "Google DeepMind",
+      "kategori": "Labs"
     }
   ]
 }
