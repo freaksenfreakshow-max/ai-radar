@@ -1,12 +1,12 @@
 {
- "opdateret": "2026-11-26T16:12:07.148622+00:00",
+ "opdateret": "2026-11-27T01:23:57.242235+00:00",
  "kilde": "Artificial Analysis",
  "modeller": [
   {
    "navn": "Claude Opus 5.5 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 59.1,
-   "hastighed": 97.17,
+   "hastighed": 97.9,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -14,7 +14,7 @@
    "navn": "Gemini 4 Carbon (Medium)",
    "udbyder": "Google",
    "indeks": 58.4,
-   "hastighed": 68.06,
+   "hastighed": 71.69,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -38,7 +38,7 @@
    "navn": "GPT-6.2 Sol (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 55.6,
-   "hastighed": 63.94,
+   "hastighed": 67.13,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -46,7 +46,7 @@
    "navn": "GPT-6 Astra (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 55.4,
-   "hastighed": 52.23,
+   "hastighed": 55.01,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -54,7 +54,7 @@
    "navn": "Gemini 4 Neon (Medium)",
    "udbyder": "Google",
    "indeks": 54.9,
-   "hastighed": 120.15,
+   "hastighed": 121.52,
    "pris_ind": 3,
    "pris_ud": 15
   },
@@ -62,7 +62,7 @@
    "navn": "GPT-6.1 Sol (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 52.4,
-   "hastighed": 69.6,
+   "hastighed": 73.78,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -70,7 +70,7 @@
    "navn": "GPT-6.1 Sol (High)",
    "udbyder": "OpenAI",
    "indeks": 50.3,
-   "hastighed": 62.14,
+   "hastighed": 63.29,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -78,7 +78,7 @@
    "navn": "Claude Fable 5.1 (Max, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 49.3,
-   "hastighed": 67.72,
+   "hastighed": 68.35,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -86,7 +86,7 @@
    "navn": "Gemini 4 Neon (Low)",
    "udbyder": "Google",
    "indeks": 44.1,
-   "hastighed": 119.26,
+   "hastighed": 115.08,
    "pris_ind": 3,
    "pris_ud": 15
   },
@@ -102,7 +102,7 @@
    "navn": "Claude Sonnet 5.5 (High, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 41.5,
-   "hastighed": 108.94,
+   "hastighed": 109.91,
    "pris_ind": 2,
    "pris_ud": 10
   },
@@ -110,7 +110,7 @@
    "navn": "Muse Wonder (High)",
    "udbyder": "Meta",
    "indeks": 40.5,
-   "hastighed": 92.35,
+   "hastighed": 93.63,
    "pris_ind": 4,
    "pris_ud": 20
   },
@@ -118,7 +118,7 @@
    "navn": "Claude Fable 5.1 (Low, Default Fallback)",
    "udbyder": "Anthropic",
    "indeks": 38.7,
-   "hastighed": 56.8,
+   "hastighed": 56.72,
    "pris_ind": 10,
    "pris_ud": 50
   },
@@ -134,7 +134,7 @@
    "navn": "Claude Haiku 5.5 (Xhigh)",
    "udbyder": "Anthropic",
    "indeks": 34.6,
-   "hastighed": 181.63,
+   "hastighed": 184.02,
    "pris_ind": 0.1,
    "pris_ud": 0.5
   },
@@ -158,7 +158,7 @@
    "navn": "GPT-6.1 Terra (Non-reasoning)",
    "udbyder": "OpenAI",
    "indeks": 30.5,
-   "hastighed": 63.8,
+   "hastighed": 63.11,
    "pris_ind": 1,
    "pris_ud": 5
   },
@@ -166,7 +166,7 @@
    "navn": "Claude Haiku 5.5 (High)",
    "udbyder": "Anthropic",
    "indeks": 30,
-   "hastighed": 169.64,
+   "hastighed": 180.56,
    "pris_ind": 0.1,
    "pris_ud": 0.5
   },
@@ -174,7 +174,7 @@
    "navn": "MiMo-V2.6-Pro",
    "udbyder": "Xiaomi",
    "indeks": 29.9,
-   "hastighed": 38.59,
+   "hastighed": 44.4,
    "pris_ind": 0.435,
    "pris_ud": 0.87
   },
@@ -182,7 +182,7 @@
    "navn": "Step 5 Preview",
    "udbyder": "StepFun",
    "indeks": 28.5,
-   "hastighed": 111.33,
+   "hastighed": 108.6,
    "pris_ind": 1,
    "pris_ud": 2.7
   },
@@ -190,7 +190,7 @@
    "navn": "GLM-5.3-Flash (Max)",
    "udbyder": "Z AI",
    "indeks": 27.7,
-   "hastighed": 63.79,
+   "hastighed": 60.73,
    "pris_ind": 0.15,
    "pris_ud": 0.5
   },
@@ -198,7 +198,7 @@
    "navn": "MiMo-V2.6-Flash",
    "udbyder": "Xiaomi",
    "indeks": 26.8,
-   "hastighed": 37.67,
+   "hastighed": 37.84,
    "pris_ind": 0.14,
    "pris_ud": 0.28
   },
@@ -206,7 +206,7 @@
    "navn": "Mistral Large 4 Preview",
    "udbyder": "Mistral",
    "indeks": 25.2,
-   "hastighed": 92.63,
+   "hastighed": 97,
    "pris_ind": 0.7,
    "pris_ud": 2.1
   },
@@ -214,7 +214,7 @@
    "navn": "Muse Spark Open (Xhigh)",
    "udbyder": "Meta",
    "indeks": 24.9,
-   "hastighed": 199.78,
+   "hastighed": 202.91,
    "pris_ind": 1.25,
    "pris_ud": 4.25
   },
@@ -222,7 +222,7 @@
    "navn": "GPT-5.6 Luna (Max)",
    "udbyder": "OpenAI",
    "indeks": 23.8,
-   "hastighed": 122.33,
+   "hastighed": 125.96,
    "pris_ind": 0.2,
    "pris_ud": 1.2
   },
@@ -230,7 +230,7 @@
    "navn": "GPT-6 Luna (Xhigh)",
    "udbyder": "OpenAI",
    "indeks": 23.5,
-   "hastighed": 144.98,
+   "hastighed": 153.52,
    "pris_ind": 0.1,
    "pris_ud": 0.5
   },
@@ -238,7 +238,7 @@
    "navn": "Mistral Large 4 (Medium)",
    "udbyder": "Mistral",
    "indeks": 23.1,
-   "hastighed": 96.56,
+   "hastighed": 100.36,
    "pris_ind": 0.7,
    "pris_ud": 2.1
   },
@@ -246,7 +246,7 @@
    "navn": "MiniMax-M3",
    "udbyder": "MiniMax",
    "indeks": 19,
-   "hastighed": 93.06,
+   "hastighed": 97.57,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -254,7 +254,7 @@
    "navn": "GPT-6 Luna (Medium)",
    "udbyder": "OpenAI",
    "indeks": 18.5,
-   "hastighed": 142.55,
+   "hastighed": 145.36,
    "pris_ind": 0.1,
    "pris_ud": 0.5
   },
@@ -262,7 +262,7 @@
    "navn": "Solar Pro 4",
    "udbyder": "Upstage",
    "indeks": 14.2,
-   "hastighed": 89.79,
+   "hastighed": 85.46,
    "pris_ind": 0.3,
    "pris_ud": 1.2
   },
@@ -270,7 +270,7 @@
    "navn": "Apodex 1.1",
    "udbyder": "Apodex",
    "indeks": 13.7,
-   "hastighed": 176.86,
+   "hastighed": 176.85,
    "pris_ind": 0.3,
    "pris_ud": 3
   },
@@ -278,7 +278,7 @@
    "navn": "Inkling (Xhigh)",
    "udbyder": "Thinking Machines",
    "indeks": 12.5,
-   "hastighed": 161.31,
+   "hastighed": 163.2,
    "pris_ind": 1,
    "pris_ud": 4.05
   },
@@ -286,7 +286,7 @@
    "navn": "Gemini 3.5 Flash-Lite",
    "udbyder": "Google",
    "indeks": 11.7,
-   "hastighed": 415.41,
+   "hastighed": 427.88,
    "pris_ind": 0.3,
    "pris_ud": 2.5
   },
@@ -326,7 +326,7 @@
    "navn": "Command A+",
    "udbyder": "Cohere",
    "indeks": 6.2,
-   "hastighed": 227.73,
+   "hastighed": 224.75,
    "pris_ind": 0,
    "pris_ud": 0
   },
@@ -334,7 +334,7 @@
    "navn": "Nemotron 3.5 Lightning",
    "udbyder": "NVIDIA",
    "indeks": 5.5,
-   "hastighed": 354.47,
+   "hastighed": 362.29,
    "pris_ind": 0.06,
    "pris_ud": 0.2
   },
@@ -350,7 +350,7 @@
    "navn": "North Mini Code",
    "udbyder": "Cohere",
    "indeks": 3.4,
-   "hastighed": 334.79,
+   "hastighed": 330.23,
    "pris_ind": 0,
    "pris_ud": 0
   },
